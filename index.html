@@ -895,7 +895,14 @@
       });
     }
 
-    setLang('pt');
+    const browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+    if (browserLang.startsWith('ro')) {
+      setLang('ro');
+    } else if (browserLang.startsWith('en')) {
+      setLang('en');
+    } else {
+      setLang('pt');
+    }
   </script>
 
 </body>

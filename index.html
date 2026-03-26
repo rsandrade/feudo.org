@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ricardo Sodré Andrade — Arquivista, Arquivo Nacional, UFBA">
+  <title>Ricardo Sodré Andrade</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:      #f7f5f0;
+      --surface: #ffffff;
+      --fg:      #1c1c1c;
+      --mid:     #555;
+      --muted:   #888;
+      --subtle:  #bbb;
+      --border:  #e0dbd2;
+      --accent:  #7c6a52;
+      --tag-bg:  #ede9e2;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* ── Top bar ─────────────────────────────────────── */
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem 2.5rem;
+    }
+
+    .topbar-name {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      color: var(--mid);
+      text-transform: uppercase;
+    }
+
+    .lang-switcher {
+      display: flex;
+      gap: 0.6rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .lang-switcher button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--muted);
+      padding: 0.1rem 0;
+      font: inherit;
+      transition: color 0.15s;
+    }
+
+    .lang-switcher button:hover { color: var(--fg); }
+
+    .lang-switcher button.active {
+      color: var(--fg);
+      border-bottom: 1px solid var(--fg);
+    }
+
+    /* ── Hero ────────────────────────────────────────── */
+
+    .hero {
+      padding: 5rem 2.5rem 2rem;
+      max-width: 760px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .hero-photo {
+      display: block;
+      width: 100%;
+      max-width: 760px;
+      height: auto;
+      filter: grayscale(15%);
+      margin: 0 auto 2rem;
+    }
+
+    .hero-text { flex: 1; }
+
+    .hero h1 {
+      font-size: clamp(1.8rem, 4.5vw, 2.8rem);
+      font-weight: normal;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      white-space: nowrap;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero .tagline {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.9rem;
+      color: var(--mid);
+      line-height: 1.65;
+      text-align: left;
+    }
+
+    /* ── Page layout ─────────────────────────────────── */
+
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 2.5rem 6rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3.5rem;
+    }
+
+    /* ── Section ─────────────────────────────────────── */
+
+    section {}
+
+    .section-heading {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* ── Positions / Experience ──────────────────────── */
+
+    .entry-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .entry {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: baseline;
+      gap: 0.5rem 1.5rem;
+      padding: 0.9rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .entry:first-child { border-top: none; }
+
+    .entry-title {
+      font-size: 0.925rem;
+      color: var(--fg);
+      line-height: 1.4;
+    }
+
+    .entry-org {
+      display: block;
+      font-size: 0.78rem;
+      color: var(--accent);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      letter-spacing: 0.02em;
+      margin-top: 0.15rem;
+    }
+
+    .entry-org a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s;
+    }
+
+    .entry-org a:hover { border-color: var(--accent); }
+
+
+    .entry-date {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.72rem;
+      color: var(--muted);
+      white-space: nowrap;
+      letter-spacing: 0.02em;
+    }
+
+    /* ── Projects ────────────────────────────────────── */
+
+    .project-sublabel {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 1.5rem 0 0.6rem;
+    }
+
+    .project-sublabel:first-child { margin-top: 0; }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+    }
+
+    .project-grid.inactive .project-card a {
+      color: var(--muted);
+      border-color: var(--border);
+    }
+
+    .project-grid.inactive .project-card:hover { background: var(--surface); }
+    .project-grid.inactive .project-card a:hover { color: var(--mid); }
+
+    .project-card {
+      background: var(--surface);
+      padding: 1.4rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      transition: background 0.15s;
+    }
+
+    .project-card:hover { background: #fdfcfa; }
+
+    .project-card a {
+      font-size: 0.925rem;
+      color: var(--fg);
+      text-decoration: none;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+      border-bottom: 1px solid var(--accent);
+      padding-bottom: 1px;
+      align-self: flex-start;
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    .project-card a:hover { color: var(--accent); border-color: transparent; }
+
+    .project-card .proj-desc {
+      font-size: 0.8rem;
+      color: var(--mid);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    .project-card .proj-tag {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      background: var(--tag-bg);
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      align-self: flex-start;
+    }
+
+    /* ── Skills ──────────────────────────────────────── */
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .skill-group {}
+
+    .skill-group-label {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--mid);
+      margin-bottom: 0.5rem;
+    }
+
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .skill-tag {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.75rem;
+      color: var(--mid);
+      background: var(--tag-bg);
+      border: 1px solid var(--border);
+      padding: 0.2rem 0.6rem;
+    }
+
+    /* ── Education ───────────────────────────────────── */
+
+    /* reuses .entry styles */
+
+    /* ── Volunteering ────────────────────────────────── */
+
+    /* reuses .entry styles */
+
+    /* ── Links ───────────────────────────────────────── */
+
+    .link-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 2rem;
+      list-style: none;
+    }
+
+    .link-list a {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.85rem;
+      color: var(--mid);
+      text-decoration: none;
+      transition: color 0.15s;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1px;
+    }
+
+    .link-list a:hover { color: var(--fg); border-color: var(--fg); }
+
+    /* ── Footer ──────────────────────────────────────── */
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.5rem 2.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.07em;
+      color: var(--subtle);
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    /* ── Responsive ──────────────────────────────────── */
+
+    @media (max-width: 600px) {
+      .topbar { padding: 0.75rem 1.25rem; }
+      .hero { padding: 3rem 1.25rem 2.5rem; }
+      .hero h1 { white-space: normal; font-size: clamp(1.7rem, 8vw, 2.4rem); }
+      .page { padding: 0 1.25rem 4rem; gap: 2.5rem; }
+      footer { padding: 1.25rem; flex-direction: column; gap: 0.4rem; align-items: flex-start; }
+      .entry { grid-template-columns: 1fr; gap: 0; }
+      .entry-date { margin-top: 0.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <span class="topbar-name">Ricardo Sodré Andrade</span>
+    <nav class="lang-switcher" aria-label="Idioma / Language">
+      <button onclick="setLang('pt')" id="btn-pt">PT</button>
+      <button onclick="setLang('en')" id="btn-en">EN</button>
+      <button onclick="setLang('ro')" id="btn-ro">RO</button>
+    </nav>
+  </div>
+
+  <!-- Hero -->
+  <div class="hero">
+    <img class="hero-photo"
+         src="https://feudo.org/wp-content/uploads/2022/02/cropped-feudo-banner-1.png"
+         alt="Ricardo Sodré Andrade">
+    <h1>Ricardo Sodré Andrade</h1>
+  </div>
+
+  <!-- Page body -->
+  <div class="page">
+
+    <p class="tagline" data-key="tagline"></p>
+
+    <!-- Posições atuais -->
+    <section>
+      <h2 class="section-heading" data-key="sec-positions"></h2>
+      <div class="entry-list">
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="pos1-title"></span>
+            <span class="entry-org"><a href="https://arquivonacional.gov.br" target="_blank" rel="noopener" data-key="pos1-org"></a></span>
+          </div>
+          <span class="entry-date">2025–</span>
+        </div>
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="pos2-title"></span>
+            <span class="entry-org"><a href="https://ufba.br" target="_blank" rel="noopener" data-key="pos2-org"></a></span>
+          </div>
+          <span class="entry-date">2010–</span>
+        </div>
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="pos3-title"></span>
+            <span class="entry-org"><a href="https://farinha.info" target="_blank" rel="noopener">Farinha</a></span>
+          </div>
+          <span class="entry-date">2024–</span>
+        </div>
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="pos3-title"></span>
+            <span class="entry-org"><a href="https://arquivos.ufba.br" target="_blank" rel="noopener">Arquivos da UFBA</a></span>
+          </div>
+          <span class="entry-date">2023–</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Formação -->
+    <section>
+      <h2 class="section-heading" data-key="sec-education"></h2>
+      <div class="entry-list">
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="edu1-title"></span>
+            <span class="entry-org"><a href="https://up.pt" target="_blank" rel="noopener">Universidade do Porto</a> e <a href="https://ua.pt" target="_blank" rel="noopener">Universidade de Aveiro</a></span>
+          </div>
+          <span class="entry-date">2013–2017</span>
+        </div>
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="edu2-title"></span>
+            <span class="entry-org"><a href="https://ufba.br" target="_blank" rel="noopener" data-key="edu-ufba"></a></span>
+          </div>
+          <span class="entry-date">2008–2010</span>
+        </div>
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="edu3-title"></span>
+            <span class="entry-org"><a href="https://ufba.br" target="_blank" rel="noopener" data-key="edu-ufba"></a></span>
+          </div>
+          <span class="entry-date">2003–2007</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Grupos de Pesquisa -->
+    <section>
+      <h2 class="section-heading" data-key="sec-groups"></h2>
+      <div class="entry-list">
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="group-member"></span>
+            <span class="entry-org"><a href="https://labhd.ufba.br" target="_blank" rel="noopener">Laboratório de Humanidades Digitais da UFBA (LABHDUFBA)</a></span>
+          </div>
+          <span class="entry-date">2024–</span>
+        </div>
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="group-coord"></span>
+            <span class="entry-org"><a href="https://cridi.ici.ufba.br" target="_blank" rel="noopener">Grupo de Estudos sobre Cultura, Representação e Informação Digitais (CRIDI)</a></span>
+          </div>
+          <span class="entry-date">2019–2026</span>
+        </div>
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="group-member"></span>
+            <span class="entry-org"><a href="https://cridi.ici.ufba.br" target="_blank" rel="noopener">Grupo de Estudos sobre Cultura, Representação e Informação Digitais (CRIDI)</a></span>
+          </div>
+          <span class="entry-date">2008–</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section>
+      <h2 class="section-heading" data-key="sec-projects"></h2>
+
+      <p class="project-sublabel" data-key="sublabel-active"></p>
+      <div class="project-grid">
+
+        <div class="project-card">
+          <a href="https://arquivos.ufba.br" target="_blank" rel="noopener" data-key="proj-arquivos-name"></a>
+          <p class="proj-desc" data-key="proj-arquivos-desc"></p>
+          <span class="proj-tag" data-key="proj-tag-pdi"></span>
+        </div>
+
+        <div class="project-card">
+          <a href="https://farinha.info" target="_blank" rel="noopener" data-key="proj-farinha-name"></a>
+          <p class="proj-desc" data-key="proj-farinha-desc"></p>
+          <span class="proj-tag" data-key="proj-tag-oss"></span>
+        </div>
+
+        <div class="project-card">
+          <a href="https://archivesmap.org" target="_blank" rel="noopener">Archives World Map</a>
+          <p class="proj-desc" data-key="proj-awm-desc"></p>
+          <span class="proj-tag" data-key="proj-tag-comm"></span>
+        </div>
+
+        <div class="project-card">
+          <a href="https://satoshis.com.br" target="_blank" rel="noopener" data-key="proj-satoshis-name"></a>
+          <p class="proj-desc" data-key="proj-satoshis-desc"></p>
+          <span class="proj-tag" data-key="proj-tag-comm"></span>
+        </div>
+
+        <div class="project-card">
+          <a href="https://meshtastic.raulhc.cc" target="_blank" rel="noopener">Ponte Meshtastic Salvador/BA</a>
+          <p class="proj-desc" data-key="proj-meshtastic-desc"></p>
+          <span class="proj-tag" data-key="proj-tag-comm"></span>
+        </div>
+
+      </div>
+
+      <p class="project-sublabel" data-key="sublabel-inactive"></p>
+      <div class="project-grid inactive">
+
+        <div class="project-card">
+          <a href="https://arquivista.net" target="_blank" rel="noopener">Portal do Arquivista</a>
+          <p class="proj-desc" data-key="proj-portal-desc"></p>
+          <span class="proj-tag" data-key="proj-tag-comm"></span>
+        </div>
+
+        <div class="project-card">
+          <a href="https://junte.se" target="_blank" rel="noopener">Junte.se</a>
+          <p class="proj-desc" data-key="proj-juntese-desc"></p>
+          <span class="proj-tag" data-key="proj-tag-tech"></span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Experiência -->
+    <section>
+      <h2 class="section-heading" data-key="sec-experience"></h2>
+      <div class="entry-list">
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="exp1-title"></span>
+            <span class="entry-org">Junte.se</span>
+          </div>
+          <span class="entry-date">2022–2023</span>
+        </div>
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="exp2-title"></span>
+            <span class="entry-org" data-key="exp2-org"></span>
+          </div>
+          <span class="entry-date">2016–2022</span>
+        </div>
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="exp3-title"></span>
+            <span class="entry-org" data-key="exp3-org"></span>
+          </div>
+          <span class="entry-date">2007–2009</span>
+        </div>
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="exp4-title"></span>
+            <span class="entry-org"><a href="https://yndexa.com" target="_blank" rel="noopener">Yndexa Tecnologia e Informação</a></span>
+          </div>
+          <span class="entry-date">2002–2007</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Habilidades técnicas -->
+    <section>
+      <h2 class="section-heading" data-key="sec-skills"></h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <p class="skill-group-label" data-key="skill-sysadmin"></p>
+          <div class="skill-tags">
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">LXD</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">LAMP</span>
+            <span class="skill-tag">WordPress</span>
+            <span class="skill-tag">Nextcloud</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-group-label" data-key="skill-dev"></p>
+          <div class="skill-tags">
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">Bash</span>
+            <span class="skill-tag">Golang</span>
+            <span class="skill-tag">Flutter</span>
+            <span class="skill-tag">Fat-Free Framework</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-group-label" data-key="skill-data"></p>
+          <div class="skill-tags">
+            <span class="skill-tag">Selenium</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-group-label" data-key="skill-ai"></p>
+          <div class="skill-tags">
+            <span class="skill-tag">RAG</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Voluntariado -->
+    <section>
+      <h2 class="section-heading" data-key="sec-volunteer"></h2>
+      <div class="entry-list">
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="vol1-title"></span>
+            <span class="entry-org"><a href="https://raulhc.cc" target="_blank" rel="noopener">Raul Hacker Club</a></span>
+          </div>
+          <span class="entry-date">2016–</span>
+        </div>
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="vol-presidente"></span>
+            <span class="entry-org" data-key="vol2-org"></span>
+          </div>
+          <span class="entry-date">2010–2011</span>
+        </div>
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="vol-vicepresidente"></span>
+            <span class="entry-org" data-key="vol2-org"></span>
+          </div>
+          <span class="entry-date">2012–2013</span>
+        </div>
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="vol3-title"></span>
+            <span class="entry-org">Litecoin Foundation</span>
+          </div>
+          <span class="entry-date">2017–2018</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Outras informações -->
+    <section>
+      <h2 class="section-heading" data-key="sec-misc"></h2>
+      <div class="entry-list">
+        <div class="entry">
+          <span class="entry-title" data-key="misc-radio"></span>
+          <span class="entry-date" data-key="misc-radio-class"></span>
+        </div>
+        <div class="entry">
+          <span class="entry-title" data-key="misc-nationality"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Links -->
+    <section>
+      <h2 class="section-heading" data-key="sec-links"></h2>
+      <ul class="link-list">
+        <li><a href="https://instagram.com/todosaquelesarquivos" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="http://lattes.cnpq.br/5845598056866850" target="_blank" rel="noopener">Lattes</a></li>
+      </ul>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <span>feudo.org</span>
+  </footer>
+
+  <script>
+    const translations = {
+      pt: {
+        html: 'pt-BR',
+        'tagline': 'Chefe do Escritório Regional Nordeste do Arquivo Nacional. Arquivista da UFBA (cedido ao Arquivo Nacional). Coordenador dos projetos Farinha e Arquivos da UFBA.',
+        'sec-positions': 'Posições',
+        'pos1-title': 'Chefe do Escritório Regional Nordeste',
+        'pos1-org': 'Arquivo Nacional',
+        'pos2-title': 'Arquivista (cedido ao Arquivo Nacional)',
+        'pos2-org': 'Universidade Federal da Bahia',
+        'pos3-title': 'Coordenador',
+        'pos3-org': '',
+        'sec-groups': 'Grupos de Pesquisa',
+        'group-member': 'Membro',
+        'group-coord': 'Coordenador',
+        'sec-projects': 'Projetos e Websites',
+        'sublabel-active': 'Ativos',
+        'sublabel-inactive': 'Inativos',
+        'proj-arquivos-name': 'Arquivos da UFBA',
+        'proj-arquivos-desc': 'Plataforma de integração e acesso aos arquivos e coleções da Universidade Federal da Bahia.',
+        'proj-farinha-name': 'Farinha',
+        'proj-farinha-desc': 'Software livre para gestão e acesso a arquivos institucionais.',
+        'proj-awm-desc': 'Mapa colaborativo de arquivos ao redor do mundo.',
+        'proj-portal-desc': 'Portal de referência para a comunidade arquivística brasileira.',
+        'proj-juntese-desc': 'Serviço de armazenamento com Nextcloud.',
+        'proj-satoshis-name': 'Satoshis — Guia de Bitcoin',
+        'proj-satoshis-desc': 'Guia introdutório sobre Bitcoin em português.',
+        'proj-meshtastic-desc': 'Servidor MQTT para a comunidade Meshtastic local.',
+        'proj-tag-inst': 'Institucional',
+        'proj-tag-pdi': 'Inovação',
+        'proj-tag-oss': 'Software livre',
+        'proj-tag-comm': 'Comunidade',
+        'proj-tag-tech': 'Tecnologia',
+        'sec-experience': 'Experiência',
+        'exp1-title': 'Tech Lead e Assessoria',
+        'exp2-title': 'Editor',
+        'exp2-org': 'Editora e Livraria 9Bravos',
+        'exp3-title': 'Arquivista e Tech Lead',
+        'exp3-org': 'Arquivo Público do Estado da Bahia',
+        'exp4-title': 'Tech Lead',
+        'sec-education': 'Formação',
+        'edu1-title': 'Doutorado em Informação e Comunicação em Plataformas Digitais (não concluído)',
+        'edu2-title': 'Mestrado em Ciência da Informação',
+        'edu3-title': 'Bacharelado em Arquivologia',
+        'edu-ufba': 'Universidade Federal da Bahia',
+        'sec-skills': 'Habilidades técnicas',
+        'skill-sysadmin': 'Administração de sistemas',
+        'skill-dev': 'Desenvolvimento',
+        'skill-data': 'Extração de Dados',
+        'skill-ai': 'Inteligência Artificial',
+        'sec-volunteer': 'Voluntariado',
+        'vol1-title': 'Membro',
+        'vol-presidente': 'Presidente',
+        'vol-vicepresidente': 'Vice-Presidente',
+        'vol2-org': 'Associação dos Arquivistas da Bahia',
+        'vol3-title': 'Voluntário',
+        'sec-links': 'Links',
+        'sec-misc': 'Outras informações',
+        'misc-radio': 'Radioamador',
+        'misc-radio-class': 'Classe C',
+        'misc-nationality': 'Brasileiro e Português',
+      },
+      en: {
+        html: 'en',
+        'tagline': 'Head of the Northeast Regional Office, National Archives of Brazil. Archivist at UFBA (seconded to the National Archives). Coordinator of the Farinha and Arquivos da UFBA projects.',
+        'sec-positions': 'Positions',
+        'pos1-title': 'Head of the Northeast Regional Office',
+        'pos1-org': 'National Archives of Brazil',
+        'pos2-title': 'Archivist (seconded to the National Archives)',
+        'pos2-org': 'Federal University of Bahia',
+        'pos3-title': 'Coordinator',
+        'pos3-org': 'Farinha and Arquivos da UFBA Projects',
+        'sec-groups': 'Research Groups',
+        'group-member': 'Member',
+        'group-coord': 'Coordinator',
+        'sec-projects': 'Projects and Websites',
+        'sublabel-active': 'Active',
+        'sublabel-inactive': 'Inactive',
+        'proj-arquivos-name': 'Arquivos da UFBA',
+        'proj-arquivos-desc': 'Integration and access platform for the archives and collections of the Federal University of Bahia.',
+        'proj-farinha-name': 'Farinha',
+        'proj-farinha-desc': 'Open-source software for institutional archival management and access.',
+        'proj-awm-desc': 'Collaborative world map of archives.',
+        'proj-portal-desc': 'Reference portal for the Brazilian archival community.',
+        'proj-juntese-desc': 'Nextcloud-based storage service.',
+        'proj-satoshis-name': 'Satoshis — Bitcoin Guide',
+        'proj-satoshis-desc': 'Introductory guide to Bitcoin in Portuguese.',
+        'proj-meshtastic-desc': 'MQTT server for the local Meshtastic community.',
+        'proj-tag-inst': 'Institutional',
+        'proj-tag-pdi': 'Innovation',
+        'proj-tag-oss': 'Open source',
+        'proj-tag-comm': 'Community',
+        'proj-tag-tech': 'Technology',
+        'sec-experience': 'Experience',
+        'exp1-title': 'Tech Lead and Consulting',
+        'exp2-title': 'Editor',
+        'exp2-org': '9Bravos Publishing House',
+        'exp3-title': 'Archivist and Tech Lead',
+        'exp3-org': 'State Public Archive of Bahia',
+        'exp4-title': 'Tech Lead',
+        'sec-education': 'Education',
+        'edu1-title': 'PhD in Information and Communication in Digital Platforms (unfinished)',
+        'edu2-title': "Master's in Information Science",
+        'edu3-title': "Bachelor's in Archival Science",
+        'edu-ufba': 'Federal University of Bahia',
+        'sec-skills': 'Technical skills',
+        'skill-sysadmin': 'Systems administration',
+        'skill-dev': 'Development',
+        'skill-data': 'Data Extraction',
+        'skill-ai': 'Artificial Intelligence',
+        'sec-volunteer': 'Volunteering',
+        'vol1-title': 'Member',
+        'vol-presidente': 'President',
+        'vol-vicepresidente': 'Vice-President',
+        'vol2-org': 'Bahia Archivists Association',
+        'vol3-title': 'Volunteer',
+        'sec-links': 'Links',
+        'sec-misc': 'Other information',
+        'misc-radio': 'Amateur radio operator',
+        'misc-radio-class': 'Class C',
+        'misc-nationality': 'Brazilian and Portuguese',
+      },
+      ro: {
+        html: 'ro',
+        'tagline': 'Șef al Biroului Regional de Nord-Est al Arhivelor Naționale ale Braziliei. Arhivist la UFBA (detașat la Arhivele Naționale). Coordonator al proiectelor Farinha și Arquivos da UFBA.',
+        'sec-positions': 'Poziții',
+        'pos1-title': 'Șef al Biroului Regional de Nord-Est',
+        'pos1-org': 'Arhivele Naționale ale Braziliei',
+        'pos2-title': 'Arhivist (detașat la Arhivele Naționale)',
+        'pos2-org': 'Universitatea Federală din Bahia',
+        'pos3-title': 'Coordonator',
+        'pos3-org': 'Proiectele Farinha și Arquivos da UFBA',
+        'sec-groups': 'Grupuri de Cercetare',
+        'group-member': 'Membru',
+        'group-coord': 'Coordonator',
+        'sec-projects': 'Proiecte și Website-uri',
+        'sublabel-active': 'Active',
+        'sublabel-inactive': 'Inactive',
+        'proj-arquivos-name': 'Arquivos da UFBA',
+        'proj-arquivos-desc': 'Platformă de integrare și acces la arhivele și colecțiile Universității Federale din Bahia.',
+        'proj-farinha-name': 'Farinha',
+        'proj-farinha-desc': 'Software open-source pentru gestiunea și accesul la arhivele instituționale.',
+        'proj-awm-desc': 'Hartă colaborativă a arhivelor din întreaga lume.',
+        'proj-portal-desc': 'Portal de referință pentru comunitatea arhivistică braziliană.',
+        'proj-juntese-desc': 'Serviciu de stocare bazat pe Nextcloud.',
+        'proj-satoshis-name': 'Satoshis — Ghid Bitcoin',
+        'proj-satoshis-desc': 'Ghid introductiv despre Bitcoin în portugheză.',
+        'proj-meshtastic-desc': 'Server MQTT pentru comunitatea Meshtastic locală.',
+        'proj-tag-inst': 'Instituțional',
+        'proj-tag-pdi': 'Inovație',
+        'proj-tag-oss': 'Open source',
+        'proj-tag-comm': 'Comunitate',
+        'proj-tag-tech': 'Tehnologie',
+        'sec-experience': 'Experiență',
+        'exp1-title': 'Tech Lead și Consultanță',
+        'exp2-title': 'Editor',
+        'exp2-org': 'Editura și Librăria 9Bravos',
+        'exp3-title': 'Arhivist și Tech Lead',
+        'exp3-org': 'Arhiva Publică a Statului Bahia',
+        'exp4-title': 'Tech Lead',
+        'sec-education': 'Studii',
+        'edu1-title': 'Doctorat în Informație și Comunicare pe Platforme Digitale (nefinalizat)',
+        'edu2-title': 'Masterat în Știința Informației',
+        'edu3-title': 'Licență în Arhivistică',
+        'edu-ufba': 'Universitatea Federală din Bahia',
+        'sec-skills': 'Competențe tehnice',
+        'skill-sysadmin': 'Administrare sisteme',
+        'skill-dev': 'Dezvoltare software',
+        'skill-data': 'Extragere de Date',
+        'skill-ai': 'Inteligență Artificială',
+        'sec-volunteer': 'Voluntariat',
+        'vol1-title': 'Membru',
+        'vol-presidente': 'Președinte',
+        'vol-vicepresidente': 'Vicepreședinte',
+        'vol2-org': 'Asociația Arhiviștilor din Bahia',
+        'vol3-title': 'Voluntar',
+        'sec-links': 'Linkuri',
+        'sec-misc': 'Alte informații',
+        'misc-radio': 'Radioamator',
+        'misc-radio-class': 'Clasa C',
+        'misc-nationality': 'Brazilian și Portughez',
+      }
+    };
+
+    function setLang(lang) {
+      const t = translations[lang];
+      document.documentElement.lang = t.html;
+      document.querySelectorAll('[data-key]').forEach(el => {
+        const v = t[el.getAttribute('data-key')];
+        if (v !== undefined) el.textContent = v;
+      });
+      document.querySelectorAll('.lang-switcher button').forEach(btn => {
+        btn.classList.toggle('active', btn.id === 'btn-' + lang);
+      });
+    }
+
+    setLang('pt');
+  </script>
+
+</body>
+</html>

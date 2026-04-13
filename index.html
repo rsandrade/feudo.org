@@ -524,6 +524,7 @@
           <a href="https://archivesmap.org" target="_blank" rel="noopener">Archives World Map</a>
           <p class="proj-desc" data-key="proj-awm-desc"></p>
           <span class="proj-tag" data-key="proj-tag-comm"></span>
+          <span class="proj-tag" data-key="proj-tag-oss"></span>
         </div>
 
         <div class="project-card">
@@ -729,7 +730,7 @@
 
     async function loadTranslations(lang) {
       if (_i18nCache[lang]) return _i18nCache[lang];
-      const res = await fetch(`./i18n/${lang}.json?v=5`);
+      const res = await fetch(`./i18n/${lang}.json?v=6`);
       _i18nCache[lang] = await res.json();
       return _i18nCache[lang];
     }

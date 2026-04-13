@@ -538,6 +538,12 @@
           <span class="proj-tag" data-key="proj-tag-comm"></span>
         </div>
 
+        <div class="project-card">
+          <a href="https://recortes.farinha.info" target="_blank" rel="noopener" data-key="proj-recortes-name"></a>
+          <p class="proj-desc" data-key="proj-recortes-desc"></p>
+          <span class="proj-tag" data-key="proj-tag-demo"></span>
+        </div>
+
       </div>
 
       <p class="project-sublabel" data-key="sublabel-inactive"></p>
@@ -723,7 +729,7 @@
 
     async function loadTranslations(lang) {
       if (_i18nCache[lang]) return _i18nCache[lang];
-      const res = await fetch(`./i18n/${lang}.json?v=2`);
+      const res = await fetch(`./i18n/${lang}.json?v=3`);
       _i18nCache[lang] = await res.json();
       return _i18nCache[lang];
     }

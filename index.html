@@ -565,7 +565,7 @@
         <div class="project-card">
           <a href="http://www.legatum-si.net/atom" target="_blank" rel="noopener">Legatum — Sonus et Imago</a>
           <p class="proj-desc" data-key="proj-legatum-desc"></p>
-          <span class="proj-tag" data-key="proj-tag-inst"></span>
+          <span class="proj-tag" data-key="proj-tag-research"></span>
         </div>
 
       </div>
@@ -736,7 +736,7 @@
 
     async function loadTranslations(lang) {
       if (_i18nCache[lang]) return _i18nCache[lang];
-      const res = await fetch(`./i18n/${lang}.json?v=8`);
+      const res = await fetch(`./i18n/${lang}.json?v=9`);
       _i18nCache[lang] = await res.json();
       return _i18nCache[lang];
     }

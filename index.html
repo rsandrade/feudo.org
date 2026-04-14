@@ -533,6 +533,14 @@
           <span class="entry-date">2003–2008</span>
         </div>
 
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="group-member"></span>
+            <span class="entry-org" data-key="group-gepindi"></span>
+          </div>
+          <span class="entry-date">2004–2007</span>
+        </div>
+
       </div>
     </section>
 
@@ -771,7 +779,7 @@
 
     async function loadTranslations(lang) {
       if (_i18nCache[lang]) return _i18nCache[lang];
-      const res = await fetch(`./i18n/${lang}.json?v=11`);
+      const res = await fetch(`./i18n/${lang}.json?v=12`);
       _i18nCache[lang] = await res.json();
       return _i18nCache[lang];
     }

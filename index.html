@@ -525,6 +525,14 @@
           <span class="entry-date">2008–</span>
         </div>
 
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="group-member"></span>
+            <span class="entry-org"><a href="https://geppic.ufba.br" target="_blank" rel="noopener" data-key="group-gepicc"></a></span>
+          </div>
+          <span class="entry-date">2003–2017</span>
+        </div>
+
       </div>
     </section>
 
@@ -763,7 +771,7 @@
 
     async function loadTranslations(lang) {
       if (_i18nCache[lang]) return _i18nCache[lang];
-      const res = await fetch(`./i18n/${lang}.json?v=10`);
+      const res = await fetch(`./i18n/${lang}.json?v=11`);
       _i18nCache[lang] = await res.json();
       return _i18nCache[lang];
     }

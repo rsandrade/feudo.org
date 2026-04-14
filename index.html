@@ -779,7 +779,7 @@
 
     async function loadTranslations(lang) {
       if (_i18nCache[lang]) return _i18nCache[lang];
-      const res = await fetch(`./i18n/${lang}.json?v=12`);
+      const res = await fetch(`./i18n/${lang}.json?v=13`);
       _i18nCache[lang] = await res.json();
       return _i18nCache[lang];
     }

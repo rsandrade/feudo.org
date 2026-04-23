@@ -3,7 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ricardo Sodré Andrade — Arquivista, Arquivo Nacional, UFBA">
+  <meta name="description" content="Ricardo Sodré Andrade — Arquivista, Chefe do Escritório Regional Nordeste do Arquivo Nacional. Interfaces entre Arquivologia, Humanidades Digitais e IA aplicada a arquivos.">
+  <meta property="og:title" content="Ricardo Sodré Andrade">
+  <meta property="og:description" content="Arquivista, Chefe do Escritório Regional Nordeste do Arquivo Nacional. Interfaces entre Arquivologia, Humanidades Digitais e IA aplicada a arquivos.">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://feudo.org">
+  <meta property="og:image" content="https://feudo.org/foto.png">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="ro_RO">
+  <meta name="twitter:card" content="summary">
   <title>Ricardo Sodré Andrade</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -267,6 +276,15 @@
       align-self: flex-start;
     }
 
+    /* ── Bio ─────────────────────────────────────────── */
+
+    .bio-text {
+      font-size: 0.925rem;
+      color: var(--mid);
+      line-height: 1.7;
+      max-width: 620px;
+    }
+
     /* ── Skills ──────────────────────────────────────── */
 
     .skills-grid {
@@ -358,6 +376,14 @@
       margin: 0 auto;
     }
 
+    footer a {
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    footer a:hover { color: var(--fg); }
+
     /* ── Responsive ──────────────────────────────────── */
 
     @media (max-width: 600px) {
@@ -396,6 +422,12 @@
 
     <p class="tagline" data-key="tagline"></p>
 
+    <!-- Sobre / Bio -->
+    <section>
+      <h2 class="section-heading" data-key="sec-about"></h2>
+      <p class="bio-text" data-key="bio-text"></p>
+    </section>
+
     <!-- Links rápidos -->
     <ul class="link-list top-links">
       <li><a href="https://instagram.com/todosaquelesarquivos" target="_blank" rel="noopener">
@@ -421,6 +453,18 @@
           <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>
         </svg>
         Lattes
+      </a></li>
+      <li>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+        </svg>
+        <a href="#" onclick="revealEmail(event)" data-key="link-email" style="cursor:pointer"></a>
+      </li>
+      <li><a href="https://yndexa.com" target="_blank" rel="noopener">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        Yndexa
       </a></li>
     </ul>
 
@@ -455,8 +499,8 @@
 
         <div class="entry">
           <div>
-            <span class="entry-title" data-key="pos3-title"></span>
-            <span class="entry-org"><a href="https://arquivos.ufba.br" target="_blank" rel="noopener">Arquivos da UFBA</a></span>
+            <span class="entry-title" data-key="pos4-title"></span>
+            <span class="entry-org"><a href="https://arquivos.ufba.br" target="_blank" rel="noopener" data-key="pos4-org"></a></span>
           </div>
           <span class="entry-date">2023–</span>
         </div>
@@ -665,27 +709,21 @@
             <span class="skill-tag">Linux</span>
             <span class="skill-tag">LXD</span>
             <span class="skill-tag">Docker</span>
-            <span class="skill-tag">LAMP</span>
-            <span class="skill-tag">WordPress</span>
+            <span class="skill-tag">Nginx</span>
             <span class="skill-tag">Nextcloud</span>
+            <span class="skill-tag" data-key="tag-wordpress"></span>
           </div>
         </div>
 
         <div class="skill-group">
           <p class="skill-group-label" data-key="skill-dev"></p>
           <div class="skill-tags">
-            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Django</span>
+            <span class="skill-tag">Alpine.js</span>
+            <span class="skill-tag">Bulma</span>
             <span class="skill-tag">Bash</span>
-            <span class="skill-tag">Golang</span>
-            <span class="skill-tag">Flutter</span>
-            <span class="skill-tag">Fat-Free Framework</span>
-          </div>
-        </div>
-
-        <div class="skill-group">
-          <p class="skill-group-label" data-key="skill-data"></p>
-          <div class="skill-tags">
-            <span class="skill-tag">Selenium</span>
+            <span class="skill-tag">Gunicorn</span>
           </div>
         </div>
 
@@ -693,7 +731,17 @@
           <p class="skill-group-label" data-key="skill-ai"></p>
           <div class="skill-tags">
             <span class="skill-tag">RAG</span>
-            <span class="skill-tag">Agentes</span>
+            <span class="skill-tag" data-key="tag-agentes"></span>
+            <span class="skill-tag" data-key="tag-ia-gen"></span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <p class="skill-group-label" data-key="skill-data"></p>
+          <div class="skill-tags">
+            <span class="skill-tag" data-key="tag-desc-arq"></span>
+            <span class="skill-tag" data-key="tag-rep-info"></span>
+            <span class="skill-tag" data-key="tag-digit"></span>
           </div>
         </div>
 
@@ -772,7 +820,8 @@
 
   <!-- Footer -->
   <footer>
-    <span>feudo.org</span>
+    <span>© <span id="footer-year"></span> Ricardo Sodré Andrade</span>
+    <span><a href="https://github.com/rsandrade/feudo.org" target="_blank" rel="noopener">Código-fonte</a></span>
   </footer>
 
   <script>
@@ -780,7 +829,7 @@
 
     async function loadTranslations(lang) {
       if (_i18nCache[lang]) return _i18nCache[lang];
-      const res = await fetch(`./i18n/${lang}.json?v=13`);
+      const res = await fetch(`./i18n/${lang}.json?v=14`);
       _i18nCache[lang] = await res.json();
       return _i18nCache[lang];
     }
@@ -796,6 +845,21 @@
         btn.classList.toggle('active', btn.id === 'btn-' + lang);
       });
     }
+
+    /* Anti-bot email reveal */
+    function revealEmail(e) {
+      e.preventDefault();
+      const user = 'ricardo', domain = 'feudo.org';
+      const addr = user + '@' + domain;
+      const a = e.currentTarget;
+      a.textContent = addr;
+      a.href = 'mailto:' + addr;
+      a.onclick = null;
+      a.style.cursor = 'text';
+    }
+
+    /* Footer year */
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
 
     const browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
     if (browserLang.startsWith('ro')) {

@@ -116,13 +116,6 @@
       margin-bottom: 1.5rem;
     }
 
-    .hero .tagline {
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      font-size: 0.9rem;
-      color: var(--mid);
-      line-height: 1.65;
-      text-align: left;
-    }
 
     /* ── Page layout ─────────────────────────────────── */
 
@@ -278,48 +271,44 @@
 
     /* ── Bio (collapsible) ─────────────────────────────── */
 
-    .about-details {
-      max-width: 620px;
-      margin: 0;
-    }
+    .tagline-block { margin: 0; }
 
-    .about-details > summary {
+    .tagline-block .tagline {
       font-family: 'Helvetica Neue', Arial, sans-serif;
-      font-size: 0.65rem;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--muted);
+      font-size: 0.9rem;
+      color: var(--mid);
+      line-height: 1.65;
+      text-align: left;
+    }
+
+    .about-details {
+      display: inline;
+    }
+
+    .about-details > summary.learn-more {
+      display: inline;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.9rem;
+      color: var(--accent);
       cursor: pointer;
-      padding-bottom: 0.6rem;
-      margin-bottom: 0;
-      border-bottom: 1px solid var(--border);
       list-style: none;
-      display: flex;
-      align-items: baseline;
-      gap: 0.45rem;
       user-select: none;
-      transition: color 0.15s;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s, color 0.15s;
     }
 
-    .about-details > summary::-webkit-details-marker { display: none; }
+    .about-details > summary.learn-more::-webkit-details-marker { display: none; }
 
-    .about-details > summary::before {
-      content: '▸';
-      font-size: 0.7rem;
-      letter-spacing: 0;
-      transition: transform 0.2s;
+    .about-details > summary.learn-more:hover,
+    .about-details > summary.learn-more:focus-visible {
+      color: var(--fg);
+      border-bottom-color: var(--accent);
+      outline: none;
     }
 
-    .about-details[open] > summary {
-      margin-bottom: 1.25rem;
+    .bio-wrap {
+      margin-top: 0.75rem;
     }
-
-    .about-details[open] > summary::before {
-      transform: rotate(90deg);
-    }
-
-    .about-details > summary:hover,
-    .about-details > summary:focus-visible { color: var(--accent); }
 
     .bio-text {
       font-size: 0.925rem;
@@ -463,13 +452,13 @@
   <!-- Page body -->
   <div class="page">
 
-    <p class="tagline" data-key="tagline"></p>
-
-    <!-- Sobre / Bio -->
-    <details class="about-details">
-      <summary><span data-key="sec-about"></span></summary>
-      <p class="bio-text" data-key="bio-text"></p>
-    </details>
+    <!-- Tagline + Bio expansível -->
+    <div class="tagline-block">
+      <div class="tagline"><span data-key="tagline"></span> <details class="about-details"><summary class="learn-more" data-key="learn-more"></summary></details></div>
+      <div class="bio-wrap" hidden>
+        <p class="bio-text" data-key="bio-text"></p>
+      </div>
+    </div>
 
     <!-- Links rápidos -->
     <ul class="link-list top-links">
@@ -503,12 +492,7 @@
         </svg>
         <a href="#" onclick="revealEmail(event)" data-key="link-email" style="cursor:pointer"></a>
       </li>
-      <li><a href="https://yndexa.com" target="_blank" rel="noopener">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-        </svg>
-        Yndexa
-      </a></li>
+
     </ul>
 
     <!-- Posições atuais -->
@@ -868,7 +852,7 @@
 
     async function loadTranslations(lang) {
       if (_i18nCache[lang]) return _i18nCache[lang];
-      const res = await fetch(`./i18n/${lang}.json?v=14`);
+      const res = await fetch(`./i18n/${lang}.json?v=15`);
       _i18nCache[lang] = await res.json();
       return _i18nCache[lang];
     }
@@ -884,6 +868,11 @@
         btn.classList.toggle('active', btn.id === 'btn-' + lang);
       });
     }
+
+    /* Toggle bio section when details opens/closes */
+    document.querySelector('.about-details').addEventListener('toggle', function() {
+      document.querySelector('.bio-wrap').hidden = !this.open;
+    });
 
     /* Anti-bot email reveal */
     function revealEmail(e) {

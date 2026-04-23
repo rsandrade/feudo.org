@@ -52,7 +52,6 @@
   "proj-tag-pdi": "Innovation",
   "proj-tag-research": "Research",
   "proj-tag-tech": "Technology",
-  "sec-about": "About",
   "sec-education": "Education",
   "sec-experience": "Experience",
   "sec-groups": "Research Groups",
@@ -73,5 +72,6 @@
   "vol-vicepresidente": "Vice-President",
   "vol1-title": "Member",
   "vol2-org": "Bahia Archivists Association",
-  "vol3-title": "Assistant Content Manager"
+  "vol3-title": "Assistant Content Manager",
+  "learn-more": "Learn more…"
 }

@@ -52,7 +52,6 @@
   "proj-tag-pdi": "Inovação",
   "proj-tag-research": "Pesquisa",
   "proj-tag-tech": "Tecnologia",
-  "sec-about": "Sobre",
   "sec-education": "Formação",
   "sec-experience": "Experiência",
   "sec-groups": "Grupos de Pesquisa",
@@ -73,5 +72,6 @@
   "vol-vicepresidente": "Vice-Presidente",
   "vol1-title": "Membro",
   "vol2-org": "Associação dos Arquivistas da Bahia",
-  "vol3-title": "Assistant Content Manager"
+  "vol3-title": "Assistant Content Manager",
+  "learn-more": "Saiba mais…"
 }

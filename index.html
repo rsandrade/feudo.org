@@ -285,34 +285,41 @@
 
     .about-details > summary {
       font-family: 'Helvetica Neue', Arial, sans-serif;
-      font-size: 0.78rem;
-      letter-spacing: 0.08em;
+      font-size: 0.65rem;
+      letter-spacing: 0.14em;
       text-transform: uppercase;
-      color: var(--mid);
+      color: var(--muted);
       cursor: pointer;
-      padding: 0.15rem 0;
+      padding-bottom: 0.6rem;
+      margin-bottom: 0;
+      border-bottom: 1px solid var(--border);
       list-style: none;
       display: flex;
       align-items: baseline;
-      gap: 0.4rem;
+      gap: 0.45rem;
       user-select: none;
+      transition: color 0.15s;
     }
 
     .about-details > summary::-webkit-details-marker { display: none; }
 
     .about-details > summary::before {
       content: '▸';
-      font-size: 0.8rem;
+      font-size: 0.7rem;
+      letter-spacing: 0;
       transition: transform 0.2s;
+    }
+
+    .about-details[open] > summary {
+      margin-bottom: 1.25rem;
     }
 
     .about-details[open] > summary::before {
       transform: rotate(90deg);
     }
 
-    .about-details > summary:hover { color: var(--fg); }
-
-    .about-details[open] > summary { margin-bottom: 0.75rem; }
+    .about-details > summary:hover,
+    .about-details > summary:focus-visible { color: var(--accent); }
 
     .bio-text {
       font-size: 0.925rem;

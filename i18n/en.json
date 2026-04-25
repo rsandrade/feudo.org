@@ -60,7 +60,6 @@
   "book3-role": "Editor",
   "book4-title": "Tomos Fantásticos: Fantasia Medieval e Heroica",
   "book4-role": "Author",
-  "book-link-buy": "Buy",
   "link-article": "Article",
   "link-pdf": "PDF",
   "sec-experience": "Experience",
@@ -84,5 +83,8 @@
   "vol2-org": "Bahia Archivists Association",
   "vol3-title": "Assistant Content Manager",
   "learn-more": "Learn more…",
-  "book-link-view": "View"
+  "book-link-more": "Learn more",
+  "art-preprint-title": "Open digital preservation infrastructure for cultural heritage: the Farinha platform",
+  "art-preprint-tag": "preprint",
+  "link-preprint": "Preprint"
 }

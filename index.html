@@ -147,10 +147,14 @@
 
     .book-list {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
       gap: 1px;
       background: var(--border);
       border: 1px solid var(--border);
+    }
+
+    @media (max-width: 640px) {
+      .book-list { grid-template-columns: 1fr; }
     }
 
     .book-card {
@@ -171,7 +175,50 @@
       object-fit: cover;
       flex-shrink: 0;
       box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s;
     }
+
+    .book-cover:hover {
+      transform: scale(1.05);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+
+    /* ── Lightbox ────────────────────────────────────────── */
+
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: rgba(0,0,0,0.85);
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .lightbox.active { display: flex; }
+
+    .lightbox img {
+      max-width: 90vw;
+      max-height: 85vh;
+      border-radius: 4px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    }
+
+    .lightbox-close {
+      position: absolute;
+      top: 1rem;
+      right: 1.5rem;
+      color: #fff;
+      font-size: 2rem;
+      cursor: pointer;
+      opacity: 0.7;
+      transition: opacity 0.15s;
+      line-height: 1;
+    }
+
+    .lightbox-close:hover { opacity: 1; }
 
     .book-info {
       display: flex;
@@ -771,38 +818,38 @@
       <div class="book-list">
 
         <div class="book-card">
-          <img class="book-cover" src="img/books/book1_cover.jpg" alt="Cultura, representação e informação digitais" loading="lazy">
+          <img class="book-cover" src="img/books/book1_cover.jpg" data-large="img/books/book1_large.jpg" alt="Cultura, representação e informação digitais" loading="lazy">
           <div class="book-info">
             <span class="book-title">Cultura, representação e informação digitais</span>
             <span class="book-meta"><span data-key="book1-role"></span> · EDUFBA · 2010</span>
-            <a href="https://repositorio.ufba.br/handle/ri/7315" target="_blank" rel="noopener" class="book-link" data-key="book-link-view"></a>
+            <a href="https://repositorio.ufba.br/handle/ri/7315" target="_blank" rel="noopener" class="book-link" data-key="book-link-more"></a>
           </div>
         </div>
 
         <div class="book-card">
-          <img class="book-cover" src="img/books/book2_cover.jpg" alt="A Ordem dos Arquivistas: centésimo" loading="lazy">
+          <img class="book-cover" src="img/books/book2_cover.jpg" data-large="img/books/book2_large.jpg" alt="A Ordem dos Arquivistas: centésimo" loading="lazy">
           <div class="book-info">
             <span class="book-title">A Ordem dos Arquivistas: centésimo</span>
             <span class="book-meta"><span data-key="book2-role"></span> · 9Bravos · 2011</span>
-            <a href="https://livraria.9bravos.com.br/produto/a-ordem-dos-arquivistas-centesimo/" target="_blank" rel="noopener" class="book-link" data-key="book-link-buy"></a>
+            <a href="https://livraria.9bravos.com.br/produto/a-ordem-dos-arquivistas-centesimo/" target="_blank" rel="noopener" class="book-link" data-key="book-link-more"></a>
           </div>
         </div>
 
         <div class="book-card">
-          <img class="book-cover" src="img/books/book3_cover.jpg" alt="Mundos Distantes 1" loading="lazy">
+          <img class="book-cover" src="img/books/book3_cover.jpg" data-large="img/books/book3_large.jpg" alt="Mundos Distantes 1" loading="lazy">
           <div class="book-info">
             <span class="book-title">Mundos Distantes 1</span>
             <span class="book-meta"><span data-key="book3-role"></span> · 9Bravos · 2013</span>
-            <a href="https://www.amazon.com.br/Mundos-Distantes-Ricardo-Sodr%C3%A9-Andrade/dp/8567178002" target="_blank" rel="noopener" class="book-link" data-key="book-link-buy"></a>
+            <a href="https://www.amazon.com.br/Mundos-Distantes-Ricardo-Sodr%C3%A9-Andrade/dp/8567178002" target="_blank" rel="noopener" class="book-link" data-key="book-link-more"></a>
           </div>
         </div>
 
         <div class="book-card">
-          <img class="book-cover" src="img/books/book4_cover.jpg" alt="Tomos Fantásticos: Fantasia Medieval e Heroica" loading="lazy">
+          <img class="book-cover" src="img/books/book4_cover.jpg" data-large="img/books/book4_large.jpg" alt="Tomos Fantásticos: Fantasia Medieval e Heroica" loading="lazy">
           <div class="book-info">
             <span class="book-title" data-key="book4-title"></span>
             <span class="book-meta"><span data-key="book4-role"></span> · 9Bravos · 2014</span>
-            <a href="https://www.skoob.com.br/pt/book/429771" target="_blank" rel="noopener" class="book-link" data-key="book-link-view"></a>
+            <a href="https://www.skoob.com.br/pt/book/429771" target="_blank" rel="noopener" class="book-link" data-key="book-link-more"></a>
           </div>
         </div>
 
@@ -813,6 +860,14 @@
     <section>
       <h2 class="section-heading" data-key="sec-articles"></h2>
       <div class="entry-list">
+
+        <div class="entry">
+          <div>
+            <span class="entry-title" data-key="art-preprint-title"></span>
+            <span class="entry-meta">Andrade · <em>SocArXiv</em>, 2025 · <span data-key="art-preprint-tag"></span></span>
+          </div>
+          <a href="https://osf.io/preprints/socarxiv/wmc2q_v1" target="_blank" rel="noopener" class="entry-link" data-key="link-preprint"></a>
+        </div>
 
         <div class="entry">
           <div>
@@ -1054,6 +1109,12 @@
   </div>
 
   <!-- Footer -->
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img src="" alt="" id="lightbox-img">
+  </div>
+
   <footer>
     <span>© <span id="footer-year"></span> Ricardo Sodré Andrade</span>
     <span><a href="https://github.com/rsandrade/feudo.org" target="_blank" rel="noopener">Código-fonte</a></span>
@@ -1064,7 +1125,7 @@
 
     async function loadTranslations(lang) {
       if (_i18nCache[lang]) return _i18nCache[lang];
-      const res = await fetch(`./i18n/${lang}.json?v=17`);
+      const res = await fetch(`./i18n/${lang}.json?v=18`);
       _i18nCache[lang] = await res.json();
       return _i18nCache[lang];
     }
@@ -1100,6 +1161,28 @@
 
     /* Footer year */
     document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+    /* Book cover lightbox */
+    document.querySelectorAll('.book-cover[data-large]').forEach(img => {
+      img.addEventListener('click', () => {
+        const lb = document.getElementById('lightbox');
+        document.getElementById('lightbox-img').src = img.getAttribute('data-large');
+        document.getElementById('lightbox-img').alt = img.alt;
+        lb.classList.add('active');
+      });
+    });
+
+    document.getElementById('lightbox').addEventListener('click', (e) => {
+      if (e.target.id !== 'lightbox-img') {
+        e.currentTarget.classList.remove('active');
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        document.getElementById('lightbox').classList.remove('active');
+      }
+    });
 
     const browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
     if (browserLang.startsWith('ro')) {

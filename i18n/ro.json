@@ -55,19 +55,11 @@
   "sec-education": "Studii",
   "sec-articles": "Articole în reviste",
   "sec-books": "Cărți",
-  "book1-title": "Cultura, representação e informação digitais",
   "book1-role": "Editor",
-  "book1-publisher": "Editura UFBA",
-  "book1-cover": "📝 Ediție cu Rubens Silva, Ana Freixo & I. Terso · 248 pp",
-  "book2-title": "A Ordem dos Arquivistas: centésimo",
   "book2-role": "Autor",
-  "book2-cover": "📚 Ediția a 2-a · 144 pp",
-  "book3-title": "Mundos Distantes 1",
   "book3-role": "Editor",
-  "book3-cover": "📖 Antologie science fiction și fantasy · 96 pp",
   "book4-title": "Tomos Fantásticos: Fantasia Medieval e Heroica",
   "book4-role": "Autor",
-  "book4-cover": "🗡️ Ficțiune fantasy și RPG",
   "book-link-buy": "Cumpără",
   "link-article": "Articol",
   "link-pdf": "PDF",
@@ -91,5 +83,6 @@
   "vol1-title": "Membru",
   "vol2-org": "Asociația Arhiviștilor din Bahia",
   "vol3-title": "Manager asistent de conținut",
-  "learn-more": "Aflați mai multe…"
+  "learn-more": "Aflați mai multe…",
+  "book-link-view": "Vezi"
 }

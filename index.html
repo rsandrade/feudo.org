@@ -145,37 +145,39 @@
 
     /* ── Books ──────────────────────────────────────────── */
 
-    .book-grid {
+    .book-list {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-      gap: 1.5rem;
-      margin-top: 0.5rem;
+      grid-template-columns: 1fr;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
     }
 
     .book-card {
       display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
+      align-items: flex-start;
+      gap: 1rem;
+      background: var(--surface);
+      padding: 1rem 1.25rem;
+      transition: background 0.15s;
     }
 
+    .book-card:hover { background: #fdfcfa; }
+
     .book-cover {
-      aspect-ratio: 2/3;
-      background: var(--card-bg);
-      border-radius: 6px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.85rem;
-      color: var(--muted);
-      text-align: center;
-      padding: 1rem;
-      border: 1px solid var(--border);
+      width: 60px;
+      height: 85px;
+      border-radius: 3px;
+      object-fit: cover;
+      flex-shrink: 0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12);
     }
 
     .book-info {
       display: flex;
       flex-direction: column;
       gap: 0.15rem;
+      min-width: 0;
     }
 
     .book-title {
@@ -188,22 +190,20 @@
     .book-meta {
       font-size: 0.78rem;
       color: var(--muted);
-    }
-
-    .book-meta a {
-      color: var(--muted);
-      text-decoration: none;
+      line-height: 1.4;
     }
 
     .book-link {
-      font-size: 0.78rem;
+      font-size: 0.75rem;
       color: var(--muted);
       text-decoration: none;
-      border-bottom: 1px solid transparent;
-      transition: border-color 0.15s;
+      border-bottom: 1px solid var(--accent);
+      padding-bottom: 1px;
+      align-self: flex-start;
+      transition: color 0.15s, border-color 0.15s;
     }
 
-    .book-link:hover { border-color: var(--accent); color: var(--accent); }
+    .book-link:hover { color: var(--accent); border-color: transparent; }
 
     .entry-list {
       display: flex;
@@ -768,41 +768,41 @@
     <!-- Livros -->
     <section>
       <h2 class="section-heading" data-key="sec-books"></h2>
-      <div class="book-grid">
+      <div class="book-list">
 
         <div class="book-card">
-          <div class="book-cover" data-key="book1-cover"></div>
+          <img class="book-cover" src="img/books/book1_cover.jpg" alt="Cultura, representação e informação digitais" loading="lazy">
           <div class="book-info">
-            <span class="book-title" data-key="book1-title"></span>
-            <span class="book-meta"><span data-key="book1-role"></span> · <span data-key="book1-publisher"></span> · 2010</span>
-            <a href="https://www.amazon.com.br/dp/8523208965" target="_blank" rel="noopener" class="book-link" data-key="book-link-buy"></a>
+            <span class="book-title">Cultura, representação e informação digitais</span>
+            <span class="book-meta"><span data-key="book1-role"></span> · EDUFBA · 2010</span>
+            <a href="https://repositorio.ufba.br/handle/ri/7315" target="_blank" rel="noopener" class="book-link" data-key="book-link-view"></a>
           </div>
         </div>
 
         <div class="book-card">
-          <div class="book-cover" data-key="book2-cover"></div>
+          <img class="book-cover" src="img/books/book2_cover.jpg" alt="A Ordem dos Arquivistas: centésimo" loading="lazy">
           <div class="book-info">
-            <span class="book-title" data-key="book2-title"></span>
+            <span class="book-title">A Ordem dos Arquivistas: centésimo</span>
             <span class="book-meta"><span data-key="book2-role"></span> · 9Bravos · 2011</span>
-            <a href="https://www.amazon.com.br/dp/B00ARU0Y9I" target="_blank" rel="noopener" class="book-link" data-key="book-link-buy"></a>
+            <a href="https://livraria.9bravos.com.br/produto/a-ordem-dos-arquivistas-centesimo/" target="_blank" rel="noopener" class="book-link" data-key="book-link-buy"></a>
           </div>
         </div>
 
         <div class="book-card">
-          <div class="book-cover" data-key="book3-cover"></div>
+          <img class="book-cover" src="img/books/book3_cover.jpg" alt="Mundos Distantes 1" loading="lazy">
           <div class="book-info">
-            <span class="book-title" data-key="book3-title"></span>
+            <span class="book-title">Mundos Distantes 1</span>
             <span class="book-meta"><span data-key="book3-role"></span> · 9Bravos · 2013</span>
-            <a href="https://www.amazon.com.br/dp/B00GF0J4XM" target="_blank" rel="noopener" class="book-link" data-key="book-link-buy"></a>
+            <a href="https://www.amazon.com.br/Mundos-Distantes-Ricardo-Sodr%C3%A9-Andrade/dp/8567178002" target="_blank" rel="noopener" class="book-link" data-key="book-link-buy"></a>
           </div>
         </div>
 
         <div class="book-card">
-          <div class="book-cover" data-key="book4-cover"></div>
+          <img class="book-cover" src="img/books/book4_cover.jpg" alt="Tomos Fantásticos: Fantasia Medieval e Heroica" loading="lazy">
           <div class="book-info">
             <span class="book-title" data-key="book4-title"></span>
             <span class="book-meta"><span data-key="book4-role"></span> · 9Bravos · 2014</span>
-            <a href="https://www.amazon.com.br/dp/B00P8KX9GS" target="_blank" rel="noopener" class="book-link" data-key="book-link-buy"></a>
+            <a href="https://www.skoob.com.br/pt/book/429771" target="_blank" rel="noopener" class="book-link" data-key="book-link-view"></a>
           </div>
         </div>
 
@@ -819,7 +819,7 @@
             <span class="entry-title">A iniciativa Legatum e a preservação digital de arquivos audiovisuais públicos</span>
             <span class="entry-meta">Silva, Hollós, Andrade, Pavezi · <em>Rev. Digital de Biblioteconomia e Ciência da Informação</em>, v.14, 2016</span>
           </div>
-          <a href="https://doi.org/10.20396/rdbci.v14i2.8650208" target="_blank" rel="noopener" class="entry-link" data-key="link-article"></a>
+          <a href="https://periodicos.sbu.unicamp.br/ojs/index.php/rdbci/article/view/8646279" target="_blank" rel="noopener" class="entry-link" data-key="link-article"></a>
         </div>
 
         <div class="entry">
@@ -827,7 +827,7 @@
             <span class="entry-title">Políticas de informação e comunicação, participação social e controle da gestão pública</span>
             <span class="entry-meta">Jambeiro, Andrade, Sobreira, Rabelo · <em>Verso e Reverso</em>, v.XXII, 2008</span>
           </div>
-          <a href="http://www.versoereverso.unisinos.br/index.php?e=14" target="_blank" rel="noopener" class="entry-link" data-key="link-article"></a>
+          <a href="https://www.semanticscholar.org/paper/Pol%C3%ADticas-de-informa%C3%A7%C3%A3o-e-comunica%C3%A7%C3%A3o%2C-participa%C3%A7%C3%A3o-Jambeiro-Sobreira/ee78dcf16511643e1df56ff40944cb6637d21f7b" target="_blank" rel="noopener" class="entry-link" data-key="link-article"></a>
         </div>
 
         <div class="entry">
@@ -835,7 +835,7 @@
             <span class="entry-title">Aspectos teóricos e históricos da descrição arquivística e uma nova geração de instrumentos arquivísticos de referência</span>
             <span class="entry-meta">Andrade, Silva · <em>PontodeAcesso</em>, v.2, p.14–29, 2008</span>
           </div>
-          <a href="https://ricardo.arquivista.net/wp-content/docs/ANDRADE-SILVA_NovaGeracaoInstrumentosArquivisticosReferencia2008.pdf" target="_blank" rel="noopener" class="entry-link" data-key="link-pdf"></a>
+          <a href="https://repositorio.ufba.br/bitstream/ri/1191/1/2335.pdf" target="_blank" rel="noopener" class="entry-link" data-key="link-pdf"></a>
         </div>
 
         <div class="entry">
@@ -843,7 +843,7 @@
             <span class="entry-title">Information professionals in Brazil: core competencies and professional development</span>
             <span class="entry-meta">Ferreira, Nascimento, Andrade et al. · <em>Information Research</em>, v.12, 2007</span>
           </div>
-          <a href="https://informationr.net/ir/12-4/paper299.html" target="_blank" rel="noopener" class="entry-link" data-key="link-article"></a>
+          <a href="https://informationr.net/ir/12-2/paper299.html" target="_blank" rel="noopener" class="entry-link" data-key="link-article"></a>
         </div>
 
         <div class="entry">
@@ -851,7 +851,7 @@
             <span class="entry-title">Aspectos introdutórios da representação de informação arquivística: a Nobrade, a EAD-DTD e o projeto Archives Hub</span>
             <span class="entry-meta">Andrade · <em>PontodeAcesso</em>, v.1, p.70–100, 2007</span>
           </div>
-          <a href="http://www.portalseer.ufba.br/index.php/ponto/article/view/20820" target="_blank" rel="noopener" class="entry-link" data-key="link-article"></a>
+          <a href="https://arquivistica.fci.unb.br/au/aspectos-introdutorios-da-representacao-de-informacao-arquivistica-a-norma-brasileira-de-descricao-arquivistica-nobrade-a-descricao-arquivistica-codificada-ead-dtd-e-o-projeto-archives-hub/" target="_blank" rel="noopener" class="entry-link" data-key="link-article"></a>
         </div>
 
         <div class="entry">
@@ -867,7 +867,7 @@
             <span class="entry-title">Tecnologia, memória e a formação do profissional arquivista</span>
             <span class="entry-meta">Andrade · <em>Arquivística.net</em>, v.2, p.149–159, 2006</span>
           </div>
-          <a href="https://arquivistica.net/index.php/arquivistica/article/view/115" target="_blank" rel="noopener" class="entry-link" data-key="link-article"></a>
+          <a href="https://arquivistica.fci.unb.br/au/tecnologia-memoria-e-a-formacao-do-profissional-arquivista/" target="_blank" rel="noopener" class="entry-link" data-key="link-article"></a>
         </div>
 
         <div class="entry">
@@ -875,7 +875,7 @@
             <span class="entry-title">Acessibilidade, navegabilidade e conteúdos em portais e websites de governo eletrônico em capitais brasileiras</span>
             <span class="entry-meta">Jambeiro, Borges, Andrade · <em>Comunicação & Informação</em>, v.9, p.200–213, 2006</span>
           </div>
-          <a href="http://www.versoereverso.unisinos.br/index.php?e=14" target="_blank" rel="noopener" class="entry-link" data-key="link-article"></a>
+          <a href="https://revistas.ufg.br/ci/article/view/25250" target="_blank" rel="noopener" class="entry-link" data-key="link-article"></a>
         </div>
 
         <div class="entry">
@@ -883,7 +883,7 @@
             <span class="entry-title">Preservação digital e os profissionais da informação</span>
             <span class="entry-meta">Arellano, Andrade · <em>Datagramazero</em>, v.7, 2006</span>
           </div>
-          <a href="http://www.dgz.org.br/out06/F_I_art.htm" target="_blank" rel="noopener" class="entry-link" data-key="link-article"></a>
+          <a href="https://pbcib.com/pbcib/article/view/8036" target="_blank" rel="noopener" class="entry-link" data-key="link-article"></a>
         </div>
 
         <div class="entry">
@@ -891,7 +891,7 @@
             <span class="entry-title">Políticas de informação: Digitalizando a inclusão social</span>
             <span class="entry-meta">Andrade et al. · <em>Estudos de Sociologia</em>, v.17, p.147–169, 2004</span>
           </div>
-          <a href="http://www.feudo.org/site/docs/PoliticaDeFormacaoProfissionalDaInformacao.pdf" target="_blank" rel="noopener" class="entry-link" data-key="link-pdf"></a>
+          <a href="https://periodicos.fclar.unesp.br/estudos/article/view/135" target="_blank" rel="noopener" class="entry-link" data-key="link-article"></a>
         </div>
 
       </div>
@@ -1064,7 +1064,7 @@
 
     async function loadTranslations(lang) {
       if (_i18nCache[lang]) return _i18nCache[lang];
-      const res = await fetch(`./i18n/${lang}.json?v=16`);
+      const res = await fetch(`./i18n/${lang}.json?v=17`);
       _i18nCache[lang] = await res.json();
       return _i18nCache[lang];
     }

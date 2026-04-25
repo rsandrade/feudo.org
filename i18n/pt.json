@@ -55,19 +55,11 @@
   "sec-education": "Formação",
   "sec-articles": "Artigos em periódicos",
   "sec-books": "Livros",
-  "book1-title": "Cultura, representação e informação digitais",
   "book1-role": "Organizador",
-  "book1-publisher": "Editora da UFBA",
-  "book1-cover": "📝 Organizado com Rubens Silva, Ana Freixo e I. Terso · 248 pp",
-  "book2-title": "A Ordem dos Arquivistas: centésimo",
   "book2-role": "Autor",
-  "book2-cover": "📚 2ª edição · 144 pp",
-  "book3-title": "Mundos Distantes 1",
   "book3-role": "Organizador",
-  "book3-cover": "📖 Antologia de ficção científica e fantasia · 96 pp",
   "book4-title": "Tomos Fantásticos: Fantasia Medieval e Heroica",
   "book4-role": "Autor",
-  "book4-cover": "🗡️ Ficção fantasia e RPG",
   "book-link-buy": "Comprar",
   "link-article": "Artigo",
   "link-pdf": "PDF",
@@ -91,5 +83,6 @@
   "vol1-title": "Membro",
   "vol2-org": "Associação dos Arquivistas da Bahia",
   "vol3-title": "Assistant Content Manager",
-  "learn-more": "Saiba mais…"
+  "learn-more": "Saiba mais…",
+  "book-link-view": "Ver"
 }

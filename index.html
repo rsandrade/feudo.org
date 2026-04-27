@@ -437,6 +437,32 @@
       margin-top: 0.75rem;
     }
 
+    /* Collapsible articles section */
+    .articles-details {
+      display: block;
+    }
+
+    .articles-details > summary.articles-toggle {
+      cursor: pointer;
+      list-style: none;
+      user-select: none;
+      font-size: 0.9rem;
+      color: var(--muted);
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s, color 0.15s;
+      padding-top: 0.25rem;
+    }
+
+    .articles-details > summary.articles-toggle::-webkit-details-marker { display: none; }
+    .articles-details > summary.articles-toggle::marker { content: ''; }
+
+    .articles-details > summary.articles-toggle:hover,
+    .articles-details > summary.articles-toggle:focus-visible {
+      color: var(--fg);
+      border-bottom-color: var(--accent);
+      outline: none;
+    }
+
     .bio-text {
       font-size: 0.925rem;
       color: var(--mid);
@@ -859,6 +885,8 @@
     <!-- Artigos -->
     <section>
       <h2 class="section-heading" data-key="sec-articles"></h2>
+      <details class="articles-details" open>
+        <summary class="articles-toggle">20 artigos · 2004–2026</summary>
       <div class="entry-list">
 
         <div class="entry">
@@ -1019,6 +1047,7 @@
         </div>
 
       </div>
+      </details>
     </section>
 
     <!-- Experiência -->

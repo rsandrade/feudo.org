@@ -143,6 +143,22 @@
       border-bottom: 1px solid var(--border);
     }
 
+    .section-desc {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin: 0 0 0.8rem;
+      line-height: 1.45;
+    }
+
+    .section-desc a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .section-desc a:hover {
+      text-decoration: underline;
+    }
+
     /* ── Books ──────────────────────────────────────────── */
 
     .book-list {
@@ -885,8 +901,9 @@
     <!-- Artigos -->
     <section>
       <h2 class="section-heading" data-key="sec-articles"></h2>
-      <details class="articles-details" open>
+      <details class="articles-details">
         <summary class="articles-toggle">32 artigos e comunicações em eventos · 2004–2026</summary>
+        <p class="section-desc" data-key="desc-articles"></p>
       <div class="entry-list">
 
         <div class="entry">

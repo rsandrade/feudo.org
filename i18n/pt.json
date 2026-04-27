@@ -86,6 +86,6 @@
   "art-preprint-title": "Social-RAG: A Retrieval-Augmented Generation Pipeline for Computational Social Science Research on Telegram",
   "art-preprint-tag": "preprint",
   "link-preprint": "Preprint",
-  "desc-articles": "Artigos publicados em periódicos e trabalhos completos apresentados em congressos. Lista não exaustiva —",
-  "link-lattes-full": "veja o currículo Lattes"
+  "articles-toggle-desc": "Clique para abrir a lista de 32 artigos e comunicações em eventos publicados entre os anos de 2004 e 2026:",
+  "articles-toggle-cta": "Clique aqui para abrir a seção"
 }

@@ -121,16 +121,6 @@
       margin-right: 0; 
     }
   </style>
-<script>
-  // Redirect mobile users to scrollable document version
-  (function() {
-    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
-      || (window.innerWidth <= 768 && window.innerHeight <= 1024);
-    if (isMobile && !location.search.includes('desktop=1')) {
-      location.replace('./documento.html');
-    }
-  })();
-</script>
 </head>
 <body class="quarto-light">
 <script src="mathjax-config.js"></script>
@@ -202,11 +192,19 @@ Ricardo Sodré Andrade<br><span style="font-size:0.7em;color:#666;font-weight:no
 <div class="hidden">
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Inject mobile banner OUTSIDE the .reveal container so it's always visible
-  var banner = document.createElement('div');
-  banner.id = 'mobile-link-banner';
-  banner.innerHTML = '📖 Versão para leitura em celular — <a href="./documento.html">abrir aqui</a>';
-  document.body.appendChild(banner);
+  // Auto-redirect mobile users to scrollable document version
+  var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+    || (window.innerWidth <= 768 && window.innerHeight <= 1024);
+  if (isMobile && !location.search.includes('desktop=1')) {
+    location.replace('./documento.html');
+  }
+  // Fallback: show banner for mobile users who got here with ?desktop=1
+  if (isMobile) {
+    var banner = document.createElement('div');
+    banner.id = 'mobile-link-banner';
+    banner.innerHTML = '📖 Versão para leitura em celular — <a href="./documento.html">abrir aqui</a>';
+    document.body.appendChild(banner);
+  }
 });
 </script>
 </div>

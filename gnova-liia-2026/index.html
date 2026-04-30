@@ -188,10 +188,10 @@ function autoFitSlides() {
     slide.style.overflowY = prev || '';
     var visibleH = slide.clientHeight;
     if (contentH > visibleH) {
-      // Calculate scale factor with some margin
-      var scale = (visibleH / contentH) * 0.97;
-      // Don't scale up, only down; don't go below 0.5
-      scale = Math.max(Math.min(scale, 1), 0.5);
+      // Calculate scale factor with small margin
+      var scale = (visibleH / contentH) * 0.99;
+      // Don't scale up, only down; don't go below 0.55
+      scale = Math.max(Math.min(scale, 1), 0.55);
       slide.style.fontSize = (scale * 100) + '%';
     }
   });

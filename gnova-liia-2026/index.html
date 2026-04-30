@@ -175,66 +175,95 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 <script>
-// Auto-fit: make all slides visible temporarily, measure overflow, scale down proportionally
+// Auto-fit: measure overflow on each slide and scale font-size proportionally
+// Uses a two-phase approach:
+// 1) On load: force all slides visible, measure, then restore
+// 2) On slidechanged: check current slide (catches lazy content)
+var autoFitScales = {};
 function autoFitSlides() {
-  var slides = document.querySelectorAll('.reveal .slides > section');
-  // Make all slides visible for measurement
-  slides.forEach(function(s) { s.style.display = 'block'; s.style.visibility = 'visible'; });
-  // For vertical stacks, also show nested sections
+  // Phase 1: Measure all slides by making them momentarily visible
+  var sections = document.querySelectorAll('.reveal .slides > section');
+  // Force all visible for measurement
+  var saved = [];
+  sections.forEach(function(s) {
+    saved.push({display: s.style.display, visibility: s.style.visibility, pos: s.style.position, h: s.style.height, oh: s.style.overflowY});
+    s.style.display = 'block';
+    s.style.visibility = 'visible';
+    s.style.position = 'relative';
+    s.style.height = 'auto';
+    s.style.overflowY = 'visible';
+  });
+  // Also force nested sections visible
   var nested = document.querySelectorAll('.reveal .slides section section');
-  nested.forEach(function(s) { s.style.display = 'block'; s.style.visibility = 'visible'; });
-
-  // Measure each top-level slide
-  slides.forEach(function(slide) {
-    slide.style.fontSize = '';
-    // Measure against the Reveal.js slide size
-    var slideSize = Reveal.getComputedSlideSize ? Reveal.getComputedSlideSize() : {height: 700};
-    var visibleH = slideSize.height;
-    // Temporarily remove overflow hidden
-    var prev = slide.style.overflowY;
-    slide.style.overflowY = 'visible';
-    var contentH = slide.scrollHeight;
-    slide.style.overflowY = prev || '';
-    if (contentH > visibleH) {
-      var scale = (visibleH / contentH) * 0.97;
-      scale = Math.max(Math.min(scale, 1), 0.55);
-      slide.style.fontSize = (scale * 100) + '%';
-      slide.setAttribute('data-autofit', scale);
-    } else {
-      slide.removeAttribute('data-autofit');
-    }
+  var savedNested = [];
+  nested.forEach(function(s) {
+    savedNested.push({display: s.style.display, visibility: s.style.visibility, h: s.style.height});
+    s.style.display = 'block';
+    s.style.visibility = 'visible';
+    s.style.height = 'auto';
   });
 
-  // Restore visibility
-  slides.forEach(function(s) { s.style.display = ''; s.style.visibility = ''; });
-  nested.forEach(function(s) { s.style.display = ''; s.style.visibility = ''; });
-  // Force Reveal to recalculate layout
+  // Measure each top-level slide and its vertical sub-slides
+  var slideSize = (typeof Reveal !== 'undefined' && Reveal.getComputedSlideSize) ? Reveal.getComputedSlideSize() : {height: 700};
+  sections.forEach(function(slide, idx) {
+    // Check for vertical sub-slides (nested sections)
+    var subSlides = slide.querySelectorAll(':scope > section');
+    var targets = subSlides.length > 0 ? subSlides : [slide];
+    targets.forEach(function(target) {
+      target.style.fontSize = '';
+      var contentH = target.scrollHeight;
+      var visibleH = slideSize.height;
+      if (contentH > visibleH + 5) {
+        var scale = (visibleH / contentH) * 0.97;
+        scale = Math.max(Math.min(scale, 1), 0.55);
+        target.style.fontSize = (scale * 100) + '%';
+        target.setAttribute('data-autofit', scale.toFixed(4));
+      } else {
+        target.removeAttribute('data-autofit');
+      }
+    });
+  });
+
+  // Restore original styles
+  sections.forEach(function(s, i) { 
+    s.style.display = saved[i].display;
+    s.style.visibility = saved[i].visibility;
+    s.style.position = saved[i].pos;
+    s.style.height = saved[i].h;
+    s.style.overflowY = saved[i].oh;
+  });
+  nested.forEach(function(s, i) {
+    s.style.display = savedNested[i].display;
+    s.style.visibility = savedNested[i].visibility;
+    s.style.height = savedNested[i].h;
+  });
+  // Restore overflow hidden on all slides
+  sections.forEach(function(s) { s.style.overflowY = 'hidden'; });
+
   if (typeof Reveal !== 'undefined') { Reveal.layout(); }
 }
-// Also auto-fit the current slide on navigation (catches lazy-loaded content)
+
 function autoFitCurrent() {
   var s = Reveal.getCurrentSlide();
-  if (!s) return;
-  if (s.getAttribute('data-autofit')) return;
+  if (!s || s.getAttribute('data-autofit')) return;
   var slideSize = Reveal.getComputedSlideSize ? Reveal.getComputedSlideSize() : {height: 700};
-  var visibleH = slideSize.height;
-  var prev = s.style.overflowY;
   s.style.overflowY = 'visible';
   s.style.fontSize = '';
   var contentH = s.scrollHeight;
-  s.style.overflowY = prev || '';
-  if (contentH > visibleH) {
-    var scale = (visibleH / contentH) * 0.97;
+  s.style.overflowY = 'hidden';
+  if (contentH > slideSize.height + 5) {
+    var scale = (slideSize.height / contentH) * 0.97;
     scale = Math.max(Math.min(scale, 1), 0.55);
     s.style.fontSize = (scale * 100) + '%';
-    s.setAttribute('data-autofit', scale);
+    s.setAttribute('data-autofit', scale.toFixed(4));
   }
 }
+
 if (typeof Reveal !== 'undefined') {
   Reveal.on('ready', autoFitSlides);
   Reveal.on('slidechanged', autoFitCurrent);
 }
-window.addEventListener('load', function() { setTimeout(autoFitSlides, 800); });
+window.addEventListener('load', function() { setTimeout(autoFitSlides, 1000); });
 </script>
 </div>
 </section>

@@ -2588,22 +2588,48 @@ vertical-align: -.125em;
 
 <style>
 
+
+.quarto-title-meta { display: flex; flex-wrap: wrap; gap: 2em; align-items: baseline; }
+.quarto-title-meta-heading { font-size: 0.75em !important; text-transform: uppercase; letter-spacing: 0.05em; color: #666; margin-bottom: 0; }
+.quarto-title-meta-contents p { margin: 0 !important; line-height: 1.4; }
+
 @media (max-width: 768px) {
-body { font-size: 16px !important; padding: 0.5em !important; }
-main { padding: 0.5em !important; }
-table { font-size: 0.85em !important; }
-.proposta-block blockquote { font-size: 0.92em !important; padding: 0.75em !important;
+body { font-size: 16px !important; padding: 0 !important; }
+#quarto-document main { padding: 0.75em !important; }
+
+#TOC { display: none !important; }
+.page-columns { grid-template-columns: 1fr !important; }
+main { max-width: 100% !important; }
+
+.quarto-title-banner, .quarto-title-meta { flex-direction: column; gap: 0.5em; }
+
+table { font-size: 0.8em !important; display: block; overflow-x: auto; white-space: nowrap; }
+
+.proposta-block blockquote {
+font-size: 0.92em !important;
+padding: 0.75em !important;
 margin: 0.5em 0 !important;
 }
 .exe-details { font-size: 0.82em !important; }
+
+.version-banner { flex-direction: column; text-align: center; gap: 0.4em; }
 }
 
-.proposta-block { border-left: 3px solid #4a90d9; margin: 0.8em 0 !important; }
-.proposta-block blockquote { background: #f8f9fa; border-radius: 4px;
+.proposta-block {
+border-left: 3px solid #4a90d9;
+margin: 0.8em 0 !important;
+}
+.proposta-block blockquote {
+background: #f8f9fa;
+border-radius: 4px;
 padding: 0.75em 1em !important;
 margin: 0 !important;
 }
-.exe-details { background: #fff3cd; padding: 0.5em 0.75em; border-radius: 4px; margin: 0.5em 0 1.5em 0;
+.exe-details {
+background: #fff3cd;
+padding: 0.5em 0.75em;
+border-radius: 4px;
+margin: 0.5em 0 1.5em 0;
 font-size: 0.85em;
 }
 
@@ -2621,13 +2647,75 @@ font-size: 0.9em;
 display: flex;
 justify-content: space-between;
 align-items: center;
+flex-wrap: wrap;
 }
-.version-banner a { color: #1a73e8; font-weight: 600; }
+.version-banner a { color: #1a73e8; font-weight: 600; white-space: nowrap; }
 
 table { width: 100%; border-collapse: collapse; }
 th { background: #4a90d9; color: white; padding: 0.5em 0.75em; }
 td { padding: 0.4em 0.75em; border-bottom: 1px solid #e0e0e0; }
 tr:hover td { background: #f5f5f5; }
+
+td { white-space: nowrap; }
+@media (max-width: 768px) {
+td { white-space: normal; }
+
+td:nth-child(3) { font-size: 0.82em; white-space: nowrap; overflow-x: auto; }
+}
+
+
+.quarto-title-meta-author {
+display: grid !important;
+grid-template-columns: auto 1fr !important;
+grid-template-rows: auto auto !important;
+gap: 0.2em 1em;
+align-items: baseline;
+}
+
+.quarto-title-meta-author .quarto-title-meta-heading {
+font-size: 0.65em !important;
+text-transform: uppercase;
+letter-spacing: 0.06em;
+color: #888 !important;
+margin-bottom: 0 !important;
+white-space: nowrap;
+grid-column: 1;
+}
+.quarto-title-meta-author .quarto-title-meta-heading:nth-child(1) { grid-row: 1; }
+.quarto-title-meta-author .quarto-title-meta-heading:nth-child(2) { grid-row: 2; }
+
+.quarto-title-meta-author .quarto-title-meta-contents {
+grid-column: 2;
+}
+.quarto-title-meta-author .quarto-title-meta-contents:nth-of-type(1) { grid-row: 1; }
+.quarto-title-meta-author .quarto-title-meta-contents:nth-of-type(2) { grid-row: 2; }
+.quarto-title-meta-author .quarto-title-meta-contents p {
+margin: 0 !important;
+line-height: 1.5;
+font-size: 1em;
+}
+
+@media (max-width: 768px) {
+.quarto-title-meta-author {
+grid-template-columns: 1fr !important;
+gap: 0.1em 0;
+}
+.quarto-title-meta-author .quarto-title-meta-heading,
+.quarto-title-meta-author .quarto-title-meta-contents {
+grid-column: 1 !important;
+grid-row: auto !important;
+}
+.quarto-title-meta-author .quarto-title-meta-heading {
+font-size: 0.6em !important;
+margin-bottom: 0 !important;
+}
+.quarto-title-meta-author .quarto-title-meta-contents p {
+font-size: 0.95em;
+margin-bottom: 0.3em !important;
+}
+}
+
+.quarto-title-meta-contents p { overflow-wrap: break-word; word-break: keep-all; }
 </style>
 <div class="version-banner">
 <p><span>📖 Versão para leitura em celular/tablet</span> <a href="./">🎯 Ver versão apresentação (desktop)</a></p>
@@ -2652,32 +2740,32 @@ tr:hover td { background: #f5f5f5; }
 <tr class="odd">
 <td style="text-align: center;">1</td>
 <td style="text-align: left;">Marco Legal e Governança</td>
-<td style="text-align: center;">66 (15🟢 49🟡 2🔴)</td>
+<td style="text-align: center;">66 (15 🟢  49 🟡  2 🔴)</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">2</td>
 <td style="text-align: left;">Gestão de Documentos</td>
-<td style="text-align: center;">53 (26🟢 26🟡 1🔴)</td>
+<td style="text-align: center;">53 (26 🟢  26 🟡  1 🔴)</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">3</td>
 <td style="text-align: left;">Preservação e Patrimônio</td>
-<td style="text-align: center;">59 (23🟢 36🟡 0🔴)</td>
+<td style="text-align: center;">59 (23 🟢  36 🟡  0 🔴)</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">4</td>
 <td style="text-align: left;">Acesso e Cidadania</td>
-<td style="text-align: center;">59 (36🟢 23🟡 0🔴)</td>
+<td style="text-align: center;">59 (36 🟢  23 🟡  0 🔴)</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">5</td>
 <td style="text-align: left;">Trabalho e Ensino</td>
-<td style="text-align: center;">58 (17🟢 32🟡 9🔴)</td>
+<td style="text-align: center;">58 (17 🟢  32 🟡  9 🔴)</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">6</td>
 <td style="text-align: left;">Arq. Privados e Comunitários</td>
-<td style="text-align: center;">55 (23🟢 32🟡 0🔴)</td>
+<td style="text-align: center;">55 (23 🟢  32 🟡  0 🔴)</td>
 </tr>
 </tbody>
 </table>

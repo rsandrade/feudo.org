@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </section></section>
 <section>
 <section id="sec-ideias" class="title-slide slide level1 center">
-<h1>Quatro ideias mais promissoras</h1>
+<h1>Cinco ideias mais promissoras</h1>
 
 </section>
 <section id="sec-sumario-ideias" class="slide level2">
@@ -276,6 +276,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <li><a href="#/sec-a2"><strong>A2 — Busca semântica</strong></a> — API de busca semântica sobre descrições</li>
 <li><a href="#/sec-d1"><strong>D1 — Detecção de dados pessoais</strong></a> — Conformidade LGPD</li>
 <li><a href="#/sec-a4"><strong>A4 — Guias temáticos</strong></a> — Rascunhos de guias temáticos</li>
+<li><a href="#/sec-o1"><strong>O1 — Transcrição automatizada</strong></a> — OCR/HTR de documentos manuscritos</li>
 </ol>
 <p><a href="#/sec-comparativo">📊 Visão comparativa</a></p>
 </section>
@@ -283,7 +284,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <h2>A1 — Assistente de referência</h2>
 <p><a href="#/sec-sumario-ideias">⬆ Sumário</a></p>
 <p><strong>Problema</strong>: Pesquisadores não encontram documentos nos instrumentos de pesquisa</p>
-<p><strong>MVP possível</strong>: Chatbot RAG sobre 5-10 fundos selecionados</p>
+<p><strong>MVP possível</strong>: Chatbot RAG sobre 5-10 fundos selecionados (<a href="https://recortes.farinha.info">exemplo: recortes.farinha.info</a>)</p>
 <ul>
 <li><strong>Impacto</strong>: Alto — acesso ampliado e mais rápido</li>
 <li><strong>Custo</strong>: Médio</li>
@@ -333,6 +334,20 @@ document.addEventListener('DOMContentLoaded', function() {
 <li><strong>Riscos</strong>: Alucinação, qualidade da curadoria</li>
 <li><strong>Setores</strong>: Instrumentos de pesquisa, Referência, Difusão</li>
 <li><strong>Por que é competitiva</strong>: Combina produtividade com validação humana</li>
+</ul>
+</section>
+<section id="sec-o1" class="slide level2">
+<h2>O1 — Transcrição automatizada (OCR/HTR)</h2>
+<p><a href="#/sec-sumario-ideias">⬆ Sumário</a></p>
+<p><strong>Problema</strong>: Milhões de documentos manuscritos digitalizados em imagem são invisíveis para pesquisa — sem texto, não podem ser buscados, descritos ou analisados</p>
+<p><strong>MVP possível</strong>: Modelo HTR fine-tuned para português histórico aplicado a 2-3 fundos</p>
+<ul>
+<li><strong>Impacto</strong>: Alto — destrava acesso a acervos inteiros</li>
+<li><strong>Custo</strong>: Médio</li>
+<li><strong>Dificuldade</strong>: Média</li>
+<li><strong>Riscos</strong>: Qualidade variável por caligrafia/conservação</li>
+<li><strong>Setores</strong>: Referência, TI, Digitalização</li>
+<li><strong>Por que é competitiva</strong>: NARA e TNA já têm programas de HTR; LABHDUFBA tem experiência; baixo risco jurídico</li>
 </ul>
 </section>
 <section id="sec-comparativo" class="slide level2 proposta-text-sm">
@@ -395,6 +410,15 @@ document.addEventListener('DOMContentLoaded', function() {
 <td style="text-align: center;">Média</td>
 <td style="text-align: left;">Produtividade + validação humana</td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>O1</strong> — Transcrição (HTR)</td>
+<td style="text-align: left;">Docs manuscritos sem texto buscável</td>
+<td style="text-align: left;">HTR para português histórico (2-3 fundos)</td>
+<td style="text-align: left;">Alto</td>
+<td style="text-align: center;">Médio</td>
+<td style="text-align: center;">Média</td>
+<td style="text-align: left;">Destrava acervos, baixo risco jurídico</td>
+</tr>
 </tbody>
 </table>
 </section>
@@ -434,7 +458,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <section id="sec-imediato" class="slide level2">
 <h2>Imediato (1-2 semanas)</h2>
 <ol type="1">
-<li><strong>Escolher 2 ou 3 ideias finalistas</strong> entre as quatro mais promissoras</li>
+<li><strong>Escolher 2 ou 3 ideias finalistas</strong> entre as cinco mais promissoras</li>
 <li><strong>Mapear a disponibilidade e a qualidade dos dados</strong> necessários para cada ideia — verificar com TI e áreas finalísticas</li>
 <li><strong>Identificar os setores</strong> que precisariam se envolver e confirmar a disponibilidade de arquivistas para a equipe do projeto</li>
 </ol>

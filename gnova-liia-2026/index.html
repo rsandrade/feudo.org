@@ -175,56 +175,56 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 <script>
-// Auto-fit: navigate to each slide, measure content vs visible area, scale down if overflow
+// Auto-fit: make all slides visible temporarily, measure overflow, scale down proportionally
 function autoFitSlides() {
-  if (typeof Reveal === 'undefined') return;
-  var total = Reveal.getTotalSlides();
-  var origH = Reveal.getIndices().h;
-  var origV = Reveal.getIndices().v;
-  // Pass 1: measure and store scales by slide index
-  var scales = {};
-  for (var i = 0; i < total; i++) {
-    Reveal.slide(i);
-    var s = Reveal.getCurrentSlide();
-    var r = s.getBoundingClientRect();
-    var mb = 0;
-    for (var c = 0; c < s.children.length; c++) {
-      var cr = s.children[c].getBoundingClientRect();
-      if (cr.bottom > mb) mb = cr.bottom;
-    }
-    var ov = mb - r.bottom;
-    if (ov > 5) {
-      var scale = (r.height / (r.height + ov)) * 0.97;
+  var slides = document.querySelectorAll('.reveal .slides > section');
+  // Make all slides visible for measurement
+  slides.forEach(function(s) { s.style.display = 'block'; s.style.visibility = 'visible'; });
+  // For vertical stacks, also show nested sections
+  var nested = document.querySelectorAll('.reveal .slides section section');
+  nested.forEach(function(s) { s.style.display = 'block'; s.style.visibility = 'visible'; });
+
+  // Measure each top-level slide
+  slides.forEach(function(slide) {
+    slide.style.fontSize = '';
+    // Measure against the Reveal.js slide size
+    var slideSize = Reveal.getComputedSlideSize ? Reveal.getComputedSlideSize() : {height: 700};
+    var visibleH = slideSize.height;
+    // Temporarily remove overflow hidden
+    var prev = slide.style.overflowY;
+    slide.style.overflowY = 'visible';
+    var contentH = slide.scrollHeight;
+    slide.style.overflowY = prev || '';
+    if (contentH > visibleH) {
+      var scale = (visibleH / contentH) * 0.97;
       scale = Math.max(Math.min(scale, 1), 0.55);
-      scales[i] = scale;
+      slide.style.fontSize = (scale * 100) + '%';
+      slide.setAttribute('data-autofit', scale);
+    } else {
+      slide.removeAttribute('data-autofit');
     }
-  }
-  // Pass 2: apply scales
-  for (var i = 0; i < total; i++) {
-    Reveal.slide(i);
-    var s = Reveal.getCurrentSlide();
-    s.style.fontSize = '';
-    if (scales[i]) {
-      s.style.fontSize = (scales[i] * 100) + '%';
-      s.setAttribute('data-autofit', scales[i]);
-    }
-  }
-  // Restore original position
-  Reveal.slide(origH, origV);
+  });
+
+  // Restore visibility
+  slides.forEach(function(s) { s.style.display = ''; s.style.visibility = ''; });
+  nested.forEach(function(s) { s.style.display = ''; s.style.visibility = ''; });
+  // Force Reveal to recalculate layout
+  if (typeof Reveal !== 'undefined') { Reveal.layout(); }
 }
-// Lazy auto-fit: also check on slide change in case content changes
-function autoFitCurrentSlide() {
+// Also auto-fit the current slide on navigation (catches lazy-loaded content)
+function autoFitCurrent() {
   var s = Reveal.getCurrentSlide();
-  if (s && s.getAttribute('data-autofit')) return; // already fitted
-  var r = s.getBoundingClientRect();
-  var mb = 0;
-  for (var c = 0; c < s.children.length; c++) {
-    var cr = s.children[c].getBoundingClientRect();
-    if (cr.bottom > mb) mb = cr.bottom;
-  }
-  var ov = mb - r.bottom;
-  if (ov > 5) {
-    var scale = (r.height / (r.height + ov)) * 0.97;
+  if (!s) return;
+  if (s.getAttribute('data-autofit')) return;
+  var slideSize = Reveal.getComputedSlideSize ? Reveal.getComputedSlideSize() : {height: 700};
+  var visibleH = slideSize.height;
+  var prev = s.style.overflowY;
+  s.style.overflowY = 'visible';
+  s.style.fontSize = '';
+  var contentH = s.scrollHeight;
+  s.style.overflowY = prev || '';
+  if (contentH > visibleH) {
+    var scale = (visibleH / contentH) * 0.97;
     scale = Math.max(Math.min(scale, 1), 0.55);
     s.style.fontSize = (scale * 100) + '%';
     s.setAttribute('data-autofit', scale);
@@ -232,7 +232,7 @@ function autoFitCurrentSlide() {
 }
 if (typeof Reveal !== 'undefined') {
   Reveal.on('ready', autoFitSlides);
-  Reveal.on('slidechanged', autoFitCurrentSlide);
+  Reveal.on('slidechanged', autoFitCurrent);
 }
 window.addEventListener('load', function() { setTimeout(autoFitSlides, 800); });
 </script>

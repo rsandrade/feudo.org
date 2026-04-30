@@ -2595,13 +2595,16 @@ vertical-align: -.125em;
 
 @media (max-width: 768px) {
 body { font-size: 16px !important; padding: 0 !important; }
-#quarto-document main { padding: 0.75em !important; }
+#quarto-document main { padding: 1.2em !important; }
 
 #TOC { display: none !important; }
 .page-columns { grid-template-columns: 1fr !important; }
-main { max-width: 100% !important; }
+main { max-width: 100% !important; padding: 0 !important; }
+#quarto-document content, #quarto-document .content { padding: 1.2em !important; }
+section { padding-left: 1em; padding-right: 1em; }
 
 .quarto-title-banner, .quarto-title-meta { flex-direction: column; gap: 0.5em; }
+#title-block-header { padding: 1em !important; margin-bottom: 0.5em !important; }
 
 table { font-size: 0.8em !important; display: block; overflow-x: auto; white-space: nowrap; }
 
@@ -2612,8 +2615,15 @@ margin: 0.5em 0 !important;
 }
 .exe-details { font-size: 0.82em !important; }
 
-.version-banner { flex-direction: column; text-align: center; gap: 0.4em; }
+.version-banner { flex-direction: column; text-align: center; gap: 0.4em; margin: 0.5em !important; }
 }
+
+#quarto-document main, .page-body content {
+max-width: 52em;
+padding-left: 1em;
+padding-right: 1em;
+}
+#title-block-header { padding: 0.5em 1em; margin-bottom: 1em; }
 
 .proposta-block {
 border-left: 3px solid #4a90d9;

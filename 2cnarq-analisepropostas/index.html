@@ -121,9 +121,6 @@
       margin-right: 0; 
     }
   </style>
-<script>
-(function(){var isMobile=/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)||(window.innerWidth<=768&&window.innerHeight<=1024);if(isMobile&&!location.search.includes('desktop=1')){location.replace('./documento.html');}})();
-</script>
 </head>
 <body class="quarto-light">
 <script src="mathjax-config.js"></script>
@@ -218,6 +215,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <li><strong>361 propostas</strong> aprovadas em <strong>34 conferências</strong></li>
 <li><strong>6 eixos temáticos</strong> previstos no Regimento da 2ª CNArq</li>
 <li><strong>Extração</strong>: OpenDataLoader v2.2.1 → <strong>Classificação</strong>: gpt-5.5 → <strong>Similaridade</strong>: TF-IDF + cosseno</li>
+<li><a href="#/sec-similaridade">⚠️ 4 propostas quase idênticas</a> (≥70%) — ver detalhes</li>
 </ul>
 <table class="caption-top">
 <thead>
@@ -283,6 +281,188 @@ document.addEventListener('DOMContentLoaded', function() {
 <p><strong>🟢 Exequível (141)</strong> — decreto, portaria, resolução</p>
 <p><strong>🟡 Parcialmente exequível (206)</strong> — condições adicionais necessárias</p>
 <p><strong>🔴 Pouco exequível (14)</strong> — mudanças estruturais</p>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="sec-similaridade" class="title-slide slide level1 center">
+<h1>Propostas Quase Idênticas</h1>
+
+</section>
+<section id="propostas-potencialmente-fundíveis-70-similaridade" class="slide level2">
+<h2>4 Propostas Potencialmente Fundíveis (≥70% similaridade)</h2>
+<p><small>De 274 pares analisados, <strong>4 pares</strong> ultrapassam 70% de similaridade — candidatos claros a fusão.</small></p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>🟥 PAR 1 — Eixo 1 · Similaridade 96%</strong></p>
+<p><em>EE Mato Grosso #2 ↔︎ EE Mato Grosso do Sul #1</em></p>
+<p><small>Programa nacional de salvaguarda de acervos em regiões vulneráveis às mudanças climáticas — divergência apenas na prioridade geográfica (Centro-Oeste/Norte vs Pantanal/Amazônia).</small></p>
+<p><strong>🟧 PAR 2 — Eixo 5 · Similaridade 80%</strong></p>
+<p><em>CL ENEA #1 ↔︎ EE Pará #1</em></p>
+<p><small>Diretrizes nacionais para condições dignas de trabalho — estágios em Arquivologia (ENEA) vs inserção profissional (PA).</small></p>
+</div><div class="column" style="width:48%;">
+<p><strong>🟦 PAR 3 — Eixo 6 · Similaridade 76%</strong></p>
+<p><em>EE Rio de Janeiro #1 ↔︎ EE Paraná #1</em></p>
+<p><small>Programa Nacional de Arquivos Comunitários com coordenação ministerial — RJ menciona “âmbito ministerial”, PR menciona CONARQ explicitamente.</small></p>
+<p><strong>🟩 PAR 4 — Eixo 4 · Similaridade 71%</strong></p>
+<p><em>EE Mato Grosso #2 ↔︎ EE São Paulo #3</em></p>
+<p><small>Soberania informacional e LAI — MT foca em critérios rígidos, SP propõe aperfeiçoamento legislativo via CONARQ.</small></p>
+</div></div>
+</section>
+<section id="par-1-detalhe-96-similaridade-eixo-1" class="slide level2">
+<h2>PAR 1 — Detalhe: 96% Similaridade (Eixo 1)</h2>
+<p><small>Programa nacional de salvaguarda — MT e MS propõem praticamente a mesma política</small></p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>🟡 EE Mato Grosso #2</strong> — Eixo 1</p>
+<div class="proposta-block proposta-text-xs">
+<blockquote>
+<p>Instituir programa nacional de salvaguarda de acervos em regiões vulneráveis às mudanças climáticas, com prioridade às regiões centro-oeste e norte. Prever financiamento estruturado, climatização de depósitos, planos de gestão de riscos e laboratórios regionais de conservação.</p>
+</blockquote>
+</div>
+<div class="exe-details">
+<p>🟡 parcialmente exequível (médio prazo) 🤖</p>
+</div>
+</div><div class="column" style="width:48%;">
+<p><strong>🟡 EE Mato Grosso do Sul #1</strong> — Eixo 1</p>
+<div class="proposta-block proposta-text-xs">
+<blockquote>
+<p>Instituir programa nacional de salvaguarda de acervos em regiões vulneráveis às mudanças climáticas, com prioridade ao Pantanal e à Amazônia. Prever financiamento, climatização de depósitos, planos de gestão de riscos e laboratórios regionais de conservação.</p>
+</blockquote>
+</div>
+<div class="exe-details">
+<p>🟡 parcialmente exequível (médio prazo) 🤖</p>
+</div>
+</div></div>
+</section>
+<section id="par-2-80-similaridade-eixo-5-trabalho-e-ensino" class="slide level2">
+<h2>PAR 2 — 80% Similaridade (Eixo 5 · Trabalho e Ensino)</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>🟢 CL ENEA #1</strong> — Eixo 5</p>
+<div class="proposta-block proposta-text-xs">
+<blockquote>
+<p>Estabelecer diretrizes nacionais para a realização de estágios em Arquivologia, garantindo condições dignas de trabalho, com medidas de saúde e segurança, supervisão qualificada e bolsa-auxílio compatível.</p>
+</blockquote>
+</div>
+</div><div class="column" style="width:48%;">
+<p><strong>🟢 EE Pará #1</strong> — Eixo 5</p>
+<div class="proposta-block proposta-text-xs">
+<blockquote>
+<p>Estabelecer diretrizes nacionais para a inserção dos profissionais de arquivo nas instituições públicas e privadas, na garantia de condições dignas de trabalho, saúde, segurança e valorização profissional.</p>
+</blockquote>
+</div>
+</div></div>
+</section>
+<section id="par-3-76-similaridade-eixo-6-arq.-privados-e-comunitários" class="slide level2">
+<h2>PAR 3 — 76% Similaridade (Eixo 6 · Arq. Privados e Comunitários)</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>🟡 EE Rio de Janeiro #1</strong> — Eixo 6</p>
+<div class="proposta-block proposta-text-xs">
+<blockquote>
+<p>Criar um Programa Nacional de Arquivos Comunitários em âmbito ministerial, em todo o território brasileiro, para acervos de pessoas e de comunidades marginalizadas, com financiamento, capacitação e infraestrutura.</p>
+</blockquote>
+</div>
+</div><div class="column" style="width:48%;">
+<p><strong>🟡 EE Paraná #1</strong> — Eixo 6</p>
+<div class="proposta-block proposta-text-xs">
+<blockquote>
+<p>Criar, no âmbito do Poder Executivo Federal, com coordenação ministerial e articulação do Conselho Nacional de Arquivos (CONARQ), o Programa Nacional de Arquivos Comunitários, garantindo reconhecimento, apoio técnico e financeiro.</p>
+</blockquote>
+</div>
+</div></div>
+</section>
+<section id="par-4-71-similaridade-eixo-4-acesso-e-cidadania" class="slide level2">
+<h2>PAR 4 — 71% Similaridade (Eixo 4 · Acesso e Cidadania)</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>🟢 EE Mato Grosso #2</strong> — Eixo 4</p>
+<div class="proposta-block proposta-text-xs">
+<blockquote>
+<p>Estabelecer critérios rígidos e aplicáveis para garantir a soberania informacional e o cumprimento da Lei de Acesso à Informação (Lei nº 12.527/2011) em todos os níveis de governo.</p>
+</blockquote>
+</div>
+</div><div class="column" style="width:48%;">
+<p><strong>🟡 EE São Paulo #3</strong> — Eixo 4</p>
+<div class="proposta-block proposta-text-xs">
+<blockquote>
+<p>Propor, no âmbito do CONARQ, iniciativa legislativa para aperfeiçoar a Lei de Acesso à Informação (Lei nº 12.527/2011) e a Lei Geral de Proteção de Dados (LGPD), com foco na garantia do acesso universal a informações arquivísticas.</p>
+</blockquote>
+</div>
+</div></div>
+</section>
+<section id="propostas-afins-19-pares-5069-similaridade" class="slide level2">
+<h2>Propostas Afins — 19 Pares (50–69% Similaridade)</h2>
+<p><small>Temas convergentes com diferenças de escopo ou ênfase — possível articulação, mas não fusão direta.</small></p>
+<div class="proposta-block proposta-text-sm">
+<dl>
+<dt><strong>Eixo 1 · Marco Legal e Governança</strong> — 5 pares</dt>
+<dd>
+66% · 🟡 AM #1 ↔︎ 🟡 MS #1 · Salvaguarda climática
+</dd>
+<dd>
+62% · 🟡 AM #1 ↔︎ 🟡 MT #2 · Salvaguarda climática
+</dd>
+<dd>
+59% · 🟡 CL Arq. Luta Popular #1 ↔︎ 🟡 CL Arq. Comunitários #1 · Conselhos de arquivos
+</dd>
+<dd>
+54% · 🟡 Acre #1 ↔︎ 🟡 Acre #3 · Governança arquivística
+</dd>
+<dd>
+52% · 🟡 RJ #2 ↔︎ 🟡 Pará #1 · Arquivos como instituições de Estado
+</dd>
+<dt><strong>Eixo 2 · Gestão de Documentos</strong> — 2 pares</dt>
+<dd>
+67% · 🟢 Piauí #1 ↔︎ 🟡 Piauí #2 · Arquivo institucional central
+</dd>
+<dd>
+53% · 🟢 RJ #1 ↔︎ 🟡 PR #1 · Gestão documental em auditorias
+</dd>
+<dt><strong>Eixo 3 · Preservação e Patrimônio</strong> — 1 par</dt>
+<dd>
+52% · 🟡 BA #1 ↔︎ 🟡 BA #2 · IA + educação patrimonial
+</dd>
+<dt><strong>Eixo 4 · Acesso e Cidadania</strong> — 3 pares</dt>
+<dd>
+67% · 🟢 RJ #1 ↔︎ 🟢 RN #1 · Acesso universal e acessibilidade
+</dd>
+<dd>
+61% · 🟢 CL FNArq #2 ↔︎ 🟢 PE #2 · Instrumentos de busca e pesquisa
+</dd>
+<dd>
+53% · 🟢 CL FNArq #1 ↔︎ 🟢 PE #1 · Formação continuada
+</dd>
+<dt><strong>Eixo 5 · Trabalho e Ensino</strong> — 7 pares</dt>
+<dd>
+68% · 🟡 RJ #1 ↔︎ 🟡 RN #1 · Regulamentação e condições de trabalho
+</dd>
+<dd>
+60% · 🟡 CL Docentes/Feparq #2 ↔︎ 🟡 PR #2 · Plano Nacional de Formação
+</dd>
+<dd>
+60% · 🟢 CL FNArq #1 ↔︎ 🟢 PR #1 · Conselhos de Arquivologia
+</dd>
+<dd>
+57% · 🟢 RJ #2 ↔︎ 🟡 AP #1 · Formação de profissionais
+</dd>
+<dd>
+53% · 🟡 RS #1 ↔︎ 🟡 RN #1 · Regulamentação da Lei 14.846
+</dd>
+<dd>
+51% · 🟢 MG #2 ↔︎ 🟢 PR #1 · Conselhos de Arquivologia
+</dd>
+<dd>
+51% · 🟡 RJ #1 ↔︎ 🟡 RS #1 · Condições de trabalho
+</dd>
+<dt><strong>Eixo 6 · Arq. Privados e Comunitários</strong> — 1 par</dt>
+<dd>
+57% · 🟡 Piauí #1 ↔︎ 🟢 Piauí #2 · Política estadual de apoio a acervos
+</dd>
+</dl>
+</div>
 </section>
 <section class="slide level2">
 
@@ -5070,216 +5250,6 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="exe-details">
 <p>🟡 parcialmente exequível (médio prazo) — Programa ministerial é viável, mas dotação orçamentária própria e abrangência nacional dependem de articulação política e disponibilidade fiscal. 🤖</p>
 </div>
-</section>
-<section class="slide level2">
-
-</section></section>
-<section>
-<section id="sec-similaridade" class="title-slide slide level1 center">
-<h1>Similaridade</h1>
-
-</section>
-<section id="análise-de-similaridade" class="slide level2">
-<h2>Análise de Similaridade</h2>
-<p>Top 30 pares (&gt;30% TF-IDF + cosseno):</p>
-<table class="caption-top">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Eixo</th>
-<th>A</th>
-<th>B</th>
-<th>Sim.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1-Marco Legal</td>
-<td>EE Mato Grosso P2</td>
-<td>EE Mato Grosso do Su P1</td>
-<td>96%</td>
-</tr>
-<tr class="even">
-<td>5-Trabalho e E</td>
-<td>CL ENEA P1</td>
-<td>EE Pará P1</td>
-<td>80%</td>
-</tr>
-<tr class="odd">
-<td>6-Arq. Privado</td>
-<td>EE Rio de Janeiro P1</td>
-<td>EE Paraná P1</td>
-<td>76%</td>
-</tr>
-<tr class="even">
-<td>4-Acesso e Cid</td>
-<td>EE Mato Grosso P2</td>
-<td>EE São Paulo P3</td>
-<td>71%</td>
-</tr>
-<tr class="odd">
-<td>5-Trabalho e E</td>
-<td>EE Rio de Janeiro P1</td>
-<td>EE Rio Grande do Nor P1</td>
-<td>68%</td>
-</tr>
-<tr class="even">
-<td>4-Acesso e Cid</td>
-<td>EE Rio de Janeiro P1</td>
-<td>EE Rio Grande do Nor P1</td>
-<td>67%</td>
-</tr>
-<tr class="odd">
-<td>2-Gestão de Do</td>
-<td>EE Piauí P1</td>
-<td>EE Piauí P2</td>
-<td>67%</td>
-</tr>
-<tr class="even">
-<td>1-Marco Legal</td>
-<td>EE Amazonas P1</td>
-<td>EE Mato Grosso do Su P1</td>
-<td>66%</td>
-</tr>
-<tr class="odd">
-<td>1-Marco Legal</td>
-<td>EE Amazonas P1</td>
-<td>EE Mato Grosso P2</td>
-<td>62%</td>
-</tr>
-<tr class="even">
-<td>4-Acesso e Cid</td>
-<td>CL FNArq P2</td>
-<td>EE Pernambuco P2</td>
-<td>61%</td>
-</tr>
-<tr class="odd">
-<td>5-Trabalho e E</td>
-<td>CL Docentes/Feparq P2</td>
-<td>EE Paraná P2</td>
-<td>60%</td>
-</tr>
-<tr class="even">
-<td>5-Trabalho e E</td>
-<td>CL FNArq P1</td>
-<td>EE Paraná P1</td>
-<td>60%</td>
-</tr>
-<tr class="odd">
-<td>1-Marco Legal</td>
-<td>CL Arquivos e Luta P P1</td>
-<td>CL Arquivos Comunitá P1</td>
-<td>59%</td>
-</tr>
-<tr class="even">
-<td>6-Arq. Privado</td>
-<td>EE Piauí P1</td>
-<td>EE Piauí P2</td>
-<td>57%</td>
-</tr>
-<tr class="odd">
-<td>5-Trabalho e E</td>
-<td>EE Rio de Janeiro P2</td>
-<td>EE Amapá P1</td>
-<td>57%</td>
-</tr>
-<tr class="even">
-<td>1-Marco Legal</td>
-<td>EE Acre P1</td>
-<td>EE Acre P3</td>
-<td>54%</td>
-</tr>
-<tr class="odd">
-<td>5-Trabalho e E</td>
-<td>EE Rio Grande do Sul P1</td>
-<td>EE Rio Grande do Nor P1</td>
-<td>53%</td>
-</tr>
-<tr class="even">
-<td>2-Gestão de Do</td>
-<td>EE Rio de Janeiro P1</td>
-<td>EE Paraná P1</td>
-<td>53%</td>
-</tr>
-<tr class="odd">
-<td>4-Acesso e Cid</td>
-<td>CL FNArq P1</td>
-<td>EE Pernambuco P1</td>
-<td>53%</td>
-</tr>
-<tr class="even">
-<td>3-Preservação</td>
-<td>EE Bahia P1</td>
-<td>EE Bahia P2</td>
-<td>52%</td>
-</tr>
-<tr class="odd">
-<td>1-Marco Legal</td>
-<td>EE Rio de Janeiro P2</td>
-<td>EE Pará P1</td>
-<td>52%</td>
-</tr>
-<tr class="even">
-<td>5-Trabalho e E</td>
-<td>EE Minas Gerais P2</td>
-<td>EE Paraná P1</td>
-<td>51%</td>
-</tr>
-<tr class="odd">
-<td>5-Trabalho e E</td>
-<td>EE Rio de Janeiro P1</td>
-<td>EE Rio Grande do Sul P1</td>
-<td>51%</td>
-</tr>
-<tr class="even">
-<td>1-Marco Legal</td>
-<td>EE Bahia P1</td>
-<td>EE Ceará P1</td>
-<td>50%</td>
-</tr>
-<tr class="odd">
-<td>2-Gestão de Do</td>
-<td>CL Arquivistas de Un P2</td>
-<td>EE Ceará P1</td>
-<td>48%</td>
-</tr>
-<tr class="even">
-<td>1-Marco Legal</td>
-<td>CL ENEA P2</td>
-<td>CL Docentes/Feparq P2</td>
-<td>48%</td>
-</tr>
-<tr class="odd">
-<td>1-Marco Legal</td>
-<td>EE Pará P1</td>
-<td>EE Pará P2</td>
-<td>48%</td>
-</tr>
-<tr class="even">
-<td>6-Arq. Privado</td>
-<td>EE Rio de Janeiro P1</td>
-<td>EE São Paulo P2</td>
-<td>48%</td>
-</tr>
-<tr class="odd">
-<td>1-Marco Legal</td>
-<td>EE Rio de Janeiro P2</td>
-<td>EE Acre P3</td>
-<td>47%</td>
-</tr>
-<tr class="even">
-<td>6-Arq. Privado</td>
-<td>CL FNArq P1</td>
-<td>CL FNArq P2</td>
-<td>46%</td>
-</tr>
-</tbody>
-</table>
 </section>
 <section class="slide level2">
 

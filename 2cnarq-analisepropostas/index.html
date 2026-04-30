@@ -213,17 +213,17 @@ document.addEventListener('DOMContentLoaded', function() {
 <h1>Metodologia</h1>
 
 </section>
-<section id="pipeline-de-processamento" class="slide level2 proposta-text-sm">
+<section id="pipeline-de-processamento" class="slide level2">
 <h2>Pipeline de Processamento</h2>
 <ul>
-<li><strong>Extração de texto</strong>: PDFs com texto via OpenDataLoader v2.2.1 (markdown estruturado); PDFs escaneados via OCR (qwen3.5:cloud)</li>
+<li><strong>Extração de texto</strong>: PDFs com texto via OpenDataLoader v2.2.1 (markdown estruturado com tabelas e ordem de leitura); PDFs escaneados (100% imagem) processados via OCR com modelo de visão qwen3.5:cloud</li>
 <li><strong>Classificação por eixo</strong>: 6 eixos temáticos conforme Documento Orientador da 2ª CNArq</li>
 <li><strong>Agrupamento por similaridade</strong>: TF-IDF com bigramas (scikit-learn) + similaridade do cosseno (limiar &gt;30%)</li>
 <li><strong>Análise de exequibilidade</strong>: gpt-5.5 (OpenAI API) com análise de legislação brasileira</li>
 </ul>
 <div class="columns">
 <div class="column" style="width:22%;">
-<a href="https://labhd.ufba.br" target="_blank"><img data-src="img/labhd-logo.jpg" style="max-height:4em; border-radius:50%; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></a>
+<a href="https://labhd.ufba.br" target="_blank"><img data-src="img/labhd-logo.jpg" style="max-height:2.5em; border-radius:50%; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></a>
 <figcaption style="font-size:0.6em;">
 LABHDUFBA
 </figcaption>

@@ -213,15 +213,19 @@ document.addEventListener('DOMContentLoaded', function() {
 <h1>Metodologia</h1>
 
 </section>
-<section id="pipeline-de-processamento" class="slide level2 proposta-text-sm">
+<section id="pipeline-de-processamento" class="slide level2">
 <h2>Pipeline de Processamento</h2>
 <ul>
-<li><strong>Extração de texto</strong>: PDFs via OpenDataLoader v2.2.1; PDFs escaneados via OCR (qwen3.5:cloud)</li>
+<li><strong>Extração de texto</strong>: PDFs com texto via OpenDataLoader v2.2.1 (markdown estruturado com tabelas e ordem de leitura); PDFs escaneados (100% imagem) processados via OCR com modelo de visão qwen3.5:cloud</li>
 <li><strong>Classificação por eixo</strong>: 6 eixos temáticos conforme Documento Orientador da 2ª CNArq</li>
-<li><strong>Similaridade</strong>: TF-IDF com bigramas (scikit-learn) + cosseno (&gt;30%)</li>
-<li><strong>Exequibilidade</strong>: gpt-5.5 (OpenAI API) com análise de legislação brasileira</li>
+<li><strong>Agrupamento por similaridade</strong>: TF-IDF com bigramas (scikit-learn) + similaridade do cosseno (limiar &gt;30%)</li>
+<li><strong>Análise de exequibilidade</strong>: gpt-5.5 (OpenAI API) com análise de legislação brasileira</li>
 </ul>
-<div style="display:flex; align-items:center; gap:0.8em;">
+<style>
+#pipeline-de-processamento .labhd-row { display:flex !important; align-items:center !important; gap:0.8em !important; }
+#pipeline-de-processamento .labhd-row p { display:flex !important; align-items:center !important; gap:0.8em !important; margin:0 !important; }
+</style>
+<div class="labhd-row">
 <p><a href="https://labhd.ufba.br" target="_blank"><img data-src="img/labhd-logo.jpg" style="max-height:2.5em; border-radius:50%; box-shadow: 0 2px 8px rgba(0,0,0,0.15);"></a> <small>Agradecimentos especiais ao <a href="https://labhd.ufba.br" target="_blank">LABHDUFBA</a> — Laboratório de Humanidades Digitais da UFBA pelo acesso aos recursos computacionais utilizados neste processo analítico dos dados.</small></p>
 </div>
 </section>

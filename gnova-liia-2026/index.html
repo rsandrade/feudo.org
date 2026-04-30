@@ -175,33 +175,66 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 <script>
-// Auto-fit: scale down content that overflows its slide
+// Auto-fit: navigate to each slide, measure content vs visible area, scale down if overflow
 function autoFitSlides() {
-  var slides = document.querySelectorAll('.reveal .slides section');
-  slides.forEach(function(slide) {
-    // Reset any previous auto-fit
-    slide.style.fontSize = '';
-    // Temporarily remove overflow hidden to measure true content height
-    var prev = slide.style.overflowY;
-    slide.style.overflowY = 'visible';
-    var contentH = slide.scrollHeight;
-    slide.style.overflowY = prev || '';
-    var visibleH = slide.clientHeight;
-    if (contentH > visibleH) {
-      // Calculate scale factor with small margin
-      var scale = (visibleH / contentH) * 0.99;
-      // Don't scale up, only down; don't go below 0.55
-      scale = Math.max(Math.min(scale, 1), 0.55);
-      slide.style.fontSize = (scale * 100) + '%';
+  if (typeof Reveal === 'undefined') return;
+  var total = Reveal.getTotalSlides();
+  var origH = Reveal.getIndices().h;
+  var origV = Reveal.getIndices().v;
+  // Pass 1: measure and store scales by slide index
+  var scales = {};
+  for (var i = 0; i < total; i++) {
+    Reveal.slide(i);
+    var s = Reveal.getCurrentSlide();
+    var r = s.getBoundingClientRect();
+    var mb = 0;
+    for (var c = 0; c < s.children.length; c++) {
+      var cr = s.children[c].getBoundingClientRect();
+      if (cr.bottom > mb) mb = cr.bottom;
     }
-  });
+    var ov = mb - r.bottom;
+    if (ov > 5) {
+      var scale = (r.height / (r.height + ov)) * 0.97;
+      scale = Math.max(Math.min(scale, 1), 0.55);
+      scales[i] = scale;
+    }
+  }
+  // Pass 2: apply scales
+  for (var i = 0; i < total; i++) {
+    Reveal.slide(i);
+    var s = Reveal.getCurrentSlide();
+    s.style.fontSize = '';
+    if (scales[i]) {
+      s.style.fontSize = (scales[i] * 100) + '%';
+      s.setAttribute('data-autofit', scales[i]);
+    }
+  }
+  // Restore original position
+  Reveal.slide(origH, origV);
 }
-// Run after Reveal.js finishes layout
+// Lazy auto-fit: also check on slide change in case content changes
+function autoFitCurrentSlide() {
+  var s = Reveal.getCurrentSlide();
+  if (s && s.getAttribute('data-autofit')) return; // already fitted
+  var r = s.getBoundingClientRect();
+  var mb = 0;
+  for (var c = 0; c < s.children.length; c++) {
+    var cr = s.children[c].getBoundingClientRect();
+    if (cr.bottom > mb) mb = cr.bottom;
+  }
+  var ov = mb - r.bottom;
+  if (ov > 5) {
+    var scale = (r.height / (r.height + ov)) * 0.97;
+    scale = Math.max(Math.min(scale, 1), 0.55);
+    s.style.fontSize = (scale * 100) + '%';
+    s.setAttribute('data-autofit', scale);
+  }
+}
 if (typeof Reveal !== 'undefined') {
   Reveal.on('ready', autoFitSlides);
-  Reveal.on('slidechanged', autoFitSlides);
+  Reveal.on('slidechanged', autoFitCurrentSlide);
 }
-window.addEventListener('load', function() { setTimeout(autoFitSlides, 500); });
+window.addEventListener('load', function() { setTimeout(autoFitSlides, 800); });
 </script>
 </div>
 </section>

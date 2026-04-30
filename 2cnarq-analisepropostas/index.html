@@ -205,6 +205,34 @@ document.addEventListener('DOMContentLoaded', function() {
 <p><small>61 prop · 🟢24 🟡36 🔴1</small></p>
 </div></div>
 </section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="sec-metodologia" class="title-slide slide level1 center">
+<h1>Metodologia</h1>
+
+</section>
+<section id="pipeline-de-processamento" class="slide level2">
+<h2>Pipeline de Processamento</h2>
+<ul>
+<li><strong>Extração de texto</strong>: PDFs com texto via OpenDataLoader v2.2.1 (markdown estruturado com tabelas e ordem de leitura); PDFs escaneados (100% imagem) processados via OCR com modelo de visão qwen3.5:cloud</li>
+<li><strong>Classificação por eixo</strong>: 6 eixos temáticos conforme Documento Orientador da 2ª CNArq</li>
+<li><strong>Agrupamento por similaridade</strong>: TF-IDF com bigramas (scikit-learn) + similaridade do cosseno (limiar &gt;30%)</li>
+<li><strong>Análise de exequibilidade</strong>: gpt-5.5 (OpenAI API) com análise de legislação brasileira</li>
+</ul>
+<div class="columns">
+<div class="column" style="width:22%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://labhd.ufba.br" target="_blank"><img data-src="img/labhd-logo.jpg" style="border-radius:50%; box-shadow: 0 2px 8px rgba(0,0,0,0.15);" data-max-height="3.5em"></a></p>
+<figcaption>LABHDUFBA</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:76%;">
+<p><small>Agradecimentos especiais ao <a href="https://labhd.ufba.br">LABHDUFBA</a> — Laboratório de Humanidades Digitais da UFBA pelo acesso aos recursos computacionais utilizados neste processo analítico dos dados.</small></p>
+</div></div>
+</section>
 <section id="sobre-esta-análise" class="slide level2">
 <h2>Sobre esta Análise</h2>
 <ul>

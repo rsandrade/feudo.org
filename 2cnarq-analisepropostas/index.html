@@ -167,7 +167,29 @@ Ricardo Sodré Andrade<br><span style="font-size:0.7em;color:#666;font-weight:no
 /* Prevent text overflow */
 .reveal .slides section { overflow-y: hidden !important; }
 .reveal .slides section .proposta-block { word-wrap: break-word !important; overflow-wrap: break-word !important; }
+
+/* Mobile link banner — hidden on desktop, shown on small screens */
+.mobile-link-banner {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #1a73e8;
+  color: white;
+  text-align: center;
+  padding: 0.6em 1em;
+  z-index: 9999;
+  font-size: 0.85em;
+}
+.mobile-link-banner a { color: #fff !important; text-decoration: underline; font-weight: 600; }
+@media (max-width: 768px) and (orientation: portrait) {
+  .mobile-link-banner { display: block !important; }
+}
 </style>
+</div>
+<div class="mobile-link-banner">
+<p>📖 Versão para celular disponível — <a href="./documento.html">abrir aqui</a></p>
 </div>
 </section>
 <section>

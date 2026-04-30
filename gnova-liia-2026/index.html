@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.7.30">
 
   <meta name="author" content="Ricardo Sodré Andrade">
-  <title>GNova/LIIA 2026 — Possibilidades de IA para o Arquivo Nacional</title>
+  <title>GNova/LIIA 2026: Possibilidades de IA para o Arquivo Nacional</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -128,7 +128,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">GNova/LIIA 2026 — Possibilidades de IA para o Arquivo Nacional</h1>
+  <h1 class="title">GNova/LIIA 2026: Possibilidades de IA para o Arquivo Nacional</h1>
   <p class="subtitle">&nbsp;</p>
 
 <div class="quarto-title-authors">
@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if (isMobile) {
     var banner = document.createElement('div');
     banner.id = 'mobile-link-banner';
-    banner.innerHTML = '📖 Versão para leitura em celular — <a href="./documento.html">abrir aqui</a>';
+    banner.innerHTML = '📖 Versão para leitura em celular: <a href="./documento.html">abrir aqui</a>';
     document.body.appendChild(banner);
   }
 });
@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </section>
 <section id="sec-ia-ampliacao" class="slide level2">
 <h2>IA como ampliação da capacidade pública</h2>
-<p>A IA, tratada como <strong>instrumento de ampliação da capacidade pública</strong> do Arquivo Nacional — e não como substituição do trabalho técnico arquivístico —, pode transformar <strong>gargalos históricos em oportunidades</strong> de serviço ao cidadão, ao pesquisador e aos órgãos da Administração Pública Federal.</p>
+<p>A IA, tratada como <strong>instrumento de ampliação da capacidade pública</strong> do Arquivo Nacional (e não como substituição do trabalho técnico arquivístico), pode transformar <strong>gargalos históricos em oportunidades</strong> de serviço ao cidadão, ao pesquisador e aos órgãos da Administração Pública Federal.</p>
 </section>
 <section class="slide level2">
 
@@ -272,21 +272,21 @@ document.addEventListener('DOMContentLoaded', function() {
 <section id="sec-sumario-ideias" class="slide level2">
 <h2>Sumário das ideias</h2>
 <ol type="1">
-<li><a href="#/sec-a1"><strong>A1 — Assistente de referência</strong></a> — Chatbot RAG sobre fundos selecionados</li>
-<li><a href="#/sec-a2"><strong>A2 — Busca semântica</strong></a> — API de busca semântica sobre descrições</li>
-<li><a href="#/sec-d1"><strong>D1 — Detecção de dados pessoais</strong></a> — Conformidade LGPD</li>
-<li><a href="#/sec-a4"><strong>A4 — Guias temáticos</strong></a> — Rascunhos de guias temáticos</li>
-<li><a href="#/sec-o1"><strong>O1 — Transcrição automatizada</strong></a> — OCR/HTR de documentos manuscritos</li>
+<li><a href="#/sec-a1"><strong>A1, Assistente de referência</strong></a>: Chatbot RAG sobre fundos selecionados</li>
+<li><a href="#/sec-a2"><strong>A2, Busca semântica</strong></a>: API com IA sobre descrições</li>
+<li><a href="#/sec-d1"><strong>D1, Detecção de dados pessoais</strong></a>: LGPD e localização de documentos</li>
+<li><a href="#/sec-a4"><strong>A4, Guias temáticos</strong></a>: Rascunhos de guias temáticos</li>
+<li><a href="#/sec-o1"><strong>O1, Transcrição automatizada</strong></a>: OCR/HTR de documentos manuscritos</li>
 </ol>
 <p><a href="#/sec-comparativo">📊 Visão comparativa</a></p>
 </section>
 <section id="sec-a1" class="slide level2">
-<h2>A1 — Assistente de referência</h2>
+<h2>A1, Assistente de referência</h2>
 <p><a href="#/sec-sumario-ideias">⬆ Sumário</a></p>
 <p><strong>Problema</strong>: Pesquisadores não encontram documentos nos instrumentos de pesquisa</p>
 <p><strong>MVP possível</strong>: Chatbot RAG sobre 5-10 fundos selecionados (<a href="https://recortes.farinha.info">exemplo: recortes.farinha.info</a>)</p>
 <ul>
-<li><strong>Impacto</strong>: Alto — acesso ampliado e mais rápido</li>
+<li><strong>Impacto</strong>: Alto, acesso ampliado e mais rápido</li>
 <li><strong>Custo</strong>: Médio</li>
 <li><strong>Dificuldade</strong>: Média</li>
 <li><strong>Riscos</strong>: Alucinação, qualidade dos instrumentos</li>
@@ -295,40 +295,40 @@ document.addEventListener('DOMContentLoaded', function() {
 </ul>
 </section>
 <section id="sec-a2" class="slide level2">
-<h2>A2 — Busca semântica</h2>
+<h2>A2, Busca semântica</h2>
 <p><a href="#/sec-sumario-ideias">⬆ Sumário</a></p>
-<p><strong>Problema</strong>: Busca por palavras-chave perde documentos relevantes</p>
-<p><strong>MVP possível</strong>: API de busca semântica sobre 5.000 descrições</p>
+<p><strong>Problema</strong>: A busca por palavras-chave no SIAN e nos instrumentos de pesquisa perde documentos relevantes: um pesquisador que busca “escravidão” não encontra fundos descritos com “cativeiro”, “cativo” ou “senzalas”</p>
+<p><strong>MVP possível</strong>: API que usa modelos de IA (embeddings) para buscar pelo significado das descrições, não só pelas palavras exatas, aplicada a 5.000 descrições como demonstração</p>
 <ul>
-<li><strong>Impacto</strong>: Alto — recuperação mais precisa</li>
-<li><strong>Custo</strong>: Baixo-Médio</li>
+<li><strong>Impacto</strong>: Alto, recuperação mais precisa e intuitiva</li>
+<li><strong>Custo</strong>: Baixo a médio</li>
 <li><strong>Dificuldade</strong>: Baixa</li>
 <li><strong>Riscos</strong>: Qualidade inconsistente das descrições</li>
-<li><strong>Setores</strong>: TI, Descrição</li>
-<li><strong>Por que é competitiva</strong>: Tecnologia madura, baixo risco, baixo custo</li>
+<li><strong>Setores</strong>: TI, Descrição, Referência</li>
+<li><strong>Por que é competitiva</strong>: Tecnologia madura de IA, baixo risco, baixo custo, escala federativa</li>
 </ul>
 </section>
 <section id="sec-d1" class="slide level2">
-<h2>D1 — Detecção de dados pessoais</h2>
+<h2>D1, Detecção de dados pessoais</h2>
 <p><a href="#/sec-sumario-ideias">⬆ Sumário</a></p>
-<p><strong>Problema</strong>: Identificar dados pessoais em massas documentais é inviável manualmente — tanto para proteger (LGPD) quanto para localizar documentos de pessoas em acervos históricos</p>
-<p><strong>MVP possível</strong>: Modelo para detectar CPF, RG, endereços e nomes de pessoas</p>
+<p><strong>Problema</strong>: Identificar dados pessoais em massas documentais é inviável manualmente. A detecção automatizada serve a dois propósitos complementares: proteger dados sensíveis (conformidade LGPD) e localizar documentos de pessoas em acervos permanentes, facilitando o acesso ao cidadão e ao pesquisador</p>
+<p><strong>MVP possível</strong>: Modelo de IA que detecta CPF, RG, endereços e nomes de pessoas, com classificação automática entre dados a proteger e dados que viabilizam a localização de documentos</p>
 <ul>
-<li><strong>Impacto</strong>: Alto — conformidade LGPD e localização de documentos de pessoas</li>
+<li><strong>Impacto</strong>: Alto, conformidade LGPD e localização de documentos de pessoas</li>
 <li><strong>Custo</strong>: Médio</li>
 <li><strong>Dificuldade</strong>: Média</li>
 <li><strong>Riscos</strong>: Falsos negativos, dados sensíveis</li>
 <li><strong>Setores</strong>: Gestão documental, Jurídico, Referência, TI</li>
-<li><strong>Por que é competitiva</strong>: Obrigação legal + serviço ao cidadão/pesquisador, escala para APF</li>
+<li><strong>Por que é competitiva</strong>: Obrigação legal e serviço ao cidadão e pesquisador, escala para APF</li>
 </ul>
 </section>
 <section id="sec-a4" class="slide level2">
-<h2>A4 — Guias temáticos</h2>
+<h2>A4, Guias temáticos</h2>
 <p><a href="#/sec-sumario-ideias">⬆ Sumário</a></p>
 <p><strong>Problema</strong>: Produção artesanal de guias limita cobertura temática</p>
 <p><strong>MVP possível</strong>: Ferramenta que gera rascunhos de guias sobre 2-3 temas</p>
 <ul>
-<li><strong>Impacto</strong>: Alto — multiplicação de guias</li>
+<li><strong>Impacto</strong>: Alto, multiplicação de guias</li>
 <li><strong>Custo</strong>: Médio</li>
 <li><strong>Dificuldade</strong>: Média</li>
 <li><strong>Riscos</strong>: Alucinação, qualidade da curadoria</li>
@@ -337,17 +337,17 @@ document.addEventListener('DOMContentLoaded', function() {
 </ul>
 </section>
 <section id="sec-o1" class="slide level2 proposta-text-sm">
-<h2>O1 — Transcrição automatizada (OCR/HTR)</h2>
+<h2>O1, Transcrição automatizada (OCR/HTR)</h2>
 <p><a href="#/sec-sumario-ideias">⬆ Sumário</a></p>
-<p><strong>Problema</strong>: Milhões de documentos manuscritos digitalizados em imagem são invisíveis para pesquisa — sem texto, não podem ser buscados, descritos ou analisados</p>
+<p><strong>Problema</strong>: Milhões de documentos manuscritos digitalizados em imagem são invisíveis para pesquisa: sem texto, não podem ser buscados, descritos ou analisados</p>
 <p><strong>MVP possível</strong>: Modelo HTR fine-tuned para português histórico aplicado a 2-3 fundos</p>
 <ul>
-<li><strong>Impacto</strong>: Alto — destrava acesso a acervos inteiros</li>
+<li><strong>Impacto</strong>: Alto, destrava acesso a acervos inteiros</li>
 <li><strong>Custo</strong>: Médio</li>
 <li><strong>Dificuldade</strong>: Média</li>
-<li><strong>Riscos</strong>: Qualidade variável por caligrafia/conservação</li>
+<li><strong>Riscos</strong>: Qualidade variável por caligrafia e conservação</li>
 <li><strong>Setores</strong>: Referência, TI, Digitalização</li>
-<li><strong>Por que é competitiva</strong>: NARA e TNA já têm programas de HTR; LABHDUFBA tem experiência; baixo risco jurídico</li>
+<li><strong>Por que é competitiva</strong>: NARA e TNA já têm programas de HTR, baixo risco jurídico</li>
 </ul>
 </section>
 <section id="sec-comparativo" class="slide level2 proposta-text-sm">
@@ -375,7 +375,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>A1</strong> — Assistente referência</td>
+<td style="text-align: left;"><strong>A1</strong>, Assistente referência</td>
 <td style="text-align: left;">Pesquisadores não encontram docs</td>
 <td style="text-align: left;">Chatbot RAG (5-10 fundos)</td>
 <td style="text-align: left;">Alto</td>
@@ -384,34 +384,34 @@ document.addEventListener('DOMContentLoaded', function() {
 <td style="text-align: left;">Problema claro, MVP demonstrável</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>A2</strong> — Busca semântica</td>
+<td style="text-align: left;"><strong>A2</strong>, Busca semântica</td>
 <td style="text-align: left;">Palavras-chave perdem docs</td>
-<td style="text-align: left;">API busca semântica (5k desc.)</td>
+<td style="text-align: left;">API com IA (5k desc.)</td>
 <td style="text-align: left;">Alto</td>
 <td style="text-align: center;">Baixo-Méd</td>
 <td style="text-align: center;">Baixa</td>
-<td style="text-align: left;">Tecnologia madura, baixo custo</td>
+<td style="text-align: left;">Tecnologia madura de IA, baixo custo</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>D1</strong> — Detecção dados pessoais</td>
-<td style="text-align: left;">LGPD + localizar docs de pessoas</td>
+<td style="text-align: left;"><strong>D1</strong>, Detecção dados pessoais</td>
+<td style="text-align: left;">LGPD e localizar docs de pessoas</td>
 <td style="text-align: left;">Modelo CPF/RG/nomes/endereços</td>
 <td style="text-align: left;">Alto</td>
 <td style="text-align: center;">Médio</td>
 <td style="text-align: center;">Média</td>
-<td style="text-align: left;">Obrigação legal + serviço ao cidadão</td>
+<td style="text-align: left;">Obrigação legal e serviço ao cidadão</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>A4</strong> — Guias temáticos</td>
+<td style="text-align: left;"><strong>A4</strong>, Guias temáticos</td>
 <td style="text-align: left;">Produção artesanal limita cobertura</td>
 <td style="text-align: left;">Rascunhos de guias (2-3 temas)</td>
 <td style="text-align: left;">Alto</td>
 <td style="text-align: center;">Médio</td>
 <td style="text-align: center;">Média</td>
-<td style="text-align: left;">Produtividade + validação humana</td>
+<td style="text-align: left;">Produtividade com validação humana</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>O1</strong> — Transcrição (HTR)</td>
+<td style="text-align: left;"><strong>O1</strong>, Transcrição (HTR)</td>
 <td style="text-align: left;">Docs manuscritos sem texto buscável</td>
 <td style="text-align: left;">HTR para português histórico (2-3 fundos)</td>
 <td style="text-align: left;">Alto</td>
@@ -459,7 +459,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <h2>Imediato (1-2 semanas)</h2>
 <ol type="1">
 <li><strong>Escolher 2 ou 3 ideias finalistas</strong> entre as cinco identificadas</li>
-<li><strong>Mapear a disponibilidade e a qualidade dos dados</strong> necessários para cada ideia — verificar com TI e áreas finalísticas</li>
+<li><strong>Mapear a disponibilidade e a qualidade dos dados</strong> necessários para cada ideia, verificar com TI e áreas finalísticas</li>
 <li><strong>Identificar os setores</strong> que precisariam se envolver e confirmar a disponibilidade de arquivistas para a equipe do projeto</li>
 </ol>
 </section>

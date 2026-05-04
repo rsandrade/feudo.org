@@ -5,6 +5,7 @@ date: "2015-10-14"
 categories: [arquivista-net]
 description: "Anúncio de disponibilidade do livro A Ordem dos Arquivistas: centésimo."
 draft: false
+image: /posts/images/order-of-archivists-on-sale.jpg
 ---
 
 A fantasy story with archivists in a fantastic world.

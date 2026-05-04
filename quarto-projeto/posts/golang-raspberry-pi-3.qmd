@@ -5,6 +5,7 @@ date: "2018-06-25"
 categories: [arquivista-net]
 description: "Tutorial de configuração do ambiente Golang no Raspberry Pi 3."
 draft: false
+image: /posts/images/golang-raspberry-pi-3.jpg
 ---
 
 I decided to learn the programming language Go weeks ago after a long time looking for a second language. My first one is my lovely PHP.

@@ -5,6 +5,7 @@ date: "2008-04-12"
 categories: [arquivista-net]
 description: "Artigo sobre tendências e perspectivas da descrição arquivística na Web."
 draft: false
+image: /posts/images/descricao-arquivistica-web.jpg
 ---
 
 Falar de descrição arquivística é falar de representação da informação, ou representação arquivística, como aponta a autora Elizabeth Yakel (2003). Na Arquivologia, estamos acostumados a ouvir ou ler que temos que descrever o conteúdo e o contexto, isso para prover acesso.

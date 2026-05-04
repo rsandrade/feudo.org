@@ -5,8 +5,26 @@ date: "2019-03-01"
 categories: [medium]
 description: "Conheça o movimento dos hackerspaces no Brasil, com destaque para o Raul Hacker Club de Salvador, espaços de colaboração, aprendizado e inclusão tecnológica."
 draft: false
+
+image: /posts/images/hackerspaces-espacos-de-tecnologia-etica-e-solidariedade.jpg
 ---
 
-Na contramão da cultura individualista, os hackerspaces resistem como espaços de colaboração, solidariedade e partilha de conhecimento. Este artigo apresenta o Raul Hacker Club de Salvador, que promove atividades como a Cripto Axé (criptoparty) e o projeto Crianças Hackers, que ensina crianças a construir, desconstruir e modificar tecnologias como forma de liberdade.
-
-Leia o artigo completo no [Medium](https://medium.com/@ricsodre/hackerspaces-espa%C3%A7os-de-tecnologia-%C3%A9tica-e-solidariedade-d136e91b1c3e).
+Na contramão da cultura individualista, desatenta com o próximo e egoísta no compartilhamento, ainda há espaços de vários tipos que resistem, que se entrincheiram numa contracultura de promoção da colaboração, solidariedade e partilha de informação. Os hackerspaces representam um desses tipos de espaço.
+Há algumas décadas há um debate constante sobre o que é o hacker. Há muito os que estão às voltas com computadores, software e redes advogam que o significado quase nunca é bem empregado, principalmente pela mídia e pelos produtos culturais de massa. O indivíduo hacker é, essencialmente, um curioso, essa é a melhor definição, pra mim.
+Em diversas capitais do Brasil há hackerspaces, espaços que funcionam como laboratório, espaços de troca de conhecimento e disponibilidade de recursos aos seus membros. Os membros geralmente se consideram hackers, aceitando e se identificando com um entendimento mais racional e condizente aos espaços, que são promotores de atividades sociais, solidariedade, ética e conhecimento.
+Apresento nesse texto um exemplo de Hackerspace, para ilustrar esse tipo de espaço e as criaturas que nele habitam. Em Salvador, há o Raul Hacker Club. No site, há uma descrição inicial que afirma ser o coletivo “um grupo de pessoas interessadas em usar, remixar e compartilhar tecnologia, aprendizado, diversão e cultura de forma colaborativa, aberta, ousada e livre”.
+Na prática, o Raul HC aproveita o conhecimento de seus membros e de interessados externos para promover atividades que permitam a divulgação de conteúdos que dificilmente estão disponíveis de forma acessível e, principalmente, gratuita ou com baixo custo. Estamos falando de estudantes e profissionais que disponibilizam seu tempo para socializar aquilo que tiveram o privilégio de acumular e ter acesso.
+Get Ricardo S Andrade’s stories in your inbox
+Join Medium for free to get updates from this writer.
+Subscribe
+Remember me for faster sign in
+No ano de 2018, além de diversas atividades de aprendizado na área de programação, eletrônica, microcontroladores, segurança da informação, infraestrutura de rede e muitos outros. Um exemplo foi a Cripto Axé, uma criptoparty cujo objetivo era alertar, ensinar e auxiliar pessoas a se protegerem de ataques cibernéticos em seus dispositivos eletrônicos, dos smartphones aos computadores móveis. O interesse das pessoas em se proteger contra invasões, vigilância não autorizada, crackers, trojans, escutas e outras ameaças está em alta demanda, a evidência disso é que o evento estava lotado!
+O Raul HC possui diversos projetos e todos importantes para quem organiza e para quem participa, mas um dos que mais chama a atenção de quem conhece o Raul é o Crianças Hackers. Sim! A transferência de conhecimento é realizada não apenas para outros jovens e adultos, mas para crianças também!
+Usamos a palavra Hacker que, no seu significado original, se refere à pessoas que resolvem problemas de forma criativa, bonita, inovadora. A cultura hacker é caracterizada pela abertura, pelo compartilhamento e pela liberdade. Ampliamos o sentido do termo, porque acreditamos que essas características devem ser levadas a todas as áreas de conhecimento.
+Portanto, muito mais que contribuir para que nossas crianças aprendam a manusear aparelhos tecnológicos, trabalhamos para que elas aprendam que as tecnologias são criações humanas e portanto, podem e devem ser construídas, desconstruídas e modificadas, isso é uma forma de liberdade.
+As atividades estão relacionadas com a oferta do acesso a crianças, de todas as classes sociais, ao aspecto cognitivo, educacional e social da tecnologia. As crianças “manuseiam equipamentos de informática e outros aparelhos eletrônicos, sob supervisão de um ou mais adultos, orientando oprocesso de descoberta lúdica, livre e desimpedida, brincando com peças e estrutura de encaixes, comuns a esses equipamentos e explicando o funcionamento e engenharia destes”.
+Os eventos do Crianças Hackers e todos os outros projetos do Raul Hacker Club costumam ser gratuitas. Há uma tendência a cobrar um valor de participação que permita compor o orçamento necessário para manter a sede e as atividades do hackerspace, mas é pacífico o entendimento de que valores são cobrados daqueles que podem pagar, uma vez que um dos princípios é que o hackerspace seja vetor de inclusão na cidade.
+Nesses tempos de recessão, de crise, de capitalismo, individualismo e outros problemas, o Raul Hacker Club sobrevive com a participação coletiva daqueles que acreditam que um espaço como esse precisa existir. Novos membros e apoiadores são uma necessidade urgente. Se você se interessou pelo Raul, acesse https://apoia.se/raulhc e comece hoje mesmo a apoiar esse espaço com qualquer valor mensal.
+Seu apoio financeiro é muito importante e sua presença nos eventos será ótimo para o coletivo. :)
+—
+Meu objetivo é escrever 30 textos em 30 dias. Este é o 19/30. Os textos anteriores podem ser encontrados em https://medium.com/@ricsodre

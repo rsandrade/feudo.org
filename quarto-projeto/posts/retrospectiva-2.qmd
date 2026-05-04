@@ -5,8 +5,44 @@ date: "2019-03-01"
 categories: [medium, retrospectiva]
 description: "Segunda retrospectiva da meta de 30 textos em 30 dias, reunindo os 10 artigos seguintes sobre carteiras de Bitcoin, preservação digital, e-mail, Indie Hackers, Linux, redes sociais e hackerspaces."
 draft: false
+
+image: /posts/images/retrospectiva-2.jpg
 ---
 
-Segunda retrospectiva da jornada de 30 textos em 30 dias. Este artigo compila os 10 textos seguintes da série, abordando: carteiras de Bitcoin e a importância da autocustódia, preservação digital de documentos pessoais, dicas para comunicação por e-mail, o movimento Indie Hackers, recuperação da privacidade de e-mails, distribuições Linux ao longo da vida, o futuro das redes sociais, dilemas entre React Native e Flutter, planos para o aplicativo do Archives World Map e os hackerspaces como espaços de tecnologia e solidariedade.
-
-Leia o artigo completo no [Medium](https://medium.com/@ricsodre/retrospectiva-2-7236bdd45b79).
+E mais 10 textos foram produzidos. Novamente, temas diversos para dar conta de publicar 30 textos em 30 dias. Estou devendo, a média de 1 texto por dia não está sendo cumprida. Vamos ver se até o final eu consigo recuperar.
+Carteiras de Bitcoin: Entenda e garanta a posse de seus ativos
+O básico para quem quer adquirir e guardar seus bitcoins com segurança. Não guarde na exchange. Se não é sua carteira, não são seus bitcoins.
+Link
+Preservação Digital e nossos documentos pessoais: confiar em serviços de terceiros é arriscado
+Meus dois centavos sobre a perspectiva dos documentos pessoais, a preservação digital e o uso de serviços de terceiros para armazenamento.
+Link
+Algumas coisas para considerar antes de enviar um e-mail para pessoas ocupadas (ou seja, qualquer pessoa)
+Pessoas ocupadas, atualmente isso quer dizer qualquer pessoa, precisam da compreensão dos outros. As caixas de entrada de correio eletrônico estão lotadas e as pessoas estão cada vez mais deixando mensagens não lidas por falta de tempo.
+Link
+Motivos pelos quais estou acompanhando atentamente o movimento Indie Hackers
+Conheça o movimento dos Indie Hackers e saiba de meu interesse nesse grupo de fundadores de negócios.
+Link
+Vasculham tudo sobre nós: é hora de recuperar a privacidade de nossos e-mails
+Alternativas para manter sua correspondência eletrônica segura, frente aos avanços corporativos e de serviços gratuitos em direção à nossa privacidade.
+Get Ricardo S Andrade’s stories in your inbox
+Join Medium for free to get updates from this writer.
+Subscribe
+Remember me for faster sign in
+Link
+Os sabores de Linux que eu já usei: do adolescente curioso ao adulto sem tempo
+Momento de lembrar algumas das distribuições Linux que utilizei e o que me lembro delas.
+Link
+Se as redes sociais estão mudando, para onde todos nós estamos indo?
+Considerações sobre como as redes sociais refletem nossos comportamentos e como podemos entender as mudanças que virão pela tendência que parece se apresentar no momento.
+Link
+Dilemas de uma escolha entre React Native e Flutter para desenvolvimento de aplicativos Android e iOS
+Minhas aventuras esporádicas nas terras do desenvolvimento de software para dispositivos móveis. Entre duas plataformas, escolhi uma.
+Link
+Um aplicativo móvel para o Archives World Map: planos para logo quando for possível
+E se eu estou tentando aprender a programar, nada como fazer algo simples, mas útil: um aplicativo para o Archives World Map!
+Link
+Hackerspaces: espaços de tecnologia, ética e solidariedade
+Hackerspaces como espaços de socialização da tecnologia, prática da ética e da solidariedade. Apresentando o Hackerspace de Salvador, Bahia, que precisa de seu apoio e participação!
+Link
+—
+Meu objetivo é escrever 30 textos em 30 dias. Este é o 20/30. Os textos anteriores podem ser encontrados em https://medium.com/@ricsodre

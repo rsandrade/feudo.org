@@ -5,8 +5,34 @@ date: "2019-03-01"
 categories: [medium]
 description: "Alternativas para recuperar a privacidade da correspondência eletrônica, incluindo ProtonMail, RiseUp, Mailpile e Mail-in-a-box, em contraste com o modelo de negócios do Gmail."
 draft: false
+
+image: /posts/images/vasculham-tudo-sobre-nos-recuperar-privacidade-email.jpg
 ---
 
-Empresas como a Google vasculham nossa correspondência para direcionar publicidade, transformando a privacidade em moeda de troca por serviços gratuitos. Este artigo apresenta alternativas para recuperar o controle sobre os e-mails: ProtonMail (criptografia na Suíça), RiseUp (para ativistas), Mailpile (armazenamento local seguro) e Mail-in-a-box (servidor próprio de e-mail).
-
-Leia o artigo completo no [Medium](https://medium.com/@ricsodre/vasculham-tudo-sobre-n%C3%B3s-%C3%A9-hora-de-recuperar-a-privacidade-de-nossos-e-mails-2956ac0cfe1a).
+Há muitos anos, com a chegada da internet comercial ao Brasil, as empresas competiam entre si para oferecer o melhor serviço de endereço eletrônico.
+O serviço de e-mail sempre funcionou basicamente da mesma forma desde que foi criado e o protocolo é rigidamente controlado, sem oferecer muito espaço para inovação por parte das empresas. Assim, a disputa inicial foi sobre quem oferecia mais espaço de armazenamento.
+O Hotmail dava alguns megabytes. O IG mais outros tantos. O Zipmail acrescentou um pouco e ganhou um empurrão com a divulgação da UOL. O e-mail do POP dava 50 MB e jogou a partida para outro nível. Logo o Yahoo entrou em campo e mostrou a que veio. Muitas outras vieram. Por fim, a Google lançou uma interface de webmail inovadora e jogou o espaço de armazenamento para a casa dos 2 gigabytes e mais um pouco, o espaço aumentava todo dia, continuamente.
+Eventualmente, alguns serviços foram cancelados. Outros foram modificados. Alguns comprados, junto com a carteira de clientes (quem é o produto?). Não tenho dados, mas acho que o Gmail, da Google, é uma das vencedoras dessa etapa da internet.
+Todo investimento precisa ser recuperado, empresas existem para gerar lucro e a gigante da tecnologia ganhadora é, na realidade, uma senhora empresa de publicidade. Grande parte da receita da Google é oriunda dos Adwords, aqueles banners que aparecem nos sites das pessoas e nos resultados de seu motor de busca. O pote de ouro desse mercado é mostrar o banner certo para a pessoa certa e isso é aprimorado com base no conhecimento que a empresa possui dos usuários.
+Resolveram mandar os robôs para vasculhar a correspondência de todos os usuários do Gmail, de modo a aprender sobre os costumes e interesses de cada um deles. Chegaram a usar como slogan ou coisa semelhante algo como “com espaço de sobra, não precisa mais apagar seus e-mails” — pois, para esse modelo de negócio, é melhor deixar que acumulemos informações nessa imensa base de conhecimento — quanto mais espaço usarmos, melhor.
+Gerar estatística. Definir perfis. Não somos mais a média de todos, agora somos tratados individualmente e a unidade demográfica relevante para o direcionamento das propagandas é cada um de nós separadamente. Parece que esquecemos que isso significa ter pouca privacidade, no final das contas.
+Vendemos nossa privacidade a troco de serviços gratuitos e fáceis de utilizar. Para recuperar o que foi perdido, precisamos abrir mão do que foi dado. Algumas opções são mais difíceis de utilizar, outras limitam o espaço de armazenamento que temos e algumas são pagas. Exercer nossos direitos, em boa parte das vezes, significa assumirmos alguns transtornos, é verdade.
+Se você está com disposição a reaver sua privacidade em relação às mensagens de e-mails, darei algumas sugestões de como fazer isso, a seguir. Verifique se alguma delas está próxima de seus conhecimentos atuais de uso tecnológico e considere reassumir a posse e privacidade de sua correspondência eletrônica.
+ProtonMail
+O ProtonMail (https://protonmail.com/)é um serviço de e-mail com base na Suiça que aproveita a legislação daquele país para oferecer serviços seguros. É a opção mais fácil que alguém pode escolher., entre opções existentes.
+Get Ricardo S Andrade’s stories in your inbox
+Join Medium for free to get updates from this writer.
+Subscribe
+Remember me for faster sign in
+As contas podem ser gratuitas, com limitação de 500 MB e envio de 150 mensagens por dia ou podem ser Premium, Visionary ou Business, cada um com valores de gigabytes de espaço de armazenamento e alguns milhares de envios de mensagem por dia de limite.
+RiseUp
+Ativistas ou pessoas envolvidas com atividades que podem promover melhorias sociais e libertadoras, como jornalistas, podem solicitar um e-mail na RiseUp (https://riseup.net/pt).
+As mensagens são mantidas criptografas nos servidores, uma vez que já ocorreu da sede do serviço ser alvo de ações da polícia local.
+Mailpile
+Mailpile (https://www.mailpile.is/) é na verdade um cliente de e-mail que vai baixar todas as suas mensagens e armazenar de forma segura em seu computador. A versão atualmente disponível é para Linux, as de Mac e Windows estão passando por revisão.
+Imagine que o Mailpile é uma solução para manter seu webmail em seu computador e não na internet. Isso faz com que suas mensagens estejam em seu próprio equipamento, o que faria com que você pudesse realmente dizer que têm a posse de suas mensagens.
+Mail-in-a-box
+Uma solução fácil, se comparada com outras opções, para você manter seu próprio serviço de e-mail. Mail-in-a-box (https://mailinabox.email/) permite a qualquer um configurar um servidor de emails numa máquina virtual (na Digital Ocean ou na Amazon Web Services, por exemplo) ou em seu próprio equipamento em casa ou na empresa, sem as muitas complicações e detalhes que até então eram necessários para manter um serviço funcional e, principalmente, seguro.
+A posse das mensagens já começa na recepção e envio de sua correspondência eletrônica. Sem necessidade dos serviços de terceiros, a não ser na contratação da máquina virtual numa provedora de serviços cloud.
+—
+Meu objetivo é escrever 30 textos em 30 dias. Este é o 14/30. Os textos anteriores podem ser encontrados em https://medium.com/@ricsodre

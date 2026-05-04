@@ -5,8 +5,22 @@ date: "2019-03-15"
 categories: [medium]
 description: "O projeto Archives World Map é um mapa colaborativo que reúne esforços para mapear instituições que permitem o acesso público a documentos históricos ao redor do mundo."
 draft: false
+
+image: /posts/images/mapeando-todos-os-acervos-documentais-do-mundo-com-o-archives-world-map.png
 ---
 
-O Archives World Map é um mapa colaborativo que pretende reunir esforços de pessoas no mundo todo para mapear instituições que permitem o acesso público aos documentos que possuem em sua custódia. Na área de Arquivologia, acervos precisam ser mantidos perto da comunidade à qual se referem — o princípio da territorialidade. No momento da publicação, o projeto contava com 774 instituições cadastradas, sendo 43 brasileiras.
-
-Leia o artigo completo no [Medium](https://medium.com/@ricsodre/mapeando-todos-os-acervos-documentais-do-mundo-com-o-archives-world-map-d145b0033eee).
+Cada pino representa um portal para a história de um grupo social
+Há um número enorme de acervos documentais produzidos pela humanidade e armazenado em instituições ao redor do planeta. Muitas instituições sequer sabem o que possuem e guardam o que é histórico da forma contrária ao que deveriam: impedindo o acesso público.
+Acervos são para serem acessados, não apenas pelo público profissional, como os historiadores, mas pela população em geral. Na área de Arquivologia, um campo de estudos que se ocupa de entender os fenômenos e processos da produção, uso e destino de documentos, há o entendimento de que acervos precisam ser mantidos perto da comunidade ou população aos quais se referem. Os arquivistas se referem a isso como o princípio da territorialidade (não confundir com o princípio homônimo do Direito).
+Para entender o princípio da territorialidade com exemplos, imagine que o destino dos documentos deve ser o da entidade que o produziu: se a administração municipal de uma pequena cidade do interior possui registros de imóveis dos últimos 150 anos em suas estantes, seria horrível imaginar que eles mandariam esses documentos para a cidade vizinha para “facilitar a guardar e preservação”; não faz sentido o Estado da Bahia enviar a documentação do gabinete do governador Otávio Mangabeira, primeiro governador da Bahia eleito após os anos da Era Vargas, para o Arquivo do Estado do Rio de Janeiro. Igualmente ilógico seria enviar a documentação histórica do Senado Federal do Brasil para o arquivo nacional japonês.
+O território é importante e se refere às localizações geográficas. Quando se quer pesquisar a história de um grupo social ou pessoa, é necessário olhar a região por onde esse grupo esteve. Em algum lugar dessa região, se nenhuma ruptura ocorreu na natural produção, uso e preservação dos documentos, estão os documentos que contam a história deste povo.
+Get Ricardo S Andrade’s stories in your inbox
+Join Medium for free to get updates from this writer.
+Subscribe
+Remember me for faster sign in
+Como se localiza “algum lugar”? Com um mapa. E com as tecnologias que temos disponíveis, podemos fazer mapas cada vez mais completos e complexos.
+O projeto Archives World Map é um desses mapas que podemos fazer. Neste caso, é um mapa coletivo que pretende reunir os esforços de pessoas no mundo todo para mapear as instituições que permitem o acesso público aos documentos que possuem em sua custódia, ou seja, que guardam para a posteridade. No momento em que escrevo esse texto, o projeto conta com 774 instituições cadastradas por diversas pessoas diferentes ao redor do mundo, sendo que 43 são instituições brasileiras. É inspirador visualizar o mapa mundi com pinos que representam a localização geográfica dos vestígios de nossa própria história — e saber que podemos de fato ir até lá e ter acesso a eles.
+E claro, dependente do escasso tempo que as pessoas em geral tem, cadastrar uma instituição é fácil. É necessário apenas informar quatro dados fundamentais acerca da instituição e dois deles se referem à localização geográfica. Outros dados opcionais podem ser informados.
+Acesse o Archives World Map e conheça esse projeto colaborativo, com plataforma baseada em software livre e cujo ajuntamento de dados é dependente do trabalho coletivo e voluntário. Imagine, um dia, visitar uma cidade e verificar no mapa onde estão os documentos que contam a história daquele lugar ou, melhor ainda, ir até onde estão os vestígios da história do seu próprio território.
+—
+Meu objetivo é escrever 30 textos em 30 dias. Este é o 7/30. Os textos anteriores podem ser encontrados em https://medium.com/@ricsodre

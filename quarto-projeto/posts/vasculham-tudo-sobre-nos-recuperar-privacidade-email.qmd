@@ -50,6 +50,3 @@ Mail-in-a-box
 Uma solução fácil, se comparada com outras opções, para você manter seu próprio serviço de e-mail. Mail-in-a-box (https://mailinabox.email/) permite a qualquer um configurar um servidor de emails numa máquina virtual (na Digital Ocean ou na Amazon Web Services, por exemplo) ou em seu próprio equipamento em casa ou na empresa, sem as muitas complicações e detalhes que até então eram necessários para manter um serviço funcional e, principalmente, seguro.
 
 A posse das mensagens já começa na recepção e envio de sua correspondência eletrônica. Sem necessidade dos serviços de terceiros, a não ser na contratação da máquina virtual numa provedora de serviços cloud.
-—
-
-Meu objetivo é escrever 30 textos em 30 dias. Este é o 14/30. Os textos anteriores podem ser encontrados em https://medium.com/@ricsodre

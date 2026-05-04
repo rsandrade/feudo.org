@@ -34,6 +34,7 @@ Eu morri de amores pelo Flutter. Em algumas horas fiz um aplicativo com funçõe
 Flutter e Dart podem se juntar ao PHP em minha pequena cesta de tecnologias de desenvolvimento. Espero que aconteça. Se o pedigree da tecnologia significar algo pra você, leitor: a Google é poderosa o bastante para dar um impulso fantástico nesse ambiente de desenvolvimento que ela criou nos próximos anos.
 
 No melhor cenário, além de aplicativos web que me agradam e resolvem meus problemas e os de algumas outras pessoas, eu farei também aplicativos para dispositivos móveis. Se você estiver por aí procurando uma tecnologia para o mesmo fim e quiser trocar uma ideia sobre Flutter, estou por aqui tentando aprender também, pode “chegar junto”, como se diz na Bahia.
+
 —
 
 Meu objetivo é escrever 30 textos em 30 dias. Este é o 17/30. Os textos anteriores podem ser encontrados em https://medium.com/@ricsodre

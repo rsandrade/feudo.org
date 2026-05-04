@@ -9,9 +9,7 @@ draft: false
 image: /posts/images/senha-e-frase-senha-proteger-contas-plataformas.jpg
 ---
 
-O
-
-tempo em que um login e senha eram suficientes para impedir que pessoas não autorizadas acessem nossas contas se foi. E o que mais temos hoje são, dos emails às redes sociais, passando pela intranet da empresa, repositórios de documentos e outras plataformas digitais que vamos colecionando ao longo do tempo.
+O tempo em que um login e senha eram suficientes para impedir que pessoas não autorizadas acessem nossas contas se foi. E o que mais temos hoje são, dos emails às redes sociais, passando pela intranet da empresa, repositórios de documentos e outras plataformas digitais que vamos colecionando ao longo do tempo.
 
 Se uma senha precisa ser definida, significa que há algo privado por trás dessa barreira, e temos direito à privacidade. Mas, no jogo de gato e rato da segurança e privacidade no qual, para cada pessoa que quer esconder, há outra que quer revelar, quem está na luta por garantir sua privacidade precisa entender que há riscos quanto ao uso de senhas, principalmente senhas fracas, a começar pelo uso de datas de nascimento, péssimas escolhas.
 
@@ -39,6 +37,7 @@ Encontrou um dado físico em casa para testar? Sugiro o uso da lista de palavras
 
 Vamos criar uma lista de 6 números com 5 dígitos cada. Os número são formado pelo resultado de 5 jogadas do dado. Abaixo, vou dar apenas um exemplo de possíveis resultados:
 Digamos que o primeiro número foi 11111, o segundo foi 22222 e assim por diante, então teremos:
+
 11111
 
 22222
@@ -52,6 +51,7 @@ Digamos que o primeiro número foi 11111, o segundo foi 22222 e assim por diante
 66666
 
 Com as sequências devidamente criadas, vamos olhar naquela lista que indiquei anteriormente quais palavras equivalem a esses números. Então temos:
+
 11111 = a
 
 22222 = cla

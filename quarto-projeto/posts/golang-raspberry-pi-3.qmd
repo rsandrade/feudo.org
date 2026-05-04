@@ -13,4 +13,5 @@ I decided to learn the programming language Go weeks ago after a long time looki
 This post is to share a small script to setup the Golang 1.10.3 in your Raspberry Pi 3 (I used the tiny one to setup my programming environment in my early steps in Go).
 
 I did a small change in the original script to update the Golang version. You can check here: https://gist.github.com/rsandrade/f3fc5c11cc4bbe0be8a4070ac3963723
-The last part of the script (after “cat” command) is very useful. That will save the Go paths to avoid you to need export them all the time you login into your raspberry. You can use that in others Linux boxes too.
+
+The last part of the script (after "cat" command) is very useful. That will save the Go paths to avoid you to need export them all the time you login into your raspberry. You can use that in others Linux boxes too.

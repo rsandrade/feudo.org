@@ -18,6 +18,7 @@ A única forma de impedir absolutamente o acesso a algo é este “algo” não 
 Uma vez que a destruição da informação não é a melhor opção, ou simplesmente não é algo desejado, se assim decidir o detentor da mesma, o ideal é usar os melhores recursos existentes para garantir que as chances de alguém passar por cima das medidas de segurança sejam matematicamente impossíveis (ainda que humanamente plausíveis, dada alguma falha de comportamento do detentor da informação em algum momento da vida).
 
 Criptografia é o nome do conjunto de técnicas empregadas para cifrar um conteúdo, de modo a torná-la ininteligível para pessoas que não deveriam mesmo ter acesso a ele. Criptografar documentos ou canais de comunicação se tornaram a melhor forma de garantir o acesso ao Direito à Privacidade, que é citada na Declaração dos Direitos Humanos da ONU da seguinte forma:
+
 Ninguém sofrerá intromissões arbitrárias na sua vida privada, na sua família, no seu domicílio ou na sua correspondência, nem ataques à sua honra e reputação. Contra tais intromissões ou ataques toda a pessoa tem direito a protecção da lei.
 
 Para proteger da melhor forma possível seu direito de não sofrer intromissões arbitrárias na sua vida privada e na sua correspondência (entendida aqui como comunicação, de modo geral), citarei dois recursos que podem ser empregados por qualquer pessoa interessada em defender o seu direito à privacidade e, uma vez que faça isso, ajudará a tornar comum e socialmente aceitável a prática de pessoas defenderem seus próprios direitos — uma vez que há quem ache que apenas quem tem algo a esconder se preocupa com a própria privacidade.
@@ -27,6 +28,7 @@ Protegendo o tráfego de dados na internet com Tor
 Há muita informação sobre o Tor na internet. Vou “chover no molhado” na expectativa de que haja alguém que ainda não saiba do que se trata e considerando que o Tor é pré-requisito para o próximo tópico que irei tratar.
 
 Para facilitar, vou reproduzir a definição do site autodefesa.org:
+
 O Navegador Tor é um programa feito para você navegar anonimamente e também evadir qualquer tentativa de censura na Internet como, por exemplo, o bloqueio ao acesso de determinados sites.
 
 A forma como faz isso é criando um tipo de subrede especial com computadores participantes da rede Tor e utilizando-a como caminho intermediário no seu tráfego de dados.
@@ -58,6 +60,7 @@ Atenção: O Nextcloud ficará instalado no Linux, mas você poderá acessá-lo 
 Se optar por contratar alguém, entre em contato comigo. Me envie um e-mail em ricardo arroba feudo ponto org.
 
 Se resolver fazer com suas próprias mãos, parabéns pela iniciativa! Aqui está um guia em versão preliminar para fazer o servidor Nextcloud utilizando um mini computador bastante popular e barato conhecido como Raspberry Pi e um HD externo qualquer: https://github.com/rsandrade/RaspiTorNextCloud :)
+
 Alerta: As tecnologias citadas nesse texto são 100% seguras? Nenhuma tecnologia é tão segura assim, é uma corrida de gato e rato. Mas elas darão um trabalhão galático a quem, por acaso, queira bisbilhotar sua vida.
 
 Exercer seu direito à privacidade no ciberespaço pode não ser cômodo, mas ainda assim é seu direito. Exercer esse direito, mesmo que considere não ser pessoalmente necessário, ajudará outras pessoas que realmente precisam por questões de risco à própria vida.

@@ -49,6 +49,7 @@ A diferença básica na rede Ethereum para as outras blockchains já citadas é 
 
 Ou podemos ainda imaginar algo como:
 “A cada mês, no dia 10, pagar X Eth para a companhia de energia elétrica. O valor de X é informado na conta eletrônica enviada”
+
 Neo – https://neo.org
 
 É o “Ethereum chinês”. Criado na China e declaradamente amigável a governos e suas regulações, o Neo pretende ser para a China e oriente o que a rede Ethereum é para o ocidente. Pode parecer pouco, mas basta lembrar que a China possui um gosto peculiar por soluções locais (Alibaba e não Amazon; WeChat e não Whatsapp…).

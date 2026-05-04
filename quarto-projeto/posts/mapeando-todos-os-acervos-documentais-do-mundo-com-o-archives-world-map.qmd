@@ -26,6 +26,7 @@ O projeto Archives World Map é um desses mapas que podemos fazer. Neste caso, �
 E claro, dependente do escasso tempo que as pessoas em geral tem, cadastrar uma instituição é fácil. É necessário apenas informar quatro dados fundamentais acerca da instituição e dois deles se referem à localização geográfica. Outros dados opcionais podem ser informados.
 
 Acesse o Archives World Map e conheça esse projeto colaborativo, com plataforma baseada em software livre e cujo ajuntamento de dados é dependente do trabalho coletivo e voluntário. Imagine, um dia, visitar uma cidade e verificar no mapa onde estão os documentos que contam a história daquele lugar ou, melhor ainda, ir até onde estão os vestígios da história do seu próprio território.
+
 —
 
 Meu objetivo é escrever 30 textos em 30 dias. Este é o 7/30. Os textos anteriores podem ser encontrados em https://medium.com/@ricsodre

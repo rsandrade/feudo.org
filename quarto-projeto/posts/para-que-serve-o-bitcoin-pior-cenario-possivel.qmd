@@ -40,6 +40,7 @@ Dizem que não e os argumentos são bons. Há todo um ecossistema tecnológico s
 Agora, esqueça o mercado especulativo por um momento (mas não definitivamente) e imagine que o Bitcoin é o meio de troca de valores nativo da internet, a rede que atravessa, talvez, a maioria dos aspectos sociais, econômicos, culturais e de outras ordens atualmente.
 
 Uma vez que existe apenas na forma de dados, que se baseia em poderosas técnicas de criptografia, que é protegida por um crescente emprego de poder computacional (o processo de mineração, que tanto falam) e que inova em um conceito muito interessante de encadeamento de blocos de dados (o blockchain) e existe de forma descentralizada (não há um servidor central, a rede é de todos que se dispõem a manter um nó funcionando em casa). A descentralização é como o Bitcoin se mantêm politicamente resiliente, resistente ao ataque ou censura de uma entidade intimidadora, como um governo qualquer, por exemplo
+
 Ser resistente à censura, no caso do Bitcoin, significa que não pode ser banido, uma vez que não há um cabo de tomada para puxar ou botão de desligar para apertar. É como a internet ou o torrent, que também são descentralizadas.
 
 Bitcoin apresenta então diversas vantagens, tanto tecnologicamente quanto socioeconomicamente.

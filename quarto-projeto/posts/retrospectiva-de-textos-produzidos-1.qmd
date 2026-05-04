@@ -30,6 +30,7 @@ Uma defesa sobre como faria sentido considerar o acesso à internet um direito h
 Link
 
 O direito à privacidade no hostil ciberespaço; ou “tenha seu cofre digital pessoal e confiável”
+
 Um texto de cunho teórico e prático que trata do direito à privacidade e como as pessoas podem ter sua própria infraestrutura para ajudar a exercer isso em meio digital.
 
 Link
@@ -41,6 +42,7 @@ O Bitcoin é tema de muita discussão, mas não se pode negar que ele apresenta 
 Link
 
 Senha e frase-senha: dois dedos de prosa sobre como proteger melhor suas contas em plataformas digitais
+
 Suas senhas são realmente seguras? Aprenda como melhorar a qualidade de suas senhas de uma forma fácil.
 
 Link
@@ -52,6 +54,7 @@ Um projeto colaborativo de alcance global que aproveita a sinergia de pessoas in
 Link
 
 Autenticação de dois fatores: um fator além da senha para proteger as suas contas na internet
+
 Além de uma senha forte, um segundo fator para proteger o acesso a seus serviços pode aumentar em muito sua proteção.
 
 Link

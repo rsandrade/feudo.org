@@ -21,9 +21,9 @@ A parcela da classe média (considerando todo seu espectro) que aterrissa pela p
 
 Sou privilegiado. Disponho dos meios materiais e da formação educacional que tive para escrever esse texto. Minha realidade me coloca numa vantagem em relação à maioria da população brasileira. A partir da minha posição, me atrevo a compartilhar os motivos pelos quais comecei a acompanhar alguns perfis no Twitter que se identificam como parte do movimento, digamos assim, dos “Indie Hackers”.
 
-Indie Hackers e Indie Makers
+**Indie Hackers e Indie Makers**
 
-A página https://www.indiehackers.com/ define os indie hackers como “fundadores ajudando uns aos outros a iniciar negócios lucrativos”.
+A página https://www.indiehackers.com/ define os indie hackers como "fundadores ajudando uns aos outros a iniciar negócios lucrativos".
 
 Praticamente todos que interagem com o perfil Indie Hackers estão em busca de lucro com suas invenções; não me recordo de ter visto alguém afirmar o contrário. Em boa parte, aparentam apenas querer a independência financeira, uma vez que poucos afirmam explicitamente que querem criar o próximo “unicórnio”, uma empresa que valha 1 bilhão de dólares. São construtores independentes que querem continuar independentes, mas também querem sobreviver com dignidade.
 
@@ -35,15 +35,15 @@ São fundadores de seus próprios negócios, realizando todas as tarefas, uma ve
 
 Uma das figuras mais interessantes que encontrei nesse mundo é o Pieter Levels. Alguns anos atrás ele ganhou alguma notoriedade ao dizer que, sendo tão difícil emplacar um negócio na internet, o ideal seria fazer vários. Ele passou um ano criando um negócio baseado na internet por mês, para tentar verificar se um desses negócios se tornaria algo de sucesso que pudesse pagar suas contas. Ele conseguiu, criou o nomadlist.com e vive (bem) com a receita desse site e de outros dois negócios menores. Não satisfeito, escreveu um livro chamado Make (https://makebook.io/), o qual ainda não li, mas que aparentemente trata das etapas que devem ser seguidas por quem quer ser um Indie Maker (ele utiliza o termo Maker no lugar de Hackers, mas é, fundamentalmente, a mesma coisa).
 
-Pieter também compartilha com muita frequência as ocorrências do dia a dia de seu negócio. As decisões, as descobertas, os problemas e as dúvidas são compartilhadas em seu perfil no Twitter. Essa experiência, somada às outras de diversos indie hackers, são material de aprendizado, inovação, entusiasmo e inspiração para outros que estão iniciando ou já se encontram na mesma caminhada.
+compartilhada em seu perfil no Twitter. Essa experiência, somada às outras de diversos indie hackers, são material de aprendizado, inovação, entusiasmo e inspiração para outros que estão iniciando ou já se encontram na mesma caminhada.
 
-O método Indie Maker, segundo Pieter Levels
+**O método Indie Maker, segundo Pieter Levels**
 
 Apesar de ainda não ter lido o livro Make, tenho capturado algumas dicas do Pieter Levels sobre as etapas do processo de criação desses negócios numa perspectiva “vários, para que um dê certo”.
 
 Serei breve sobre quais são as etapas e o que penso que são. Assim que eu ler o livro, saberei se minha percepção sobre as etapas estavam corretas e, então, pretendo relatar novamente sobre elas, com um pouco mais de conhecimento sobre a visão do Levels.
 
-Ideia
+**Ideia**
 
 Tudo começa com uma ideia. Imagino que a máxima do negócio seja reproduzida aqui: encontre uma demanda. Se as pessoas precisam, sabendo ou não, descubra e crie uma solução. Supra a demanda.
 
@@ -80,6 +80,7 @@ Em meio ao problema da maior acumulação de capital pelos mais ricos e diminui�
 O compartilhamento de informação na comunidade também gera uma fonte de informação importante para quem está começando ou quem começou. A jornada deixa de ser totalmente solitária. Há um ar de trabalho colaborativo entre os independentes.
 
 Se estamos tentando sobreviver, é bom conhecer as diversas formas nas quais as pessoas estão tentando fazer isso. Por isso os Indie Hackers me chamaram a atenção, acredito que há algo a ser aprendido e praticado nesse universo.
-—
+
+---
 
 Meu objetivo é escrever 30 textos em 30 dias. Este é o 13/30. Os textos anteriores podem ser encontrados em https://medium.com/@ricsodre

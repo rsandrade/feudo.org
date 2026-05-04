@@ -9,9 +9,7 @@ draft: false
 image: /posts/images/carteiras-de-bitcoin-entenda-e-garanta-posse-de-seus-ativos.jpg
 ---
 
-A
-
-pós escrever um dos meus textos anteriores, mais precisamente aquele que tratou sobre um dos motivos que dizem ser a grande utilidade do Bitcoin, algumas pessoas me procuraram nas redes sociais e me fizeram algumas perguntas, uma vez que o assunto ainda levanta muitas dúvidas.
+Após escrever um dos meus textos anteriores, mais precisamente aquele que tratou sobre um dos motivos que dizem ser a grande utilidade do Bitcoin, algumas pessoas me procuraram nas redes sociais e me fizeram algumas perguntas, uma vez que o assunto ainda levanta muitas dúvidas.
 
 Uma dúvida me chamou a atenção: diante de tantas notícias de exchanges (as casas de câmbio) de criptomoedas fechando ou até de donos falecendo levando as chaves dos “cofres”, como as pessoas podem garantir o acesso aos seus criptoativos, no caso, dos seus bitcoins, em caso de fechamento dessas empresas ou outras ocorrências críticas, como ataques de hackers?
 

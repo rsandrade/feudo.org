@@ -12,8 +12,7 @@ Se você chegou até esse guia,  provavelmente decidiu comprar  há pouco tempo 
 
 Ter sido o investimento mais rentável da última década e prometendo repetir o feito na atual é motivo suficiente para chamar a atenção da maioria dos investidores. A rentabilidade é o fator que mais chama a atenção, mas essa é a consequência dascaracterísticas que fazem do Bitcoin um ativo financeiro único e excepcional.
 
-Para possuir bitcoins, é necessário ter uma carteira para armazena-los com segurança. Portanto, vamos começar com a premissa que todos devem ter em mente:
-Você e apenas você é responsável por seus bitcoins.
+Para possuir bitcoins, é necessário ter uma carteira para armazena-los com segurança. Portanto, vamos começar com a premissa que todos devem ter em mente: Você e apenas você é responsável por seus bitcoins.
 
 A segurança deles é um problema unicamente seu.
 
@@ -32,13 +31,15 @@ Uma carteira de papel normalmente possui uma chave privada e uma chave pública 
 Para criar sua primeira carteira, acesse https://segwitaddress.org/
 
 Clique no botão igual à imagem abaixo:
-Um quadro igual à imagem a seguir deverá surgir. O que você deve fazer é mover o ponteiro do mouse dentro do quadro até completar a barra de progresso do rodapé. Mova aleatoriamente, garantindo que o aplicativo de geração de carteira tenha dados randômicos suficientes para gerar sua carteira única e segura.
+
+Um quadro igual à imagem a seguir deverá surgir.
 
 Após completar a barra de progresso, uma imagem semelhante à vista abaixo irá surgir.
 
 Você deve imprimir essa página. Ela é sua carteira.
 
 Do lado esquerdo, você terá sua chave pública (endereço) de recebimento. É essa sequência de caracteres ou qrcode que você precisará utilizar para receber bitcoins. Essa informação é pública e é seguro compartilhar com pessoas e empresas
+
 Do lado direito, você terá a chave privada. Essa sequência de caracteres e o qrcode que está acima são para uso exclusivo seu. Não compartilhe com ninguém! Ela permite que você possa retirar seus bitcoins no futuro.
 
 Você acaba de criar sua carteira de papel, uma vez que imprimiu a carteira gerada! Parabéns!

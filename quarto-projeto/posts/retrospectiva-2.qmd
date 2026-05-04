@@ -18,11 +18,13 @@ O básico para quem quer adquirir e guardar seus bitcoins com segurança. Não g
 Link
 
 Preservação Digital e nossos documentos pessoais: confiar em serviços de terceiros é arriscado
+
 Meus dois centavos sobre a perspectiva dos documentos pessoais, a preservação digital e o uso de serviços de terceiros para armazenamento.
 
 Link
 
 Algumas coisas para considerar antes de enviar um e-mail para pessoas ocupadas (ou seja, qualquer pessoa)
+
 Pessoas ocupadas, atualmente isso quer dizer qualquer pessoa, precisam da compreensão dos outros. As caixas de entrada de correio eletrônico estão lotadas e as pessoas estão cada vez mais deixando mensagens não lidas por falta de tempo.
 
 Link
@@ -52,11 +54,13 @@ Considerações sobre como as redes sociais refletem nossos comportamentos e com
 Link
 
 Dilemas de uma escolha entre React Native e Flutter para desenvolvimento de aplicativos Android e iOS
+
 Minhas aventuras esporádicas nas terras do desenvolvimento de software para dispositivos móveis. Entre duas plataformas, escolhi uma.
 
 Link
 
 Um aplicativo móvel para o Archives World Map: planos para logo quando for possível
+
 E se eu estou tentando aprender a programar, nada como fazer algo simples, mas útil: um aplicativo para o Archives World Map!
 
 Link

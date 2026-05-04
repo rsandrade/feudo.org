@@ -10,11 +10,10 @@ image: /posts/images/os-sabores-de-linux-que-eu-ja-usei.png
 ---
 
 Atenção: Esse texto é cheio de termos técnicos. Se você achar que não está entendendo nada, sugiro que pesquise o termo no Google. Você aprenderá, pelo menos, uma ou duas coisas sobre o universo do Linux. Também pode abandonar esse texto e ler os outros que escrevi até agora, sem crise. :)
+
 Essa é minha tela inicial de trabalho atualmente
 
-C
-
-omecei a usar o Linux por volta do início da segunda metade da década de 1990. Eu era bem novo, que fique claro. Naquele tempo, comprei dois CDs de instalação do Slackware Linux usando o cartão de crédito de um primo (ou da minha tia, indiretamente) e vendi um dos CDs para um colega de escola pelo dobro do preço, o que fez com que a operação toda ficasse gratuita pra mim. Não me julgue, eu era um quebrado e os CDs eram 2,99 dólares cada um.
+Comecei a usar o Linux por volta do início da segunda metade da década de 1990. Eu era bem novo, que fique claro. Naquele tempo, comprei dois CDs de instalação do Slackware Linux usando o cartão de crédito de um primo (ou da minha tia, indiretamente) e vendi um dos CDs para um colega de escola pelo dobro do preço, o que fez com que a operação toda ficasse gratuita pra mim. Não me julgue, eu era um quebrado e os CDs eram 2,99 dólares cada um.
 
 Demorei semanas até conseguir instalar. Não fazia ideia de como fazer a instalação e tive que procurar nos escassos documentos em português que existiam, já que meu nível de inglês era realmente muito limitado. À custa da formatação do meu 486 DX-2, consegui instalar e me achei o próprio engenheiro da Nasa, principalmente quando compilava o Kernel apenas pra ver as linhas passando pela minha tela no terminal de linha de comando. O Slackware foi uma grande aventura.
 
@@ -51,6 +50,7 @@ Aqui estamos, em 2019. Este ano eu resolvi migrar do Ubuntu Mate para o Antergos
 Não tenho do que me arrepender de ter trocado o Ubuntu Mate pelo Antergos, que me ofereceu uma instalação fácil como o Ubuntu Mate faria e me disponibiliza a atualização que o Arch Linux promete. Se tudo der certo, ficarei por aqui por bastante tempo. E nem é o Gnome clássico.
 
 Um “print” aleatório do Gnome Shell que peguei na internet.
+
 —
 
 Meu objetivo é escrever 30 textos em 30 dias. Este é o 15/30. Os textos anteriores podem ser encontrados em https://medium.com/@ricsodre

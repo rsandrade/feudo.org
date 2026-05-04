@@ -72,8 +72,13 @@ a:hover {
 }
 
 /* --- Listing cards --- */
-.quarto listing-card {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+.listing-item-img-placeholder.card-img-top {
+  display: none;
+}
+
+.quarto-listing-cols-3 .listing-card,
+.quarto-listing-cols-2 .listing-card {
+  min-height: auto;
 }
 
 .listing-card:hover {

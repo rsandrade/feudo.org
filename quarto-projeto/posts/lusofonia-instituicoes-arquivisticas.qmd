@@ -9,11 +9,19 @@ image: /posts/images/lusofonia-instituicoes-arquivisticas.jpg
 ---
 
 Nos últimos dias, me concentrei na busca do entendimento do que é a Lusofonia, procurando por uma conceituação que pudesse ser utilizada como delimitador do escopo de minha investigação para doutoramento.
+
 A pesquisa está caminhando para o entendimento das intenções e efetivas apropriações dos media participativos por parte dos principais arquivos públicos de países lusófonos. A investigação proposta está muitos passos além da pesquisa que efetuei no âmbito de meu mestrado, que investigou o arquivo nacional e estaduais brasileiros no uso de recursos da Web 2.0, em 2010. Dessa vez, o estudo lida com as pluralidades dos diversos países que adotam oficialmente a língua portuguesa e que estão distribuídos pelos diversos continentes, como a América do Sul (Brasil), Europa (Portugal), África (Angola, Guiné-Bissau, Moçambique, São Tomé e Príncipe e Cabo Verde) e Ásia (Timor-Leste).
+
 Ainda há os territórios de falantes do português, como Goa (Índia) e Macau (China). Estes ainda estão sendo considerados para a pesquisa e, mesmo que não façam parte das análises, não devem ser esquecidos como integrantes do entendimento alargado da geografia lusófona.
+
 Dado os oito países, o que há de comum e excepcional nesses lugares que os tornam importantes para um estudo em informação e comunicação, concentrado nas instituições arquivísticas? Que importância há na lusofonia, seus fluxos, redes, e em seus países para se tornarem expressivos para essa pesquisa proposta?
+
 O começo está na herança lusitana comum, obtida desde o período das colonizações portuguesas. Não se pode jamais esquecer da pluralidade cultural que floresceu em cada um desses oito países ao longo dos últimos séculos e que, também, lusofonia não é uma rememoração de relações império-colônia, mas a afirmação da possibilidade de confraternização e cooperação entre povos que podem se comunicar facilmente dentro de um mundo contemporâneo hiperconectado e imerso na exigência do conhecimento da língua inglesa como falso pré-requisito obrigatório para todas e quaisquer ações além das fronteiras nacionais.
+
 Sem entrar nos méritos e utilidades (que são reais) de se ter quadros funcionais hábeis no idioma anglo-saxão, as instituições arquivísticas da lusofonia podem criar laços de cooperação técnica entre si usando a própria língua materna, com a garantia de contarem com aproximados interesses históricos, científicos e culturais entre os possíveis parceiros.
+
 Alguns arquivos públicos poderiam apresentar-se bastante ansiosos pelas suas versões de páginas e serviços em inglês, francês ou alemão, esquecendo de criar mecanismos de atendimento e cooperação destinados aos países-primos, algo provavelmente muito mais fácil de realizar que atender os outros países (sonho muitas vezes frustrados já na dificuldade em manter um sítio atualizado e interessante na própria língua portuguesa).
+
 A lusofonia não é uma construção fácil, se refere a um espaço geográfico e linguístico fragmentado, uno em boa parte por um passado, idioma em comum e um contemporâneo esforço de aproximação (ver CPLP).
+
 Há ainda espaço para criação de redes que estreitem o diálogo técnico entre as instituições lusófonas, com vistas ao alcance cruzado dos usuários de cada uma delas. Divulgação, entendimento, cooperação e atendimento entre instituições, acervos e usuários, supranacionalmente, poderia gerar resultados extremamente satisfatórios na compreensão histórica e desenvolvimento técnico, científico e cultural desses países, contribuindo para a disponibilização de cada vez mais conteúdos em língua portuguesa na internet.

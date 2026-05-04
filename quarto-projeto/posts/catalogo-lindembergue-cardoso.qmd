@@ -8,6 +8,9 @@ draft: false
 ---
 
 O Projeto “Marcos Históricos da Composição Contemporânea na UFBA” anuncia seu mais recente lançamento: o catálogo-web do compositor Lindembergue Cardoso (1939-1989). Realizado pela pesquisadora Ilza Nogueira, em homenagem ao septuagésimo aniversário de nascimento do compositor, o catálogo se encontra disponibilizado no site do projeto (http://www.mhccufba.ufba.br/) em versão web integralmente ilustrada e em formato “PDF”, para download.
+
 Organizado por instrumentação – do solo ao complexo de solista(s), coro e orquestra –, o catálogo inclui ainda dois índices de busca – por ordem alfanumérica e cronológica – e, como anexos, a cronologia de vida do compositor (organizada por Lucy Cardoso), sua discografia e bibliografia até 2009.
+
 A idealização editorial é do Prof. Dr. Pablo Sotuyo Blanco e o trabalho de implementação eletrônica foi realizado por Lindembergue Rocha Cardoso Filho.
+
 Fonte: Divulgação por email, na lista Todos-l da UFBA

@@ -8,4 +8,5 @@ draft: false
 ---
 
 Para quem tiver interesse, a minha dissertação de mestrado já está disponível na área de publicações deste website.
+
 Ela passará por alguns ajustes e ampliação para publicação dos resultados em forma de artigo, mas já deve ser útil para quem quiser conhecer o conteúdo dela.

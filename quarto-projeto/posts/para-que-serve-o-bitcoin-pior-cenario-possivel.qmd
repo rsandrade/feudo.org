@@ -10,36 +10,60 @@ image: /posts/images/para-que-serve-o-bitcoin-pior-cenario-possivel.jpg
 ---
 
 Não corra por causa dessa imagem, eu não vou tentar convencer você a comprar Bitcoin.
+
 Falar sobre Bitcoin é complicado. O mercado de alta de 2017, quando houve um movimento parabólico no preço e o tornou assunto principal nas rodas de conversas dos quatro cantos do planeta, seguido pelo mercado de baixa em 2018, deixaram muita gente no prejuízo. Muita gente mesmo. Mas houve quem tenha ficado remediado ou rico também.
+
 Para ser preciso, deixou muita gente que queria ficar rica em questão de dias no prejuízo e houve quem, de fato, tenha ganho muito dinheiro, por sorte ou por conhecimento dos movimentos dos mercados financeiros. E há os que entraram no mundo do Bitcoin de forma consciente, sabendo dos riscos, pondo apenas quantias que poderiam perder, reconhecendo a natureza altamente volátil, incerta e, no curto prazo, até insana.
+
 Não entre neste mundo de forma irresponsável, principalmente se há pessoas que dependem financeiramente de você. Leia muito sobre o que é o Bitcoin, conheça os maximalistas e seus argumentos, os altcoiners e seus argumentos, os céticos e seus argumentos. Releia tudo. Aí você decide o que fazer com seu dinheiro, que tanto é suado como não nasce em árvore.
+
 Nesse texto, vou tentar ajudar no entendimento de apenas um mínimo aspecto que alguns maximalistas e entusiastas argumentam a favor do Bitcoin: eles dizem que o Bitcoin é para o pior cenário possível. Antes disso, no entanto, vamos falar sobre especulação financeira.
+
 O que se viu em 2017, com o Bitcoin em alta e, em 2018, com a baixa, foi o fenômeno da especulação financeira neste novíssimo tipo de ativo. Criptomoedas de todos os tipos foram arrastadas com o movimento de alta e baixa do Bitcoin nesses dois anos. Mas, surpresa, não foi a primeira vez que isso ocorreu e, acredito muito, não foi a última.
+
 A especulação
+
 A especulação é um fenômeno comum. Os chamados traders especulam como modo de ganhar a vida usando qualquer ativo financeiro do mundo todos os dias, do ouro e prata, até ações, passando por mercadorias como milho, petróleo, soja e até moedas, como Dólar, Euro, Lira Turca e, agora, especula-se sobre o preço de criptoativos, como o Bitcoin.
+
 Há também quem utilize a especulação como forma de proteção. Se você possui uma fábrica de suco de laranjas no México e compra laranjas californianas em dólar, seu planejamento anual precisa, de alguma forma, se proteger contra o aumento do preço do dólar. Se o dólar subir demais no meio do ano, suas reservas de Peso Mexicano poderão não ser suficientes para comprar as laranjas que você precisa todo mês. Então, como se proteger da oscilação do preço? Simples, você faz um contrato com alguém prometendo comprar dólar futuramente a um preço pré-definido agora.
+
 As duas partes especulam (há quem diga que sejam apostas): o comprador garante que vá comprar o dólar pelo preço que está hoje mesmo que ele suba (se subir, ele vai ter o direito de comprar com o preço menor do contrato), já o vendedor acha que o dólar vai cair, então ele vende ao preço atual, que julga alto e, se cair, ele venderá dólar mais caro, no valor do contrato, do que o valor futuro menor.
+
 Se você não é um trader, com conhecimento e experiência para surfar as mudanças de preços do mercado, a chamada volatilidade dos preços, então, especular pode ser extremamente perigoso para sua saúde financeira. Há quem diga que é perigoso mesmo para os experientes. Eis aqui o perigo do Bitcoin: as criptomoedas estão entre os ativos mais voláteis atualmente. Movimentos bruscos de alta e de baixa tanto podem fazer seu dinheiro aumentar 1000% (o que aconteceu entre janeiro e meados de dezembro de 2017 com o Bitcoin), quanto fazer ele diminuir 80% (o que ocorreu entre final de 2017 até quase início de 2019). Não é pouco.
+
 O Bitcoin só serve para especulação?
+
 Manifestante do movimento francês dos coletes amarelos
+
 Dizem que não e os argumentos são bons. Há todo um ecossistema tecnológico sendo desenvolvido com celeridade e entusiasmo em relação ao Bitcoin. Em 2018, em pleno mercado de baixa, foi criada a rede Lightning Network, uma tecnologia vinculada à do Bitcoin para realizar pagamentos instantâneos e que se desenvolveu rapidamente em resposta a uma das críticas que se fazia em 2017: a de que as transações de Bitcoin eram muito lentas. Essa afirmação não faz mais sentido algum com a Lightning Network, portanto, se você ler em algum lugar que Bitcoin é lento, pode responder com desdém: “essa afirmação é tão… 2017!”.
-Get Ricardo S Andrade’s stories in your inbox
-Join Medium for free to get updates from this writer.
-Subscribe
-Remember me for faster sign in
+
 Agora, esqueça o mercado especulativo por um momento (mas não definitivamente) e imagine que o Bitcoin é o meio de troca de valores nativo da internet, a rede que atravessa, talvez, a maioria dos aspectos sociais, econômicos, culturais e de outras ordens atualmente.
+
 Uma vez que existe apenas na forma de dados, que se baseia em poderosas técnicas de criptografia, que é protegida por um crescente emprego de poder computacional (o processo de mineração, que tanto falam) e que inova em um conceito muito interessante de encadeamento de blocos de dados (o blockchain) e existe de forma descentralizada (não há um servidor central, a rede é de todos que se dispõem a manter um nó funcionando em casa). A descentralização é como o Bitcoin se mantêm politicamente resiliente, resistente ao ataque ou censura de uma entidade intimidadora, como um governo qualquer, por exemplo
 Ser resistente à censura, no caso do Bitcoin, significa que não pode ser banido, uma vez que não há um cabo de tomada para puxar ou botão de desligar para apertar. É como a internet ou o torrent, que também são descentralizadas.
+
 Bitcoin apresenta então diversas vantagens, tanto tecnologicamente quanto socioeconomicamente.
+
 Aqui estamos, chegamos ao momento de falar do chamado “pior cenário possível”.
+
 O pior cenário possível
+
 Como pano de fundo, citarei, sem aprofundar, a crise do subprime estadunidense, que se iniciou em 2008 e afetou o mundo todo com muita força. Essa crise causou consequências graves nas economias do mundo pelos dez (10) anos seguintes, ou seja, até 2018, o mundo ainda estava se recuperando do furacão financeiro que saiu lá das terras do Tio Sam.
+
 Em 2015, ainda em meio aos problemas globais iniciados pela crise do subprime, a Grécia ameaçou dar um calote no Fundo Monetário Internacional (FMI), ameaçaram não pagar uma parcela do empréstimo feito por aquele país. O pagamento seria de 1,6 Bilhões de euros. O governo grego alegou que a austeridade que o FMI impunha em decorrência do empréstimo e pela crise em curso, além dos juros cobrados pelo FMI, acabavam deixando o governo de mãos amarradas em relação aos investimentos sociais e, dessa forma, a população sofreria muito mais ainda com isso.
+
 Governo dando calote? Isso provocou rapidamente o caos no sistema financeiro grego. Os bancos limitaram os saques nos caixas de autoatendimento. O Euro ainda tinha valor, mas estava raro, não circulava. As pessoas não podiam sacar o próprio dinheiro depositados em suas contas. Os bancos estavam agindo de forma atípica diante da situação e o efeito disso acabou prejudicando muito a população, que passou da preocupação ao desespero.
+
 Os cidadãos começaram a reagir como podiam. Em meio aos protestos e com o dinheiro preso no banco, houve quem tivesse trocado imóveis por relógios caríssimos (Rolex, Patek Philippe etc.) com o objetivo de pegar um avião para fora da Grécia com seu patrimônio no pulso. Parecem reações exageradas e estúpidas, mas quando se está no meio de uma enchente, não dá pra saber até onde a água vai continuar subindo. O certo é que em meio ao caos, apenas algumas pessoas puderam reagir de forma a fugir com parte do seu patrimônio.
+
 Olhando esse cenário, fica a pergunta: afinal, o dinheiro é das pessoas ou dos bancos, essas instituições poderosas e centenárias? Quem garante que sua poupança no banco estará disponível diante de um cenário catastrófico — o pior cenário possível? O seu gerente garante? O presidente do banco garante? Ninguém garante.
+
 O Bitcoin é descentralizado. Aquele que detêm alguns bitcoins é o único responsável pela segurança dos mesmos. Não há bancos, não há intermediários, não há dependência de terceiros. Não há volume físico a ser transportado e isso é significativo, pois volumes pequenos, como relógios caríssimos, são extremamente convenientes em situações críticas (os judeus eram conhecidos por manter parte da fortuna em pedras preciosas dentro de saquinhos, para poder se mudar rapidamente levando boa parte de seu patrimônio, caso necessário).
+
 Uma transferência bancária pode demorar dias em algumas situações (experimente enviar um TED às 18:32 de uma sexta-feira com um feriado na segunda-feira seguinte), mas a rede do Bitcoin está sempre em funcionamento, a qualquer tempo. Uma transferência para o outro lado do mundo pode demorar meio segundo pela Lightning Network ou 10 minutos com registro direto na blockchain.
+
 Pessoas como Edward Snowden, em situação de exílio, conseguem obter valores mesmo sob boicote de países poderosos, como os EUA. O Bitcoin encontrou terreno fértil em países com hiperinflação, como o Zimbábue, Argentina e a Venezuela, uma vez que a volatilidade da criptomoeda têm se apresentado menos ruim do que perda vertiginosa de valor na moeda nacional desses países.
+
 Diante dos piores cenários possíveis, o mercado especulativo de baixa de 2018 pode parecer menos terrível visto de longe (mas ainda pode afetar suas economias, mantenha extrema cautela). Lembre que, mais importante que ganhar dinheiro é não perder dinheiro.
+
 Com uma comunidade de desenvolvedores genial e detentora do ecossistema de crescimento mais vigoroso entre as criptomoedas, tudo indica que a história do Bitcoin ainda não acabou e ainda veremos cenas dos próximos capítulos. Há quem diga que vivenciaremos uma revolução.

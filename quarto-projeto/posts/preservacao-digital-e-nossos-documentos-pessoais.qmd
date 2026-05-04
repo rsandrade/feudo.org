@@ -10,19 +10,24 @@ image: /posts/images/preservacao-digital-e-nossos-documentos-pessoais.jpg
 ---
 
 Não me recordo bem quando deixamos de usar as câmeras fotográficas de filme e passamos a usar as câmeras digitais. Eu nunca usei máquinas de datilografar. Confesso que utilizei e ainda tenho fitas cassete e vinis em casa.
+
 Praticamente não utilizamos mais registros informacionais em suportes analógicos. Nossa vida é digital. Som, imagem, imagem em movimento… Estão todos em bits, em algum HD, pendrive ou mesmo CDs, DVDs e até o blu-ray, que chegou e foi embora sem se despedir.
+
 Há um ar de futuro à nossa volta. Muitas casas quase não possuem mais as caixas para guardar fotos e outros documentos. Tudo está no ciberespaço. Estão na cloud. E o perigo está aí.
+
 A cloud não existe, é apenas o computador de outra pessoa, diz uma piada que está envelhecendo bem. A consciência de que nossos documentos estão em algum lugar, principalmente os importantes e sensíveis, deveria nos dar alguns calafrios de vez em quando. Apesar de provavelmente a maioria dos serviços de armazenamento oferecidos por empresas inspirarem maior confiança do que os discos de nossos computadores, boa parte deles não garantem preservação absoluta. Há até casos em que usuários foram pegos de surpresa, como quando um usuário foi informado pelo MySpace que perdeu mais de quatro (4) anos de músicas que o mesmo colecionou e armazenou no serviço.
 “[…] Devido à corrupção dos arquivos […] Não há forma de recuperar os dados perdidos. Obrigado, MySpace.”
 Quantos documentos importantes deixamos exclusivamente em serviços como Dropbox, Onedrive, Drive e outros? Temos cópias duplicadas de tudo?
-Get Ricardo S Andrade’s stories in your inbox
-Join Medium for free to get updates from this writer.
-Subscribe
-Remember me for faster sign in
+
 Diante de possibilidades de perda como aquela da imagem acima, é importante jamais confiar plenamente em espaços de terceiros como local para guardarmos a única cópia de documentos pessoais que, em caso de perda, sentiremos falta depois. É uma armadilha, principalmente se o serviço for oferecido gratuitamente.
+
 Por outro lado, se guardarmos exclusivamente no “HD do laptop” e ele pifar, teremos outro problema. Que tipo de estrago à memória pessoal e familiar será causado? Que sensação virá à tona ao pensarmos que decidimos guardar nós mesmos esses material vital para o ato de relembrar e falhamos?
+
 Muitas pessoas mantêm cópias redundantes dos documentos que julgam importantes, como as fotografias. Muitas pessoas fazem isso por já terem perdido um conjunto precioso desses documentos imagéticos em situações anteriores. Em um ambiente leigo (diante do fato que a Preservação Digital é um tema de estudo acadêmico e profissional da Arquivologia), a redundância parece ser a estratégia que poderá mais facilmente ser adotada por qualquer pessoa. Não possuir apenas uma cópia do que se julga importante é uma regra a ser seguida: quem tem 2 cópias, tem 1 cópia com certeza; quem tem 1 cópia, pode não ter nenhuma.
+
 Há formas avançadas de fazer preservação digital e gestão de documentos, mas parece que o problema é tão avassalador que a salvaguarda, aquela ação imediata e minimamente eficiente, precisa ser adotada logo. Mas não se pode prescindir de aprender formas cada vez melhores de acumular nossos documentos.
+
 No caso de pessoas jurídicas, o problema é mais sério, não cabem gambiarras e soluções capengas. Em ambientes corporativos, do pequeno ao grande empreendimento, há outras variáveis a serem consideradas e sugiro realmente procurar um bom arquivista para discutir a situação da empresa.
 —
+
 Meu objetivo é escrever 30 textos em 30 dias. Este é o 11/30. Os textos anteriores podem ser encontrados em https://medium.com/@ricsodre

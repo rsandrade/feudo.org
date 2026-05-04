@@ -9,11 +9,18 @@ image: /posts/images/descricao-arquivistica-web.jpg
 ---
 
 Falar de descrição arquivística é falar de representação da informação, ou representação arquivística, como aponta a autora Elizabeth Yakel (2003). Na Arquivologia, estamos acostumados a ouvir ou ler que temos que descrever o conteúdo e o contexto, isso para prover acesso.
+
 Promover acesso é um lado da moeda (do outro lado estaria a preservação), como diria meu orientador de pesquisa. É o acesso que permite a construção da identidade cultural dos consulentes de um acervo, cujo conteúdo sirva para isso. Ou ainda, conhecer a história dos grupos sociais ou entorno em que vivemos. Ou, mais além, entender melhor culturas e grupos diferentes dos nossos.
+
 O esforço em construir uma revisão de literatura sobre a descrição arquivística, no âmbito do mestrado, é recompensada por novas formas e possibilidades que a Web apresenta. Não apenas o acesso rápido e fácil, mas, muito mais que isso, a interatividade possível e o processo de construção colaborativa da representação da informação arquivística.
+
 Muitos pesquisadores possuem informações e idéias excelentes, que podem auxiliar na pesquisa de outros, mas isso não é aproveitado. Não há, digamos, uma gestão desse conhecimento (olha a gestão do conhecimento marcando presença na arquivologia, alguém duvidava dessa possibilidade?).
+
 Colocar nossos instrumentos de referência (opa, estamos acostumados com o termo “instrumentos de acesso”) na Web, pura e simplesmente, não significa aproveitar o que a Web pode oferecer.
+
 Meu trabalho no mestrado se propõe a pensar nessas possibilidades, convido aos interessados a acompanharem o blog, aqui irei avisar dos trabalhos e eventos que deverei falar mais sobre isso.
+
 Que venham esses próximos dois anos.
 – Ricardo Sodré Andrade
+
 YAKEL, Elizabeth. Archival Representation. In: Archival Science, vol. 3, 2003.

@@ -8,6 +8,9 @@ draft: false
 ---
 
 No último dia do Cinform – Encontro Nacional de Ensino e Pesquisa em Informação foi divulgado o resultado do primeiro concurso de monografias de arquivologia da Bahia, promovido pela Associação dos Arquivistas da Bahia – AABA.
+
 Minha monografia de conclusão de curso foi a segunda colocada e tratava de “aspectos introdutórios” de representação de informação arquivística, na verdade, sobre uso de normas, padrões de metadados (EAD-DTD) e o projeto Archives Hub.
+
 Quem quiser ler, pode acessar a versão publicada no periódico Ponto de Acesso, do ICI-UFBA. Basta acessar o menu de “Produção” acima que o link estará disponível nos submenus “Tudo (lista completa)”, “Artigos em periódicos” e “Monográficos”.
+
 Esse tipo de concurso é uma boa forma de incentivar os estudantes a se dedicarem ao máximo na elaboração do trabalho. Parabéns à AABA!

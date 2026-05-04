@@ -1,0 +1,6 @@
+# Quarto source project (render happens locally)
+quarto-projeto/
+
+# Quarto build artifacts  
+quarto-projeto/docs/
+quarto-projeto/.quarto/

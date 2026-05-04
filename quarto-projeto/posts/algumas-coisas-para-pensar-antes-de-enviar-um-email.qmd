@@ -1,0 +1,12 @@
+---
+title: "Algumas coisas para pensar antes de enviar um e-mail para pessoas ocupadas (ou seja, todas)"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium]
+description: "Dicas práticas para economizar o tempo alheio na comunicação por e-mail, com sugestões para ser mais objetivo, claro e respeitoso na correspondência eletrônica."
+draft: false
+---
+
+Economizar o tempo das outras pessoas é um ato de respeito. Inspirado por uma postagem de Joel (jhooks) no Twitter, o artigo apresenta dicas práticas para melhorar a comunicação por e-mail: vá direto ao ponto, mantenha o texto simples, faça links para contextos, facilite o "sim" das pessoas, dê permissão para ignorarem você e relembre com moderação.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/algumas-coisas-para-pensar-antes-de-enviar-um-e-mail-para-pessoas-ocupadas-ou-seja-todas-d376f2ae0481).

@@ -1,0 +1,13 @@
+---
+title: "Novo texto publicado em periódico trata de aspectos teóricos e históricos da descrição arquivística"
+author: "Ricardo Sodré Andrade"
+date: "2008-12-15"
+categories: [arquivista-net]
+description: "Divulgação de artigo publicado sobre descrição arquivística e a evolução dos instrumentos de referência até a Web 2.0."
+draft: false
+---
+
+O periódico do Instituto de Ciência da Informação da UFBA acaba de lançar mais uma edição e um dos artigos publicados é produto da minha pesquisa de mestrado.
+O objetivo da pesquisa é investigar a evolução dos instrumentos arquivísticos de referência, tradicionalmente chamados de instrumentos de pesquisa.
+Nessa oportunidade, é apresentada a atual versão da revisão de literatura acerca dos aspectos históricos e teóricos da descrição arquivística, dos instrumentos arquivísticos de referência e da nova geração de instrumentos arquivísticos de referência, na intenção de apresentar uma visão acerca dos temas que a pesquisa pretende tratar e da perspectiva na qual ela se posiciona.
+Para ler o trabalho, visite a seção de publicações deste site e acesse o trabalho (um dos últimos da lista) “Aspectos teóricos e históricos da descrição arquivística e uma proposta de nova geração de instrumentos arquivísticos de referência“, publicado na revista Ponto de Acesso.

@@ -1,0 +1,12 @@
+---
+title: "O direito à privacidade no hostil ciberespaço; ou 'tenha seu cofre digital pessoal e confiável'"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium]
+description: "Como proteger o direito à privacidade no ciberespaço usando Tor para navegação anônima e Nextcloud com criptografia para armazenamento seguro de documentos."
+draft: false
+---
+
+Produzimos e armazenamos informações a todo instante, parte delas com valor sensível. Este artigo apresenta dois recursos para proteger o direito à privacidade: o Tor para navegação anônima e ofuscação de comunicações, e o Nextcloud com criptografia do lado do servidor integrado ao Tor, criando um cofre digital pessoal acessível remotamente via endereço .onion.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/o-direito-%C3%A0-privacidade-no-hostil-ciberespa%C3%A7o-ou-tenha-seu-cofre-digital-pessoal-e-confi%C3%A1vel-9c770d3f8099).

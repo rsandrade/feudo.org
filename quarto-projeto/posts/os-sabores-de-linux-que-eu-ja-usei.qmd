@@ -1,0 +1,12 @@
+---
+title: "Os sabores de Linux que eu já usei: do adolescente curioso ao adulto sem tempo"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium]
+description: "Uma jornada pessoal através de distribuições Linux, do Slackware nos anos 1990 ao Antergos em 2019, refletindo sobre a evolução do usuário ao longo do tempo."
+draft: false
+---
+
+Uma memória afetiva da jornada com o Linux desde o Slackware em um 486 DX-2 nos anos 1990, passando pelo Conectiva, Debian, Mandrake e Suse, até o Ubuntu e finalmente o Antergos (baseado em Arch Linux). O autor reflete sobre a transição do adolescente curioso com tempo de sobra para o adulto sem tempo que busca estabilidade com rolling release sem precisar reinstalar o sistema.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/os-sabores-de-linux-que-eu-j%C3%A1-usei-do-adolescente-curioso-ao-adulto-sem-tempo-119a8f99c76c).

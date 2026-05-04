@@ -1,0 +1,12 @@
+---
+title: "Motivos pelos quais estou acompanhando atentamente o movimento Indie Hackers"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium]
+description: "Uma análise do movimento Indie Hackers e Indie Makers como alternativa de independência financeira em um cenário de inflação e perda de poder aquisitivo."
+draft: false
+---
+
+Em meio à inflação que corrói o poder de compra e à polarização financeira, o movimento Indie Hackers surge como alternativa para quem busca independência econômica. O artigo explora o método de Pieter Levels (criador do Nomad List), que propõe criar vários negócios online até que um deles se torne sustentável, compartilhando abertamente falhas e sucessos. Uma cultura de empreendedorismo independente que valoriza o compartilhamento de conhecimento.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/motivos-pelos-quais-estou-acompanhando-atentamente-o-movimento-indie-hackers-f0bb3cd5dfcf).

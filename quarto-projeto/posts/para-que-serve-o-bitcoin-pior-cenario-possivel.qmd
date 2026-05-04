@@ -1,0 +1,12 @@
+---
+title: "Para que serve o Bitcoin? Dizem que é para o pior cenário possível"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium]
+description: "Uma análise do Bitcoin além da especulação financeira, explorando seu uso como reserva de valor descentralizada e resistente à censura em cenários de crise econômica."
+draft: false
+---
+
+O Bitcoin vai muito além da especulação financeira que marcou a alta de 2017 e a baixa de 2018. Este artigo explora o argumento de que o Bitcoin serve para o pior cenário possível: é descentralizado, resistente à censura e permite a transferência de valor sem intermediários. Com exemplos como a crise grega e a hiperinflação na Venezuela, discute como o Bitcoin pode ser uma ferramenta de soberania financeira individual.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/para-que-serve-o-bitcoin-dizem-que-%C3%A9-para-o-pior-cen%C3%A1rio-poss%C3%ADvel-ccc8a0c1442e).

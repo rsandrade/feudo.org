@@ -1,0 +1,12 @@
+---
+title: "Vasculham tudo sobre nós: é hora de recuperar a privacidade de nossos e-mails"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium]
+description: "Alternativas para recuperar a privacidade da correspondência eletrônica, incluindo ProtonMail, RiseUp, Mailpile e Mail-in-a-box, em contraste com o modelo de negócios do Gmail."
+draft: false
+---
+
+Empresas como a Google vasculham nossa correspondência para direcionar publicidade, transformando a privacidade em moeda de troca por serviços gratuitos. Este artigo apresenta alternativas para recuperar o controle sobre os e-mails: ProtonMail (criptografia na Suíça), RiseUp (para ativistas), Mailpile (armazenamento local seguro) e Mail-in-a-box (servidor próprio de e-mail).
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/vasculham-tudo-sobre-n%C3%B3s-%C3%A9-hora-de-recuperar-a-privacidade-de-nossos-e-mails-2956ac0cfe1a).

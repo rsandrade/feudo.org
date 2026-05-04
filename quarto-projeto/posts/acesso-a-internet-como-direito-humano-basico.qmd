@@ -1,0 +1,12 @@
+---
+title: "Acesso à internet como direito humano básico"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium]
+description: "Uma defesa do acesso à internet como direito humano básico, inspirada no exemplo da Estônia, onde a conectividade é tratada como pilar fundamental da cidadania."
+draft: false
+---
+
+A internet se estabeleceu como o ambiente social, econômico, cultural e informacional da sociedade contemporânea. Este artigo defende que o acesso à internet deve ser reconhecido como direito humano básico, assim como alimentação e vestuário, argumentando que sua falta suprime ou dificulta o acesso a outros direitos. O exemplo da Estônia — que oferece 95% dos serviços públicos online e declarou a internet como direito básico — ilustra o caminho possível.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/acesso-%C3%A0-internet-como-direito-humano-b%C3%A1sico-5c0df4db3f3d).

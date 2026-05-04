@@ -1,0 +1,11 @@
+---
+title: "PDF com a minha dissertação de mestrado"
+author: "Ricardo Sodré Andrade"
+date: "2010-06-02"
+categories: [arquivista-net]
+description: "Disponibilização do PDF da dissertação de mestrado em Ciência da Informação pela UFBA."
+draft: false
+---
+
+Para quem tiver interesse, a minha dissertação de mestrado já está disponível na área de publicações deste website.
+Ela passará por alguns ajustes e ampliação para publicação dos resultados em forma de artigo, mas já deve ser útil para quem quiser conhecer o conteúdo dela.

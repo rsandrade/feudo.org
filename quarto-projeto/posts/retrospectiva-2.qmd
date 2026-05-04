@@ -1,0 +1,12 @@
+---
+title: "Retrospectiva #2"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium, retrospectiva]
+description: "Segunda retrospectiva da meta de 30 textos em 30 dias, reunindo os 10 artigos seguintes sobre carteiras de Bitcoin, preservação digital, e-mail, Indie Hackers, Linux, redes sociais e hackerspaces."
+draft: false
+---
+
+Segunda retrospectiva da jornada de 30 textos em 30 dias. Este artigo compila os 10 textos seguintes da série, abordando: carteiras de Bitcoin e a importância da autocustódia, preservação digital de documentos pessoais, dicas para comunicação por e-mail, o movimento Indie Hackers, recuperação da privacidade de e-mails, distribuições Linux ao longo da vida, o futuro das redes sociais, dilemas entre React Native e Flutter, planos para o aplicativo do Archives World Map e os hackerspaces como espaços de tecnologia e solidariedade.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/retrospectiva-2-7236bdd45b79).

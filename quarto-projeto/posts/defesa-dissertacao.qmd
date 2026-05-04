@@ -1,0 +1,11 @@
+---
+title: "Defesa de dissertação realizada: mais um passo dado"
+author: "Ricardo Sodré Andrade"
+date: "2010-05-08"
+categories: [arquivista-net]
+description: "Registro da defesa da dissertação de mestrado em Ciência da Information pela UFBA."
+draft: false
+---
+
+No dia 6 de maio de 2010 eu defendi minha dissertação de mestrado e alcancei o grau de Mestre em Ciência da Informação.
+Em breve irei colocar a dissertação e/ou algum artigo que derive dela aqui no site.

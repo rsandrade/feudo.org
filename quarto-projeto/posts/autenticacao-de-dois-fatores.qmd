@@ -1,0 +1,12 @@
+---
+title: "Autenticação de dois fatores: um fator além da senha para proteger as suas contas na internet"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium]
+description: "Como usar autenticação de dois fatores com smartphone ou tokens físicos Yubico para adicionar uma camada extra de segurança às suas contas online."
+draft: false
+---
+
+Além de uma senha forte, a autenticação de dois fatores adiciona uma camada extra de proteção às contas online. Este artigo explica como usar o Google Authenticator no smartphone ou tokens físicos da Yubico para gerar códigos temporários, recomendando evitar o uso de SMS devido a vulnerabilidades como o golpe de SIM Swap.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/autentica%C3%A7%C3%A3o-de-dois-fatores-um-fator-al%C3%A9m-da-senha-para-proteger-as-suas-contas-na-internet-197a3686c17d).

@@ -1,0 +1,10 @@
+---
+title: "Yndexa DMS – sistema web para gestão de documentos"
+author: "Ricardo Sodré Andrade"
+date: "2009-03-05"
+categories: [arquivista-net]
+description: "Apresentação do Yndexa DMS, sistema web para gestão de documentos desenvolvido pelo autor."
+draft: false
+---
+
+Essa semana foi lançado o Yndexa DMS, um sistema web para apoio a gestão de documentos. Participei ativamente do desenvolvimento e convido a todos a conhecerem esse sistema: http://www.yndexa.com.

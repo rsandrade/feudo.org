@@ -1,0 +1,18 @@
+---
+title: "Representação da informação e computação cognitiva"
+author: "Ricardo Sodré Andrade"
+date: "2014-01-11"
+categories: [arquivista-net]
+description: "Reflexão sobre a interface entre representação da informação e computação cognitiva."
+draft: false
+image: /posts/images/representacao-informacao-computacao-cognitiva.png
+---
+
+Representar a informação é uma atividade nobre, ou percebida como uma das mais importantes no tratamento informacional/documental. Criar condições de acesso a conteúdos cada vez mais vastos, dentro e fora da rede é, antes de tudo, uma tarefa que suscita a impossibilidade.
+Há algum tempo, algo como três anos, escrevi minha dissertação de mestrado sobre o aproveitamento da web 2.0 para viabilizar a descrição arquivística. A idéia é chamar a multidão ávida pelo lúdico na rede e oferecer uma atividade que atenda aos anseios da participação, colaboração e ludicidade que a internet pode proporcionar.
+Um exemplo é o projeto Old Weather, que transforma o trabalho de transcrição paleográfica em um jogo de temática bem interessante: torne-se um tripulante de antigos navios e ajude a copiar os dados dos diários de bordo. Você pode se tornar um capitão, dentro das regras e parâmetros do jogo e o projeto ganha uma base de dados com os dados metereológicos capturados pelos navios ao longo de décadas.
+Mas, se apenas os diários de bordo já constituem um conjunto impossível de representar com uma quantidade de pessoas reduzida, como são as equipes nas instituições, considere todo o universo documental dentros dos arquivos ao redor do mundo. Há muito. Mesmo a multidão da internet pode se cansar.
+E as máquinas? Elas não podem representar? Não podem interpretar textos sem as marcações semânticas da web 3.0?
+Há quem argumente que um dos filões laborais dos profissionais da informação é justamente a representação da informação, que, junto com a mediação,  se constitui na exclusiva capacidade humana de interpretar as nuances da linguagem e dos registros.
+Mas as máquinas estão correndo contra o “tempo perdido”. A computação cognitiva pode atuar nesse contexto em pouco tempo. O projeto Watson, da IBM, por exemplo, quer justamente criar a possibilidade de máquinas realizaram o chamado processamento de idioma nativo, Não é tarefa fácil, a linguagem é imprecisa, as vezes irônica, muitas vezes sentimental.
+A ciência quer que as máquinas entendam todas essas nuances e um pouco mais. Esse avanço pode ajudar a representar automaticamente os documentos sem marcações semânticas dentro e fora da internet. Será um passo e tanto.

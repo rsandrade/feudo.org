@@ -1,0 +1,12 @@
+---
+title: "Dilemas de uma escolha entre React Native e Flutter para desenvolvimento de aplicativos"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium]
+description: "Reflexões sobre a escolha entre React Native e Flutter para desenvolvimento mobile, com ênfase na experiência pessoal de aprendizado e na preferência pelo ecossistema do Flutter."
+draft: false
+---
+
+Entre as opções disponíveis para desenvolvimento de aplicativos Android e iOS, o autor enfrentou o dilema entre React Native (Javascript, comunidade enorme) e Flutter (Dart, mais novo mas mais organizado). Após anos programando em PHP e enfrentando dificuldades com Javascript, o Flutter conquistou o autor pela organização do ambiente e a facilidade de criar um aplicativo funcional em poucas horas.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/dilemas-de-uma-escolha-entre-react-native-e-flutter-para-desenvolvimento-de-aplicativos-android-e-9d1d4811b1).

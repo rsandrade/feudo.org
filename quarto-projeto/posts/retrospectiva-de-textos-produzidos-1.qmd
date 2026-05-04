@@ -1,0 +1,12 @@
+---
+title: "Retrospectiva de textos produzidos #1"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-17"
+categories: [medium, retrospectiva]
+description: "Primeira retrospectiva semanal da meta de 30 textos em 30 dias, reunindo os 8 artigos publicados sobre temas como Empretec, voluntariado, privacidade, Bitcoin e segurança digital."
+draft: false
+---
+
+Primeira retrospectiva dos textos produzidos como parte da meta de publicar 30 textos em 30 dias. Este artigo reúne os 8 primeiros textos publicados: um relato sobre o seminário Empretec, reflexões sobre voluntariado, a defesa do acesso à internet como direito humano básico, privacidade no ciberespaço com Nextcloud e Tor, o Bitcoin como reserva para o pior cenário, técnicas de senhas e frases-senha, o Archives World Map e autenticação de dois fatores.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/retrospectiva-de-textos-produzidos-1-e0af42b28f09).

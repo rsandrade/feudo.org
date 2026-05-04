@@ -1,0 +1,12 @@
+---
+title: "Um aplicativo móvel para o Archives World Map: planos para logo quando for possível"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-28"
+categories: [medium]
+description: "Planos para criar um aplicativo móvel para o Archives World Map usando Flutter e uma REST API em Go, permitindo consultar e cadastrar instituições diretamente do smartphone."
+draft: false
+---
+
+O Archives World Map possui atualmente apenas uma interface web, com limitações em dispositivos móveis. Este artigo apresenta os planos para preencher essa lacuna: criar uma REST API em Go e um aplicativo com Flutter, permitindo verificar instituições próximas e cadastrar novas diretamente do local, aproveitando a geolocalização do smartphone.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/um-aplicativo-m%C3%B3vel-para-o-archives-world-map-planos-para-logo-quando-for-poss%C3%ADvel-93dab9522a34).

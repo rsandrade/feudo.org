@@ -1,0 +1,14 @@
+---
+title: "Ingress"
+author: "Ricardo Sodré Andrade"
+date: "2014-03-24"
+categories: [arquivista-net]
+description: "Primeiras impressões sobre o jogo Ingress e sua interface com a realidade aumentada."
+draft: false
+image: /posts/images/ingress.jpg
+---
+
+TECNOLOGIA
+INGRESS
+#ingress
+Escolha ser Enlightened.

@@ -1,0 +1,12 @@
+---
+title: "Holmes indexa mais um periódico em CI: Liinc em Revista"
+author: "Ricardo Sodré Andrade"
+date: "2008-04-16"
+categories: [arquivista-net]
+description: "Holmes, sistema de indexação, inclui mais um periódico em Ciência da Informação."
+draft: false
+---
+
+Acabo de incluir o periódico eletrônico Liinc em Revista no Holmes. A primeira coleta de metadados revelou 43 artigos no Liinc e que foram incluídos na base do Holmes.
+Agora as estatísticas apontam 35 periódicos ou repositórios e cerca de 24.743 trabalhos indexados no campo de estudos da Informação.
+Hoje também disponibilizei um texto sobre o Holmes na área de Produção do meu blog. O texto foi apresentado no XIV SNBU, que ocorreu em Salvador-Ba no ano de 2006.

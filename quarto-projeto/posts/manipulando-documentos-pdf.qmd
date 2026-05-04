@@ -1,0 +1,12 @@
+---
+title: "Manipulando documentos PDF"
+author: "Ricardo Sodré Andrade"
+date: "2008-04-10"
+categories: [arquivista-net]
+description: "Dicas para manipulação de documentos PDF com ferramentas livres."
+draft: false
+---
+
+Criar um documento PDF, fundir dois documentos em um só, apagar uma página… São coisas que as vezes queremos fazer e não sabemos como.
+Encontrei uma página com aplicativos que fazem isso e outras coisinhas mais, é o PDFTK Builder & other PDF resources for Windows.
+É sempre bom guardar nos favoritos ou no Del.icio.us, nunca se sabe quando iremos precisar de um software para mexer em um PDF.

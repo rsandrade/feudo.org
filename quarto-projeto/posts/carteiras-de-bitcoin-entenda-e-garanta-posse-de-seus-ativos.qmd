@@ -1,0 +1,12 @@
+---
+title: "Carteiras de Bitcoin: Entenda e garanta a posse de seus ativos"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium]
+description: "Entenda a importância de transferir seus bitcoins das exchanges para carteiras próprias, sejam elas de papel ou de software, para garantir a custódia dos seus criptoativos."
+draft: false
+---
+
+Diante de notícias de exchanges fechando ou sendo hackeadas, a regra fundamental é clara: não deixe seus bitcoins nas casas de câmbio. Este artigo explica os tipos de carteira — carteiras de papel para guarda offline e de longo prazo, e carteiras de software como Electrum e Samourai para uso no dia a dia — e como garantir que você seja o único responsável pela custódia de seus criptoativos.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/carteiras-de-bitcoin-entenda-e-garanta-posse-de-seus-ativos-3fdb4239c298).

@@ -1,0 +1,11 @@
+---
+title: "The Order of Archivists is on sale!"
+author: "Ricardo Sodré Andrade"
+date: "2015-10-14"
+categories: [arquivista-net]
+description: "Anúncio de disponibilidade do livro A Ordem dos Arquivistas: centésimo."
+draft: false
+---
+
+A fantasy story with archivists in a fantastic world.
+Createspace: https://www.createspace.com/5754176

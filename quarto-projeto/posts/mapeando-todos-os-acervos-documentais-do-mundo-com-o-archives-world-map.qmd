@@ -1,0 +1,12 @@
+---
+title: "Mapeando todos os acervos documentais do mundo com o Archives World Map"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-15"
+categories: [medium]
+description: "O projeto Archives World Map é um mapa colaborativo que reúne esforços para mapear instituições que permitem o acesso público a documentos históricos ao redor do mundo."
+draft: false
+---
+
+O Archives World Map é um mapa colaborativo que pretende reunir esforços de pessoas no mundo todo para mapear instituições que permitem o acesso público aos documentos que possuem em sua custódia. Na área de Arquivologia, acervos precisam ser mantidos perto da comunidade à qual se referem — o princípio da territorialidade. No momento da publicação, o projeto contava com 774 instituições cadastradas, sendo 43 brasileiras.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/mapeando-todos-os-acervos-documentais-do-mundo-com-o-archives-world-map-d145b0033eee).

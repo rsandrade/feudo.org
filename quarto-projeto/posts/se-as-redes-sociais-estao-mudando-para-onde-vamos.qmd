@@ -1,0 +1,12 @@
+---
+title: "Se as redes sociais estão mudando, para onde todos nós estamos indo?"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium]
+description: "Uma reflexão sobre a evolução das redes sociais, os problemas de privacidade no Facebook e a tendência de migração para ambientes especializados e grupos temáticos."
+draft: false
+---
+
+As redes sociais estão em transformação. Com o Facebook enfrentando crises de privacidade e regulação, o artigo reflete sobre para onde estamos indo: ambientes especializados e grupos temáticos, como os canais do Telegram, onde comunidades de interesse se formam. A aposta é que as redes sociais do futuro serão espaços de interlocução específica, cabendo à humanidade escolher entre o conhecimento e a idiotização.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/se-as-redes-sociais-est%C3%A3o-mudando-para-onde-todos-n%C3%B3s-estamos-indo-1390b8fb49dc).

@@ -1,0 +1,12 @@
+---
+title: "Senha e frase-senha: dois dedos de prosa sobre como proteger melhor suas contas em plataformas"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium]
+description: "Aprenda a criar senhas fortes e fáceis de memorizar usando o método Diceware para gerar frases-senha seguras contra ataques de força bruta."
+draft: false
+---
+
+Senhas fracas como datas de nascimento podem ser quebradas em milissegundos por um computador. Este artigo explica a técnica Diceware para gerar frases-senha — combinações de palavras aleatórias sorteadas com dados de jogo — que são ao mesmo tempo extremamente seguras e fáceis de lembrar, recomendando no mínimo 6 a 7 palavras para garantir proteção robusta.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/senha-e-frase-senha-dois-dedos-de-prosa-sobre-como-proteger-melhor-suas-contas-em-plataformas-60b56ed7987b).

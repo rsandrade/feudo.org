@@ -1,0 +1,12 @@
+---
+title: "A ordem dos arquivistas: centésimo"
+author: "Ricardo Sodré Andrade"
+date: "2012-06-25"
+categories: [arquivista-net]
+description: "Lançamento do livro A Ordem dos Arquivistas: centésimo, romance sobre arquivistas."
+draft: false
+image: /posts/images/a-ordem-dos-arquivistas-centesimo-blog.jpg
+---
+
+Acabo de publicar um romance de fantasia chamado “A Ordem dos Arquivistas: Centésimo”.
+Para mais informações: http://www.arquivista.net/ordem

@@ -1,0 +1,15 @@
+---
+title: "Radioamadorismo"
+author: "Ricardo Sodré Andrade"
+date: "2013-04-21"
+categories: [arquivista-net]
+description: "Apresentação do hobby de radioamadorismo e suas conexões com tecnologia e comunicação."
+draft: false
+image: /posts/images/radioamadorismo.jpg
+---
+
+Fui aprovado em exame pela ANATEL para receber meu Certificado de Operador de Estação de Rádioamador (COER). Agora sou operador Classe C.
+Para quem se interessar, o site da estação é http://www.pu6ric.info
+O blog está parado, mas quando coisas impostantes assim acontece, eu sempre darei um jeito de publicar por aqui.
+Um abraço (ou 73),
+Ricardo

@@ -1,0 +1,11 @@
+---
+title: "Primeiros dias de trabalho na UFBA"
+author: "Ricardo Sodré Andrade"
+date: "2010-02-12"
+categories: [arquivista-net]
+description: "Registro dos primeiros dias como arquivista na Universidade Federal da Bahia."
+draft: false
+---
+
+Comecei meus dias de servidor público federal na UFBA.
+Por enquanto estou passando por diversos setores, conhecendo os procedimentos e os instrumentos de gestão.

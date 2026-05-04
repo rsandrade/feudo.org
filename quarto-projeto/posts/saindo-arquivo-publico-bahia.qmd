@@ -1,0 +1,11 @@
+---
+title: "Saindo do Arquivo Público da Bahia"
+author: "Ricardo Sodré Andrade"
+date: "2009-10-15"
+categories: [arquivista-net]
+description: "Despedida do Arquivo Público da Bahia e transição para a UFBA."
+draft: false
+---
+
+Acabou em setembro de 2009 minha participação no corpo funcional do Arquivo Público da Bahia, onde fui responsável pelo Setor de Informática, atuando como Assessor de Tecnologias aplicadas a Arquivo.
+Agora, irei me dedicar ao mestrado e a outros projetos que tenho, até que a UFBA me chame para assumir a vaga de Arquivista que conquistei no último concurso público.

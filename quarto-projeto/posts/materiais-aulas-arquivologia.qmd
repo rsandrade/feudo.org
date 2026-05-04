@@ -1,0 +1,12 @@
+---
+title: "Materiais das aulas – Curso de Arquivologia (noturno)"
+author: "Ricardo Sodré Andrade"
+date: "2009-05-27"
+categories: [arquivista-net]
+description: "Materiais utilizados nas aulas do curso de Arquivologia da UFBA."
+draft: false
+---
+
+Materiais utilizados nas aulas do curso de Arquivologia da UFBA.
+
+Leia o texto completo em [ricardo.arquivista.net](https://ricardo.arquivista.net/materiais-das-aulas-curso-de-arquivologia-noturno/).

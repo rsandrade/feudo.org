@@ -1,0 +1,12 @@
+---
+title: "Hackerspaces: espaços de tecnologia, ética e solidariedade"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium]
+description: "Conheça o movimento dos hackerspaces no Brasil, com destaque para o Raul Hacker Club de Salvador, espaços de colaboração, aprendizado e inclusão tecnológica."
+draft: false
+---
+
+Na contramão da cultura individualista, os hackerspaces resistem como espaços de colaboração, solidariedade e partilha de conhecimento. Este artigo apresenta o Raul Hacker Club de Salvador, que promove atividades como a Cripto Axé (criptoparty) e o projeto Crianças Hackers, que ensina crianças a construir, desconstruir e modificar tecnologias como forma de liberdade.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/hackerspaces-espa%C3%A7os-de-tecnologia-%C3%A9tica-e-solidariedade-d136e91b1c3e).

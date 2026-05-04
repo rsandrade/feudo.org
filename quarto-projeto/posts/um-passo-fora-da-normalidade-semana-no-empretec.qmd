@@ -1,0 +1,12 @@
+---
+title: "Um passo fora da normalidade: ou 'uma semana no seminário Empretec'"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium]
+description: "Relato da experiência de participar do seminário Empretec do Sebrae, uma imersão de 6 dias sobre as 10 características do perfil empreendedor."
+draft: false
+---
+
+O seminário Empretec, criado no âmbito da ONU e aplicado pelo Sebrae no Brasil em mais de 34 países, é uma imersão de 6 dias para entender e praticar os 30 comportamentos relacionados às 10 características do empreendedor. O autor compartilha sua experiência de autoconhecimento, os desafios de expor o próprio perfil e a importância de adquirir competências empreendedoras em um cenário de incertezas sociais e econômicas.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/um-passo-fora-da-normalidade-ou-uma-semana-no-semin%C3%A1rio-empretec-c06800b23a20).

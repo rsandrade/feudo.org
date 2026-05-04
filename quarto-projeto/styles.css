@@ -1,0 +1,126 @@
+/* ============================================
+   feudo.org — Custom styles for Quarto site
+   ============================================ */
+
+/* --- Identity Colors --- */
+:root {
+  --feudo-primary: #2c3e50;
+  --feudo-accent: #8b4513;
+  --feudo-light: #f8f5f0;
+  --feudo-link: #6b3a2a;
+  --feudo-link-hover: #a0522d;
+}
+
+/* --- General --- */
+body {
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+
+/* --- Navbar tweaks --- */
+.navbar {
+  border-bottom: 2px solid var(--feudo-accent) !important;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* --- Hero section (index page) --- */
+.about-hero {
+  background: linear-gradient(135deg, var(--feudo-light) 0%, #fff 100%);
+}
+
+/* --- Page headers --- */
+main.quarto-article section#heading h2,
+main.quarto-article h2 {
+  border-bottom: 2px solid var(--feudo-accent);
+  padding-bottom: 0.3em;
+  margin-top: 2em;
+}
+
+/* --- Links --- */
+a {
+  color: var(--feudo-link);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--feudo-link-hover);
+  text-decoration: underline;
+}
+
+/* --- Book covers --- */
+.book-cover {
+  max-width: 180px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  margin: 1em 0;
+}
+
+/* --- Publications list --- */
+.pub-item {
+  margin-bottom: 1.5em;
+  padding-left: 0.5em;
+  border-left: 3px solid var(--feudo-accent);
+  padding: 0.5em 0 0.5em 1em;
+}
+
+.pub-item p {
+  margin-bottom: 0.2em;
+}
+
+/* --- Listing cards --- */
+.listing-item-img-placeholder.card-img-top {
+  display: none;
+}
+
+.quarto-listing-cols-3 .listing-card,
+.quarto-listing-cols-2 .listing-card {
+  min-height: auto;
+}
+
+.listing-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Category filters on textos page --- */
+.quarto-listing-category {
+  background-color: var(--feudo-light);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.3em 0.8em;
+  margin: 0.2em;
+  font-size: 0.9em;
+  transition: all 0.2s ease;
+}
+
+.quarto-listing-category:hover,
+.quarto-listing-category.active {
+  background-color: var(--feudo-accent);
+  color: white;
+  border-color: var(--feudo-accent);
+}
+
+/* --- Footer --- */
+.nav-footer {
+  border-top: 2px solid var(--feudo-accent);
+}
+
+/* --- Project info boxes --- */
+.project-info {
+  background: var(--feudo-light);
+  border: 1px solid #e0d8cf;
+  border-radius: 6px;
+  padding: 1em 1.5em;
+  margin: 1em 0;
+}
+
+/* --- Responsive adjustments --- */
+@media (max-width: 768px) {
+  .book-cover {
+    max-width: 140px;
+  }
+}

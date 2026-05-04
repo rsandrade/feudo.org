@@ -1,0 +1,12 @@
+---
+title: "Preservação Digital e nossos documentos pessoais: confiar em serviços de terceiros é arriscado"
+author: "Ricardo Sodré Andrade"
+date: "2019-03-01"
+categories: [medium]
+description: "Uma reflexão sobre os riscos de confiar exclusivamente em serviços de terceiros para armazenar documentos pessoais e a importância de estratégias de redundância e preservação digital."
+draft: false
+---
+
+Nossa vida é digital — fotos, documentos, tudo está em bits na nuvem. Mas a cloud não existe, é apenas o computador de outra pessoa. Este artigo discute os riscos de confiar plenamente em serviços como Dropbox, Google Drive e OneDrive como única cópia de documentos importantes, e propõe a redundância como estratégia mínima de salvaguarda para preservar a memória pessoal e familiar.
+
+Leia o artigo completo no [Medium](https://medium.com/@ricsodre/preserva%C3%A7%C3%A3o-digital-e-nossos-documentos-pessoais-confiar-em-servi%C3%A7os-de-terceiros-%C3%A9-arriscado-b4b9e7a3f967).

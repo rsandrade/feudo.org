@@ -36,7 +36,6 @@
 
   /* ── Tag navbar elements with i18n keys (once, on first load) ── */
   function tagNavbar() {
-    // Top-level nav items: map by original PT text → key
     const navMap = {
       'Sobre': 'nav-about',
       'Trajetória': 'nav-trajetoria',
@@ -85,24 +84,17 @@
   /* ── Translate footer ──────────────────────────────── */
   function translateFooter(t) {
     if (!t) return;
-    // Find the footer center paragraph
     const footer = document.querySelector('.nav-footer-center');
     if (!footer) return;
     const p = footer.querySelector('p');
     if (!p) return;
-    
-    // Footer structure: "Construído com [Quarto] · Template [Dr. Gang He]"
-    // Rebuild from translations
     const builtWith = t['footer-built'] || 'Construído com';
     const templateWord = t['footer-template'] || 'Template';
-    
-    // Get the existing links
     const links = p.querySelectorAll('a');
     const quartoHref = links[0]?.href || 'https://quarto.org';
     const templateHref = links[1]?.href || 'https://github.com/drganghe/quarto-academic-website-template';
     const quartoText = links[0]?.textContent || 'Quarto';
     const templateText = links[1]?.textContent || 'Dr. Gang He';
-    
     p.innerHTML = `${builtWith} <a href="${quartoHref}">${quartoText}</a> · ${templateWord} <a href="${templateHref}">${templateText}</a>`;
   }
 
@@ -154,12 +146,17 @@
     const labels = {pt:'PT', en:'EN', es:'ES', fr:'FR', ro:'RO'};
     const full   = {pt:'Português', en:'English', es:'Español', fr:'Français', ro:'Română'};
 
-    const nav = document.querySelector('.navbar-collapse');
-    if (!nav) return;
+    // Insert the selector as a NEW navbar-nav between the menu and the social icons
+    // This ensures it gets proper space in the navbar flexbox
+    const collapse = document.querySelector('.navbar-collapse');
+    if (!collapse) return;
 
+    // Find the social icons nav (the ms-auto one)
+    const socialNav = collapse.querySelector('.navbar-nav.ms-auto');
+    
     const wrap = document.createElement('div');
     wrap.id = 'lang-selector';
-    wrap.className = 'lang-selector nav-item';
+    wrap.className = 'lang-selector';
 
     SUPPORTED.forEach(l => {
       const btn = document.createElement('button');
@@ -172,7 +169,12 @@
       wrap.appendChild(btn);
     });
 
-    nav.appendChild(wrap);
+    // Insert before the social icons nav if it exists, otherwise append
+    if (socialNav) {
+      collapse.insertBefore(wrap, socialNav);
+    } else {
+      collapse.appendChild(wrap);
+    }
   }
 
   /* ── Switch ────────────────────────────────────────── */
@@ -196,9 +198,7 @@
 
   /* ── Init ───────────────────────────────────────────── */
   async function init() {
-    // Tag navbar BEFORE any translation (save original PT text → key mapping)
     tagNavbar();
-    
     const lang = detectLang();
     const t = await load(lang);
     apply(t);

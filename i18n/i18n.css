@@ -1,0 +1,58 @@
+/* feudo.org language selector */
+.lang-selector {
+  display: flex;
+  gap: 0.15rem;
+  margin-left: 0.75rem;
+  align-items: center;
+  border-left: 1px solid rgba(255,255,255,0.2);
+  padding-left: 0.75rem;
+}
+
+.lang-btn {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 3px;
+  color: rgba(255,255,255,0.8);
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.15rem 0.4rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: 0.03em;
+  line-height: 1.4;
+}
+
+.lang-btn:hover {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  border-color: rgba(255,255,255,0.5);
+}
+
+.lang-btn-active {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  border-color: rgba(255,255,255,0.6);
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] .lang-selector {
+  border-left-color: rgba(255,255,255,0.1);
+}
+
+/* Mobile: make selector more compact */
+@media (max-width: 991.98px) {
+  .lang-selector {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    justify-content: center;
+  }
+  
+  .lang-btn {
+    padding: 0.25rem 0.55rem;
+    font-size: 0.8rem;
+  }
+}

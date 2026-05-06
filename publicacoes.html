@@ -239,13 +239,11 @@ https://badge.dimensions.ai/
    
   <ul>
   <li><a href="#sobre" id="toc-sobre" class="nav-link active" data-scroll-target="#sobre">Sobre</a></li>
-  <li><a href="#livros" id="toc-livros" class="nav-link" data-scroll-target="#livros">Livros</a>
-  <ul class="collapse">
+  <li><a href="#livros" id="toc-livros" class="nav-link" data-scroll-target="#livros">Livros</a></li>
   <li><a href="#tomos-fantásticos-fantasia-medieval-e-heroica" id="toc-tomos-fantásticos-fantasia-medieval-e-heroica" class="nav-link" data-scroll-target="#tomos-fantásticos-fantasia-medieval-e-heroica">Tomos Fantásticos: Fantasia Medieval e Heroica</a></li>
   <li><a href="#mundos-distantes-1" id="toc-mundos-distantes-1" class="nav-link" data-scroll-target="#mundos-distantes-1">Mundos Distantes 1</a></li>
   <li><a href="#a-ordem-dos-arquivistas-centésimo" id="toc-a-ordem-dos-arquivistas-centésimo" class="nav-link" data-scroll-target="#a-ordem-dos-arquivistas-centésimo">A Ordem dos Arquivistas: centésimo</a></li>
   <li><a href="#cultura-representação-e-informação-digitais" id="toc-cultura-representação-e-informação-digitais" class="nav-link" data-scroll-target="#cultura-representação-e-informação-digitais">Cultura, representação e informação digitais</a></li>
-  </ul></li>
   <li><a href="#artigos-em-periódicos" id="toc-artigos-em-periódicos" class="nav-link" data-scroll-target="#artigos-em-periódicos">Artigos em periódicos</a></li>
   <li><a href="#comunicações-em-eventos" id="toc-comunicações-em-eventos" class="nav-link" data-scroll-target="#comunicações-em-eventos">Comunicações em eventos</a></li>
   <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
@@ -279,13 +277,19 @@ https://badge.dimensions.ai/
 </header>
 
 
+<script>document.body.dataset.i18nPageTitle='page-publicacoes-title';document.body.dataset.i18nPageDesc='page-publicacoes-desc';</script>
 <section id="sobre" class="level2">
 <h2 class="anchored" data-anchor-id="sobre">Sobre</h2>
-<p>Relação das publicações acadêmicas de Ricardo Sodré Andrade, organizadas por tipo. Período: 2004–2026.</p>
+<p data-i18n="pubs-about">
+Relação das publicações acadêmicas de Ricardo Sodré Andrade, organizadas por tipo. Período: 2004–2026.
+</p>
 </section>
-<section id="livros" class="level2">
+<section id="livros" class="level2" data-i18n="books-title">
 <h2 class="anchored" data-anchor-id="livros">Livros</h2>
-<p>Quatro livros publicados, sendo um como autor e três como organizador.</p>
+</section>
+<p data-i18n="pubs-books-about">
+Quatro livros publicados, sendo um como autor e três como organizador.
+</p>
 <section id="tomos-fantásticos-fantasia-medieval-e-heroica" class="level3">
 <h3 class="anchored" data-anchor-id="tomos-fantásticos-fantasia-medieval-e-heroica">Tomos Fantásticos: Fantasia Medieval e Heroica</h3>
 <p><img src="files/images/books/book4_cover.jpg" class="img-fluid" data-fig-class="book-cover" width="200"></p>
@@ -309,7 +313,6 @@ https://badge.dimensions.ai/
 <p><img src="files/images/books/book1_cover.jpg" class="img-fluid" data-fig-class="book-cover" width="200"></p>
 <p><strong>Papel:</strong> Organizador · <strong>Editora:</strong> EDUFBA · <strong>Ano:</strong> 2010</p>
 <p><a href="https://repositorio.ufba.br/handle/ri/7315">Repositório UFBA</a></p>
-</section>
 </section>
 <section id="artigos-em-periódicos" class="level2">
 <h2 class="anchored" data-anchor-id="artigos-em-periódicos">Artigos em periódicos</h2>
@@ -364,6 +367,10 @@ https://badge.dimensions.ai/
 </section>
 
 </main> <!-- /main -->
+<!-- feudo.org i18n: language detection + selector -->
+<!-- Using absolute paths for deployment at feudo.org -->
+<link rel="stylesheet" href="https://feudo.org/i18n/i18n.css">
+<script src="https://feudo.org/i18n/i18n.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

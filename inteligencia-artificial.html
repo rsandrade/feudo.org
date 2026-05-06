@@ -276,27 +276,42 @@ https://badge.dimensions.ai/
 </header>
 
 
+<script>document.body.dataset.i18nPageTitle='page-ia-title';document.body.dataset.i18nPageDesc='page-ia-desc';</script>
 <section id="sobre" class="level2">
 <h2 class="anchored" data-anchor-id="sobre">Sobre</h2>
-<p>Página dedicada à aplicação de Inteligência Artificial no campo da Arquivologia, incluindo linhas de pesquisa, demonstrações e preprints.</p>
+<p data-i18n="ia-about">
+Página dedicada à aplicação de Inteligência Artificial no campo da Arquivologia, incluindo linhas de pesquisa, demonstrações e preprints.
+</p>
 </section>
-<section id="arquivologia-computacional" class="level2">
+<section id="arquivologia-computacional" class="level2" data-i18n="ia-comparch">
 <h2 class="anchored" data-anchor-id="arquivologia-computacional">Arquivologia Computacional</h2>
-<p>Linha de pesquisa que investiga a interface entre a Arquivologia e a Ciência da Computação, explorando métodos computacionais para tratamento, análise e acesso a documentos arquivísticos.</p>
 </section>
-<section id="rag-ingênuo-recortes" class="level2">
+<p data-i18n="ia-comparch-desc">
+Linha de pesquisa que investiga a interface entre a Arquivologia e a Ciência da Computação.
+</p>
+<section id="rag-ingênuo-recortes" class="level2" data-i18n="ia-rag">
 <h2 class="anchored" data-anchor-id="rag-ingênuo-recortes">RAG Ingênuo / Recortes</h2>
-<p>Demonstração do sistema <strong>Recortes</strong>, uma implementação de RAG (Retrieval-Augmented Generation) aplicada a acervos documentais.</p>
 </section>
-<section id="social-rag" class="level2">
+<p data-i18n="ia-rag-desc">
+Demonstração do sistema <strong>Recortes</strong>, uma implementação de RAG (Retrieval-Augmented Generation) aplicada a acervos documentais.
+</p>
+<section id="social-rag" class="level2" data-i18n="ia-social-rag">
 <h2 class="anchored" data-anchor-id="social-rag">Social-RAG</h2>
-<p>Preprint sobre <strong>Social-RAG</strong>, abordagem que integra dimensões sociais e contextuais aos sistemas de recuperação aumentada por geração.</p>
-<p><em>Conteúdo em desenvolvimento.</em></p>
-
-
 </section>
+<p data-i18n="ia-social-rag-desc">
+Preprint sobre <strong>Social-RAG</strong>, abordagem que integra dimensões sociais e contextuais aos sistemas de recuperação aumentada por geração.
+</p>
+<p data-i18n="content-dev">
+<em>Conteúdo em desenvolvimento.</em>
+</p>
+
+
 
 </main> <!-- /main -->
+<!-- feudo.org i18n: language detection + selector -->
+<!-- Using absolute paths for deployment at feudo.org -->
+<link rel="stylesheet" href="https://feudo.org/i18n/i18n.css">
+<script src="https://feudo.org/i18n/i18n.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

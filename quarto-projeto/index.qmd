@@ -50,21 +50,25 @@ Sou arquivista na [Universidade Federal da Bahia](https://www.ufba.br) (UFBA), a
 
 Desde 2024, atuo no [LABHDUFBA](https://labhd.ufba.br) (Laboratório de Humanidades Digitais da UFBA). Fui coordenador do [CRIDI](https://cridi.ici.ufba.br) (Grupo de Estudos sobre Cultura, Representação e Informação Digitais) entre 2019 e 2026, grupo do qual sou membro desde 2008, atualmente inativo. Minha trajetória combina a prática arquivística, com atuação em gestão documental, preservação digital e descrição arquivística, com a pesquisa aplicada em IA, análise de redes e visualização de dados aplicadas a acervos documentais.
 
+:::{data-i18n="sec-areas"}
 ## Áreas de Atuação
+:::
 
-- Arquivologia e Gestão Documental
-- Humanidades Digitais
-- Inteligência Artificial aplicada a arquivos
-- Preservação Digital
-- Cultura Hacker
-- Software Livre e Ciência Aberta
+- <span data-i18n="area-1">Arquivologia e Gestão Documental</span>
+- <span data-i18n="area-2">Humanidades Digitais</span>
+- <span data-i18n="area-3">Inteligência Artificial aplicada a arquivos</span>
+- <span data-i18n="area-4">Preservação Digital</span>
+- <span data-i18n="area-5">Cultura Hacker</span>
+- <span data-i18n="area-6">Software Livre e Ciência Aberta</span>
 
 :::
 
 <!-- Seção de posts recentes — visível quando houver conteúdo em /posts/ -->
+:::{data-i18n="sec-recent-posts"}
 ## Postagens Recentes
+:::
 
 :::{#recent-posts}
 :::
 
-<p align="right">[Todas as postagens »](/textos.qmd)</p>
+<p align="right">[<span data-i18n="all-posts">Todas as postagens</span> »](/textos.qmd)</p>

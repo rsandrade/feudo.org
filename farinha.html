@@ -274,9 +274,12 @@ https://badge.dimensions.ai/
 </header>
 
 
+<script>document.body.dataset.i18nPageTitle='page-farinha-title';document.body.dataset.i18nPageDesc='page-farinha-desc';</script>
 <section id="sobre" class="level2">
 <h2 class="anchored" data-anchor-id="sobre">Sobre</h2>
-<p><strong>Farinha</strong> é um software livre para criação de plataformas de acesso a acervos permanentes e memoriais. O projeto visa disponibilizar ferramentas abertas e acessíveis para instituições que desejam gerenciar seus acervos documentais de forma eficiente e transparente.</p>
+<p data-i18n="farinha-about">
+<strong>Farinha</strong> é um software livre para criação de plataformas de acesso a acervos permanentes e memoriais. O projeto visa disponibilizar ferramentas abertas e acessíveis para instituições que desejam gerenciar seus acervos documentais de forma eficiente e transparente.
+</p>
 <table class="caption-top table">
 <tbody>
 <tr class="odd">
@@ -290,17 +293,23 @@ https://badge.dimensions.ai/
 </tbody>
 </table>
 </section>
-<section id="projetos-associados" class="level2">
+<section id="projetos-associados" class="level2" data-i18n="farinha-associated">
 <h2 class="anchored" data-anchor-id="projetos-associados">Projetos associados</h2>
-<ul>
-<li><strong>Recortes RAG</strong>: sistema de recuperação aumentada por geração (RAG) aplicado a acervos documentais.</li>
-</ul>
-<p><em>Conteúdo em desenvolvimento.</em></p>
-
-
 </section>
+<ul>
+<li><span data-i18n="farinha-recortes"><strong>Recortes RAG</strong>: sistema de recuperação aumentada por geração (RAG) aplicado a acervos documentais.</span></li>
+</ul>
+<p data-i18n="content-dev">
+<em>Conteúdo em desenvolvimento.</em>
+</p>
+
+
 
 </main> <!-- /main -->
+<!-- feudo.org i18n: language detection + selector -->
+<!-- Using absolute paths for deployment at feudo.org -->
+<link rel="stylesheet" href="https://feudo.org/i18n/i18n.css">
+<script src="https://feudo.org/i18n/i18n.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

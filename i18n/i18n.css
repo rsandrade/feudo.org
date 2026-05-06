@@ -1,58 +1,93 @@
-/* feudo.org language selector */
+/* feudo.org language selector — desktop + mobile */
 .lang-selector {
   display: flex;
-  gap: 0.15rem;
+  gap: 0.2rem;
   margin-left: 0.75rem;
   align-items: center;
-  border-left: 1px solid rgba(255,255,255,0.2);
+  border-left: 1px solid rgba(0,0,0,0.1);
   padding-left: 0.75rem;
+  flex-shrink: 0;
 }
 
 .lang-btn {
   background: transparent;
-  border: 1px solid rgba(255,255,255,0.25);
+  border: 1px solid rgba(0,0,0,0.15);
   border-radius: 3px;
-  color: rgba(255,255,255,0.8);
+  color: rgba(0,0,0,0.6);
   font-size: 0.7rem;
   font-weight: 600;
   padding: 0.15rem 0.4rem;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
   letter-spacing: 0.03em;
   line-height: 1.4;
+  white-space: nowrap;
 }
 
 .lang-btn:hover {
-  background: rgba(255,255,255,0.15);
-  color: #fff;
-  border-color: rgba(255,255,255,0.5);
+  background: rgba(0,0,0,0.06);
+  color: rgba(0,0,0,0.85);
+  border-color: rgba(0,0,0,0.3);
 }
 
 .lang-btn-active {
-  background: rgba(255,255,255,0.2);
-  color: #fff;
-  border-color: rgba(255,255,255,0.6);
+  background: rgba(0,0,0,0.1);
+  color: rgba(0,0,0,0.85);
+  border-color: rgba(0,0,0,0.35);
+  font-weight: 700;
 }
 
-/* Dark mode adjustments */
-[data-theme="dark"] .lang-selector {
+/* ── Dark mode compat ── */
+[data-bs-theme="dark"] .lang-selector {
   border-left-color: rgba(255,255,255,0.1);
 }
+[data-bs-theme="dark"] .lang-btn {
+  color: rgba(255,255,255,0.65);
+  border-color: rgba(255,255,255,0.15);
+}
+[data-bs-theme="dark"] .lang-btn:hover {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  border-color: rgba(255,255,255,0.4);
+}
+[data-bs-theme="dark"] .lang-btn-active {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  border-color: rgba(255,255,255,0.45);
+}
 
-/* Mobile: make selector more compact */
+/* ── Mobile: hamburger menu ── */
 @media (max-width: 991.98px) {
+  /* Language selector: row of buttons at bottom of menu */
   .lang-selector {
     margin-left: 0;
     padding-left: 0;
     border-left: none;
-    margin-top: 0.5rem;
-    padding-top: 0.5rem;
-    border-top: 1px solid rgba(255,255,255,0.15);
+    margin-top: 0.75rem;
+    padding-top: 0.6rem;
+    border-top: 1px solid rgba(0,0,0,0.08);
     justify-content: center;
+    gap: 0.3rem;
+    width: 100%;
   }
-  
+
   .lang-btn {
-    padding: 0.25rem 0.55rem;
+    padding: 0.3rem 0.6rem;
     font-size: 0.8rem;
+  }
+
+  /* Social icons in mobile: horizontal row */
+  .navbar-collapse .navbar-nav:last-child {
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+    justify-content: center;
+    padding-top: 0.4rem;
+    border-top: 1px solid rgba(0,0,0,0.06);
+    margin-top: 0.3rem;
+  }
+
+  .navbar-collapse .navbar-nav:last-child .nav-item.compact {
+    margin: 0;
   }
 }

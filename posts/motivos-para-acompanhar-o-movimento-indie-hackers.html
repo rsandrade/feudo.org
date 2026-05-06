@@ -321,8 +321,62 @@ https://badge.dimensions.ai/
 
 </main> <!-- /main -->
 <!-- feudo.org i18n: language detection + selector -->
-<!-- v=6 !important on all button styles to override Bootstrap -->
-<link rel="stylesheet" href="https://feudo.org/i18n/i18n.css?v=6">
+<!-- All styles inline to guarantee they override Bootstrap/Quarto -->
+<style>
+.lang-selector {
+  display: flex !important;
+  gap: 0.3rem !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
+  padding: 0 0.5rem !important;
+}
+.lang-selector .lang-btn {
+  background: #2c3e50 !important;
+  border: none !important;
+  border-radius: 3px !important;
+  color: #fff !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  padding: 0.3rem 0.55rem !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+  letter-spacing: 0.04em !important;
+  line-height: 1.3 !important;
+  white-space: nowrap !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+.lang-selector .lang-btn:hover {
+  background: #1a252f !important;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2) !important;
+}
+.lang-selector .lang-btn-active {
+  background: #c0392b !important;
+  color: #fff !important;
+  font-weight: 800 !important;
+  box-shadow: 0 1px 3px rgba(192,57,43,0.4) !important;
+}
+[data-bs-theme="dark"] .lang-selector .lang-btn {
+  background: rgba(255,255,255,0.2) !important;
+  color: #fff !important;
+}
+[data-bs-theme="dark"] .lang-selector .lang-btn:hover {
+  background: rgba(255,255,255,0.35) !important;
+}
+[data-bs-theme="dark"] .lang-selector .lang-btn-active {
+  background: #c0392b !important;
+  color: #fff !important;
+}
+@media (max-width: 991.98px) {
+  .lang-selector { padding: 0.5rem 0 !important; gap: 0.4rem !important; justify-content: center !important; width: 100% !important; border-top: 1px solid rgba(0,0,0,0.08); }
+  .lang-selector .lang-btn { padding: 0.4rem 0.8rem !important; font-size: 0.9rem !important; }
+  .navbar-collapse .navbar-nav.ms-auto { display: flex !important; flex-direction: row !important; gap: 0.25rem !important; justify-content: center !important; width: 100% !important; }
+  .navbar-collapse .navbar-nav.ms-auto .nav-item.compact { margin: 0 !important; padding: 0 !important; }
+}
+</style>
 <script src="https://feudo.org/i18n/i18n.js?v=3"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {

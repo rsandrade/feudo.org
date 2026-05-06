@@ -46,9 +46,11 @@ listing:
 
 :::{#hero}
 
+:::{data-i18n-html="bio-text"}
 Sou arquivista na [Universidade Federal da Bahia](https://www.ufba.br) (UFBA), atualmente cedido ao [Arquivo Nacional](https://www.gov.br/arquivonacional) como **Chefe do Escritório Regional Nordeste** (2025–). Coordeno os projetos [Farinha](https://farinha.info) e [Arquivos da UFBA](https://arquivos.ufba.br). Tenho interesse nas interfaces entre Arquivologia, Humanidades Digitais, Cultura Hacker e Inteligência Artificial aplicada a arquivos.
 
 Desde 2024, atuo no [LABHDUFBA](https://labhd.ufba.br) (Laboratório de Humanidades Digitais da UFBA). Fui coordenador do [CRIDI](https://cridi.ici.ufba.br) (Grupo de Estudos sobre Cultura, Representação e Informação Digitais) entre 2019 e 2026, grupo do qual sou membro desde 2008, atualmente inativo. Minha trajetória combina a prática arquivística, com atuação em gestão documental, preservação digital e descrição arquivística, com a pesquisa aplicada em IA, análise de redes e visualização de dados aplicadas a acervos documentais.
+:::
 
 :::{data-i18n="sec-areas"}
 ## Áreas de Atuação

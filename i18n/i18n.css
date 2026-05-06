@@ -1,5 +1,7 @@
 /* feudo.org language selector — desktop + mobile */
 /* The selector sits between the menu items and social icons in the navbar */
+/* NOTE: Quarto navbar always has data-bs-theme="dark" regardless of 
+   background: light setting, so we style for dark navbar context */
 
 .lang-selector {
   display: flex !important;
@@ -10,8 +12,8 @@
 }
 
 .lang-btn {
-  background: #2c3e50 !important;
-  border: none !important;
+  background: #3a5068 !important;
+  border: 1px solid rgba(255,255,255,0.3) !important;
   border-radius: 3px !important;
   color: #fff !important;
   font-size: 0.72rem !important;
@@ -27,29 +29,18 @@
 }
 
 .lang-btn:hover {
-  background: #1a252f !important;
+  background: #4a6278 !important;
+  border-color: rgba(255,255,255,0.5) !important;
   transform: translateY(-1px);
   box-shadow: 0 2px 4px rgba(0,0,0,0.2) !important;
 }
 
 .lang-btn-active {
   background: #c0392b !important;
+  border-color: transparent !important;
   color: #fff !important;
   font-weight: 800 !important;
   box-shadow: 0 1px 3px rgba(192,57,43,0.4) !important;
-}
-
-/* ── Dark mode compat ── */
-[data-bs-theme="dark"] .lang-btn {
-  background: rgba(255,255,255,0.2) !important;
-  color: #fff !important;
-}
-[data-bs-theme="dark"] .lang-btn:hover {
-  background: rgba(255,255,255,0.35) !important;
-}
-[data-bs-theme="dark"] .lang-btn-active {
-  background: #c0392b !important;
-  color: #fff !important;
 }
 
 /* ── Mobile: hamburger menu ── */
@@ -59,7 +50,7 @@
     gap: 0.4rem !important;
     justify-content: center !important;
     width: 100% !important;
-    border-top: 1px solid rgba(0,0,0,0.08);
+    border-top: 1px solid rgba(255,255,255,0.1);
   }
 
   .lang-btn {

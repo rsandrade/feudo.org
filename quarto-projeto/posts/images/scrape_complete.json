@@ -1,0 +1,320 @@
+[
+  {
+    "slug": "a-ordem-dos-arquivistas-centesimo-blog",
+    "status": "ok",
+    "text": "Acabo de publicar um romance de fantasia chamado “A Ordem dos Arquivistas: Centésimo”.\nPara mais informações: http://www.arquivista.net/ordem",
+    "image": "a-ordem-dos-arquivistas-centesimo-blog.jpg",
+    "image_url": "https://ricardo.arquivista.net/wp-content/uploads/sites/16/2012/06/capa_OdA-672x372.jpg",
+    "url": "https://ricardo.arquivista.net/2012/06/25/a-ordem-dos-arquivistas-centesimo/"
+  },
+  {
+    "slug": "aprovacao-concurso-ufba",
+    "status": "ok",
+    "text": "CONVERSA INFORMAL\nAPROVAÇÃO NO CONCURSO DA UFBA\n15 DE AGOSTO DE 2009 RICARDO ANDRADE 3 COMENTÁRIOS\nFui aprovado no concurso para Arquivista da UFBA. Agora é esperar ser chamado.",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2009/08/15/aprovacao-no-concurso-da-ufba/"
+  },
+  {
+    "slug": "aula-calouros-arquivologia",
+    "status": "ok",
+    "text": "Na quinta-feira passada dei uma aula, a convite da Profa. Alzira, para a turma de calouros do novo curso noturno de Arquivologia da UFBA.\nA orientação foi que eu deveria falar sobre o que eles poderiam esperar enquanto estudantes e profissionais. Qual o cenário estabelecido e minha visão sobre isso.\nIniciei falando da graduação e da experiência como bolsista de iniciação científica, algo que me permitiu ter sucesso na seleção de mestrado, logo após a colação de grau. Essa experiência, a participação no Diretório Acadêmico e as atividades de extensão fazem parte do ser universitário.\nTambém comentei sobre a dualidade existente na área, com a polarização das associações. Falei do Sindicato Nacional dos Arquivistas e dos eventos interessantes da área.\nO mercado de trabalho também foi ponto explorado, considerando os concursos que tivemos nos últimos dois anos.\nMe parece que eles ficaram animados, ou pelo menos estimulados com a situação da área no Brasil.",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2009/04/27/aula-para-turma-de-calouros-do-curso-noturno-de-arquivologia-da-ufba/"
+  },
+  {
+    "slug": "aws-glacier-copias-seguranca",
+    "status": "ok",
+    "text": "Quase 4 meses depois de iniciar o uso do Amazon Web Service Glacier, gostaria de apresentar esse serviço da Amazon que pretende servir de alternativa às fitas de backup e outras opções de guarda a longo prazo de seus documentos digitais.\nO Glacier é parte do conjunto de soluções em nuvem da Amazon. Uma opção de armazenamento de grande quantidade de dados que terão acesso pouco frequente, baixo custo e armazenamento por longo prazo.\nConsidere-o como um serviço interessante para armazenar documentos eletrônicos/digitais pessoais como fotografias, vídeos e outros que você não quer perder quando descobrir que o HD do seu computador ou aquele DVD-R importante está estragado.\nEmpresas também vão perceber o valor do AWS Glacier para armazenar seus documentos de valor permanente.\nImagine o Glacier como uma espécie de disco virtual, no que diz respeito a ser um espaço de armazenamento remoto. Mas ele não sincroniza pastas em seu computador, você precisa realizar o upload de seus dados para sua conta no Glacier (pode enviar muitos terabytes de dados, ele aguenta).\nRecomenda-se que seja feito um planejamento de quais documentos e como eles serão preparados para o armazenamento no Glacier, de minha parte, tenho preparado pacotes com o formato 7-zip antes de enviar.\nBaixa frequência de acesso de dados\nPode enviar terabytes de dados para o Glacier, há espaço suficiente e o envio é gratuito.\nNo entanto, para recuperar uma pasta ou documento eletrônico depositado, você precisa esperar 3 a 5 horas após a solicitação. Essa é a primeira característica que deverá ficar atento. Caso queira depositar documentos que você consulta frequentemente, o Glacier não é a solução que procura.\nSe pretende depositar aqueles dados que você precisa recuperar pouquíssimas vezes ao ano (como quando seu HD queimar e você precisar recuperar cópias), o Glacier é para você ou sua empresa.\nMas, atenção! Há custos, leia a seguir.\nBaixo custo\nRecuperar documentos no Glacier será gratuito se você permanecer em um patamar de recuperação abaixo de 1 GB/mês.\nA recuperação dos documentos enviados pode custar a partir de US$ 0.12 (doze centavos de dólar), depois dos primeiros 1 GB gratuitos, até os primeiros 10 terabytes, se ocorrido dentro de um mesmo mês. Para uma tabela mais específica, consulte as regras de preço do serviço.\nComo usar o AWS Glacier – o básico\n1. Tenha uma conta na AWS. O site está em português e não é difícil se cadastrar. Se você já comprou algo na Amazon, então pode usar a mesma conta.\n2. Sugiro que use o aplicativo FastGlacier. Há uma versão gratuita que usei por alguns dias antes de decidir adquirir a versão “Pro”, que permite enviar os documentos mais rápido. Se não quiser gastar 39 dólares por (muito) mais velocidade, pode continuar usando a versão gratuita.\n3. Adotei como prática criar pacotes compactados com o 7-zip. Posso enviar uma pasta de fotos de um determinado evento de uma vez só e recuperar com agilidade semelhante quando precisar.",
+    "image": "aws-glacier-copias-seguranca.jpg",
+    "image_url": "https://ricardo.arquivista.net/wp-content/uploads/sites/16/2014/07/amazon_glacier1-e1406595110412-672x372.jpg",
+    "url": "https://ricardo.arquivista.net/2014/07/28/amazon-aws-glacier-alternativa-em-nuvem-para-copias-de-seguranca/"
+  },
+  {
+    "slug": "bases-dados-arquivisticas-web",
+    "status": "ok",
+    "text": "A maior parte das grandes instituições arquivísticas possuem suas bases de dados acerca dos acervos que custodiam. Geralmente são registros dos itens documentais, como é o caso do Arquivo Público da Bahia, cujas bases começaram a ser construídas a cerca de dez anos, salvo engano.\nO grande problema dessas bases é que foram pensadas, construídas e mantidas ligadas a sistemas que permitem apenas a consulta local, sem acesso remoto. Disponibilizar essas bases na internet é um interessante desafio e muitas instituições ainda não conseguiram fôlego suficiente para encara-lo.\nO Arquivo Público da Bahia tem um trabalho nesse sentido, intencionando a migração das suas bases para internet, o que demanda a mudança do Sistema Gerenciador de Banco de Dados e da interface utilizada. Atualmente estamos experimentando com o SGBD MySQL e a linguagem de programação PHP.\nQualificar os antigos e os novos instrumentos de referência/pesquisa por meio da adoção das normas de descrição arquivística é louvável, mas há muitos dados que podem ser úteis aos pesquisadores se estivessem disponibilizados, mesmo que não normalizados, na web.\nVocê conhece alguma instituição em situações ligadas a essa problemática? Já pensou sobre como ela está enfrentando a situação? Se desejar, mande um comentário contando!",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2008/06/05/disponibilizacao-de-bases-de-dados-arquivisticas-legadas-na-web/"
+  },
+  {
+    "slug": "blockchain-criptomoedas-aplicacoes",
+    "status": "ok",
+    "text": "Blockchains\nO blockchain (ou “cadeia de blocos” ou “corrente de blocos”) é uma tecnologia que usa a descentralização como forma de assegurar a integridade dos dados armazenados. A ideia de um encadeamento de dados, cada um ligado a outro de forma indissociável, possui como função a criação de um índice global para todas as transações que ocorrem em um determinado ambiente. Imagine uma corrente onde cada elo possui a informação sobre qual era o elo anterior – encadeando os blocos de forma ordenada e interligada.\nFunciona como um livro-razão (ledger), só que “de forma pública, compartilhada e universal, que cria consenso e confiança na comunicação direta entre duas partes, ou seja, sem o intermédio de terceiros”. Está constantemente crescendo, na medida que novos blocos são adicionados. Os blocos são adicionados à blockchain de modo linear e cronológico. Os computadores conectados a essa rede tem a tarefa de validar e registrar as transações ocorridas – além de armazenar uma cópia da blockchain.\nA blockchain possui informação completa sobre endereços e saldos do bloco inicial até o bloco mais recentemente concluído. Assim, a “corrente” de blocos não pode ser modificada, visto que muitos computadores diferentes possuem uma cópia da corrente e se autoverificam  constantemente.\nA blockchain é vista como a principal inovação tecnológica do Bitcoin, a primeira criptomoeda que utilizou o conceito. Seu projeto original tem servido de inspiração para o surgimento de novas criptomoedas, bancos de dados distribuídos e aplicações de diversos tipos no qual a integridade e autenticidade dos dados é característica vital.\nCriptomoedas e outras aplicações de blockchain\nNo ecossistema da blockchain temos os tokens, ou moedas (as “coins”). Esses são os recursos enviados de um usuário para outro no ambiente da blockchain e essas tramitações são registrados no “livro-razão”.\nOs tokens são “objetos digitais” construídos por meio de criptografia avançada e não podem ser falsificados. A cada transação, a validade das transações desses tokens é testada pelos “mineradores”, computadores ligados à rede que verificam matematicamente a validade de cada transação. Os mineradores são recompensados em tokens/moedas por esse trabalho (cada transação precisa pagar um determinado valor/taxa para que ocorra). Há outras formas de validar transações, mas a maior parte das blockchains operam dessa forma (“proof-of-work”).\nAbaixo cito algumas criptomoedas interessantes (Bitcoin e Litecoin), ambientes computacionais descentralizados (Ethereum e Neo) e uma aplicação destinada a gestão de documentos e outros registros legais (Factom), apontando suas descrições básicas para melhor entendimento das possíveis aplicações da tecnologia blockchain.\nBitcoin – http://www.bitcoin.org\nA mais antiga e com maior “market cap” (algo como valor de mercado, alcançando um montante tal que recentemente ultrapassou a Netflix e Paypal).\nPelo valor acumulado, o Bitcoin está sendo visto como uma reserva de valor, como o Ouro é há milhares de anos. Sendo conhecido como “ouro digital”, o Bitcoin é aproveitado para compra de bens caros, como carros e imóveis, além de muitas pessoas comprarem como investimento a longo prazo, visto que a adoção das criptomoedas ainda é inicial em todo o mundo e a possibilidade de aumento do valor ainda ser potencialmente muito grande.\nLitecoin – http://www.litecoin.org\nCriado poucos anos depois do Bitcoin e com a missão de ser a “prata digital”, assim como o Bitcoin é considerado o “ouro digital”. Nesse objetivo, a quantidade de moedas disponíveis é quatro vezes a quantidade da irmã mais velha e conta com diversas modificações que, por sua vez, fazem com que as transações sejam mais rápidas e o custo de mineração seja mais barato computacionalmente, barateando a taxa de transação paga aos mineradores (até 100 vezes mais baratas que as transações do Bitcoin). Assim, o Litecoin se apresenta como uma solução ideal para o uso cotidiano.\nO Litecoin foi criado e é mantido por Charles Lee, ex-funcionário da Coinbase, uma das maiores casas de câmbio de criptomoeda do mundo. Sua saída da Coinbase para se dedicar em tempo integral ao desenvolvimento da Litecoin pode significar mais um vetor de avanço desta criptomoeda.\nEther – http://www.ethereum.org\nO Ether é a moeda básica da rede Ethereum, um computador descentralizado e baseado na tecnologia Blockchain que permite a execução de contratos inteligentes (os smart contracts).\nÉ possível criar novas criptomoedas ou ativos na rede Ethereum a partir do Ether. Esse foi um dos motivos que facilitou a proliferação de novas criptomoedas nos últimos anos (há registros que apontam a existência de até 1000 criptomoedas atualmente).\nA diferença básica na rede Ethereum para as outras blockchains já citadas é a possibilidade em programar as transações. Se o Bitcoin e Litecoin são transacionadas diretamente do emissor para o receptor, o Ether pode ser programado para atender a condicionais, como por exemplo:\n“Pagar 10 Eth apenas se o saldo de fulano estiver abaixo de 2 Eth”\nOu podemos ainda imaginar algo como:\n“A cada mês, no dia 10, pagar X Eth para a companhia de energia elétrica. O valor de X é informado na conta eletrônica enviada”\nNeo – https://neo.org\nÉ o “Ethereum chinês”. Criado na China e declaradamente amigável a governos e suas regulações, o Neo pretende ser para a China e oriente o que a rede Ethereum é para o ocidente. Pode parecer pouco, mas basta lembrar que a China possui um gosto peculiar por soluções locais (Alibaba e não Amazon; WeChat e não Whatsapp…).\nA rede Neo possui 2 tokens/moedas diferentes. A “Neo”, que é como se fosse uma “ação” e o “Gas”, que é de fato a moeda (ou o dividendo) e é produzida pelos tokens Neo ao longo do tempo. Ou seja, quem possui Neo acaba ganhando Gas periodicamente.\nFactom – https://www.factom.com/\nA Factom desenvolveu uma blockchain homônima para desenvolver produtos relacionados à preservação, garantia de autenticidade e integridade de ativos (entendendo ativo de forma ampla e relativo ao patrimônio de organizações).\nO produto que destaco é o Harmony, uma solução para criar um processo digital que permite o controle de documentos e dados de forma segura e com a vantagem da tecnologia blockchain para prover confiança e integridade durante o acesso e tramitação.\nTecnologia alterando modos de operar\nCom todas as vantagens citadas, a tecnologia Blockchain está alterando algumas realidades e espaços de produção de forma revolucionária. Há quem diga que semelhantemente à forma com a qual a internet também foi disruptiva.\nTransparência de transações, descentralização (que leva à imutabilidade dos registros armazenados) e integridade são vantagens que se consolidam em sistemas informatizados, aumentando a confiança nos dados e nos registros, algo extremamente necessário nas soluções financeiras, informacionais e comunicacionais.",
+    "image": "blockchain-criptomoedas-aplicacoes.jpg",
+    "image_url": "https://ricardo.arquivista.net/wp-content/uploads/sites/16/2017/10/2088_HIGHLIGHT_FT-672x372.jpeg",
+    "url": "https://ricardo.arquivista.net/2017/10/16/sobre-blockchain-criptomoedas-e-outras-aplicacoes-o-basico-de-detalhes-avancados/"
+  },
+  {
+    "slug": "carteira-de-papel-bitcoin",
+    "status": "ok",
+    "text": "Se você chegou até esse guia,  provavelmente decidiu comprar  há pouco tempo uma quantia em Bitcoin, o ativo financeiro com o ecossistema de serviços, infraestrutura e participantes que mais cresce no mundo.\nTer sido o investimento mais rentável da última década e prometendo repetir o feito na atual é motivo suficiente para chamar a atenção da maioria dos investidores. A rentabilidade é o fator que mais chama a atenção, mas essa é a consequência dascaracterísticas que fazem do Bitcoin um ativo financeiro único e excepcional.\nPara possuir bitcoins, é necessário ter uma carteira para armazena-los com segurança. Portanto, vamos começar com a premissa que todos devem ter em mente:\nVocê e apenas você é responsável por seus bitcoins.\nA segurança deles é um problema unicamente seu.\nEstamos acostumados a ter um gerente no banco ou um número de atendimento ao cliente para o qual ligar toda vez que temos um problema. Isso ocorre por “nosso” dinheiro estar quase sempre custodiado por terceiros. Com o Bitcoin, o ideal é mantermos a custódia, assegurando a nossa soberania e controle sobre o valor armazenado no criptoativo de nossa propriedade.\nDito isso. vamos começar pela definição de carteira, no universo do Bitcoin.\nUma carteira é o que nos permite receber, armazenar e enviar bitcoins. Normalmente ela é formada por, pelo menos, uma chave privada e uma ou mais chaves públicas (também chamados de endereços).\nA chave privada permite que o dono da carteira envie os bitcoins para endereços de recebimento de outras pessoas. Os endereços de recebimento permitem apenas a recepção e consulta de saldo e nunca o envio/retirada.\nSe o dono da carteira perde sua chave privada, a carteira está irremediavelmente perdida e, com ela, todos os bitcoins armazenados. Não há como recuperar. Portanto, guarde bem a chave privada. Guarde em um cofre, não permita que pessoas não autorizadas tenham acesso a esse dado, que é literalmente a chave de acesso aos seus bitcoins.\nUma carteira de papel normalmente possui uma chave privada e uma chave pública (endereço).\nPara criar sua primeira carteira, acesse https://segwitaddress.org/\nClique no botão igual à imagem abaixo:\nUm quadro igual à imagem a seguir deverá surgir. O que você deve fazer é mover o ponteiro do mouse dentro do quadro até completar a barra de progresso do rodapé. Mova aleatoriamente, garantindo que o aplicativo de geração de carteira tenha dados randômicos suficientes para gerar sua carteira única e segura.\nApós completar a barra de progresso, uma imagem semelhante à vista abaixo irá surgir.\nVocê deve imprimir essa página. Ela é sua carteira.\nDo lado esquerdo, você terá sua chave pública (endereço) de recebimento. É essa sequência de caracteres ou qrcode que você precisará utilizar para receber bitcoins. Essa informação é pública e é seguro compartilhar com pessoas e empresas\nDo lado direito, você terá a chave privada. Essa sequência de caracteres e o qrcode que está acima são para uso exclusivo seu. Não compartilhe com ninguém! Ela permite que você possa retirar seus bitcoins no futuro.\nVocê acaba de criar sua carteira de papel, uma vez que imprimiu a carteira gerada! Parabéns!",
+    "image": "carteira-de-papel-bitcoin.png",
+    "image_url": "https://ricardo.arquivista.net/wp-content/uploads/sites/16/2020/08/CarteiraPapel-672x372.png",
+    "url": "https://ricardo.arquivista.net/2020/08/03/como-criar-sua-carteira-de-papel-para-guardar-seus-bitcoins/"
+  },
+  {
+    "slug": "catalogo-lindembergue-cardoso",
+    "status": "ok",
+    "text": "O Projeto “Marcos Históricos da Composição Contemporânea na UFBA” anuncia seu mais recente lançamento: o catálogo-web do compositor Lindembergue Cardoso (1939-1989). Realizado pela pesquisadora Ilza Nogueira, em homenagem ao septuagésimo aniversário de nascimento do compositor, o catálogo se encontra disponibilizado no site do projeto (http://www.mhccufba.ufba.br/) em versão web integralmente ilustrada e em formato “PDF”, para download.\nOrganizado por instrumentação – do solo ao complexo de solista(s), coro e orquestra –, o catálogo inclui ainda dois índices de busca – por ordem alfanumérica e cronológica – e, como anexos, a cronologia de vida do compositor (organizada por Lucy Cardoso), sua discografia e bibliografia até 2009.\nA idealização editorial é do Prof. Dr. Pablo Sotuyo Blanco e o trabalho de implementação eletrônica foi realizado por Lindembergue Rocha Cardoso Filho.\nFonte: Divulgação por email, na lista Todos-l da UFBA",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2010/04/24/catalogo-web-do-compositor-lindembergue-cardoso/"
+  },
+  {
+    "slug": "concurso-monografias-bahia",
+    "status": "ok",
+    "text": "No último dia do Cinform – Encontro Nacional de Ensino e Pesquisa em Informação foi divulgado o resultado do primeiro concurso de monografias de arquivologia da Bahia, promovido pela Associação dos Arquivistas da Bahia – AABA.\nMinha monografia de conclusão de curso foi a segunda colocada e tratava de “aspectos introdutórios” de representação de informação arquivística, na verdade, sobre uso de normas, padrões de metadados (EAD-DTD) e o projeto Archives Hub.\nQuem quiser ler, pode acessar a versão publicada no periódico Ponto de Acesso, do ICI-UFBA. Basta acessar o menu de “Produção” acima que o link estará disponível nos submenus “Tudo (lista completa)”, “Artigos em periódicos” e “Monográficos”.\nEsse tipo de concurso é uma boa forma de incentivar os estudantes a se dedicarem ao máximo na elaboração do trabalho. Parabéns à AABA!",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2008/06/20/resultado-do-concurso-de-monografias-de-arquivologia-da-bahia/"
+  },
+  {
+    "slug": "curso-ontologia-8-horas",
+    "status": "ok",
+    "text": "No último final de semana fiz um curso sobre Ontologia. Chamava-se “Sistemas de Representação do Conhecimento: Ontologia” e foi organizado por uma ONG de Salvador que presta serviços na área de tecnologia.\nForam 8 horas no total. As primeiras quatro horas serviram para ter uma idéia do que seria o curso, em termos de conteúdo. As últimas quatro horas foram “facilitadas” por um instrutor diferente das quatro primeiras horas, ele era doutorando e  professor, isso facilitava o entendimento, pois ele organizava o pensamento e a fala.\nOntologia é uma forma de representar conceitos, definindo formalmente classes, entidades e relacionamentos dentro de um domínio. Lendo assim parece mais difícil do que talvez realmente seja.\nLonge de tentar explicar o que é uma ontologia, sugiro uma passada na página do termo na Wikipédia. Talvez seja um bom ponto de partida.\nAs aulas práticas foram realizadas com o software livre Portégé, um editor de arquivos OWL, um formato baseado em XML, destinado a criar ontologias.\nÉ tido que o OWL possibilita formalizar uma ontologia de forma “mais semântica” do que outros formatos, como o RDF. De fato, OWL é o formato indicado pela W3C, mas ainda não posso afirmar mais sobre ela.\nVou estudar isso e quem sabe tecer comentários mais úteis depois…",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2009/04/06/curso-de-ontologia-em-8-horas/"
+  },
+  {
+    "slug": "defesa-dissertacao",
+    "status": "ok",
+    "text": "No dia 6 de maio de 2010 eu defendi minha dissertação de mestrado e alcancei o grau de Mestre em Ciência da Informação.\nEm breve irei colocar a dissertação e/ou algum artigo que derive dela aqui no site.",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2010/05/08/defesa-de-dissertacao-realizada-mais-um-passo-dado/"
+  },
+  {
+    "slug": "descricao-arquivistica-web",
+    "status": "ok",
+    "text": "Falar de descrição arquivística é falar de representação da informação, ou representação arquivística, como aponta a autora Elizabeth Yakel (2003). Na Arquivologia, estamos acostumados a ouvir ou ler que temos que descrever o conteúdo e o contexto, isso para prover acesso.\nPromover acesso é um lado da moeda (do outro lado estaria a preservação), como diria meu orientador de pesquisa. É o acesso que permite a construção da identidade cultural dos consulentes de um acervo, cujo conteúdo sirva para isso. Ou ainda, conhecer a história dos grupos sociais ou entorno em que vivemos. Ou, mais além, entender melhor culturas e grupos diferentes dos nossos.\nO esforço em construir uma revisão de literatura sobre a descrição arquivística, no âmbito do mestrado, é recompensada por novas formas e possibilidades que a Web apresenta. Não apenas o acesso rápido e fácil, mas, muito mais que isso, a interatividade possível e o processo de construção colaborativa da representação da informação arquivística.\nMuitos pesquisadores possuem informações e idéias excelentes, que podem auxiliar na pesquisa de outros, mas isso não é aproveitado. Não há, digamos, uma gestão desse conhecimento (olha a gestão do conhecimento marcando presença na arquivologia, alguém duvidava dessa possibilidade?).\nColocar nossos instrumentos de referência (opa, estamos acostumados com o termo “instrumentos de acesso”) na Web, pura e simplesmente, não significa aproveitar o que a Web pode oferecer.\nMeu trabalho no mestrado se propõe a pensar nessas possibilidades, convido aos interessados a acompanharem o blog, aqui irei avisar dos trabalhos e eventos que deverei falar mais sobre isso.\nQue venham esses próximos dois anos.\n– Ricardo Sodré Andrade\nYAKEL, Elizabeth. Archival Representation. In: Archival Science, vol. 3, 2003.",
+    "image": "",
+    "image_url": "http://starfleet.feudo.org/wp-content/uploads/sites/16/2008/04/pessoasconsultandoarquivo.jpg",
+    "url": "https://ricardo.arquivista.net/2008/04/12/descricao-arquivistica-na-web-os-pontos-importantes-da-questao/"
+  },
+  {
+    "slug": "descricao-arquivistica-web2",
+    "status": "ok",
+    "text": "O periódico do Instituto de Ciência da Informação da UFBA acaba de lançar mais uma edição e um dos artigos publicados é produto da minha pesquisa de mestrado.\nO objetivo da pesquisa é investigar a evolução dos instrumentos arquivísticos de referência, tradicionalmente chamados de instrumentos de pesquisa.\nNessa oportunidade, é apresentada a atual versão da revisão de literatura acerca dos aspectos históricos e teóricos da descrição arquivística, dos instrumentos arquivísticos de referência e da nova geração de instrumentos arquivísticos de referência, na intenção de apresentar uma visão acerca dos temas que a pesquisa pretende tratar e da perspectiva na qual ela se posiciona.\nPara ler o trabalho, visite a seção de publicações deste site e acesse o trabalho (um dos últimos da lista) “Aspectos teóricos e históricos da descrição arquivística e uma proposta de nova geração de instrumentos arquivísticos de referência“, publicado na revista Ponto de Acesso.",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2008/12/15/novo-texto-publicado-em-periodico-aspectos-teoricos-e-historicos-da-descricao-arquivistica-e-a-evolucao-dos-instrumentos-de-referencia-ate-a-web-20/"
+  },
+  {
+    "slug": "dissertacao-mestrado-pdf",
+    "status": "ok",
+    "text": "Para quem tiver interesse, a minha dissertação de mestrado já está disponível na área de publicações deste website.\nEla passará por alguns ajustes e ampliação para publicação dos resultados em forma de artigo, mas já deve ser útil para quem quiser conhecer o conteúdo dela.",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2010/06/02/pdf-com-a-minha-dissertacao-de-mestrado/"
+  },
+  {
+    "slug": "em-terras-portuguesas",
+    "status": "ok",
+    "text": "Esse é realmente um blog de poucas atualizações. Enquanto eu não passar a alocar tempo suficiente para escrever pequenos textos dignos desse espaço, vou apenas atualizando um pouco os acontecimentos.\nComo comentei em post anterior, escapei do Brasil com destino a Portugal para as minhas aulas no doutoramento em Informação e Comunicação em Plataformas Digitais, curso mantido pelo conjunto Universidade do Porto e Universidade de Aveiro.\nPouco menos de 3 a 4 anos mais e, se Deus quiser, voltarei à pátria com mais um e possivelmente definitivo canudo, completando a tríade Bacharelado-Mestrado-Doutorado.\nA foto acima foi tirada na cidade de Guimarães, dentro da bela construção que é o Castelo de Guimarães, em um dos meus 3 fins de semana de folga até agora.",
+    "image": "em-terras-portuguesas.jpg",
+    "image_url": "https://ricardo.arquivista.net/wp-content/uploads/sites/16/2014/01/falcao-672x372.jpg",
+    "url": "https://ricardo.arquivista.net/2014/01/09/em-terras-portuguesas/"
+  },
+  {
+    "slug": "formas-comunicacao-blog",
+    "status": "ok",
+    "text": "As pessoas fazem possuem blog pelos mais diversos motivos. Da criação de um diário pessoal e público, em um exercício egocêntrico, porém válido, até o que podemos chamar de utilidade pública, com a publicação de conteúdos úteis à outras pessoas.\nDepois da criação do Portal do Arquivista, percebi que haviam coisas que eu queria falar, mas o portal não era o local. Notícias relacionadas às minhas idas aos eventos ou recentes publicações em periódicos destoavam dos conteúdos abrangentes que o portal costuma publicar.\nVeio então a idéia de um blog pessoal, onde eu pudesse ter liberdade de publicar conteúdos que se referiam a mim e a meu trabalho. O nível de impessoalidade do Portal do Arquivista não irá vigorar aqui, é um espaço pessoal, porém, destinado a estabelecer comunicação com meus amigos e desconhecidos interessados em minha produção.\nA utilidade se resume a ser um veículo do que eu fizer e que seja de interesse de outros, como o compartilhamento de pensamentos ou da produção de conhecimento que ocorre no âmbito do mestrado, minha atual atividade acadêmica ou do trabalho, ligado ao campo da Arquivologia.\nE a comunicação não é unilateral, os campos de comentários existem para que seja possível a troca de impressões entre os visitantes, não deixe de comentar!\nabraço,\nRicardo Sodré Andrade",
+    "image": "",
+    "image_url": "http://starfleet.feudo.org/wp-content/uploads/sites/16/2008/04/ribnisko-jezero.jpg",
+    "url": "https://ricardo.arquivista.net/2008/04/09/formas-de-comunicacao-pessoal-a-utilidade-desse-blog/"
+  },
+  {
+    "slug": "gestao-aaba",
+    "status": "ok",
+    "text": "Faz tempo que não atualizo as coisas nesse blogsite, mas resolvi anunciar por aqui uma coisa importante que ocorreu nesse último trimestre: a chapa no qual concorri para presidente da Associação dos Arquivistas da Bahia ganhou as eleições.\nIsso quer dizer que no próximo biênio eu e mais alguns outros colegas estaremos a frente de uma associação profissional, estando relacionado com tudo que isso implica.\nVamos em frente.\nPs: Boas festas a todos! Que o Natal e Ano Novo de todos sem ótimos!",
+    "image": "",
+    "image_url": "https://s.w.org/images/core/emoji/17.0.2/svg/1f642.svg",
+    "url": "https://ricardo.arquivista.net/2009/12/20/na-gestao-da-associacao-dos-arquivistas-da-bahia/"
+  },
+  {
+    "slug": "goiania-xv-cba",
+    "status": "ok",
+    "text": "Acabou o XV Congresso Brasileiro de Arquivologia. Estive presente desde o segundo dia, por conta de um vôo de partida que não me esperou. Mas, pessoalmente, foi muito bom o congresso.\nMinhas impressões pessoais foram muito boas, em parte por ter conhecido algumas figuras interessantes, como:\nPeter Van Garderen, do projeto ICA-AtoM\nDidier Grange, do Conselho Internacional de Arquivos\nJaime Antunes, Diretor do Arquivo Nacional\nLeonardo Borges, da Femade\nAntônio (não lembro o sobrenome!), do Arquivo da CUT\nAndré Ancona Lopez, da UnB\nSérgio Albite\nTarcísio Barbosa, da UnB\nMarília Neves, da equipe de apoio do evento\nJeane Silva, Arquivista da Petros\nAlém de outros que apresentaram comunicações durante o evento\nAlém de conhecer gente nova, ainda pude reencontrar algumas pessoas que eu já havia tido contato anteriormente, como:\nPedro Moura, do Arquivo Público de Pernambuco\nCarlos Lima, do Arquivo Municipal de Paracatu – MG e que foi meu colega na UFBA\nAngélica Marques, doutoranda da UnB\nMuito bom esse contato com as pessoas que esses eventos proporcionam… Tenho diversas coisas pra registrar sobre o que aconteceu e sobre o que vi no congresso, mas vou ter que fazer isso em outra oportunidade…\nE mal posso esperar pelo III Congresso Nacional de Arquivologia, no Rio de Janeiro!",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2008/07/05/andancas-por-goiania-xv-congresso-brasileiro-de-arquivologia/"
+  },
+  {
+    "slug": "golang-raspberry-pi-3",
+    "status": "ok",
+    "text": "I decided to learn the programming language Go weeks ago after a long time looking for a second language. My first one is my lovely PHP.\nThis post is to share a small script to setup the Golang 1.10.3 in your Raspberry Pi 3 (I used the tiny one to setup my programming environment in my early steps in Go).\nI did a small change in the original script to update the Golang version. You can check here: https://gist.github.com/rsandrade/f3fc5c11cc4bbe0be8a4070ac3963723\nThe last part of the script (after “cat” command) is very useful. That will save the Go paths to avoid you to need export them all the time you login into your raspberry. You can use that in others Linux boxes too.",
+    "image": "",
+    "image_url": "http://starfleet.feudo.org/wp-content/uploads/sites/16/2018/06/go-raspberrypi.jpg",
+    "url": "https://ricardo.arquivista.net/2018/06/25/configuring-golang-environment-in-your-raspberry-pi-3/"
+  },
+  {
+    "slug": "habilidades-antes-dos-18",
+    "status": "ok",
+    "text": "Escolas deveriam preparar você para a vida real, mas raramente conseguem alcançar esse objetivo de forma plena. Se você procura pelo que é essencial para ensinar a suas crianças (ou aprender depois de adulto), aqui estão algumas sugestões de Harvard.\nComo sugere Julie Lythcott-Haims, ex-Harvard e autor, quando as pessoas alcançam 18 anos de idade,  elas devem ter algumas habilidades básicas para navegar pela vida. Dentre essas habilidades, mas não necessariamente limitadas a elas, estão:\nSaber falar com estranhos.\nSaber se localizar na sua cidade, campi etc.\nSaber realizar inscrições, gerenciar cargas de trabalho e prazos.\nContribuir para o funcionamento do lar onde vive.\nLidar com problemas pessoais.\nLidar com altos e baixos.\nSer capaz de ganhar e gerenciar dinheiro.\nSer capaz de assumir riscos.\nMuitas dessas habilidades não são ensinadas nas escolas. De fato, algumas delas são desencorajadas. Qual escola ensina as crianças a assumir riscos? Alguns adultos podem passar a vida inteira sem aprender a fazer isso. De qualquer forma, quando você se torna adulto e precisar encarar seus próprios problemas, essas habilidades serão valiosas. Você pode ler mais sobre essas habilidades no Quora (em inglês).\nTraduzido de Everyone Should Have These Skills Before They Turn 18 (Lifehacker)",
+    "image": "habilidades-antes-dos-18.jpg",
+    "image_url": "https://ricardo.arquivista.net/wp-content/uploads/sites/16/2016/05/1-672x372.jpg",
+    "url": "https://ricardo.arquivista.net/2016/05/04/todo-mundo-deveria-desenvolver-essas-habilidades-antes-dos-18-anos/"
+  },
+  {
+    "slug": "holmes-liinc-em-revista",
+    "status": "ok",
+    "text": "Acabo de incluir o periódico eletrônico Liinc em Revista no Holmes. A primeira coleta de metadados revelou 43 artigos no Liinc e que foram incluídos na base do Holmes.\nAgora as estatísticas apontam 35 periódicos ou repositórios e cerca de 24.743 trabalhos indexados no campo de estudos da Informação.\nHoje também disponibilizei um texto sobre o Holmes na área de Produção do meu blog. O texto foi apresentado no XIV SNBU, que ocorreu em Salvador-Ba no ano de 2006.",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2008/04/16/holmes-indexa-mais-um-periodico-em-ci-liinc-em-revista/"
+  },
+  {
+    "slug": "iii-cna-fotos",
+    "status": "ok",
+    "text": "Algumas fotos tiradas durante minha participação no Congresso Nacional de Arquivologia. Infelizmente minha câmera quebrou e não consegui muitas fotos.",
+    "image": "iii-cna-fotos.jpg",
+    "image_url": "https://ricardo.arquivista.net/wp-content/uploads/sites/16/2008/11/dsc00488-150x150.jpg",
+    "url": "https://ricardo.arquivista.net/2008/11/03/iii-congresso-nacional-de-arquivologia-algumas-poucas-fotos/"
+  },
+  {
+    "slug": "ingress",
+    "status": "ok",
+    "text": "TECNOLOGIA\nINGRESS\n#ingress\nEscolha ser Enlightened.",
+    "image": "ingress.jpg",
+    "image_url": "https://ricardo.arquivista.net/wp-content/uploads/sites/16/2014/03/ingress-672x372.jpg",
+    "url": "https://ricardo.arquivista.net/2014/03/24/ingress/"
+  },
+  {
+    "slug": "la-fora",
+    "status": "ok",
+    "text": "VÍDEO\nLÁ FORA\nLá fora, de Ricardo Sodré Andrade disponível em Vimeo.\nCATADOR DE LIXOMISÉRIAPOBREZAVIDEO",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2011/01/25/la-fora/"
+  },
+  {
+    "slug": "lusofonia-instituicoes-arquivisticas",
+    "status": "ok",
+    "text": "Nos últimos dias, me concentrei na busca do entendimento do que é a Lusofonia, procurando por uma conceituação que pudesse ser utilizada como delimitador do escopo de minha investigação para doutoramento.\nA pesquisa está caminhando para o entendimento das intenções e efetivas apropriações dos media participativos por parte dos principais arquivos públicos de países lusófonos. A investigação proposta está muitos passos além da pesquisa que efetuei no âmbito de meu mestrado, que investigou o arquivo nacional e estaduais brasileiros no uso de recursos da Web 2.0, em 2010. Dessa vez, o estudo lida com as pluralidades dos diversos países que adotam oficialmente a língua portuguesa e que estão distribuídos pelos diversos continentes, como a América do Sul (Brasil), Europa (Portugal), África (Angola, Guiné-Bissau, Moçambique, São Tomé e Príncipe e Cabo Verde) e Ásia (Timor-Leste).\nAinda há os territórios de falantes do português, como Goa (Índia) e Macau (China). Estes ainda estão sendo considerados para a pesquisa e, mesmo que não façam parte das análises, não devem ser esquecidos como integrantes do entendimento alargado da geografia lusófona.\nDado os oito países, o que há de comum e excepcional nesses lugares que os tornam importantes para um estudo em informação e comunicação, concentrado nas instituições arquivísticas? Que importância há na lusofonia, seus fluxos, redes, e em seus países para se tornarem expressivos para essa pesquisa proposta?\nO começo está na herança lusitana comum, obtida desde o período das colonizações portuguesas. Não se pode jamais esquecer da pluralidade cultural que floresceu em cada um desses oito países ao longo dos últimos séculos e que, também, lusofonia não é uma rememoração de relações império-colônia, mas a afirmação da possibilidade de confraternização e cooperação entre povos que podem se comunicar facilmente dentro de um mundo contemporâneo hiperconectado e imerso na exigência do conhecimento da língua inglesa como falso pré-requisito obrigatório para todas e quaisquer ações além das fronteiras nacionais.\nSem entrar nos méritos e utilidades (que são reais) de se ter quadros funcionais hábeis no idioma anglo-saxão, as instituições arquivísticas da lusofonia podem criar laços de cooperação técnica entre si usando a própria língua materna, com a garantia de contarem com aproximados interesses históricos, científicos e culturais entre os possíveis parceiros.\nAlguns arquivos públicos poderiam apresentar-se bastante ansiosos pelas suas versões de páginas e serviços em inglês, francês ou alemão, esquecendo de criar mecanismos de atendimento e cooperação destinados aos países-primos, algo provavelmente muito mais fácil de realizar que atender os outros países (sonho muitas vezes frustrados já na dificuldade em manter um sítio atualizado e interessante na própria língua portuguesa).\nA lusofonia não é uma construção fácil, se refere a um espaço geográfico e linguístico fragmentado, uno em boa parte por um passado, idioma em comum e um contemporâneo esforço de aproximação (ver CPLP).\nHá ainda espaço para criação de redes que estreitem o diálogo técnico entre as instituições lusófonas, com vistas ao alcance cruzado dos usuários de cada uma delas. Divulgação, entendimento, cooperação e atendimento entre instituições, acervos e usuários, supranacionalmente, poderia gerar resultados extremamente satisfatórios na compreensão histórica e desenvolvimento técnico, científico e cultural desses países, contribuindo para a disponibilização de cada vez mais conteúdos em língua portuguesa na internet.",
+    "image": "lusofonia-instituicoes-arquivisticas.jpg",
+    "image_url": "https://ricardo.arquivista.net/wp-content/uploads/sites/16/2014/04/lusofonia3-e1397143449966-672x372.jpg",
+    "url": "https://ricardo.arquivista.net/2014/04/10/lusofonia-como-espaco-cooperativo-entre-instituicoes-arquivisticas/"
+  },
+  {
+    "slug": "manipulando-documentos-pdf",
+    "status": "ok",
+    "text": "Criar um documento PDF, fundir dois documentos em um só, apagar uma página… São coisas que as vezes queremos fazer e não sabemos como.\nEncontrei uma página com aplicativos que fazem isso e outras coisinhas mais, é o PDFTK Builder & other PDF resources for Windows.\nÉ sempre bom guardar nos favoritos ou no Del.icio.us, nunca se sabe quando iremos precisar de um software para mexer em um PDF.",
+    "image": "",
+    "image_url": "https://s.w.org/images/core/emoji/17.0.2/svg/1f642.svg",
+    "url": "https://ricardo.arquivista.net/2008/04/10/manipulando-documentos-pdf/"
+  },
+  {
+    "slug": "materiais-aulas-arquivologia",
+    "status": "password_protected",
+    "text": "",
+    "image": ""
+  },
+  {
+    "slug": "milhagens-eventos-arquivologia",
+    "status": "ok",
+    "text": "Recentemente descobri que um dos meus cartões de crédito possuía um programa de pontuação que permite a conversão em milhagens em companhias aéreas.\nMe empolguei. Sai procurando os últimos tickets de passagens que eu possuía e comecei a transformá-los em pontos de milhagem, consegui 1800 pontos. O programa de milhagens que escolhi foi o da TAM, no qual eu já havia feito o cadastro, mas nunca havia transformado as passagens em pontos antes por falta de interesse.\nA pontuação do cartão de crédito me rendeu mais 1800. Com esse somatório, já poderia economizar uma passagem de ida (a depender, eu voltaria andando…).\nDescobri ainda que a TAM possui parceria com alguns cartões de credito, transformando cada real pago nas faturas em 1,33 pontos de milhagem. Isso iria aumentar em 33% o incremento da minha pontuação, disse eu cá com meus botões…\nSe é pra pagar a fatura, que pelo menos eu ganhe milhagens… Esse ano teremos um punhado de eventos de Arquivologia e de Ciência da Informação que quero participar, portanto, as milhagens ajudam.\nFiz minha proposta para um desses cartões da TAM (pelo Itaúcard, pois o Unicard me complicou muito a vida…), se eles elevarem meu limite ao valor que quero, eu cancelo meus outros e uso apenas esse.",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2008/04/22/usando-milhagens-para-ir-aos-eventos-de-arquivologia/"
+  },
+  {
+    "slug": "order-of-archivists-on-sale",
+    "status": "ok",
+    "text": "A fantasy story with archivists in a fantastic world.\nCreatespace: https://www.createspace.com/5754176",
+    "image": "",
+    "image_url": "http://starfleet.feudo.org/wp-content/uploads/sites/16/2015/10/Capa-OdA-EN1-723x1024.jpg",
+    "url": "https://ricardo.arquivista.net/2015/10/14/the-order-of-archivists-is-on-sale/"
+  },
+  {
+    "slug": "premiacao-prppg-fapex",
+    "status": "ok",
+    "text": "Anunciaram no site do Seminário de Pesquisa da UFBA – SEMPPG a lista dos vencedores do prêmio Fapex Public 2008. Estou lá, entre as outras quatro pesquisas premiadas.\nPode ser visto aqui: http://www.semppg.ufba.br/arquivos/vencedores_public2008.pdf\nO Aloísio, um colega de curso, também anunciou no blog dele: http://arquivologo.wordpress.com/\nNa entrega dos certificados houve momento para fotografia, devo receber elas em breve e publico aqui.",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2008/11/27/mais-sobre-a-premiacao-prppgufba-e-fapex/"
+  },
+  {
+    "slug": "primeiro-dia-aula-professor",
+    "status": "ok",
+    "text": "Na última quarta-feira dei aula para uma turma de graduação, como parte das atividades do mestrado. Era uma turma composta, em sua maioria, por estudantes de arquivologia e alguns de biblioteconomia. A disciplina: Metodologia da Pesquisa.\nAchava que a quantidade de horas que tinha disponível era grande, teria que me esforçar para manter o ritmo durante todo aquele tempo, sem enrolar e sem deixar a aula inútil. Acho que consegui.\nQuestionei sobre qual a percepção que aquela disciplina provocava neles. Perguntei acerca do tema que tinham interesse para pesquisar. Levantei a possibilidade de que as possíveis dificuldades a serem encontradas iriam se concentrar no fato de que “o problema é justamente definir o problema de pesquisa”.\nEu apresentei da melhor forma possível as etapas necessárias para construção de um anteprojeto, falei sobre cada uma dessas etapas até os “objetivos específicos”.\nOs questionamentos que foram levantados, as dúvidas explicitadas e o debate que por vezes se manifestava me fizeram ter a sensação de ter cumprido bem o papel de professor.\nFoi um teste pessoal: poderia me tornar um bom professor?\nO resultado me deixou com uma sensação de que poderia passar os próximos anos da vida fazendo isso também, se tiver oportunidade.\nVou lembrar de perguntar na próxima oportunidade o que acharam da aula. Simplesmente esqueci.",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2008/09/29/primeiro-dia-de-aula/"
+  },
+  {
+    "slug": "primeiros-dias-ufba",
+    "status": "ok",
+    "text": "Comecei meus dias de servidor público federal na UFBA.\nPor enquanto estou passando por diversos setores, conhecendo os procedimentos e os instrumentos de gestão.",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2010/02/12/primeiros-dias-de-trabalho-na-ufba/"
+  },
+  {
+    "slug": "producao-pesquisa-premiada",
+    "status": "ok",
+    "text": "Anunciaram no site do Seminário de Pesquisa da UFBA – SEMPPG a lista dos vencedores do prêmio Fapex Public 2008. Estou lá, entre as outras quatro pesquisas premiadas.\nPode ser visto aqui: http://www.semppg.ufba.br/arquivos/vencedores_public2008.pdf\nO Aloísio, um colega de curso, também anunciou no blog dele: http://arquivologo.wordpress.com/\nNa entrega dos certificados houve momento para fotografia, devo receber elas em breve e publico aqui.",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2008/11/27/mais-sobre-a-premiacao-prppgufba-e-fapex/"
+  },
+  {
+    "slug": "programando-o-doutorado",
+    "status": "ok",
+    "text": "Fazer o doutorado provavelmente será a próxima etapa da formação acadêmica. Aproveitar a bagagem do que foi feito e subir mais alguns degraus é o único caminho a seguir depois do mestrado. Claro, há também a opção de parar e se contentar com o que já se tem, mas isso está descartado.\nApós o ingresso na UFBA como servidor (vai fazer um ano!) tenho algumas vantagens e desvantagens que devo considerar no planejamento para cursar o doutorado.\nA UFBA paga mais do que as bolsas CAPES e CNPq, fora os itens como previdência, férias, vale-alimentação… Por outro lado, há contrapartidas à instituição caso eu venha a pedir licença remunerada, como a obrigatoriedade do retorno quando o doutorado findar.\nMeu atual local de trabalho na UFBA me permite sair, atravessar uma rua e entrar no prédio onde as aulas do doutorado ocorrem. Por outro lado, minha rotina será mais apertada, algumas idéias do campo pessoal terão que ser adiadas…\nFazer mestrado e doutorado se traduz em escolhas difíceis para muitas pessoas, eu acho que já me acostumei a esses dilemas da academia. Acho interessante quando ouço preocupações relativas a pedir demissão para viabilizar o mestrado. São escolhas que temos que fazer e muitas vezes o preço se apresenta caro demais.\nSabendo que elas existem, talvez não todas identificadas, me pergunto: quais escolhas mais um candidato a doutorado deve considerar?",
+    "image": "programando-o-doutorado.jpg",
+    "image_url": "https://ricardo.arquivista.net/wp-content/uploads/sites/16/2011/01/doutorado-634x372.jpg",
+    "url": "https://ricardo.arquivista.net/2011/01/23/programando-o-doutorado/"
+  },
+  {
+    "slug": "radioamadorismo",
+    "status": "ok",
+    "text": "Fui aprovado em exame pela ANATEL para receber meu Certificado de Operador de Estação de Rádioamador (COER). Agora sou operador Classe C.\nPara quem se interessar, o site da estação é http://www.pu6ric.info\nO blog está parado, mas quando coisas impostantes assim acontece, eu sempre darei um jeito de publicar por aqui.\nUm abraço (ou 73),\nRicardo",
+    "image": "radioamadorismo.jpg",
+    "image_url": "https://ricardo.arquivista.net/wp-content/uploads/sites/16/2013/04/Amateur-Satellite-full-400x372.jpg",
+    "url": "https://ricardo.arquivista.net/2013/04/21/radioamadorismo/"
+  },
+  {
+    "slug": "representacao-informacao-computacao-cognitiva",
+    "status": "ok",
+    "text": "Representar a informação é uma atividade nobre, ou percebida como uma das mais importantes no tratamento informacional/documental. Criar condições de acesso a conteúdos cada vez mais vastos, dentro e fora da rede é, antes de tudo, uma tarefa que suscita a impossibilidade.\nHá algum tempo, algo como três anos, escrevi minha dissertação de mestrado sobre o aproveitamento da web 2.0 para viabilizar a descrição arquivística. A idéia é chamar a multidão ávida pelo lúdico na rede e oferecer uma atividade que atenda aos anseios da participação, colaboração e ludicidade que a internet pode proporcionar.\nUm exemplo é o projeto Old Weather, que transforma o trabalho de transcrição paleográfica em um jogo de temática bem interessante: torne-se um tripulante de antigos navios e ajude a copiar os dados dos diários de bordo. Você pode se tornar um capitão, dentro das regras e parâmetros do jogo e o projeto ganha uma base de dados com os dados metereológicos capturados pelos navios ao longo de décadas.\nMas, se apenas os diários de bordo já constituem um conjunto impossível de representar com uma quantidade de pessoas reduzida, como são as equipes nas instituições, considere todo o universo documental dentros dos arquivos ao redor do mundo. Há muito. Mesmo a multidão da internet pode se cansar.\nE as máquinas? Elas não podem representar? Não podem interpretar textos sem as marcações semânticas da web 3.0?\nHá quem argumente que um dos filões laborais dos profissionais da informação é justamente a representação da informação, que, junto com a mediação,  se constitui na exclusiva capacidade humana de interpretar as nuances da linguagem e dos registros.\nMas as máquinas estão correndo contra o “tempo perdido”. A computação cognitiva pode atuar nesse contexto em pouco tempo. O projeto Watson, da IBM, por exemplo, quer justamente criar a possibilidade de máquinas realizaram o chamado processamento de idioma nativo, Não é tarefa fácil, a linguagem é imprecisa, as vezes irônica, muitas vezes sentimental.\nA ciência quer que as máquinas entendam todas essas nuances e um pouco mais. Esse avanço pode ajudar a representar automaticamente os documentos sem marcações semânticas dentro e fora da internet. Será um passo e tanto.",
+    "image": "representacao-informacao-computacao-cognitiva.png",
+    "image_url": "https://ricardo.arquivista.net/wp-content/uploads/sites/16/2014/01/hal-2001-672x372.png",
+    "url": "https://ricardo.arquivista.net/2014/01/11/representacao-da-informacao-e-computacao-cognitiva/"
+  },
+  {
+    "slug": "rio-de-janeiro-iii-cna",
+    "status": "ok",
+    "text": "Fui ao Rio de Janeiro quando tinha cerca de quatro anos. Boa parte das memórias que tenho daquele período só existem por conta das fotografias.\nConfesso que evitava o Rio. A televisão, as notícias, a imprensa me mantinha afastado por conta de tudo, o “apesar dos pesares…” que antecede o “… a cidade ainda tem muito pra visitar”.\nNão pude evitar, tive que faltar a algumas atividades do CNA para vistar o Amarelinho, a praça próxima a ele, o Arquivo Nacional…\nAndar pelas ruas do Centro revelava os prédios monumentais. O teatro municipal em reforma continua imponente; a vista de cima do prédio da Funarte (cortesia do meu amigo Sílvio) foi providencial para quem não poderia olhar tudo de perto.\nFilmei tudo quanto pude. A visita ao Arquivo Nacional, gentilmente acompanhado do Vitor Fonseca e da Silvia Moura; A assembléia de criação do Sindicato Nacional dos Arquivistas (boa parte não filmei direito, mas já estou em contato com outros colegas para troca de imagens). Enfim, imagem em movimento suficiente para vários vídeos no Youtube.\nTive a oportunidade de moderar uma mesa de comunicações nesse III CNA, além de apresentar uma comunicação relacionada à minha pesquisa no mestrado. Depois de publicar essa notícia, deverei colocar o texto completo na área de “Produção” desse site.",
+    "image": "",
+    "image_url": "https://s.w.org/images/core/emoji/17.0.2/svg/1f642.svg",
+    "url": "https://ricardo.arquivista.net/2008/10/24/o-rio-de-janeiro-continua-lindo-minhas-impressoes-do-iii-cna-e-da-cidade/"
+  },
+  {
+    "slug": "saindo-arquivo-publico-bahia",
+    "status": "ok",
+    "text": "Acabou em setembro de 2009 minha participação no corpo funcional do Arquivo Público da Bahia, onde fui responsável pelo Setor de Informática, atuando como Assessor de Tecnologias aplicadas a Arquivo.\nAgora, irei me dedicar ao mestrado e a outros projetos que tenho, até que a UFBA me chame para assumir a vaga de Arquivista que conquistei no último concurso público.",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2009/10/15/saindo-do-arquivo-publico-da-bahia/"
+  },
+  {
+    "slug": "teste-personalidade-inteligencia",
+    "status": "ok",
+    "text": "Visitando o blog de um amigo, descobri o MyPersonality.Info, um site com testes de personalidade, inteligência e outras coisinhas. Achei a idéia curiosa.\nO teste de personalidade é baseado nos tipos psicológicos de Carl Jung e na pesquisa de personalidade de Myers-Briggs. O de múltipla inteligência é baseado na teoria de Howard Gardner.\nFiz o de múltipla inteligência e personalidade e olha no que deu.",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2008/05/04/teste-online-para-mensurar-a-multipla-inteligencia/"
+  },
+  {
+    "slug": "yndexa-dms",
+    "status": "ok",
+    "text": "Essa semana foi lançado o Yndexa DMS, um sistema web para apoio a gestão de documentos. Participei ativamente do desenvolvimento e convido a todos a conhecerem esse sistema: http://www.yndexa.com.",
+    "image": "",
+    "image_url": "",
+    "url": "https://ricardo.arquivista.net/2009/03/05/yndexa-dms-sistema-web-para-gestao-de-documentos/"
+  }
+]

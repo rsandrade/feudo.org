@@ -1,0 +1,282 @@
+[
+  {
+    "slug": "a-ordem-dos-arquivistas-centesimo-blog",
+    "url": "https://ricardo.arquivista.net/a-ordem-dos-arquivistas-centesimo/",
+    "text": "Acabo de publicar um romance de fantasia chamado “A Ordem dos Arquivistas: Centésimo”.\nPara mais informações: http://www.arquivista.net/ordem",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "aprovacao-concurso-ufba",
+    "url": "https://ricardo.arquivista.net/aprovacao-no-concurso-da-ufba/",
+    "text": "Fui aprovado no concurso para Arquivista da UFBA. Agora é esperar ser chamado.",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "aula-calouros-arquivologia",
+    "url": "https://ricardo.arquivista.net/aula-para-turma-de-calouros-do-curso-de-arquivologia-da-ufba/",
+    "text": "Pular para o conteúdo\nQuase muita coisa\nPesquisar\nABOUT ME CONTATO CURRÍCULO / CV PERFIL PRODUÇÃO\nNão encontrado\nParece que nada foi encontrado neste endereço. Que tal tentar fazer uma pesquisa?\nPesquisar por:\nVISITED ARCHIVES / ARQUIVOS VISITADOS\nArhivele Naţionale ale României\nArquivo de Galicia\nArquivo Distrital do Porto\nArquivo Geral da UFSM\nArquivo Histórico da UFJF\nArquivo Histórico Municipal de Salvador\nArquivo Nacional (Brasil)\nArquivo Nacional Torre do Tombo\nArquivo Público da Bahia\nStaatsarchiv Graubünden – Kanton Graubünden\nMAIN ARCHIVES OF LUSOPHONY\nBrasil\nCabo Verde\nGuiné-Bissau\nMacau\nMoçambique\nPortugal (Torre do Tombo)\nPortugal (Ultramarino)\nSão Tomé e Príncipe\nTimor-Leste (Nacional)\nTimor-Leste (Resistência Timorense)\nPROJECTS / PROJETOS\nArchives World Map\nLegatum\nOTHERS ARCHIVES / OUTROS ARQUIVOS\nSérvia\nWHO? / QUEM?\nRicardo is .... (More)\n\nRicardo é .... (Mais)\nNETWORKING\nIniciativa Legatum\nICA member\nFacebook\nLinkedin\nORCID\nOrgulhosamente mantido com WordPress",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "aws-glacier-copias-seguranca",
+    "url": "https://ricardo.arquivista.net/amazon-aws-glacier-alternativa-em-nuvem-para-copias-de-seguranca/",
+    "text": "Quase 4 meses depois de iniciar o uso do Amazon Web Service Glacier, gostaria de apresentar esse serviço da Amazon que pretende servir de alternativa às fitas de backup e outras opções de guarda a longo prazo de seus documentos digitais.\nO Glacier é parte do conjunto de soluções em nuvem da Amazon. Uma opção de armazenamento de grande quantidade de dados que terão acesso pouco frequente, baixo custo e armazenamento por longo prazo.\nConsidere-o como um serviço interessante para armazenar documentos eletrônicos/digitais pessoais como fotografias, vídeos e outros que você não quer perder quando descobrir que o HD do seu computador ou aquele DVD-R importante está estragado.\nEmpresas também vão perceber o valor do AWS Glacier para armazenar seus documentos de valor permanente.\nImagine o Glacier como uma espécie de disco virtual, no que diz respeito a ser um espaço de armazenamento remoto. Mas ele não sincroniza pastas em seu computador, você precisa realizar o upload de seus dados para sua conta no Glacier (pode enviar muitos terabytes de dados, ele aguenta).\nRecomenda-se que seja feito um planejamento de quais documentos e como eles serão preparados para o armazenamento no Glacier, de minha parte, tenho preparado pacotes com o formato 7-zip antes de enviar.\nBaixa frequência de acesso de dados\nPode enviar terabytes de dados para o Glacier, há espaço suficiente e o envio é gratuito.\nNo entanto, para recuperar uma pasta ou documento eletrônico depositado, você precisa esperar 3 a 5 horas após a solicitação. Essa é a primeira característica que deverá ficar atento. Caso queira depositar documentos que você consulta frequentemente, o Glacier não é a solução que procura.\nSe pretende depositar aqueles dados que você precisa recuperar pouquíssimas vezes ao ano (como quando seu HD queimar e você precisar recuperar cópias), o Glacier é para você ou sua empresa.\nMas, atenção! Há custos, leia a seguir.\nBaixo custo\nRecuperar documentos no Glacier será gratuito se você permanecer em um patamar de recuperação abaixo de 1 GB/mês.\nA recuperação dos documentos enviados pode custar a partir de US$ 0.12 (doze centavos de dólar), depois dos primeiros 1 GB gratuitos, até os primeiros 10 terabytes, se ocorrido dentro de um mesmo mês. Para uma tabela mais específica, consulte as regras de preço do serviço.\nComo usar o AWS Glacier – o básico\n1. Tenha uma conta na AWS. O site está em português e não é difícil se cadastrar. Se você já comprou algo na Amazon, então pode usar a mesma conta.\n2. Sugiro que use o aplicativo FastGlacier. Há uma versão gratuita que usei por alguns dias antes de decidir adquirir a versão “Pro”, que permite enviar os documentos mais rápido. Se não quiser gastar 39 dólares por (muito) mais velocidade, pode continuar usando a versão gratuita.\n3. Adotei como prática criar pacotes compactados com o 7-zip. Posso enviar uma pasta de fotos de um determinado evento de uma vez só e recuperar com agilidade semelhante quando precisar.",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "bases-dados-arquivisticas-web",
+    "url": "https://ricardo.arquivista.net/disponibilizacao-de-bases-de-dados-arquivisticas-legadas-na-web/",
+    "text": "A maior parte das grandes instituições arquivísticas possuem suas bases de dados acerca dos acervos que custodiam. Geralmente são registros dos itens documentais, como é o caso do Arquivo Público da Bahia, cujas bases começaram a ser construídas a cerca de dez anos, salvo engano.\nO grande problema dessas bases é que foram pensadas, construídas e mantidas ligadas a sistemas que permitem apenas a consulta local, sem acesso remoto. Disponibilizar essas bases na internet é um interessante desafio e muitas instituições ainda não conseguiram fôlego suficiente para encara-lo.\nO Arquivo Público da Bahia tem um trabalho nesse sentido, intencionando a migração das suas bases para internet, o que demanda a mudança do Sistema Gerenciador de Banco de Dados e da interface utilizada. Atualmente estamos experimentando com o SGBD MySQL e a linguagem de programação PHP.\nQualificar os antigos e os novos instrumentos de referência/pesquisa por meio da adoção das normas de descrição arquivística é louvável, mas há muitos dados que podem ser úteis aos pesquisadores se estivessem disponibilizados, mesmo que não normalizados, na web.\nVocê conhece alguma instituição em situações ligadas a essa problemática? Já pensou sobre como ela está enfrentando a situação? Se desejar, mande um comentário contando!",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "blockchain-criptomoedas-aplicacoes",
+    "url": "https://ricardo.arquivista.net/sobre-blockchain-criptomoedas-e-outras-aplicacoes-o-basico-de-detalhes-avancados/",
+    "text": "Blockchains\nO blockchain (ou “cadeia de blocos” ou “corrente de blocos”) é uma tecnologia que usa a descentralização como forma de assegurar a integridade dos dados armazenados. A ideia de um encadeamento de dados, cada um ligado a outro de forma indissociável, possui como função a criação de um índice global para todas as transações que ocorrem em um determinado ambiente. Imagine uma corrente onde cada elo possui a informação sobre qual era o elo anterior – encadeando os blocos de forma ordenada e interligada.\nFunciona como um livro-razão (ledger), só que “de forma pública, compartilhada e universal, que cria consenso e confiança na comunicação direta entre duas partes, ou seja, sem o intermédio de terceiros”. Está constantemente crescendo, na medida que novos blocos são adicionados. Os blocos são adicionados à blockchain de modo linear e cronológico. Os computadores conectados a essa rede tem a tarefa de validar e registrar as transações ocorridas – além de armazenar uma cópia da blockchain.\nA blockchain possui informação completa sobre endereços e saldos do bloco inicial até o bloco mais recentemente concluído. Assim, a “corrente” de blocos não pode ser modificada, visto que muitos computadores diferentes possuem uma cópia da corrente e se autoverificam  constantemente.\nA blockchain é vista como a principal inovação tecnológica do Bitcoin, a primeira criptomoeda que utilizou o conceito. Seu projeto original tem servido de inspiração para o surgimento de novas criptomoedas, bancos de dados distribuídos e aplicações de diversos tipos no qual a integridade e autenticidade dos dados é característica vital.\nCriptomoedas e outras aplicações de blockchain\nNo ecossistema da blockchain temos os tokens, ou moedas (as “coins”). Esses são os recursos enviados de um usuário para outro no ambiente da blockchain e essas tramitações são registrados no “livro-razão”.\nOs tokens são “objetos digitais” construídos por meio de criptografia avançada e não podem ser falsificados. A cada transação, a validade das transações desses tokens é testada pelos “mineradores”, computadores ligados à rede que verificam matematicamente a validade de cada transação. Os mineradores são recompensados em tokens/moedas por esse trabalho (cada transação precisa pagar um determinado valor/taxa para que ocorra). Há outras formas de validar transações, mas a maior parte das blockchains operam dessa forma (“proof-of-work”).\nAbaixo cito algumas criptomoedas interessantes (Bitcoin e Litecoin), ambientes computacionais descentralizados (Ethereum e Neo) e uma aplicação destinada a gestão de documentos e outros registros legais (Factom), apontando suas descrições básicas para melhor entendimento das possíveis aplicações da tecnologia blockchain.\nBitcoin – http://www.bitcoin.org\nA mais antiga e com maior “market cap” (algo como valor de mercado, alcançando um montante tal que recentemente ultrapassou a Netflix e Paypal).\nPelo valor acumulado, o Bitcoin está sendo visto como uma reserva de valor, como o Ouro é há milhares de anos. Sendo conhecido como “ouro digital”, o Bitcoin é aproveitado para compra de bens caros, como carros e imóveis, além de muitas pessoas comprarem como investimento a longo prazo, visto que a adoção das criptomoedas ainda é inicial em todo o mundo e a possibilidade de aumento do valor ainda ser potencialmente muito grande.\nLitecoin – http://www.litecoin.org\nCriado poucos anos depois do Bitcoin e com a missão de ser a “prata digital”, assim como o Bitcoin é considerado o “ouro digital”. Nesse objetivo, a quantidade de moedas disponíveis é quatro vezes a quantidade da irmã mais velha e conta com diversas modificações que, por sua vez, fazem com que as transações sejam mais rápidas e o custo de mineração seja mais barato computacionalmente, barateando a taxa de transação paga aos mineradores (até 100 vezes mais baratas que as transações do Bitcoin). Assim, o Litecoin se apresenta como uma solução ideal para o uso cotidiano.\nO Litecoin foi criado e é mantido por Charles Lee, ex-funcionário da Coinbase, uma das maiores casas de câmbio de criptomoeda do mundo. Sua saída da Coinbase para se dedicar em tempo integral ao desenvolvimento da Litecoin pode significar mais um vetor de avanço desta criptomoeda.\nEther – http://www.ethereum.org\nO Ether é a moeda básica da rede Ethereum, um computador descentralizado e baseado na tecnologia Blockchain que permite a execução de contratos inteligentes (os smart contracts).\nÉ possível criar novas criptomoedas ou ativos na rede Ethereum a partir do Ether. Esse foi um dos motivos que facilitou a proliferação de novas criptomoedas nos últimos anos (há registros que apontam a existência de até 1000 criptomoedas atualmente).\nA diferença básica na rede Ethereum para as outras blockchains já citadas é a possibilidade em programar as transações. Se o Bitcoin e Litecoin são transacionadas diretamente do emissor para o receptor, o Ether pode ser programado para atender a condicionais, como por exemplo:\n“Pagar 10 Eth apenas se o saldo de fulano estiver abaixo de 2 Eth”\nOu podemos ainda imaginar algo como:\n“A cada mês, no dia 10, pagar X Eth para a companhia de energia elétrica. O valor de X é informado na conta eletrônica enviada”\nNeo – https://neo.org\nÉ o “Ethereum chinês”. Criado na China e declaradamente amigável a governos e suas regulações, o Neo pretende ser para a China e oriente o que a rede Ethereum é para o ocidente. Pode parecer pouco, mas basta lembrar que a China possui um gosto peculiar por soluções locais (Alibaba e não Amazon; WeChat e não Whatsapp…).\nA rede Neo possui 2 tokens/moedas diferentes. A “Neo”, que é como se fosse uma “ação” e o “Gas”, que é de fato a moeda (ou o dividendo) e é produzida pelos tokens Neo ao longo do tempo. Ou seja, quem possui Neo acaba ganhando Gas periodicamente.\nFactom – https://www.factom.com/\nA Factom desenvolveu uma blockchain homônima para desenvolver produtos relacionados à preservação, garantia de autenticidade e integridade de ativos (entendendo ativo de forma ampla e relativo ao patrimônio de organizações).\nO produto que destaco é o Harmony, uma solução para criar um processo digital que permite o controle de documentos e dados de forma segura e com a vantagem da tecnologia blockchain para prover confiança e integridade durante o acesso e tramitação.\nTecnologia alterando modos de operar\nCom todas as vantagens citadas, a tecnologia Blockchain está alterando algumas realidades e espaços de produção de forma revolucionária. Há quem diga que semelhantemente à forma com a qual a internet também foi disruptiva.\nTransparência de transações, descentralização (que leva à imutabilidade dos registros armazenados) e integridade são vantagens que se consolidam em sistemas informatizados, aumentando a confiança nos dados e nos registros, algo extremamente necessário nas soluções financeiras, informacionais e comunicacionais.",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "carteira-de-papel-bitcoin",
+    "url": "https://ricardo.arquivista.net/como-criar-sua-carteira-de-papel-para-guardar-seus-bitcoins/",
+    "text": "Se você chegou até esse guia,  provavelmente decidiu comprar  há pouco tempo uma quantia em Bitcoin, o ativo financeiro com o ecossistema de serviços, infraestrutura e participantes que mais cresce no mundo.\nTer sido o investimento mais rentável da última década e prometendo repetir o feito na atual é motivo suficiente para chamar a atenção da maioria dos investidores. A rentabilidade é o fator que mais chama a atenção, mas essa é a consequência dascaracterísticas que fazem do Bitcoin um ativo financeiro único e excepcional.\nPara possuir bitcoins, é necessário ter uma carteira para armazena-los com segurança. Portanto, vamos começar com a premissa que todos devem ter em mente:\nVocê e apenas você é responsável por seus bitcoins.\nA segurança deles é um problema unicamente seu.\nEstamos acostumados a ter um gerente no banco ou um número de atendimento ao cliente para o qual ligar toda vez que temos um problema. Isso ocorre por “nosso” dinheiro estar quase sempre custodiado por terceiros. Com o Bitcoin, o ideal é mantermos a custódia, assegurando a nossa soberania e controle sobre o valor armazenado no criptoativo de nossa propriedade.\nDito isso. vamos começar pela definição de carteira, no universo do Bitcoin.\nUma carteira é o que nos permite receber, armazenar e enviar bitcoins. Normalmente ela é formada por, pelo menos, uma chave privada e uma ou mais chaves públicas (também chamados de endereços).\nA chave privada permite que o dono da carteira envie os bitcoins para endereços de recebimento de outras pessoas. Os endereços de recebimento permitem apenas a recepção e consulta de saldo e nunca o envio/retirada.\nSe o dono da carteira perde sua chave privada, a carteira está irremediavelmente perdida e, com ela, todos os bitcoins armazenados. Não há como recuperar. Portanto, guarde bem a chave privada. Guarde em um cofre, não permita que pessoas não autorizadas tenham acesso a esse dado, que é literalmente a chave de acesso aos seus bitcoins.\nUma carteira de papel normalmente possui uma chave privada e uma chave pública (endereço).\nPara criar sua primeira carteira, acesse https://segwitaddress.org/\nClique no botão igual à imagem abaixo:\nUm quadro igual à imagem a seguir deverá surgir. O que você deve fazer é mover o ponteiro do mouse dentro do quadro até completar a barra de progresso do rodapé. Mova aleatoriamente, garantindo que o aplicativo de geração de carteira tenha dados randômicos suficientes para gerar sua carteira única e segura.\nApós completar a barra de progresso, uma imagem semelhante à vista abaixo irá surgir.\nVocê deve imprimir essa página. Ela é sua carteira.\nDo lado esquerdo, você terá sua chave pública (endereço) de recebimento. É essa sequência de caracteres ou qrcode que você precisará utilizar para receber bitcoins. Essa informação é pública e é seguro compartilhar com pessoas e empresas\nDo lado direito, você terá a chave privada. Essa sequência de caracteres e o qrcode que está acima são para uso exclusivo seu. Não compartilhe com ninguém! Ela permite que você possa retirar seus bitcoins no futuro.\nVocê acaba de criar sua carteira de papel, uma vez que imprimiu a carteira gerada! Parabéns!",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "catalogo-lindembergue-cardoso",
+    "url": "https://ricardo.arquivista.net/catalogo-web-do-compositor-lindembergue-cardoso/",
+    "text": "O Projeto “Marcos Históricos da Composição Contemporânea na UFBA” anuncia seu mais recente lançamento: o catálogo-web do compositor Lindembergue Cardoso (1939-1989). Realizado pela pesquisadora Ilza Nogueira, em homenagem ao septuagésimo aniversário de nascimento do compositor, o catálogo se encontra disponibilizado no site do projeto (http://www.mhccufba.ufba.br/) em versão web integralmente ilustrada e em formato “PDF”, para download.\nOrganizado por instrumentação – do solo ao complexo de solista(s), coro e orquestra –, o catálogo inclui ainda dois índices de busca – por ordem alfanumérica e cronológica – e, como anexos, a cronologia de vida do compositor (organizada por Lucy Cardoso), sua discografia e bibliografia até 2009.\nA idealização editorial é do Prof. Dr. Pablo Sotuyo Blanco e o trabalho de implementação eletrônica foi realizado por Lindembergue Rocha Cardoso Filho.\nFonte: Divulgação por email, na lista Todos-l da UFBA",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "concurso-monografias-bahia",
+    "url": "https://ricardo.arquivista.net/resultado-do-concurso-de-monografias-de-arquivologia-da-bahia/",
+    "text": "No último dia do Cinform – Encontro Nacional de Ensino e Pesquisa em Informação foi divulgado o resultado do primeiro concurso de monografias de arquivologia da Bahia, promovido pela Associação dos Arquivistas da Bahia – AABA.\nMinha monografia de conclusão de curso foi a segunda colocada e tratava de “aspectos introdutórios” de representação de informação arquivística, na verdade, sobre uso de normas, padrões de metadados (EAD-DTD) e o projeto Archives Hub.\nQuem quiser ler, pode acessar a versão publicada no periódico Ponto de Acesso, do ICI-UFBA. Basta acessar o menu de “Produção” acima que o link estará disponível nos submenus “Tudo (lista completa)”, “Artigos em periódicos” e “Monográficos”.\nEsse tipo de concurso é uma boa forma de incentivar os estudantes a se dedicarem ao máximo na elaboração do trabalho. Parabéns à AABA!",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "curso-ontologia-8-horas",
+    "url": "https://ricardo.arquivista.net/curso-de-ontologia-em-8-horas/",
+    "text": "No último final de semana fiz um curso sobre Ontologia. Chamava-se “Sistemas de Representação do Conhecimento: Ontologia” e foi organizado por uma ONG de Salvador que presta serviços na área de tecnologia.\nForam 8 horas no total. As primeiras quatro horas serviram para ter uma idéia do que seria o curso, em termos de conteúdo. As últimas quatro horas foram “facilitadas” por um instrutor diferente das quatro primeiras horas, ele era doutorando e  professor, isso facilitava o entendimento, pois ele organizava o pensamento e a fala.\nOntologia é uma forma de representar conceitos, definindo formalmente classes, entidades e relacionamentos dentro de um domínio. Lendo assim parece mais difícil do que talvez realmente seja.\nLonge de tentar explicar o que é uma ontologia, sugiro uma passada na página do termo na Wikipédia. Talvez seja um bom ponto de partida.\nAs aulas práticas foram realizadas com o software livre Portégé, um editor de arquivos OWL, um formato baseado em XML, destinado a criar ontologias.\nÉ tido que o OWL possibilita formalizar uma ontologia de forma “mais semântica” do que outros formatos, como o RDF. De fato, OWL é o formato indicado pela W3C, mas ainda não posso afirmar mais sobre ela.\nVou estudar isso e quem sabe tecer comentários mais úteis depois…",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "defesa-dissertacao",
+    "url": "https://ricardo.arquivista.net/defesa-de-dissertacao-realizada-mais-um-passo-dado/",
+    "text": "No dia 6 de maio de 2010 eu defendi minha dissertação de mestrado e alcancei o grau de Mestre em Ciência da Informação.\nEm breve irei colocar a dissertação e/ou algum artigo que derive dela aqui no site.",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "descricao-arquivistica-web",
+    "url": "https://ricardo.arquivista.net/descricao-arquivistica-na-web-o-que-ha-de-vir/",
+    "text": "Pular para o conteúdo\nQuase muita coisa\nPesquisar\nABOUT ME CONTATO CURRÍCULO / CV PERFIL PRODUÇÃO\nNão encontrado\nParece que nada foi encontrado neste endereço. Que tal tentar fazer uma pesquisa?\nPesquisar por:\nVISITED ARCHIVES / ARQUIVOS VISITADOS\nArhivele Naţionale ale României\nArquivo de Galicia\nArquivo Distrital do Porto\nArquivo Geral da UFSM\nArquivo Histórico da UFJF\nArquivo Histórico Municipal de Salvador\nArquivo Nacional (Brasil)\nArquivo Nacional Torre do Tombo\nArquivo Público da Bahia\nStaatsarchiv Graubünden – Kanton Graubünden\nMAIN ARCHIVES OF LUSOPHONY\nBrasil\nCabo Verde\nGuiné-Bissau\nMacau\nMoçambique\nPortugal (Torre do Tombo)\nPortugal (Ultramarino)\nSão Tomé e Príncipe\nTimor-Leste (Nacional)\nTimor-Leste (Resistência Timorense)\nPROJECTS / PROJETOS\nArchives World Map\nLegatum\nOTHERS ARCHIVES / OUTROS ARQUIVOS\nSérvia\nWHO? / QUEM?\nRicardo is .... (More)\n\nRicardo é .... (Mais)\nNETWORKING\nIniciativa Legatum\nICA member\nFacebook\nLinkedin\nORCID\nOrgulhosamente mantido com WordPress",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "descricao-arquivistica-web2",
+    "url": "https://ricardo.arquivista.net/novo-texto-publicado-em-periodico-trata-de-aspectos-teoricos-e-historicos-da-descricao-arquivistica/",
+    "text": "Pular para o conteúdo\nQuase muita coisa\nPesquisar\nABOUT ME CONTATO CURRÍCULO / CV PERFIL PRODUÇÃO\nNão encontrado\nParece que nada foi encontrado neste endereço. Que tal tentar fazer uma pesquisa?\nPesquisar por:\nVISITED ARCHIVES / ARQUIVOS VISITADOS\nArhivele Naţionale ale României\nArquivo de Galicia\nArquivo Distrital do Porto\nArquivo Geral da UFSM\nArquivo Histórico da UFJF\nArquivo Histórico Municipal de Salvador\nArquivo Nacional (Brasil)\nArquivo Nacional Torre do Tombo\nArquivo Público da Bahia\nStaatsarchiv Graubünden – Kanton Graubünden\nMAIN ARCHIVES OF LUSOPHONY\nBrasil\nCabo Verde\nGuiné-Bissau\nMacau\nMoçambique\nPortugal (Torre do Tombo)\nPortugal (Ultramarino)\nSão Tomé e Príncipe\nTimor-Leste (Nacional)\nTimor-Leste (Resistência Timorense)\nPROJECTS / PROJETOS\nArchives World Map\nLegatum\nOTHERS ARCHIVES / OUTROS ARQUIVOS\nSérvia\nWHO? / QUEM?\nRicardo is .... (More)\n\nRicardo é .... (Mais)\nNETWORKING\nIniciativa Legatum\nICA member\nFacebook\nLinkedin\nORCID\nOrgulhosamente mantido com WordPress",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "dissertacao-mestrado-pdf",
+    "url": "https://ricardo.arquivista.net/pdf-com-a-minha-dissertacao-de-mestrado/",
+    "text": "Para quem tiver interesse, a minha dissertação de mestrado já está disponível na área de publicações deste website.\nEla passará por alguns ajustes e ampliação para publicação dos resultados em forma de artigo, mas já deve ser útil para quem quiser conhecer o conteúdo dela.",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "em-terras-portuguesas",
+    "url": "https://ricardo.arquivista.net/em-terras-portuguesas/",
+    "text": "Esse é realmente um blog de poucas atualizações. Enquanto eu não passar a alocar tempo suficiente para escrever pequenos textos dignos desse espaço, vou apenas atualizando um pouco os acontecimentos.\nComo comentei em post anterior, escapei do Brasil com destino a Portugal para as minhas aulas no doutoramento em Informação e Comunicação em Plataformas Digitais, curso mantido pelo conjunto Universidade do Porto e Universidade de Aveiro.\nPouco menos de 3 a 4 anos mais e, se Deus quiser, voltarei à pátria com mais um e possivelmente definitivo canudo, completando a tríade Bacharelado-Mestrado-Doutorado.\nA foto acima foi tirada na cidade de Guimarães, dentro da bela construção que é o Castelo de Guimarães, em um dos meus 3 fins de semana de folga até agora.",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "formas-comunicacao-blog",
+    "url": "https://ricardo.arquivista.net/formas-de-comunicacao-pessoal-a-utilidade-desse-blog/",
+    "text": "As pessoas fazem possuem blog pelos mais diversos motivos. Da criação de um diário pessoal e público, em um exercício egocêntrico, porém válido, até o que podemos chamar de utilidade pública, com a publicação de conteúdos úteis à outras pessoas.\nDepois da criação do Portal do Arquivista, percebi que haviam coisas que eu queria falar, mas o portal não era o local. Notícias relacionadas às minhas idas aos eventos ou recentes publicações em periódicos destoavam dos conteúdos abrangentes que o portal costuma publicar.\nVeio então a idéia de um blog pessoal, onde eu pudesse ter liberdade de publicar conteúdos que se referiam a mim e a meu trabalho. O nível de impessoalidade do Portal do Arquivista não irá vigorar aqui, é um espaço pessoal, porém, destinado a estabelecer comunicação com meus amigos e desconhecidos interessados em minha produção.\nA utilidade se resume a ser um veículo do que eu fizer e que seja de interesse de outros, como o compartilhamento de pensamentos ou da produção de conhecimento que ocorre no âmbito do mestrado, minha atual atividade acadêmica ou do trabalho, ligado ao campo da Arquivologia.\nE a comunicação não é unilateral, os campos de comentários existem para que seja possível a troca de impressões entre os visitantes, não deixe de comentar!\nabraço,\nRicardo Sodré Andrade",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "gestao-aaba",
+    "url": "https://ricardo.arquivista.net/na-gestao-da-associacao-dos-arquivistas-da-bahia/",
+    "text": "Faz tempo que não atualizo as coisas nesse blogsite, mas resolvi anunciar por aqui uma coisa importante que ocorreu nesse último trimestre: a chapa no qual concorri para presidente da Associação dos Arquivistas da Bahia ganhou as eleições.\nIsso quer dizer que no próximo biênio eu e mais alguns outros colegas estaremos a frente de uma associação profissional, estando relacionado com tudo que isso implica.\nVamos em frente.\nPs: Boas festas a todos! Que o Natal e Ano Novo de todos sem ótimos!",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "goiania-xv-cba",
+    "url": "https://ricardo.arquivista.net/andancas-por-goiania-xv-congresso-brasileiro-de-arquivologia/",
+    "text": "Acabou o XV Congresso Brasileiro de Arquivologia. Estive presente desde o segundo dia, por conta de um vôo de partida que não me esperou. Mas, pessoalmente, foi muito bom o congresso.\nMinhas impressões pessoais foram muito boas, em parte por ter conhecido algumas figuras interessantes, como:\nPeter Van Garderen, do projeto ICA-AtoM\nDidier Grange, do Conselho Internacional de Arquivos\nJaime Antunes, Diretor do Arquivo Nacional\nLeonardo Borges, da Femade\nAntônio (não lembro o sobrenome!), do Arquivo da CUT\nAndré Ancona Lopez, da UnB\nSérgio Albite\nTarcísio Barbosa, da UnB\nMarília Neves, da equipe de apoio do evento\nJeane Silva, Arquivista da Petros\nAlém de outros que apresentaram comunicações durante o evento\nAlém de conhecer gente nova, ainda pude reencontrar algumas pessoas que eu já havia tido contato anteriormente, como:\nPedro Moura, do Arquivo Público de Pernambuco\nCarlos Lima, do Arquivo Municipal de Paracatu – MG e que foi meu colega na UFBA\nAngélica Marques, doutoranda da UnB\nMuito bom esse contato com as pessoas que esses eventos proporcionam… Tenho diversas coisas pra registrar sobre o que aconteceu e sobre o que vi no congresso, mas vou ter que fazer isso em outra oportunidade…\nE mal posso esperar pelo III Congresso Nacional de Arquivologia, no Rio de Janeiro!",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "golang-raspberry-pi-3",
+    "url": "https://ricardo.arquivista.net/configuring-golang-environment-in-your-raspberry-pi-3/",
+    "text": "I decided to learn the programming language Go weeks ago after a long time looking for a second language. My first one is my lovely PHP.\nThis post is to share a small script to setup the Golang 1.10.3 in your Raspberry Pi 3 (I used the tiny one to setup my programming environment in my early steps in Go).\nI did a small change in the original script to update the Golang version. You can check here: https://gist.github.com/rsandrade/f3fc5c11cc4bbe0be8a4070ac3963723\nThe last part of the script (after “cat” command) is very useful. That will save the Go paths to avoid you to need export them all the time you login into your raspberry. You can use that in others Linux boxes too.",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "habilidades-antes-dos-18",
+    "url": "https://ricardo.arquivista.net/todo-mundo-deveria-desenvolver-essas-habilidades-antes-dos-18-anos/",
+    "text": "Escolas deveriam preparar você para a vida real, mas raramente conseguem alcançar esse objetivo de forma plena. Se você procura pelo que é essencial para ensinar a suas crianças (ou aprender depois de adulto), aqui estão algumas sugestões de Harvard.\nComo sugere Julie Lythcott-Haims, ex-Harvard e autor, quando as pessoas alcançam 18 anos de idade,  elas devem ter algumas habilidades básicas para navegar pela vida. Dentre essas habilidades, mas não necessariamente limitadas a elas, estão:\nSaber falar com estranhos.\nSaber se localizar na sua cidade, campi etc.\nSaber realizar inscrições, gerenciar cargas de trabalho e prazos.\nContribuir para o funcionamento do lar onde vive.\nLidar com problemas pessoais.\nLidar com altos e baixos.\nSer capaz de ganhar e gerenciar dinheiro.\nSer capaz de assumir riscos.\nMuitas dessas habilidades não são ensinadas nas escolas. De fato, algumas delas são desencorajadas. Qual escola ensina as crianças a assumir riscos? Alguns adultos podem passar a vida inteira sem aprender a fazer isso. De qualquer forma, quando você se torna adulto e precisar encarar seus próprios problemas, essas habilidades serão valiosas. Você pode ler mais sobre essas habilidades no Quora (em inglês).\nTraduzido de Everyone Should Have These Skills Before They Turn 18 (Lifehacker)",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "holmes-liinc-em-revista",
+    "url": "https://ricardo.arquivista.net/holmes-indexa-mais-um-periodico-em-ci-liinc-em-revista/",
+    "text": "Acabo de incluir o periódico eletrônico Liinc em Revista no Holmes. A primeira coleta de metadados revelou 43 artigos no Liinc e que foram incluídos na base do Holmes.\nAgora as estatísticas apontam 35 periódicos ou repositórios e cerca de 24.743 trabalhos indexados no campo de estudos da Informação.\nHoje também disponibilizei um texto sobre o Holmes na área de Produção do meu blog. O texto foi apresentado no XIV SNBU, que ocorreu em Salvador-Ba no ano de 2006.",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "iii-cna-fotos",
+    "url": "https://ricardo.arquivista.net/iii-congresso-nacional-de-arquivologia-algumas-poucas-fotos/",
+    "text": "Algumas fotos tiradas durante minha participação no Congresso Nacional de Arquivologia. Infelizmente minha câmera quebrou e não consegui muitas fotos.",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "ingress",
+    "url": "https://ricardo.arquivista.net/ingress/",
+    "text": "#ingress\nEscolha ser Enlightened.",
+    "image": "",
+    "status": "ok"
+  },
+  {
+    "slug": "la-fora",
+    "url": "https://ricardo.arquivista.net/la-fora/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "lusofonia-instituicoes-arquivisticas",
+    "url": "https://ricardo.arquivista.net/lusofonia-como-espaco-cooperativo-entre-instituicoes-arquivisticas/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "manipulando-documentos-pdf",
+    "url": "https://ricardo.arquivista.net/manipulando-documentos-pdf/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "materiais-aulas-arquivologia",
+    "url": "https://ricardo.arquivista.net/materiais-das-aulas-curso-de-arquivologia-noturno/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "milhagens-eventos-arquivologia",
+    "url": "https://ricardo.arquivista.net/usando-milhagens-para-ir-aos-eventos-de-arquivologia/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "order-of-archivists-on-sale",
+    "url": "https://ricardo.arquivista.net/the-order-of-archivists-is-on-sale/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "premiacao-prppg-fapex",
+    "url": "https://ricardo.arquivista.net/mais-sobre-a-premiacao-prppgufba-e-fapex/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "primeiro-dia-aula-professor",
+    "url": "https://ricardo.arquivista.net/primeiro-dia-de-aula-de-um-novo-professor/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "primeiros-dias-ufba",
+    "url": "https://ricardo.arquivista.net/primeiros-dias-de-trabalho-na-ufba/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "producao-pesquisa-premiada",
+    "url": "https://ricardo.arquivista.net/producao-de-pesquisa-premiada-pela-prppgufba-e-fapex/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "programando-o-doutorado",
+    "url": "https://ricardo.arquivista.net/programando-o-doutorado/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "radioamadorismo",
+    "url": "https://ricardo.arquivista.net/radioamadorismo/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "representacao-informacao-computacao-cognitiva",
+    "url": "https://ricardo.arquivista.net/representacao-da-informacao-e-computacao-cognitiva/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "rio-de-janeiro-iii-cna",
+    "url": "https://ricardo.arquivista.net/o-rio-de-janeiro-continua-lindo-minhas-impressoes-do-iii-cna-e-da-cidade/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "saindo-arquivo-publico-bahia",
+    "url": "https://ricardo.arquivista.net/saindo-do-arquivo-publico-da-bahia/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "teste-personalidade-inteligencia",
+    "url": "https://ricardo.arquivista.net/teste-online-para-mensurar-a-personalidade-e-a-multipla-inteligencia/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "slug": "yndexa-dms",
+    "url": "https://ricardo.arquivista.net/yndexa-dms-sistema-web-para-gestao-de-documentos/",
+    "text": "",
+    "image": "",
+    "status": "error: HTTPConnectionPool(host='localhost', port=48031): Max retries exceeded with url: /session/ac4a91744e4ac4f81017424076c1b47b/url (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=48031): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  }
+]

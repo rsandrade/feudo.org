@@ -1,0 +1,23 @@
+---
+title: "Apresentações"
+lang: pt-BR
+toc: true
+page-navigation: true
+description: "Apresentações realizadas em eventos e instituições"
+---
+
+<script>document.body.dataset.i18nPageTitle='page-apresentacoes-title';document.body.dataset.i18nPageDesc='page-apresentacoes-desc';</script>
+
+## Sobre
+
+<p data-i18n="pres-about">Apresentações realizadas por Ricardo Sodré Andrade.</p>
+
+:::{data-i18n="pres-2cnarq-title"}
+## 2ª CNArq: Análise de propostas
+:::
+
+<p data-i18n="pres-2cnarq-desc">Apresentação realizada na 2ª Conferência Nacional de Arquivos (CNArq).</p>
+
+[<span data-i18n="pres-view">Ver apresentação</span>](/2cnarq-analisepropostas/)
+
+<p data-i18n="pres-more"><em>Novas apresentações serão adicionadas em breve.</em></p>

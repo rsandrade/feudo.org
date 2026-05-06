@@ -1,0 +1,35 @@
+---
+title: Contato
+description: Informações de contato e redes sociais de Ricardo Sodré Andrade
+lang: pt-BR
+page-navigation: true
+toc: true
+---
+
+<script>document.body.dataset.i18nPageTitle='page-contato-title';document.body.dataset.i18nPageDesc='page-contato-desc';</script>
+
+:::{data-i18n="contact-email"}
+## E-mail
+:::
+
+- <span data-i18n="contact-personal">**Pessoal:**</span> [ricardo@feudo.org](mailto:ricardo@feudo.org)
+- <span data-i18n="contact-institutional">**Institucional:**</span> [ricardo.andrade@gestao.an.gov.br](mailto:ricardo.andrade@gestao.an.gov.br)
+
+:::{data-i18n="contact-networks"}
+## Redes e Portfólio
+:::
+
+- **GitHub:** [github.com/rsandrade](https://github.com/rsandrade)
+- **LinkedIn:** [linkedin.com/in/rsandrade](https://www.linkedin.com/in/rsandrade/)
+- <span data-i18n-html="contact-instagram">**Instagram:** [instagram.com/todosaquelesarquivos](https://instagram.com/todosaquelesarquivos): Perfil pessoal voltado a arquivos, acervos e cultura arquivística</span>
+- **Lattes:** [Currículo Lattes](http://lattes.cnpq.br/5845598056866850)
+- <span data-i18n-html="contact-medium">**Medium:** [medium.com/@ricsodre](https://medium.com/@ricsodre): Blog com textos sobre arquivos, tecnologia e humanidades digitais</span>
+
+:::{data-i18n="contact-address"}
+## Endereço Profissional
+:::
+
+<span data-i18n-html="contact-address-text">Escritório Regional Nordeste (ERE-NE)  
+ARQUIVO NACIONAL / MGI / BRASIL  
+Avenida Jequitaia, 7 - Comércio  
+Salvador - Bahia, CEP 40015-340</span>

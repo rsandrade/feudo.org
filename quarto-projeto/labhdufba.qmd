@@ -1,0 +1,24 @@
+---
+title: "LABHDUFBA"
+lang: pt-BR
+toc: true
+page-navigation: true
+description: "Laboratório de Humanidades Digitais da UFBA: Grupo de pesquisa em Humanidades Digitais"
+---
+
+<script>document.body.dataset.i18nPageTitle='page-labhd-title';document.body.dataset.i18nPageDesc='page-labhd-desc';</script>
+
+## Sobre
+
+<p data-i18n="labhd-about">O **Laboratório de Humanidades Digitais da UFBA (LABHDUFBA)** é um grupo de pesquisa dedicado ao estudo e desenvolvimento de abordagens computacionais para as Humanidades.</p>
+
+| | |
+|---|---|
+| Site | [labhd.ufba.br](https://labhd.ufba.br) |
+| Instituição | Universidade Federal da Bahia (UFBA) |
+
+## Participação
+
+<p data-i18n="labhd-participation">Ricardo Sodré Andrade é membro do LABHDUFBA desde **2024**.</p>
+
+<p data-i18n="content-dev"><em>Conteúdo em desenvolvimento.</em></p>

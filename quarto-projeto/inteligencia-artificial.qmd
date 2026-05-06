@@ -1,0 +1,33 @@
+---
+title: "Inteligência Artificial"
+lang: pt-BR
+toc: true
+page-navigation: true
+description: "Inteligência Artificial aplicada a arquivos: Arquivologia Computacional, RAG, Social-RAG"
+---
+
+<script>document.body.dataset.i18nPageTitle='page-ia-title';document.body.dataset.i18nPageDesc='page-ia-desc';</script>
+
+## Sobre
+
+<p data-i18n="ia-about">Página dedicada à aplicação de Inteligência Artificial no campo da Arquivologia, incluindo linhas de pesquisa, demonstrações e preprints.</p>
+
+:::{data-i18n="ia-comparch"}
+## Arquivologia Computacional
+:::
+
+<p data-i18n="ia-comparch-desc">Linha de pesquisa que investiga a interface entre a Arquivologia e a Ciência da Computação.</p>
+
+:::{data-i18n="ia-rag"}
+## RAG Ingênuo / Recortes
+:::
+
+<p data-i18n="ia-rag-desc">Demonstração do sistema **Recortes**, uma implementação de RAG (Retrieval-Augmented Generation) aplicada a acervos documentais.</p>
+
+:::{data-i18n="ia-social-rag"}
+## Social-RAG
+:::
+
+<p data-i18n="ia-social-rag-desc">Preprint sobre **Social-RAG**, abordagem que integra dimensões sociais e contextuais aos sistemas de recuperação aumentada por geração.</p>
+
+<p data-i18n="content-dev"><em>Conteúdo em desenvolvimento.</em></p>

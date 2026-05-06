@@ -1,0 +1,27 @@
+---
+title: "Archives World Map"
+lang: pt-BR
+page-navigation: true
+toc: true
+description: "Mapa mundial colaborativo de arquivos: comunidade e software livre"
+---
+
+<script>document.body.dataset.i18nPageTitle='page-awm-title';document.body.dataset.i18nPageDesc='page-awm-desc';</script>
+
+## Sobre
+
+<p data-i18n="awm-about">**Archives World Map** é um mapa mundial colaborativo de arquivos. O projeto é comunitário e desenvolvido como software livre.</p>
+
+| | |
+|---|---|
+| Tipo | Comunidade, software livre |
+
+## Objetivos
+
+<div data-i18n="awm-goals">
+- Criar uma base colaborativa e aberta de localizações de arquivos ao redor do mundo
+- Facilitar a descoberta de acervos arquivísticos
+- Promover a visibilidade de instituições de guarda documental
+</div>
+
+<p data-i18n="content-dev"><em>Conteúdo em desenvolvimento.</em></p>

@@ -1,0 +1,109 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - i18n/*.json
+    - i18n/*.js
+    - i18n/*.css
+
+# Meta
+description-meta: "Ricardo Sodré Andrade — Arquivista, pesquisador e coordenador de projetos em Arquivologia, Humanidades Digitais e IA aplicada a arquivos"
+author-meta: "Ricardo Sodré Andrade"
+
+website:
+  title: "Ricardo Sodré Andrade"
+  image: "files/images/foto.png"
+  description: "Arquivista, pesquisador e coordenador de projetos em Arquivologia, Humanidades Digitais e IA aplicada a arquivos"
+
+  navbar:
+    background: light
+
+    left:
+      - text: Sobre
+        menu:
+          - text: Bio
+            href: sobre.qmd
+          - text: Contato
+            href: contato.qmd
+      - text: Trajetória
+        href: trajetoria.qmd
+      - text: Pesquisa
+        menu:
+          - text: LABHDUFBA
+            href: labhdufba.qmd
+          - text: Grupos anteriores
+            href: grupos-anteriores.qmd
+          - text: Publicações
+            href: publicacoes.qmd
+          - text: Apresentações
+            href: apresentacoes.qmd
+      - text: Desenvolvimento
+        menu:
+          - text: Farinha
+            href: farinha.qmd
+          - text: Archives World Map
+            href: archives-world-map.qmd
+          - text: Inteligência Artificial
+            href: inteligencia-artificial.qmd
+      - text: Textos
+        menu:
+          - text: Medium
+            href: textos.qmd#category=medium
+          - text: ricardo.arquivista.net
+            href: textos.qmd#category=arquivista-net
+
+    right:
+      - icon: github
+        href: https://github.com/rsandrade
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/rsandrade/
+        target: _blank
+      - icon: instagram
+        href: https://instagram.com/todosaquelesarquivos
+        target: _blank
+      - icon: rss
+        href: posts.xml
+        target: _blank
+
+  page-navigation: true
+
+  page-footer:
+    left: "Ricardo Sodré Andrade &copy; <script>document.write(new Date().getFullYear())</script>"
+    center: "Construído com [Quarto](https://quarto.org) · Template [Dr. Gang He](https://github.com/drganghe/quarto-academic-website-template)"
+    right:
+      - icon: github
+        href: https://github.com/rsandrade
+        target: _blank
+      - icon: rss
+        href: posts.xml
+        target: _blank
+
+  search:
+    location: navbar
+    type: textbox
+
+  # reader-mode: true  # disabled: reader toggle has no visible effect in this template
+
+  draft-mode: unlinked
+
+  open-graph: true
+
+  twitter-card: true
+
+  site-url: "https://feudo.org"
+  favicon: "files/images/favicon.svg"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    footnotes-hover: true
+    email-obfuscation: javascript
+    link-external-newwindow: true
+    lang: pt-BR
+    include-in-header: "files/includes/_academic.qmd"
+    include-after-body: "files/includes/_i18n.html"

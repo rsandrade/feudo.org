@@ -1,0 +1,65 @@
+---
+title: Trajetória
+description: Percurso profissional, acadêmico e de voluntariado de Ricardo Sodré Andrade
+lang: pt-BR
+page-navigation: true
+toc: true
+---
+
+<script>document.body.dataset.i18nPageTitle='page-trajetoria-title';document.body.dataset.i18nPageDesc='page-trajetoria-desc';</script>
+
+:::{data-i18n="positions-title"}
+## Posições Atuais
+:::
+
+- <span data-i18n-html="pos-an">**[Arquivo Nacional](https://www.gov.br/arquivonacional)**: Chefe do Escritório Regional Nordeste (ERE-NE) (2025–)</span>
+- <span data-i18n-html="pos-ufba">**[Universidade Federal da Bahia](https://www.ufba.br)**: Arquivista (2010–), cedido ao Arquivo Nacional (2025–)</span>
+- <span data-i18n-html="pos-farinha">**[Farinha](https://farinha.info)**: Coordenador do projeto (software livre para criação de plataformas de acesso a acervos permanentes e memoriais) (2024–)</span>
+- <span data-i18n-html="pos-arquivoufba">**[Arquivos da UFBA](https://arquivos.ufba.br)**: Coordenador do projeto (plataforma de integração e acesso aos arquivos e coleções da UFBA) (2023–)</span>
+
+:::{data-i18n="education-title"}
+## Formação
+:::
+
+- <span data-i18n-html="edu-phd">**Doutorado** (não concluído): Informação e Comunicação em Plataformas Digitais, [Universidade do Porto](https://www.up.pt) e [Universidade de Aveiro](https://www.ua.pt), Portugal</span>
+- <span data-i18n-html="edu-msc">**Mestrado** em Ciência da Informação: [Universidade Federal da Bahia](https://www.ufba.br) (UFBA)</span>
+- <span data-i18n-html="edu-bach">**Bacharelado** em Arquivologia: [Universidade Federal da Bahia](https://www.ufba.br) (UFBA)</span>
+
+:::{data-i18n="groups-current"}
+## Grupos de Pesquisa
+:::
+
+- <span data-i18n-html="grp-labhd">**[LABHDUFBA](https://labhd.ufba.br)** (Laboratório de Humanidades Digitais da UFBA): Atua desde 2024</span>
+- <span data-i18n-html="grp-cridi">**CRIDI** (Grupo de Estudos sobre Cultura, Representação e Informação Digitais): Coordenador (2019–2026), membro desde 2008. Não participa mais.</span>
+
+:::{data-i18n="groups-former"}
+## Grupos anteriores
+:::
+
+- <span data-i18n-html="grp-gepicc">**GEPICC** (Grupo de Estudos e Pesquisas em Informação, Comunicação e Cultura): Membro (2003–2008). Não participa mais.</span>
+- <span data-i18n-html="grp-gepindi">**GEPINDI** (Grupo de Estudos e Pesquisas em Informação e Documentação para a Integração): Membro (2004–2007). Grupo inativo.</span>
+
+:::{data-i18n="experience-title"}
+## Experiência Profissional
+:::
+
+- <span data-i18n-html="exp-junte">**Junte.se**: Tech Lead (serviço de armazenamento com Nextcloud)</span>
+- <span data-i18n-html="exp-9bravos">**Editora e Livraria 9Bravos**: Editor</span>
+- <span data-i18n-html="exp-arqpub">**Arquivo Público do Estado da Bahia**: Arquivista e Tech Lead</span>
+- <span data-i18n-html="exp-yndexa">**Yndexa**: Tech Lead</span>
+
+:::{data-i18n="volunteering-title"}
+## Voluntariado
+:::
+
+- <span data-i18n-html="vol-raul">**[Raul Hacker Club](https://raulhc.cc)**: Membro (espaço de cultura hacker e tecnologia)</span>
+- <span data-i18n-html="vol-aaba">**Associação dos Arquivistas da Bahia (AABa)**: Presidente e Vice-Presidente</span>
+- <span data-i18n-html="vol-ltc">**Litecoin Foundation**: Assistente de gestão de conteúdo (Assistant Content Manager)</span>
+
+:::{data-i18n="other-info-title"}
+## Outras Informações
+:::
+
+- <span data-i18n-html="info-nat">**Nacionalidade:** Brasileira e Portuguesa</span>
+- <span data-i18n-html="info-ham">**Radioamador:** PU6RIC</span>
+- <span data-i18n-html="info-cnarq">**CNARQ:** Delegado eleito para a I Conferência Nacional de Arquivos (Brasília, DF); Delegado designado para a II Conferência Nacional de Arquivos (Brasília, DF)</span>

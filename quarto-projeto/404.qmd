@@ -1,0 +1,7 @@
+---
+title: "Página não encontrada"
+---
+
+A página que você procura não existe.
+
+Voltar para a [página inicial](/).

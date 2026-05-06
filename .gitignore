@@ -4,3 +4,10 @@ quarto-projeto/
 # Quarto build artifacts  
 quarto-projeto/docs/
 quarto-projeto/.quarto/
+
+# Build output (copied to root for deployment)
+novo-site/
+
+# Scrape scripts (not part of site)
+*.py
+__pycache__/

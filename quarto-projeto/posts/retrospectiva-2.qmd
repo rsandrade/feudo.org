@@ -11,65 +11,65 @@ image: /posts/images/retrospectiva-2.jpg
 
 E mais 10 textos foram produzidos. Novamente, temas diversos para dar conta de publicar 30 textos em 30 dias. Estou devendo, a média de 1 texto por dia não está sendo cumprida. Vamos ver se até o final eu consigo recuperar.
 
-Carteiras de Bitcoin: Entenda e garanta a posse de seus ativos
+**[Carteiras de Bitcoin: Entenda e garanta a posse de seus ativos](/posts/carteiras-de-bitcoin-entenda-e-garanta-posse-de-seus-ativos.html)**
 
 O básico para quem quer adquirir e guardar seus bitcoins com segurança. Não guarde na exchange. Se não é sua carteira, não são seus bitcoins.
 
-Link
+**[Link →](/posts/carteiras-de-bitcoin-entenda-e-garanta-posse-de-seus-ativos.html)**
 
-Preservação Digital e nossos documentos pessoais: confiar em serviços de terceiros é arriscado
+**[Preservação Digital e nossos documentos pessoais: confiar em serviços de terceiros é arriscado](/posts/preservacao-digital-e-nossos-documentos-pessoais.html)**
 
 Meus dois centavos sobre a perspectiva dos documentos pessoais, a preservação digital e o uso de serviços de terceiros para armazenamento.
 
-Link
+**[Link →](/posts/preservacao-digital-e-nossos-documentos-pessoais.html)**
 
-Algumas coisas para considerar antes de enviar um e-mail para pessoas ocupadas (ou seja, qualquer pessoa)
+**[Algumas coisas para considerar antes de enviar um e-mail para pessoas ocupadas (ou seja, qualquer pessoa)](/posts/algumas-coisas-para-pensar-antes-de-enviar-um-email.html)**
 
 Pessoas ocupadas, atualmente isso quer dizer qualquer pessoa, precisam da compreensão dos outros. As caixas de entrada de correio eletrônico estão lotadas e as pessoas estão cada vez mais deixando mensagens não lidas por falta de tempo.
 
-Link
+**[Link →](/posts/algumas-coisas-para-pensar-antes-de-enviar-um-email.html)**
 
-Motivos pelos quais estou acompanhando atentamente o movimento Indie Hackers
+**[Motivos pelos quais estou acompanhando atentamente o movimento Indie Hackers](/posts/motivos-para-acompanhar-o-movimento-indie-hackers.html)**
 
 Conheça o movimento dos Indie Hackers e saiba de meu interesse nesse grupo de fundadores de negócios.
 
-Link
+**[Link →](/posts/motivos-para-acompanhar-o-movimento-indie-hackers.html)**
 
-Vasculham tudo sobre nós: é hora de recuperar a privacidade de nossos e-mails
+**[Vasculham tudo sobre nós: é hora de recuperar a privacidade de nossos e-mails](/posts/vasculham-tudo-sobre-nos-recuperar-privacidade-email.html)**
 
 Alternativas para manter sua correspondência eletrônica segura, frente aos avanços corporativos e de serviços gratuitos em direção à nossa privacidade.
 
-Link
+**[Link →](/posts/vasculham-tudo-sobre-nos-recuperar-privacidade-email.html)**
 
-Os sabores de Linux que eu já usei: do adolescente curioso ao adulto sem tempo
+**[Os sabores de Linux que eu já usei: do adolescente curioso ao adulto sem tempo](/posts/os-sabores-de-linux-que-eu-ja-usei.html)**
 
 Momento de lembrar algumas das distribuições Linux que utilizei e o que me lembro delas.
 
-Link
+**[Link →](/posts/os-sabores-de-linux-que-eu-ja-usei.html)**
 
-Se as redes sociais estão mudando, para onde todos nós estamos indo?
+**[Se as redes sociais estão mudando, para onde todos nós estamos indo?](/posts/se-as-redes-sociais-estao-mudando-para-onde-vamos.html)**
 
 Considerações sobre como as redes sociais refletem nossos comportamentos e como podemos entender as mudanças que virão pela tendência que parece se apresentar no momento.
 
-Link
+**[Link →](/posts/se-as-redes-sociais-estao-mudando-para-onde-vamos.html)**
 
-Dilemas de uma escolha entre React Native e Flutter para desenvolvimento de aplicativos Android e iOS
+**[Dilemas de uma escolha entre React Native e Flutter para desenvolvimento de aplicativos Android e iOS](/posts/dilemas-entre-react-native-e-flutter.html)**
 
 Minhas aventuras esporádicas nas terras do desenvolvimento de software para dispositivos móveis. Entre duas plataformas, escolhi uma.
 
-Link
+**[Link →](/posts/dilemas-entre-react-native-e-flutter.html)**
 
-Um aplicativo móvel para o Archives World Map: planos para logo quando for possível
+**[Um aplicativo móvel para o Archives World Map: planos para logo quando for possível](/posts/um-aplicativo-movel-para-o-archives-world-map.html)**
 
 E se eu estou tentando aprender a programar, nada como fazer algo simples, mas útil: um aplicativo para o Archives World Map!
 
-Link
+**[Link →](/posts/um-aplicativo-movel-para-o-archives-world-map.html)**
 
-Hackerspaces: espaços de tecnologia, ética e solidariedade
+**[Hackerspaces: espaços de tecnologia, ética e solidariedade](/posts/hackerspaces-espacos-de-tecnologia-etica-e-solidariedade.html)**
 
 Hackerspaces como espaços de socialização da tecnologia, prática da ética e da solidariedade. Apresentando o Hackerspace de Salvador, Bahia, que precisa de seu apoio e participação!
 
-Link
+**[Link →](/posts/hackerspaces-espacos-de-tecnologia-etica-e-solidariedade.html)**
 
 —
 

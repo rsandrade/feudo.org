@@ -11,50 +11,50 @@ image: /posts/images/retrospectiva-de-textos-produzidos-1.jpg
 
 Nos últimos dias, publiquei 8 textos com temas diversos como resultado da minha meta de publicar 30 textos em 30 dias. Hoje é dia de retrospectiva, algo que farei toda semana até completar os 30 dias.
 
-Um passo fora da normalidade: ou “uma semana no seminário Empretec”
+**[Um passo fora da normalidade: ou "uma semana no seminário Empretec"](/posts/um-passo-fora-da-normalidade-semana-no-empretec.html)**
 
 Um relato sobre a experiência de participar do seminário Empretec, promovido pelo Sebrae no Brasil.
 
-Link
+**[Link →](/posts/um-passo-fora-da-normalidade-semana-no-empretec.html)**
 
-Você deveria se voluntariar e tornar seu entorno um lugar melhor
+**[Você deveria se voluntariar e tornar seu entorno um lugar melhor](/posts/voce-deveria-se-voluntariar.html)**
 
 Alguns pensamentos sobre o voluntariado e sobre como isso pode fazer você ser útil para a comunidade onde vive.
 
-Link
+**[Link →](/posts/voce-deveria-se-voluntariar.html)**
 
-Acesso à internet como direito humano básico
+**[Acesso à internet como direito humano básico](/posts/acesso-a-internet-como-direito-humano-basico.html)**
 
 Uma defesa sobre como faria sentido considerar o acesso à internet um direito humano básico.
 
-Link
+**[Link →](/posts/acesso-a-internet-como-direito-humano-basico.html)**
 
-O direito à privacidade no hostil ciberespaço; ou “tenha seu cofre digital pessoal e confiável”
+**[O direito à privacidade no hostil ciberespaço; ou "tenha seu cofre digital pessoal e confiável"](/posts/o-direito-a-privacidade-no-hostil-ciberespaco.html)**
 
 Um texto de cunho teórico e prático que trata do direito à privacidade e como as pessoas podem ter sua própria infraestrutura para ajudar a exercer isso em meio digital.
 
-Link
+**[Link →](/posts/o-direito-a-privacidade-no-hostil-ciberespaco.html)**
 
-Para que serve o Bitcoin? Dizem que é para o pior cenário possível.
+**[Para que serve o Bitcoin? Dizem que é para o pior cenário possível.](/posts/para-que-serve-o-bitcoin-pior-cenario-possivel.html)**
 
 O Bitcoin é tema de muita discussão, mas não se pode negar que ele apresenta reais vantagens em alguns cenários.
 
-Link
+**[Link →](/posts/para-que-serve-o-bitcoin-pior-cenario-possivel.html)**
 
-Senha e frase-senha: dois dedos de prosa sobre como proteger melhor suas contas em plataformas digitais
+**[Senha e frase-senha: dois dedos de prosa sobre como proteger melhor suas contas em plataformas digitais](/posts/senha-e-frase-senha-proteger-contas-plataformas.html)**
 
 Suas senhas são realmente seguras? Aprenda como melhorar a qualidade de suas senhas de uma forma fácil.
 
-Link
+**[Link →](/posts/senha-e-frase-senha-proteger-contas-plataformas.html)**
 
-Mapeando todos os acervos documentais do mundo com o Archives World Map
+**[Mapeando todos os acervos documentais do mundo com o Archives World Map](/posts/mapeando-todos-os-acervos-documentais-do-mundo-com-o-archives-world-map.html)**
 
 Um projeto colaborativo de alcance global que aproveita a sinergia de pessoas interessadas em mapear as instituições que disponibilizam acesso aos acervos documentais que possuem.
 
-Link
+**[Link →](/posts/mapeando-todos-os-acervos-documentais-do-mundo-com-o-archives-world-map.html)**
 
-Autenticação de dois fatores: um fator além da senha para proteger as suas contas na internet
+**[Autenticação de dois fatores: um fator além da senha para proteger as suas contas na internet](/posts/autenticacao-de-dois-fatores.html)**
 
 Além de uma senha forte, um segundo fator para proteger o acesso a seus serviços pode aumentar em muito sua proteção.
 
-Link
+**[Link →](/posts/autenticacao-de-dois-fatores.html)**

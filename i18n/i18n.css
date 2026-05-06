@@ -63,21 +63,21 @@
     margin-left: 0;
     padding-left: 0;
     border-left: none;
-    margin-top: 0.75rem;
-    padding-top: 0.6rem;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
     border-top: 1px solid rgba(0,0,0,0.08);
     justify-content: center;
-    gap: 0.3rem;
+    gap: 0.35rem;
     width: 100%;
   }
 
   .lang-btn {
-    padding: 0.3rem 0.6rem;
-    font-size: 0.8rem;
+    padding: 0.35rem 0.7rem;
+    font-size: 0.85rem;
   }
 
   /* Social icons in mobile: horizontal row */
-  .navbar-collapse .navbar-nav:last-child {
+  .navbar-collapse .navbar-nav.ms-auto {
     display: flex;
     flex-direction: row;
     gap: 0.25rem;
@@ -85,9 +85,11 @@
     padding-top: 0.4rem;
     border-top: 1px solid rgba(0,0,0,0.06);
     margin-top: 0.3rem;
+    width: 100%;
   }
 
-  .navbar-collapse .navbar-nav:last-child .nav-item.compact {
+  .navbar-collapse .navbar-nav.ms-auto .nav-item.compact {
     margin: 0;
+    padding: 0;
   }
 }

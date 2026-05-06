@@ -34,11 +34,9 @@
     } catch (e) { console.warn('i18n load fail:', lang, e); return null; }
   }
 
-  /* ── Translate navbar ─────────────────────────────── */
-  function translateNavbar(t) {
-    if (!t) return;
-    // Navigation bar: top-level menu items use <span class="menu-text">
-    // Map portuguese text → i18n key
+  /* ── Tag navbar elements with i18n keys (once, on first load) ── */
+  function tagNavbar() {
+    // Top-level nav items: map by original PT text → key
     const navMap = {
       'Sobre': 'nav-about',
       'Trajetória': 'nav-trajetoria',
@@ -46,7 +44,6 @@
       'Desenvolvimento': 'nav-desenvolvimento',
       'Textos': 'nav-textos',
     };
-    // Dropdown items use <span class="dropdown-text">
     const dropMap = {
       'Bio': 'nav-about-sub-sobre',
       'Contato': 'nav-about-sub-contato',
@@ -54,64 +51,59 @@
       'Inteligência Artificial': 'nav-pesquisa-sub-ia',
       'Grupos anteriores': 'nav-pesquisa-sub-groups',
       'Grupos de Pesquisa': 'nav-pesquisa-sub-groups',
-      'Farinha': 'nav-desenvolvimento-sub-farinha',
-      'Archives World Map': 'nav-desenvolvimento-sub-awm',
       'Publicações': 'page-publicacoes-title',
       'Apresentações': 'page-apresentacoes-title',
+      'Farinha': 'nav-desenvolvimento-sub-farinha',
+      'Archives World Map': 'nav-desenvolvimento-sub-awm',
       'Medium': 'category-medium',
       'ricardo.arquivista.net': 'category-arquivista-net',
     };
 
-    // Translate top-level nav items
     document.querySelectorAll('.navbar-nav .menu-text').forEach(el => {
-      const txt = el.textContent.trim();
-      if (navMap[txt] && t[navMap[txt]]) el.textContent = t[navMap[txt]];
+      if (!el.dataset.i18nKey) {
+        const txt = el.textContent.trim();
+        if (navMap[txt]) el.dataset.i18nKey = navMap[txt];
+      }
     });
-
-    // Translate dropdown items
     document.querySelectorAll('.navbar-nav .dropdown-text').forEach(el => {
-      const txt = el.textContent.trim();
-      if (dropMap[txt] && t[dropMap[txt]]) el.textContent = t[dropMap[txt]];
+      if (!el.dataset.i18nKey) {
+        const txt = el.textContent.trim();
+        if (dropMap[txt]) el.dataset.i18nKey = dropMap[txt];
+      }
     });
+  }
 
-    // Also translate the E-mail link in about section (index.qmd)
-    document.querySelectorAll('.about-links .about-link').forEach(el => {
-      const txt = el.textContent.trim();
-      if (txt === 'E-mail' && t['link-email']) el.textContent = t['link-email'];
+  /* ── Translate navbar (uses data-i18n-key) ────────── */
+  function translateNavbar(t) {
+    if (!t) return;
+    document.querySelectorAll('.navbar-nav [data-i18n-key]').forEach(el => {
+      const k = el.dataset.i18nKey;
+      if (t[k] !== undefined) el.textContent = t[k];
     });
   }
 
   /* ── Translate footer ──────────────────────────────── */
   function translateFooter(t) {
     if (!t) return;
+    // Find the footer center paragraph
     const footer = document.querySelector('.nav-footer-center');
     if (!footer) return;
-    // Structure: "Ricardo Sodré Andrade © 2026" · "Construído com [Quarto] · Template [Dr. Gang He]"
-    // We look for text containing "Construído com" or "Built with"
-    const nodes = footer.childNodes;
-    for (const node of nodes) {
-      if (node.nodeType === 3) { // text node
-        const txt = node.textContent;
-        if (txt.includes('Construído com') && t['footer-built']) {
-          node.textContent = txt.replace('Construído com', t['footer-built']);
-        }
-        if (txt.includes('Template') && t['footer-template']) {
-          node.textContent = txt.replace('Template', t['footer-template']);
-        }
-      }
-    }
-    // Also check <span> and other text elements in footer
-    footer.querySelectorAll('*').forEach(el => {
-      if (el.children.length === 0) { // leaf text node container
-        const txt = el.textContent;
-        if (txt.includes('Construído com') && t['footer-built']) {
-          el.innerHTML = el.innerHTML.replace('Construído com', t['footer-built']);
-        }
-        if (txt.includes('Template') && t['footer-template']) {
-          el.innerHTML = el.innerHTML.replace('Template', t['footer-template']);
-        }
-      }
-    });
+    const p = footer.querySelector('p');
+    if (!p) return;
+    
+    // Footer structure: "Construído com [Quarto] · Template [Dr. Gang He]"
+    // Rebuild from translations
+    const builtWith = t['footer-built'] || 'Construído com';
+    const templateWord = t['footer-template'] || 'Template';
+    
+    // Get the existing links
+    const links = p.querySelectorAll('a');
+    const quartoHref = links[0]?.href || 'https://quarto.org';
+    const templateHref = links[1]?.href || 'https://github.com/drganghe/quarto-academic-website-template';
+    const quartoText = links[0]?.textContent || 'Quarto';
+    const templateText = links[1]?.textContent || 'Dr. Gang He';
+    
+    p.innerHTML = `${builtWith} <a href="${quartoHref}">${quartoText}</a> · ${templateWord} <a href="${templateHref}">${templateText}</a>`;
   }
 
   /* ── Apply translations ─────────────────────────────── */
@@ -204,6 +196,9 @@
 
   /* ── Init ───────────────────────────────────────────── */
   async function init() {
+    // Tag navbar BEFORE any translation (save original PT text → key mapping)
+    tagNavbar();
+    
     const lang = detectLang();
     const t = await load(lang);
     apply(t);

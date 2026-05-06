@@ -9,7 +9,7 @@ page-layout: full
 about:
   id: hero
   template: trestles
-  image-width: 50%
+  image-width: 100%
   links:
     - icon: envelope
       text: E-mail
@@ -46,9 +46,9 @@ listing:
 
 :::{#hero}
 
-Sou arquivista na [Universidade Federal da Bahia](https://www.ufba.br) (UFBA), atualmente cedido ao [Arquivo Nacional](https://www.gov.br/arquivonacional) como **Chefe do Escritório Regional Nordeste** (2025–). Coordeno os projetos [Farinha](https://farinha.info) e [Arquivos da UFBA](https://arquivos.ufba.br), que exploram as interfaces entre Arquivologia, Humanidades Digitais e Inteligência Artificial aplicada a arquivos.
+Sou arquivista na [Universidade Federal da Bahia](https://www.ufba.br) (UFBA), atualmente cedido ao [Arquivo Nacional](https://www.gov.br/arquivonacional) como **Chefe do Escritório Regional Nordeste** (2025–). Coordeno os projetos [Farinha](https://farinha.info) e [Arquivos da UFBA](https://arquivos.ufba.br). Tenho interesse nas interfaces entre Arquivologia, Humanidades Digitais, Cultura Hacker e Inteligência Artificial aplicada a arquivos.
 
-Desde 2024, atuo no [LABHDUFBA](https://labhd.ufba.br) (Laboratório de Humanidades Digitais da UFBA). Fui coordenador do [CRIDI](https://cridi.ici.ufba.br) (Grupo de Estudos sobre Cultura, Representação e Informação Digitais) entre 2019 e 2026, grupo do qual sou membro desde 2008 — atualmente inativo. Minha trajetória combina a prática arquivística — com atuação em gestão documental, preservação digital e descrição arquivística — com a pesquisa aplicada em IA, análise de redes e visualização de dados aplicadas a acervos documentais.
+Desde 2024, atuo no [LABHDUFBA](https://labhd.ufba.br) (Laboratório de Humanidades Digitais da UFBA). Fui coordenador do [CRIDI](https://cridi.ici.ufba.br) (Grupo de Estudos sobre Cultura, Representação e Informação Digitais) entre 2019 e 2026, grupo do qual sou membro desde 2008, atualmente inativo. Minha trajetória combina a prática arquivística, com atuação em gestão documental, preservação digital e descrição arquivística, com a pesquisa aplicada em IA, análise de redes e visualização de dados aplicadas a acervos documentais.
 
 ## Áreas de Atuação
 
@@ -56,7 +56,7 @@ Desde 2024, atuo no [LABHDUFBA](https://labhd.ufba.br) (Laboratório de Humanida
 - Humanidades Digitais
 - Inteligência Artificial aplicada a arquivos
 - Preservação Digital
-- Análise de Redes e Visualização de Dados
+- Cultura Hacker
 - Software Livre e Ciência Aberta
 
 :::

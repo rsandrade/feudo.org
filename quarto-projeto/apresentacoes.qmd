@@ -18,6 +18,6 @@ description: "Apresentações realizadas em eventos e instituições"
 
 <p data-i18n="pres-2cnarq-desc">Apresentação realizada na 2ª Conferência Nacional de Arquivos (CNArq).</p>
 
-[<span data-i18n="pres-view">Ver apresentação</span>](/2cnarq-analisepropostas/)
+[<span data-i18n="pres-view">Ver apresentação</span>](/apresentacoes/2cnarq/)
 
 <p data-i18n="pres-more"><em>Novas apresentações serão adicionadas em breve.</em></p>

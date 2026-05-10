@@ -5,6 +5,7 @@ project:
     - i18n/*.json
     - i18n/*.js
     - i18n/*.css
+    - files/docs/*
 
 # Meta
 description-meta: "Ricardo Sodré Andrade — Arquivista, pesquisador e coordenador de projetos em Arquivologia, Humanidades Digitais e IA aplicada a arquivos"

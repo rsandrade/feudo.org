@@ -124,19 +124,39 @@
     // 4. <html lang>
     d.documentElement.lang = (t.html === 'pt') ? 'pt-BR' : t.html;
 
-    // 5. Page <title> and <meta description>
+    // 5. Page <title>, visible title block, and meta descriptions
     const titleKey = d.body.dataset.i18nPageTitle;
-    if (titleKey && t[titleKey]) d.title = t[titleKey] + ' – Ricardo Sodré Andrade';
+    if (titleKey && t[titleKey]) {
+      const pageTitle = t[titleKey];
+      d.title = pageTitle + ' – Ricardo Sodré Andrade';
+      const visibleTitle = d.querySelector('#title-block-header h1.title');
+      if (visibleTitle) visibleTitle.textContent = pageTitle;
+      const ogTitle = d.querySelector('meta[property="og:title"]');
+      if (ogTitle) ogTitle.content = d.title;
+      const twTitle = d.querySelector('meta[name="twitter:title"]');
+      if (twTitle) twTitle.content = d.title;
+    }
     const descKey = d.body.dataset.i18nPageDesc;
     if (descKey && t[descKey]) {
+      const pageDesc = t[descKey];
+      const visibleDesc = d.querySelector('#title-block-header .description');
+      if (visibleDesc) visibleDesc.textContent = pageDesc;
       const meta = d.querySelector('meta[name="description"]');
-      if (meta) meta.content = t[descKey];
+      if (meta) meta.content = pageDesc;
+      const ogDesc = d.querySelector('meta[property="og:description"]');
+      if (ogDesc) ogDesc.content = pageDesc;
+      const twDesc = d.querySelector('meta[name="twitter:description"]');
+      if (twDesc) twDesc.content = pageDesc;
     }
 
-    // 6. Navbar
+    // 6. Quarto UI labels
+    const tocTitle = d.querySelector('#toc-title, .sidebar-title');
+    if (tocTitle && t['toc-title']) tocTitle.textContent = t['toc-title'];
+
+    // 7. Navbar
     translateNavbar(t);
 
-    // 7. Footer
+    // 8. Footer
     translateFooter(t);
   }
 

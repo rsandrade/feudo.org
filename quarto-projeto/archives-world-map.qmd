@@ -23,5 +23,3 @@ description: "Mapa mundial colaborativo de arquivos: comunidade e software livre
 - Facilitar a descoberta de acervos arquivísticos
 - Promover a visibilidade de instituições de guarda documental
 </div>
-
-<p data-i18n="content-dev"><em>Conteúdo em desenvolvimento.</em></p>

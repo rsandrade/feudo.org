@@ -3,7 +3,7 @@ title: "Farinha"
 lang: pt-BR
 toc: true
 page-navigation: true
-description: "Farinha: software livre para gestão e acesso a arquivos institucionais"
+description: "Farinha: software livre para criação de plataformas de acesso a acervos permanentes e memoriais"
 ---
 
 <script>document.body.dataset.i18nPageTitle='page-farinha-title';document.body.dataset.i18nPageDesc='page-farinha-desc';</script>
@@ -22,5 +22,3 @@ description: "Farinha: software livre para gestão e acesso a arquivos instituci
 :::
 
 - <span data-i18n="farinha-recortes">**Recortes RAG**: sistema de recuperação aumentada por geração (RAG) aplicado a acervos documentais.</span>
-
-<p data-i18n="content-dev"><em>Conteúdo em desenvolvimento.</em></p>

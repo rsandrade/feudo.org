@@ -41,4 +41,4 @@ E que entusiasmantes ambientes de aprendizado e troca de conhecimento as redes s
 
 As redes sociais não nos moldam. Elas apenas refletem o que somos. O que as redes sociais são e se tornam é apenas reflexo da direção que tomamos.
 
-Meu objetivo é escrever 30 textos em 30 dias. Este é o 16/30. Os textos anteriores podem ser encontrados em https://medium.com/@ricsodre
+Meu objetivo é escrever 30 textos em 30 dias. Este é o 16/30. Os textos anteriores podem ser encontrados em <a href="https://medium.com/%40ricsodre">medium.com/&#64;ricsodre</a>

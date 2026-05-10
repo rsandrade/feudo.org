@@ -1,31 +1,31 @@
 ---
-title: "Grupos anteriores"
+title: "Grupos de Pesquisa"
 lang: pt-BR
 page-navigation: true
 toc: true
-description: "Grupos de pesquisa dos quais Ricardo Sodré Andrade participou anteriormente"
+description: "Grupos de pesquisa atuais e anteriores na trajetória de Ricardo Sodré Andrade"
 ---
 
 <script>document.body.dataset.i18nPageTitle='page-groups-title';document.body.dataset.i18nPageDesc='page-groups-desc';</script>
 
 ## Sobre
 
-<p data-i18n="groups-about">Grupos de pesquisa dos quais Ricardo Sodré Andrade participou e dos quais não faz mais parte.</p>
+<p data-i18n="groups-about">Grupos de pesquisa atuais e anteriores na trajetória de Ricardo Sodré Andrade.</p>
 
 ## CRIDI
 
-<span data-i18n="groups-cridi-fullname">**Centro de Referência em Informação e Documentação para a Integração**</span>
+<span data-i18n="groups-cridi-fullname">**Grupo de Estudos sobre Cultura, Representação e Informação Digitais**</span>
 
-|| | |
+| | |
 |---|---|
-| <span data-i18n="groups-role">**Função**</span> | <span data-i18n="groups-cridi-role">Coordenador (2019–2026), membro desde 2008</span> |
-| <span data-i18n="groups-status">**Status**</span> | <span data-i18n="groups-cridi-status">Não participa mais</span> |
+| <span data-i18n="groups-role">**Função**</span> | <span data-i18n="groups-cridi-role">Coordenador (2019–2026); membro desde 2008</span> |
+| <span data-i18n="groups-status">**Status**</span> | <span data-i18n="groups-cridi-status">Ativo, sem atividades recentes; em transição de coordenação em 2026</span> |
 
 ## GEPICC
 
 <span data-i18n="groups-gepicc-fullname">**Grupo de Estudos e Pesquisas em Informação, Comunicação e Cultura**</span>
 
-|| | |
+| | |
 |---|---|
 | <span data-i18n="groups-role">**Função**</span> | <span data-i18n="groups-gepicc-role">Membro (2003–2008)</span> |
 | <span data-i18n="groups-status">**Status**</span> | <span data-i18n="groups-gepicc-status">Não participa mais</span> |
@@ -34,9 +34,7 @@ description: "Grupos de pesquisa dos quais Ricardo Sodré Andrade participou ant
 
 <span data-i18n="groups-gepindi-fullname">**Grupo de Estudos e Pesquisas em Informação e Documentação para a Integração**</span>
 
-|| | |
+| | |
 |---|---|
 | <span data-i18n="groups-role">**Função**</span> | <span data-i18n="groups-gepindi-role">Membro (2004–2007)</span> |
 | <span data-i18n="groups-status">**Status**</span> | <span data-i18n="groups-gepindi-status">Inativo</span> |
-
-<p data-i18n="content-dev"><em>Conteúdo em desenvolvimento.</em></p>

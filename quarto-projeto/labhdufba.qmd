@@ -20,5 +20,3 @@ description: "Laboratório de Humanidades Digitais da UFBA: Grupo de pesquisa em
 ## Participação
 
 <p data-i18n="labhd-participation">Ricardo Sodré Andrade é membro do LABHDUFBA desde **2024**.</p>
-
-<p data-i18n="content-dev"><em>Conteúdo em desenvolvimento.</em></p>

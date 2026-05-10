@@ -25,7 +25,7 @@ Desde 2024, atua no **[LABHDUFBA](https://labhd.ufba.br)** (Laboratório de Huma
 :::
 
 :::{data-i18n-html="about-bio-p4"}
-Sua atuação percorre as interfaces entre Arquivologia, Humanidades Digitais, acesso à informação, cultura hacker e tecnologias aplicadas aos arquivos, com pesquisa aplicada em IA, análise de redes e visualização de dados aplicadas a acervos documentais. É radioamador (PU6RIC), de nacionalidade brasileira e portuguesa, e foi delegado eleito para a I CNARQ e delegado designado para a II CNARQ (Conferência Nacional de Arquivos).
+Sua atuação percorre as interfaces entre Arquivologia, Humanidades Digitais, acesso à informação, cultura hacker, software livre e tecnologias aplicadas aos arquivos, com pesquisa aplicada em IA e acervos documentais. É radioamador (PU6RIC), de nacionalidade brasileira e portuguesa, e foi delegado eleito para a I CNARQ e delegado designado para a II CNARQ (Conferência Nacional de Arquivos).
 :::
 
 :::{data-i18n="about-skills-title"}

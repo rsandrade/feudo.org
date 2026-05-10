@@ -27,4 +27,4 @@ Inicialmente, imaginei duas funções para o aplicativo: verificar quais as inst
 
 Há 775 instituições cadastradas no Mapa. Acredito que um aplicativo para dispositivos móveis poderá ajudar não apenas a aproveitar os dados existentes neste nosso “mundo real”, ao ar livre, como também vai permitir a todos os interessados em colaborar com o Mapa a inserir novas instituições, uma vez que será muito mais fácil abrir um aplicativo que fará a parte difícil de reconhecer a latitude e longitude do local, do que tentar inserir os dados de casa, encontrando e inserindo as coordenadas manualmente.
 
-Meu objetivo é escrever 30 textos em 30 dias. Este é o 18/30. Os textos anteriores podem ser encontrados em https://medium.com/@ricsodre
+Meu objetivo é escrever 30 textos em 30 dias. Este é o 18/30. Os textos anteriores podem ser encontrados em <a href="https://medium.com/%40ricsodre">medium.com/&#64;ricsodre</a>

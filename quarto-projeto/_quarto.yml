@@ -31,7 +31,7 @@ website:
         menu:
           - text: LABHDUFBA
             href: labhdufba.qmd
-          - text: Grupos anteriores
+          - text: Grupos de Pesquisa
             href: grupos-anteriores.qmd
           - text: Publicações
             href: publicacoes.qmd

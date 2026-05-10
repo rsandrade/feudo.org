@@ -23,7 +23,7 @@ toc: true
 - **LinkedIn:** [linkedin.com/in/rsandrade](https://www.linkedin.com/in/rsandrade/)
 - <span data-i18n-html="contact-instagram">**Instagram:** [instagram.com/todosaquelesarquivos](https://instagram.com/todosaquelesarquivos): Perfil pessoal voltado a arquivos, acervos e cultura arquivística</span>
 - **Lattes:** [Currículo Lattes](http://lattes.cnpq.br/5845598056866850)
-- <span data-i18n-html="contact-medium">**Medium:** [medium.com/@ricsodre](https://medium.com/@ricsodre): Blog com textos sobre arquivos, tecnologia e humanidades digitais</span>
+- <span data-i18n-html="contact-medium">**Medium:** <a href="https://medium.com/%40ricsodre">medium.com/&#64;ricsodre</a>: Blog com textos sobre arquivos, tecnologia e humanidades digitais</span>
 
 :::{data-i18n="contact-address"}
 ## Endereço Profissional

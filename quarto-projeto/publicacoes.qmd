@@ -40,7 +40,7 @@ description: "Publicações acadêmicas: livros, artigos, comunicações em even
 
 <span data-i18n="pubs-role-author">**Papel:** Autor</span> · <span data-i18n="pubs-publisher">**Editora:**</span> 9Bravos · **Ano:** 2011
 
-[Livraria 9Bravos](https://livraria.9bravos.com.br/produto/a-ordem-dos-arquivistas-centesimo/)
+[Livraria 9Bravos (arquivo)](https://web.archive.org/web/20251213092545/https://livraria.9bravos.com.br/produto/a-ordem-dos-arquivistas-centesimo/)
 
 ### Cultura, representação e informação digitais
 
@@ -110,11 +110,11 @@ description: "Publicações acadêmicas: livros, artigos, comunicações em even
 
 14. **Salvador Conectada: serviços de informação oferecidos pela Prefeitura Municipal e suas secretarias**. Sobreira, F.; Andrade, R. S.; Barros, O.; Jambeiro, O. *XXII Congresso Brasileiro de Biblioteconomia, Documentação e Ciência da Informação*, 2007.
 
-15. **Acesso à informação baseado em Open Archives: a experiência do Holmes**. Andrade, R. S.; Oddone, N. *XIV SNBU: Seminário Nacional de Bibliotecas Universitárias*, 2006. [PDF](http://repositorio.febab.org.br/files/original/47/5182/SNBU2006_146.pdf)
+15. **Acesso à informação baseado em Open Archives: a experiência do Holmes**. Oddone, N.; Andrade, R. S. *XIV SNBU: Seminário Nacional de Bibliotecas Universitárias*, 2006. [PDF](http://repositorio.febab.org.br/files/original/47/5703/SNBU2006_314.pdf)
 
 16. **Disseminando o conhecimento científico em Música por meio do conceito de Open Archives**. Andrade, R. S.; Blanco, P. S. *XIV SNBU: Seminário Nacional de Bibliotecas Universitárias*, 2006. [PDF](http://repositorio.febab.org.br/files/original/47/5182/SNBU2006_146.pdf)
 
-17. **Conhecimento científico em Música e Open Archives: vantagens de uma aproximação**. Andrade, R. S. *XVI Congresso da ANPPOM*, Comissão de Musicologia, 2006. [PDF](https://anppom.org.br/anais/anaiscongresso_anppom_2006/CDROM/COM/04_Com_MusHist/sessao03/04COM_MusHist_0303-018.pdf)
+17. **Conhecimento científico em Música e Open Archives: vantagens de uma aproximação**. Andrade, R. S.; Blanco, P. S. *XVI Congresso da ANPPOM*, Comissão de Musicologia, 2006. [PDF](https://anppom.org.br/anais/anaiscongresso_anppom_2006/CDROM/COM/04_Com_Musicologia/sessao03/04COM_MusHist_0303-018.pdf)
 
 18. **A Criação da Rede de Arquivos de Minas Gerais – RAMG**. Ribeiro, F. A.; Di Mambro, R. C. M.; Parrela, M. A.; Andrade, R. S. *VI Congresso de Arquivologia do Mercosul*, 2005.
 

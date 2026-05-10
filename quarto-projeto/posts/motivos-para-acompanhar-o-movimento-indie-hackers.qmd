@@ -83,4 +83,4 @@ Se estamos tentando sobreviver, é bom conhecer as diversas formas nas quais as 
 
 ---
 
-Meu objetivo é escrever 30 textos em 30 dias. Este é o 13/30. Os textos anteriores podem ser encontrados em https://medium.com/@ricsodre
+Meu objetivo é escrever 30 textos em 30 dias. Este é o 13/30. Os textos anteriores podem ser encontrados em <a href="https://medium.com/%40ricsodre">medium.com/&#64;ricsodre</a>

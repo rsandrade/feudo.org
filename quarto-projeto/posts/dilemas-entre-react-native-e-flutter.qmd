@@ -37,4 +37,4 @@ No melhor cenário, além de aplicativos web que me agradam e resolvem meus prob
 
 —
 
-Meu objetivo é escrever 30 textos em 30 dias. Este é o 17/30. Os textos anteriores podem ser encontrados em https://medium.com/@ricsodre
+Meu objetivo é escrever 30 textos em 30 dias. Este é o 17/30. Os textos anteriores podem ser encontrados em <a href="https://medium.com/%40ricsodre">medium.com/&#64;ricsodre</a>

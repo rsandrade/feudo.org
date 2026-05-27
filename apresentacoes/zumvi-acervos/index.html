@@ -121,6 +121,20 @@
       margin-right: 0; 
     }
   </style>
+
+<style>
+.reveal .slide.smaller h2 { font-size: 1.5em; }
+.reveal .slide.smaller { font-size: 0.75em; }
+.reveal .slide.smaller .contact-grid { font-size: 0.85em; gap: 1.5em; }
+.reveal .slide.smaller p { margin: 0.3em 0; }
+.reveal section img { max-height: 350px; max-width: 100%; object-fit: contain; }
+.reveal .cols .col-img img { max-height: 320px; }
+.reveal .team-card img { width: 65px; height: 65px; border-radius: 50%; object-fit: cover; }
+.reveal .contact-grid { flex-wrap: wrap; }
+.reveal .citation { font-style: normal; }
+.reveal .citation::before { content: '@'; }
+</style>
+
 </head>
 <body class="quarto-light">
 <script src="mathjax-config.js"></script>
@@ -153,13 +167,31 @@ Ricardo Sodré Andrade
 <style>
 .reveal .slide-number { font-size: 0.6em; }
 .reveal section { overflow-y: hidden !important; }
-/* Mobile redirect banner — injected via JS, not placed as div */
+.reveal .slide-logo img { max-height: 80px; margin-bottom: 10px; }
+.reveal .slide-logo-center { text-align: center; }
+.reveal .cols { display: flex; gap: 1em; align-items: center; }
+.reveal .cols .col { flex: 1; }
+.reveal .cols .col-img { flex: 0 0 45%; text-align: center; }
+.reveal .cols .col-txt { flex: 1; }
+.reveal .team-grid { display: flex; flex-wrap: wrap; gap: 0.8em; justify-content: center; align-items: flex-start; }
+.reveal .team-card { text-align: center; flex: 0 0 22%; font-size: 0.75em; }
+.reveal .team-card img { width: 70px; height: 70px; border-radius: 50%; object-fit: cover; margin-bottom: 4px; }
+.reveal .contact-grid { display: flex; gap: 2em; font-size: 0.82em; }
+.reveal .contact-grid .col { flex: 1; }
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Title slide: add institutional subtitle beneath author
-  var subtitle = document.querySelector('.reveal .slide.subtitle');
-  // No action needed — handled by YAML
+  // Move logo to title slide subtitle area
+  var titleSlide = document.querySelector('.reveal .slide.title');
+  if (titleSlide) {
+    var logoImg = titleSlide.querySelector('.slide-logo img');
+    if (logoImg) {
+      var titleH1 = titleSlide.querySelector('h1');
+      if (titleH1) {
+        titleH1.parentNode.insertBefore(logoImg, titleH1);
+      }
+    }
+  }
 });
 </script>
 </div>
@@ -192,6 +224,8 @@ document.addEventListener('DOMContentLoaded', function() {
 </section>
 <section id="acervos-na-gaveta-digital" class="slide level2">
 <h2>Acervos na gaveta digital</h2>
+<div class="cols">
+<div class="col-txt">
 <p>Muitos arquivos no Brasil já digitalizaram acervos, mas <strong>não têm plataforma de acesso</strong>.</p>
 <ul>
 <li>Acervos digitalizados “na gaveta”</li>
@@ -202,6 +236,16 @@ document.addEventListener('DOMContentLoaded', function() {
 <blockquote>
 <p><strong>O acesso é o elo que falta no ciclo documental.</strong></p>
 </blockquote>
+</div>
+<div class="col-img">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/carrossel1-opt.png" class="fragment"></p>
+<figcaption>Recortes de jornais no Farinha</figcaption>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="onde-o-farinha-se-encaixa" class="slide level2">
 <h2>Onde o Farinha se encaixa</h2>
@@ -237,17 +281,51 @@ document.addEventListener('DOMContentLoaded', function() {
 </section>
 <section id="a-equipe" class="slide level2">
 <h2>A equipe</h2>
-<ul>
-<li><strong>Pablo Soares</strong> — programador sênior, membro do Raul Hacker Club</li>
-<li><strong>Beatriz Alves</strong> — analista de TI da Dataprev, ex-bolsista PIBIC</li>
-<li><strong>Cristian Privat</strong> — arquiteto de infraestrutura e cloud, gerente de projetos</li>
-<li><strong>Ricardo Sodré Andrade</strong> — arquivista, coordenador do projeto</li>
-</ul>
+<div class="team-grid">
+<div class="team-card">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/pablo.png"></p>
+<figcaption>Pablo</figcaption>
+</figure>
+</div>
+<p><strong>Pablo Soares</strong> Programador sênior, Raul Hacker Club</p>
+</div>
+<div class="team-card">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/beatriz.png"></p>
+<figcaption>Beatriz</figcaption>
+</figure>
+</div>
+<p><strong>Beatriz Alves</strong> Analista de TI, Dataprev</p>
+</div>
+<div class="team-card">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/cristian.png"></p>
+<figcaption>Cristian</figcaption>
+</figure>
+</div>
+<p><strong>Cristian Privat</strong> Arquiteto de infraestrutura e cloud</p>
+</div>
+<div class="team-card">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/ricardo.png"></p>
+<figcaption>Ricardo</figcaption>
+</figure>
+</div>
+<p><strong>Ricardo Sodré</strong> Arquivista, coordenador do projeto</p>
+</div>
+</div>
 <p>~20 meses de trabalho voluntário, reuniões nas terças às 20h</p>
 <p>Apoio: PNAB Bahia 2024 (bolsa), FAPESB INCITE II (hardware e bolsa)</p>
 </section>
 <section id="o-que-o-farinha-já-faz" class="slide level2">
 <h2>O que o Farinha já faz</h2>
+<div class="cols">
+<div class="col-txt">
 <ul>
 <li>Cadastro de <strong>instituições, setores e acervos</strong> (Fundos e Coleções)</li>
 <li><strong>Busca textual</strong> nos registros cadastrados</li>
@@ -257,11 +335,23 @@ document.addEventListener('DOMContentLoaded', function() {
 <li>Portal inicial para consulta pública</li>
 </ul>
 <blockquote>
-<p>Versão 0.2 (alfa) pública — e já em uso pela Plataforma APEB e Arquivos da UFBA!</p>
+<p>Versão 0.2 (alfa) pública — e já em uso!</p>
 </blockquote>
+</div>
+<div class="col-img">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/caracteristicas-opt.png" class="fragment"></p>
+<figcaption>Interface do Farinha</figcaption>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="diferencial-descreva-no-seu-idioma" class="slide level2">
 <h2>Diferencial: descreva no seu idioma</h2>
+<div class="cols">
+<div class="col-txt">
 <ul>
 <li>Nem todo acervo segue a NOBRADE — e <strong>está tudo bem</strong></li>
 <li>O Farinha permite <strong>campos personalizados</strong> nas Coleções</li>
@@ -272,6 +362,16 @@ document.addEventListener('DOMContentLoaded', function() {
 <p><strong>A rigidez normativa não pode ser barreira para o acesso.</strong></p>
 </blockquote>
 <p>Pense num arquivo fotográfico com milhares de imagens: cada foto precisa de campos que façam sentido para <strong>aquele</strong> acervo.</p>
+</div>
+<div class="col-img">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/objetos-digitais-opt.png" class="fragment"></p>
+<figcaption>Objetos digitais no Farinha</figcaption>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section class="slide level2">
 
@@ -319,7 +419,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <blockquote>
 <p>Façam suas perguntas! Perguntem como se estivesse enviando uma pergunta a um funcionário do Arquivo.</p>
 </blockquote>
-<p><span style="font-size:0.8em;">🔗 <strong>recortes.farinha.info</strong></span></p>
+<p>🔗 <strong>recortes.farinha.info</strong></p>
 </section>
 <section id="sec-demo-screenshots" class="slide level2">
 <h2>[Cenário B] Exemplo de RAG Ingênuo</h2>
@@ -390,25 +490,22 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>Em breve: RAG bem feito, com verificabilidade de fontes e precisão aprimorada.</p>
 </blockquote>
 </section>
-<section id="obrigado" class="slide level2">
+<section id="obrigado" class="slide level2 smaller">
 <h2>Obrigado!</h2>
+<div class="contact-grid">
+<div class="col">
 <p><strong>Contatos</strong></p>
-<ul>
-<li>📷 <span class="citation" data-cites="todosaquelesarquivos">@todosaquelesarquivos</span> (Instagram)</li>
-<li>🌐 feudo.org</li>
-<li>📧 ricardo@feudo.org</li>
-</ul>
+<p>📷 @todosaquelesarquivos 🌐 feudo.org 📧 ricardo@feudo.org</p>
+</div>
+<div class="col">
 <p><strong>Institucional</strong></p>
-<ul>
-<li>📧 ricardo.andrade@gestao.an.gov.br</li>
-<li>🌐 <span class="citation" data-cites="arquivonacionalbrasil">@arquivonacionalbrasil</span></li>
-</ul>
+<p>📧 ricardo.andrade@gestao.an.gov.br 🌐 @arquivonacionalbrasil</p>
+</div>
+<div class="col">
 <p><strong>Projeto</strong></p>
-<ul>
-<li>🌐 farinha.info</li>
-<li>🌐 archivesmap.org</li>
-<li>📷 <span class="citation" data-cites="farinha.info">@farinha.info</span> · <span class="citation" data-cites="labhdufba">@labhdufba</span> · <span class="citation" data-cites="raulhackerclub">@raulhackerclub</span></li>
-</ul>
+<p>🌐 farinha.info 🌐 archivesmap.org 📷 @farinha.info · @labhdufba · @raulhackerclub</p>
+</div>
+</div>
 
 </section></section>
     </div>

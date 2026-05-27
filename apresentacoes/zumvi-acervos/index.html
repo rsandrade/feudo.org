@@ -123,14 +123,28 @@
   </style>
 
 <style>
+.reveal .slide-number { font-size: 0.6em; }
+.reveal section { overflow-y: hidden !important; }
+.reveal .slide-logo img { max-height: 80px; margin-bottom: 10px; }
+.reveal .slide-logo-center { text-align: center; }
+.reveal .cols { display: flex; gap: 1em; align-items: center; }
+.reveal .cols .col { flex: 1; }
+.reveal .cols .col-img { flex: 0 0 45%; text-align: center; }
+.reveal .cols .col-txt { flex: 1; font-size: 0.88em; }
+.reveal .cols .col-txt ul { margin: 0; padding-left: 1.2em; }
+.reveal .cols .col-txt ul li { margin: 0.15em 0; }
+.reveal .cols .col-txt blockquote { margin: 0.3em 0; font-size: 0.85em; }
+.reveal .team-grid { display: flex; flex-wrap: wrap; gap: 0.8em; justify-content: center; align-items: flex-start; }
+.reveal .team-card { text-align: center; flex: 0 0 22%; font-size: 0.75em; }
+.reveal .team-card img { width: 70px; height: 70px; border-radius: 50%; object-fit: cover; margin-bottom: 4px; }
+.reveal .contact-grid { display: flex; gap: 2em; font-size: 0.82em; flex-wrap: wrap; }
+.reveal .contact-grid .col { flex: 1; }
 .reveal .slide.smaller h2 { font-size: 1.5em; }
 .reveal .slide.smaller { font-size: 0.75em; }
 .reveal .slide.smaller .contact-grid { font-size: 0.85em; gap: 1.5em; }
 .reveal .slide.smaller p { margin: 0.3em 0; }
 .reveal section img { max-height: 350px; max-width: 100%; object-fit: contain; }
-.reveal .cols .col-img img { max-height: 320px; }
-.reveal .team-card img { width: 65px; height: 65px; border-radius: 50%; object-fit: cover; }
-.reveal .contact-grid { flex-wrap: wrap; }
+.reveal .team-card img { width: 65px; height: 65px; }
 </style>
 
 </head>
@@ -170,7 +184,10 @@ Ricardo Sodré Andrade
 .reveal .cols { display: flex; gap: 1em; align-items: center; }
 .reveal .cols .col { flex: 1; }
 .reveal .cols .col-img { flex: 0 0 45%; text-align: center; }
-.reveal .cols .col-txt { flex: 1; }
+.reveal .cols .col-txt { flex: 1; font-size: 0.88em; }
+.reveal .cols .col-txt ul { margin: 0; padding-left: 1.2em; }
+.reveal .cols .col-txt ul li { margin: 0.15em 0; }
+.reveal .cols .col-txt blockquote { margin: 0.3em 0; font-size: 0.85em; }
 .reveal .team-grid { display: flex; flex-wrap: wrap; gap: 0.8em; justify-content: center; align-items: flex-start; }
 .reveal .team-card { text-align: center; flex: 0 0 22%; font-size: 0.75em; }
 .reveal .team-card img { width: 70px; height: 70px; border-radius: 50%; object-fit: cover; margin-bottom: 4px; }
@@ -230,14 +247,14 @@ document.addEventListener('DOMContentLoaded', function() {
 <li>Instituições que não disponibilizam seus acervos online</li>
 </ul>
 <blockquote>
-<p><strong>O acesso é o elo que falta no ciclo documental.</strong></p>
+<p><strong>O acesso adequado é a etapa que falta em muitos arquivos.</strong></p>
 </blockquote>
 </section>
 <section id="onde-o-farinha-se-encaixa" class="slide level2">
 <h2>Onde o Farinha se encaixa</h2>
 <p>Um acervo passa por várias etapas — e o Farinha atua <strong>no acesso</strong>:</p>
 <ol type="1">
-<li><strong>Produção</strong> — os documentos nascem (fotografias, registros, recortes)</li>
+<li><strong>Produção</strong> — os documentos são produzidos e acumulados</li>
 <li><strong>Tratamento técnico</strong> — organização, descrição, indexação, digitalização etc.</li>
 <li><strong>Acesso</strong> — estabelecimento de plataforma, disponibilização de metadados, objetos digitais, mediação por IA</li>
 </ol>
@@ -301,11 +318,10 @@ document.addEventListener('DOMContentLoaded', function() {
 <figcaption>Ricardo</figcaption>
 </figure>
 </div>
-<p><strong>Ricardo Sodré</strong> Arquivista, coordenador do projeto</p>
+<p><strong>Ricardo Sodré</strong> Coordenador do projeto</p>
+<p>Apoio: PNAB Bahia 2025 (bolsa)</p>
 </div>
 </div>
-<p>~20 meses de trabalho voluntário, reuniões nas terças às 20h</p>
-<p>Apoio: PNAB Bahia 2024 (bolsa), FAPESB INCITE II (hardware e bolsa)</p>
 </section>
 <section id="o-que-o-farinha-já-faz" class="slide level2">
 <h2>O que o Farinha já faz</h2>
@@ -333,20 +349,19 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 </div>
 </section>
-<section id="diferencial-descreva-no-seu-idioma" class="slide level2">
-<h2>Diferencial: descreva no seu idioma</h2>
+<section id="fundos-e-coleções-com-norma-ou-não" class="slide level2">
+<h2>Fundos e Coleções: com norma ou não</h2>
 <div class="cols">
 <div class="col-txt">
 <ul>
 <li>Nem todo acervo segue a NOBRADE — e <strong>está tudo bem</strong></li>
-<li>O Farinha permite <strong>campos personalizados</strong> nas Coleções</li>
 <li>Fundos seguem a norma; Coleções são <strong>flexíveis</strong></li>
+<li>O Farinha permite <strong>campos personalizados</strong> nas Coleções</li>
 <li>Fotografia, arte, cultura, memória — cada acervo tem sua linguagem</li>
 </ul>
 <blockquote>
 <p><strong>A rigidez normativa não pode ser barreira para o acesso.</strong></p>
 </blockquote>
-<p>Pense num arquivo fotográfico com milhares de imagens: cada foto precisa de campos que façam sentido para <strong>aquele</strong> acervo.</p>
 </div>
 <div class="col-img">
 <div class="quarto-figure quarto-figure-center">
@@ -399,20 +414,12 @@ document.addEventListener('DOMContentLoaded', function() {
 </ul>
 </section>
 <section id="sec-demo-ao-vivo" class="slide level2">
-<h2>[Cenário A] Demo ao vivo: RAG Ingênuo</h2>
+<h2>Demonstração ao vivo: RAG Ingênuo</h2>
 <p>Coleção: <strong>Recortes de Jornais da Reitoria da UFBA</strong></p>
 <blockquote>
 <p>Façam suas perguntas! Perguntem como se estivesse enviando uma pergunta a um funcionário do Arquivo.</p>
 </blockquote>
 <p>🔗 <strong>recortes.farinha.info</strong></p>
-</section>
-<section id="sec-demo-screenshots" class="slide level2">
-<h2>[Cenário B] Exemplo de RAG Ingênuo</h2>
-<p>Coleção: <strong>Recortes de Jornais da Reitoria da UFBA</strong></p>
-<p>Pergunta: <em>“Qual o papel dos estudantes da UFBA em manifestações sociais registrados nos recortes de jornais?”</em></p>
-<blockquote>
-<p>O RAG Ingênuo é fácil de fazer, mas não funcionará bem em boa parte das consultas. Um RAG bem feito precisa garantir verificabilidade das fontes, ser mais preciso e cobrir mais material sem perder a precisão.</p>
-</blockquote>
 </section>
 <section class="slide level2">
 

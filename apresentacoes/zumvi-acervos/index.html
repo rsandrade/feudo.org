@@ -137,14 +137,17 @@
 .reveal .team-grid { display: flex; flex-wrap: wrap; gap: 0.8em; justify-content: center; align-items: flex-start; }
 .reveal .team-card { text-align: center; flex: 0 0 22%; font-size: 0.75em; }
 .reveal .team-card img { width: 70px; height: 70px; border-radius: 50%; object-fit: cover; margin-bottom: 4px; }
-.reveal .contact-grid { display: flex; gap: 2em; font-size: 0.82em; flex-wrap: wrap; }
-.reveal .contact-grid .col { flex: 1; }
-.reveal .slide.smaller h2 { font-size: 1.5em; }
-.reveal .slide.smaller { font-size: 0.75em; }
-.reveal .slide.smaller .contact-grid { font-size: 0.85em; gap: 1.5em; }
-.reveal .slide.smaller p { margin: 0.3em 0; }
+.reveal .contact-grid { display: flex; gap: 2em; font-size: 0.88em; flex-wrap: wrap; justify-content: center; align-items: flex-start; }
+.reveal .contact-grid .col { flex: 1; min-width: 200px; }
 .reveal section img { max-height: 350px; max-width: 100%; object-fit: contain; }
 .reveal .team-card img { width: 65px; height: 65px; }
+/* Center obrigado slide vertically */
+.reveal .slide[data-slide-number-last="true"] {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  height: 100% !important;
+}
 </style>
 
 </head>
@@ -473,16 +476,14 @@ document.addEventListener('DOMContentLoaded', function() {
 <h2>O que vem por aí</h2>
 <ul>
 <li><strong>Versão 0.3</strong> — importações em lote, portal aprimorado</li>
-<li><strong>Versão 0.4</strong> — consolidação das funções iniciais</li>
-<li><strong>Módulo nativo de RAG</strong> — mediação algorítmica integrada ao Farinha</li>
-<li><strong>Archives World Map</strong> — evolução contínua</li>
+<li><strong>Versão 0.4</strong> — módulo nativo de RAG</li>
 <li>Parceria com o <strong>LABHDUFBA</strong> para técnicas avançadas de RAG</li>
 </ul>
 <blockquote>
 <p>Em breve: RAG bem feito, com verificabilidade de fontes e precisão aprimorada.</p>
 </blockquote>
 </section>
-<section id="obrigado" class="slide level2 smaller">
+<section id="obrigado" class="slide level2">
 <h2>Obrigado!</h2>
 <div class="contact-grid">
 <div class="col">

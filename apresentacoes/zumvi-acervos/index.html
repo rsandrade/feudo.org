@@ -179,14 +179,29 @@ Ricardo Sodré Andrade
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Move logo to title slide subtitle area
   var titleSlide = document.querySelector('.reveal .slide.title');
   if (titleSlide) {
     var logoImg = titleSlide.querySelector('.slide-logo img');
     if (logoImg) {
+      logoImg.style.maxHeight = '110px';
+      logoImg.style.marginBottom = '0.4em';
       var titleH1 = titleSlide.querySelector('h1');
       if (titleH1) {
         titleH1.parentNode.insertBefore(logoImg, titleH1);
+      }
+    } else {
+      // No slide-logo found - inject one
+      var img = document.createElement('img');
+      img.src = 'img/logo.png';
+      img.alt = 'Farinha';
+      img.style.maxHeight = '110px';
+      img.style.marginBottom = '0.4em';
+      img.style.display = 'block';
+      img.style.marginLeft = 'auto';
+      img.style.marginRight = 'auto';
+      var titleH1 = titleSlide.querySelector('h1');
+      if (titleH1) {
+        titleH1.parentNode.insertBefore(img, titleH1);
       }
     }
   }
@@ -451,6 +466,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <li><strong>Software livre AGPL-3.0</strong> — transparência e colaboração</li>
 <li>Instale na sua instituição ou use em nuvem</li>
 <li><strong>Como participar</strong>: contribua com código, documentação, teste ou feedback</li>
+<li>Desenvolvido de forma <strong>voluntária</strong> — mas gostamos de financiamento!</li>
 <li>O Farinha terá <strong>módulo nativo de RAG</strong> — mediação algorítmica integrada ao acervo</li>
 </ul>
 </section>

@@ -125,8 +125,8 @@
 <style>
 .reveal .slide-number { font-size: 0.6em; }
 .reveal section { overflow-y: hidden !important; }
-.reveal .slide-logo img { max-height: 80px; margin-bottom: 10px; }
-.reveal .slide-logo-center { text-align: center; }
+.reveal .slide-logo img { max-height: 120px; margin-bottom: 0.5em; }
+.reveal .slide-logo-center { text-align: center; margin-bottom: 0.8em; }
 .reveal .cols { display: flex; gap: 1em; align-items: center; }
 .reveal .cols .col { flex: 1; }
 .reveal .cols .col-img { flex: 0 0 45%; text-align: center; }
@@ -139,6 +139,13 @@
 .reveal .team-card img { width: 70px; height: 70px; border-radius: 50%; object-fit: cover; margin-bottom: 4px; }
 .reveal section img { max-height: 350px; max-width: 100%; object-fit: contain; }
 .reveal .team-card img { width: 65px; height: 65px; }
+/* Obrigado slide - centered logo + contacts */
+#obrigado { text-align: center !important; }
+#obrigado h2 { margin-bottom: 0.1em !important; }
+#obrigado .slide-logo-center { margin-bottom: 0.6em; }
+#obrigado .slide-logo-center img { max-height: 120px; }
+#obrigado p { margin: 0.25em 0 !important; }
+#obrigado p:first-of-type { font-size: 1.1em; }
 </style>
 
 </head>
@@ -488,10 +495,12 @@ document.addEventListener('DOMContentLoaded', function() {
 </section>
 <section id="obrigado" class="slide level2">
 <h2>Obrigado!</h2>
-<p><strong>Ricardo Sodré Andrade</strong></p>
-<p>Escritório Regional Nordeste do Arquivo Nacional/MGI · LABHDUFBA</p>
-<p><br></p>
-<p>🌐 farinha.info · archivesmap.org · feudo.org 📷 @todosaquelesarquivos · @farinha.info · @labhdufba 📧 ricardo@feudo.org · ricardo.andrade@gestao.an.gov.br</p>
+<div class="slide-logo-center">
+<p><img data-src="img/logo.svg" class="slide-logo"></p>
+</div>
+<p><strong>farinha.info</strong> · archivesmap.org · feudo.org</p>
+<p>Ricardo Sodré Andrade — Arquivo Nacional / ERE-NE · LABHDUFBA</p>
+<p>📷 @todosaquelesarquivos · @farinha.info · @labhdufba · @raulhackerclub 📧 ricardo@feudo.org</p>
 
 </section></section>
     </div>

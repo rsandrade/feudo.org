@@ -137,32 +137,38 @@
 .reveal .team-card img { width: 70px; height: 70px; border-radius: 50%; object-fit: cover; margin-bottom: 4px; }
 .reveal section img { max-height: 350px; max-width: 100%; object-fit: contain; }
 .reveal .team-card img { width: 65px; height: 65px; }
+/* Obrigado slide - 2-row grid */
 #obrigado { text-align: center !important; }
-#obrigado h2 { margin-bottom: 0.5em !important; }
+#obrigado h2 { margin-bottom: 0.4em !important; }
 .obrigado-grid {
   display: grid;
+  gap: 0.8em;
+  margin-top: 0.3em;
+}
+.obrigado-grid-top {
   grid-template-columns: 1fr 1fr;
-  gap: 1em;
-  margin-top: 0.5em;
+}
+.obrigado-grid-bottom {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .obrigado-grid .quad {
   border: 2px solid #40666e;
   border-radius: 10px;
-  padding: 0.8em 0.5em;
+  padding: 0.6em 0.4em;
   text-align: center;
-  font-size: 0.82em;
-  line-height: 1.4;
+  font-size: 0.78em;
+  line-height: 1.35;
 }
 .obrigado-grid .quad strong {
-  font-size: 1.15em;
+  font-size: 1.05em;
   display: block;
-  margin: 0.15em 0;
+  margin: 0.1em 0;
 }
 .obrigado-grid .quad-logo {
-  max-height: 100px;
-  max-width: 140px;
+  max-height: 70px;
+  max-width: 120px;
   object-fit: contain;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.2em;
 }
 .obrigado-grid .quad p {
   margin: 0 !important;
@@ -516,15 +522,20 @@ document.addEventListener('DOMContentLoaded', function() {
 </section>
 <section id="obrigado" class="slide level2">
 <h2>Obrigado!</h2>
-<div class="obrigado-grid">
+<div class="obrigado-grid obrigado-grid-top">
 <div class="quad quad-farinha">
 <p><img data-src="img/logo.png" class="quad-logo"> <strong>Farinha</strong><br> farinha.info</p>
 </div>
 <div class="quad quad-an">
 <p><img data-src="img/logo-arquivonacional.png" class="quad-logo"> <strong>Arquivo Nacional</strong><br> ERE-NE · MGI<br> ricardo.andrade@gestao.an.gov.br</p>
 </div>
+</div>
+<div class="obrigado-grid obrigado-grid-bottom">
 <div class="quad quad-labhd">
 <p><img data-src="img/logo-labhdufba.png" class="quad-logo"> <strong>LABHDUFBA</strong><br> labhdufba.github.io</p>
+</div>
+<div class="quad quad-raulhc">
+<p><img data-src="img/logo-raulhc.png" class="quad-logo"> <strong>Raul Hacker Club</strong><br> raulhc.cc<br> associacao@raulhc.cc</p>
 </div>
 <div class="quad quad-feudo">
 <p>🌐<br> <strong>Feudo.org</strong><br> feudo.org<br> ricardo@feudo.org</p>

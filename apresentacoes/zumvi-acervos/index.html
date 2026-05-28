@@ -125,8 +125,6 @@
 <style>
 .reveal .slide-number { font-size: 0.6em; }
 .reveal section { overflow-y: hidden !important; }
-.reveal .slide-logo img { max-height: 120px; margin-bottom: 0.5em; }
-.reveal .slide-logo-center { text-align: center; margin-bottom: 0.8em; }
 .reveal .cols { display: flex; gap: 1em; align-items: center; }
 .reveal .cols .col { flex: 1; }
 .reveal .cols .col-img { flex: 0 0 45%; text-align: center; }
@@ -139,12 +137,37 @@
 .reveal .team-card img { width: 70px; height: 70px; border-radius: 50%; object-fit: cover; margin-bottom: 4px; }
 .reveal section img { max-height: 350px; max-width: 100%; object-fit: contain; }
 .reveal .team-card img { width: 65px; height: 65px; }
+/* Obrigado slide - 4-quadrant grid */
 #obrigado { text-align: center !important; }
-#obrigado h2 { margin-bottom: 0.1em !important; }
-#obrigado .slide-logo-center { margin-bottom: 0.6em; }
-#obrigado .slide-logo-center img { max-height: 120px; }
-#obrigado p { margin: 0.25em 0 !important; }
-#obrigado p:first-of-type { font-size: 1.1em; }
+#obrigado h2 { margin-bottom: 0.5em !important; }
+.obrigado-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin-top: 0.5em;
+}
+.obrigado-grid .quad {
+  border: 2px solid #40666e;
+  border-radius: 10px;
+  padding: 0.8em 0.5em;
+  text-align: center;
+  font-size: 0.82em;
+  line-height: 1.4;
+}
+.obrigado-grid .quad strong {
+  font-size: 1.15em;
+  display: block;
+  margin: 0.15em 0;
+}
+.obrigado-grid .quad-logo {
+  max-height: 80px;
+  max-width: 80px;
+  object-fit: contain;
+  margin-bottom: 0.3em;
+}
+.obrigado-grid .quad p {
+  margin: 0 !important;
+}
 </style>
 
 </head>
@@ -494,12 +517,20 @@ document.addEventListener('DOMContentLoaded', function() {
 </section>
 <section id="obrigado" class="slide level2">
 <h2>Obrigado!</h2>
-<div class="slide-logo-center">
-<p><img data-src="img/logo.png" class="slide-logo"></p>
+<div class="obrigado-grid">
+<div class="quad quad-farinha">
+<p><img data-src="img/logo.png" class="quad-logo"> <strong>Farinha</strong><br> farinha.info</p>
 </div>
-<p><strong>farinha.info</strong> · archivesmap.org · feudo.org</p>
-<p>Ricardo Sodré Andrade — Arquivo Nacional / ERE-NE · LABHDUFBA</p>
-<p>📷 @todosaquelesarquivos · @farinha.info · @labhdufba · @raulhackerclub 📧 ricardo@feudo.org</p>
+<div class="quad quad-an">
+<p>🏛️<br> <strong>Arquivo Nacional</strong><br> ERE-NE · MGI<br> ricardo.andrade@gestao.an.gov.br</p>
+</div>
+<div class="quad quad-labhd">
+<p>🤖<br> <strong>LABHDUFBA</strong><br> labhdufba.github.io</p>
+</div>
+<div class="quad quad-feudo">
+<p>🌐<br> <strong>Feudo.org</strong><br> feudo.org<br> ricardo@feudo.org</p>
+</div>
+</div>
 
 </section></section>
     </div>

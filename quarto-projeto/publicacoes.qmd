@@ -27,7 +27,7 @@ description: "Publicações acadêmicas: livros, artigos, comunicações em even
 
 ![](files/images/books/book4_cover.jpg){width="200px" fig-class="book-cover"}
 
-<span data-i18n="pubs-role-organizer">**Papel:** Organizador</span> · <span data-i18n="pubs-publisher">**Editora:**</span> 9Bravos · **Ano:** 2014
+<span data-i18n-html="pubs-role-organizer"><strong>Papel:</strong> Organizador</span> · <span data-i18n-html="pubs-publisher"><strong>Editora:</strong></span> 9Bravos · **Ano:** 2014
 
 [Skoob](https://www.skoob.com.br/pt/book/429771)
 :::
@@ -37,7 +37,7 @@ description: "Publicações acadêmicas: livros, artigos, comunicações em even
 
 ![](files/images/books/book3_cover.jpg){width="200px" fig-class="book-cover"}
 
-<span data-i18n="pubs-role-organizer">**Papel:** Organizador</span> · <span data-i18n="pubs-publisher">**Editora:**</span> 9Bravos · **Ano:** 2013
+<span data-i18n-html="pubs-role-organizer"><strong>Papel:</strong> Organizador</span> · <span data-i18n-html="pubs-publisher"><strong>Editora:</strong></span> 9Bravos · **Ano:** 2013
 
 [Amazon](https://www.amazon.com.br/Mundos-Distantes-Ricardo-Sodr%C3%A9-Andrade/dp/8567178002)
 :::
@@ -47,7 +47,7 @@ description: "Publicações acadêmicas: livros, artigos, comunicações em even
 
 ![](files/images/books/book2_cover.jpg){width="200px" fig-class="book-cover"}
 
-<span data-i18n="pubs-role-author">**Papel:** Autor</span> · <span data-i18n="pubs-publisher">**Editora:**</span> 9Bravos · **Ano:** 2011
+<span data-i18n-html="pubs-role-author"><strong>Papel:</strong> Autor</span> · <span data-i18n-html="pubs-publisher"><strong>Editora:</strong></span> 9Bravos · **Ano:** 2011
 
 [Livraria 9Bravos (arquivo)](https://web.archive.org/web/20251213092545/https://livraria.9bravos.com.br/produto/a-ordem-dos-arquivistas-centesimo/)
 :::
@@ -57,7 +57,7 @@ description: "Publicações acadêmicas: livros, artigos, comunicações em even
 
 ![](files/images/books/book1_cover.jpg){width="200px" fig-class="book-cover"}
 
-<span data-i18n="pubs-role-organizer">**Papel:** Organizador</span> · <span data-i18n="pubs-publisher">**Editora:**</span> EDUFBA · **Ano:** 2010
+<span data-i18n-html="pubs-role-organizer"><strong>Papel:</strong> Organizador</span> · <span data-i18n-html="pubs-publisher"><strong>Editora:</strong></span> EDUFBA · **Ano:** 2010
 
 [Repositório UFBA](https://repositorio.ufba.br/handle/ri/7315)
 :::

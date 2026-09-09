@@ -124,3 +124,205 @@ a:hover {
     max-width: 140px;
   }
 }
+
+/* --- Publications page: editorial reading layout --- */
+#quarto-document-content {
+  --pub-ink: #263238;
+  --pub-muted: #65727a;
+  --pub-rule: #d9d1c5;
+  --pub-paper: #fbfaf7;
+  --pub-accent: #8b4513;
+}
+
+#quarto-document-content .quarto-title-block {
+  max-width: 46rem;
+  margin-bottom: 3.25rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--pub-rule);
+}
+
+#quarto-document-content .quarto-title-block .title {
+  color: var(--pub-ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(2.7rem, 5vw, 4.7rem);
+  font-weight: 400;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+  margin-bottom: 1rem;
+}
+
+#quarto-document-content .quarto-title-block .description {
+  color: var(--pub-muted);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  max-width: 38rem;
+}
+
+#quarto-document-content .pub-section {
+  max-width: 48rem;
+  margin-top: 4.5rem;
+}
+
+#quarto-document-content .pub-section--intro {
+  margin-top: 0;
+  max-width: 42rem;
+}
+
+#quarto-document-content .pub-section > [id] > h2,
+#quarto-document-content .pub-section > h2 {
+  color: var(--pub-ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(1.65rem, 3vw, 2.35rem);
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  margin: 0 0 1rem;
+  padding: 0 0 0.65rem;
+  border-bottom: 1px solid var(--pub-accent);
+}
+
+#quarto-document-content .pub-section--intro > h2 {
+  font-size: 1.15rem;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0.5rem;
+}
+
+#quarto-document-content .pub-section > p {
+  color: var(--pub-muted);
+  line-height: 1.7;
+}
+
+#quarto-document-content .books-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.75rem;
+}
+
+#quarto-document-content .book-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 1.25rem;
+  background: var(--pub-paper);
+  border: 1px solid var(--pub-rule);
+  border-top: 3px solid var(--pub-accent);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+#quarto-document-content .book-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.65rem 1.6rem rgba(38, 50, 56, 0.11);
+}
+
+#quarto-document-content .book-card h3 {
+  order: -2;
+  min-height: 3.35rem;
+  margin: 0 0 1rem;
+  color: var(--pub-ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+#quarto-document-content .book-card p:has(img[data-fig-class="book-cover"]) {
+  order: -1;
+  margin: 0 0 1rem;
+  text-align: center;
+}
+
+#quarto-document-content .book-card img[data-fig-class="book-cover"] {
+  width: 150px !important;
+  max-width: 100%;
+  margin: 0;
+  border-radius: 2px;
+  box-shadow: 0 0.5rem 1.1rem rgba(38, 50, 56, 0.18);
+}
+
+#quarto-document-content .book-card p {
+  margin-bottom: 0.8rem;
+  color: var(--pub-muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+#quarto-document-content .book-card p:last-child {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+#quarto-document-content .book-card a,
+#quarto-document-content .pub-section > ol a {
+  font-weight: 650;
+  text-decoration: underline;
+  text-decoration-color: rgba(139, 69, 19, 0.35);
+  text-underline-offset: 0.18em;
+}
+
+#quarto-document-content .pub-section > ol {
+  margin-top: 1.6rem;
+  padding-left: 2.2rem;
+  counter-reset: publication;
+}
+
+#quarto-document-content .pub-section > ol > li {
+  margin: 0;
+  padding: 1.15rem 0.25rem 1.15rem 0.45rem;
+  border-bottom: 1px solid var(--pub-rule);
+  color: var(--pub-muted);
+  line-height: 1.7;
+}
+
+#quarto-document-content .pub-section > ol > li::marker {
+  color: var(--pub-accent);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 700;
+}
+
+#quarto-document-content .pub-section > ol > li p {
+  margin: 0;
+}
+
+#quarto-document-content .pub-section > ol > li strong {
+  color: var(--pub-ink);
+  font-weight: 700;
+}
+
+#quarto-document-content .pub-section--preprints > ol {
+  border-left: 3px solid var(--pub-accent);
+  padding-left: 2.1rem;
+  background: var(--pub-paper);
+}
+
+@media (max-width: 700px) {
+  #quarto-document-content .quarto-title-block {
+    margin-bottom: 2.25rem;
+  }
+
+  #quarto-document-content .pub-section {
+    margin-top: 3.25rem;
+  }
+
+  #quarto-document-content .books-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #quarto-document-content .book-card h3 {
+    min-height: 0;
+  }
+
+  #quarto-document-content .pub-section > ol {
+    padding-left: 1.8rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #quarto-document-content .book-card {
+    transition: none;
+  }
+}

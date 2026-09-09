@@ -8,16 +8,21 @@ description: "Publicações acadêmicas: livros, artigos, comunicações em even
 
 <script>document.body.dataset.i18nPageTitle='page-publicacoes-title';document.body.dataset.i18nPageDesc='page-publicacoes-desc';</script>
 
+::: {.pub-section .pub-section--intro}
 ## Sobre
 
 <p data-i18n="pubs-about">Relação das publicações acadêmicas de Ricardo Sodré Andrade, organizadas por tipo. Período: 2004–2026.</p>
+:::
 
+::: {.pub-section .pub-section--books}
 :::{data-i18n="books-title"}
 ## Livros
 :::
 
 <p data-i18n="pubs-books-about">Quatro livros publicados, sendo um como autor e três como organizador.</p>
 
+::: {.books-grid}
+::: {.book-card}
 ### Tomos Fantásticos: Fantasia Medieval e Heroica
 
 ![](files/images/books/book4_cover.jpg){width="200px" fig-class="book-cover"}
@@ -25,7 +30,9 @@ description: "Publicações acadêmicas: livros, artigos, comunicações em even
 <span data-i18n="pubs-role-organizer">**Papel:** Organizador</span> · <span data-i18n="pubs-publisher">**Editora:**</span> 9Bravos · **Ano:** 2014
 
 [Skoob](https://www.skoob.com.br/pt/book/429771)
+:::
 
+::: {.book-card}
 ### Mundos Distantes 1
 
 ![](files/images/books/book3_cover.jpg){width="200px" fig-class="book-cover"}
@@ -33,7 +40,9 @@ description: "Publicações acadêmicas: livros, artigos, comunicações em even
 <span data-i18n="pubs-role-organizer">**Papel:** Organizador</span> · <span data-i18n="pubs-publisher">**Editora:**</span> 9Bravos · **Ano:** 2013
 
 [Amazon](https://www.amazon.com.br/Mundos-Distantes-Ricardo-Sodr%C3%A9-Andrade/dp/8567178002)
+:::
 
+::: {.book-card}
 ### A Ordem dos Arquivistas: centésimo
 
 ![](files/images/books/book2_cover.jpg){width="200px" fig-class="book-cover"}
@@ -41,7 +50,9 @@ description: "Publicações acadêmicas: livros, artigos, comunicações em even
 <span data-i18n="pubs-role-author">**Papel:** Autor</span> · <span data-i18n="pubs-publisher">**Editora:**</span> 9Bravos · **Ano:** 2011
 
 [Livraria 9Bravos (arquivo)](https://web.archive.org/web/20251213092545/https://livraria.9bravos.com.br/produto/a-ordem-dos-arquivistas-centesimo/)
+:::
 
+::: {.book-card}
 ### Cultura, representação e informação digitais
 
 ![](files/images/books/book1_cover.jpg){width="200px" fig-class="book-cover"}
@@ -49,7 +60,11 @@ description: "Publicações acadêmicas: livros, artigos, comunicações em even
 <span data-i18n="pubs-role-organizer">**Papel:** Organizador</span> · <span data-i18n="pubs-publisher">**Editora:**</span> EDUFBA · **Ano:** 2010
 
 [Repositório UFBA](https://repositorio.ufba.br/handle/ri/7315)
+:::
+:::
+:::
 
+::: {.pub-section .pub-section--articles}
 :::{data-i18n="articles-title"}
 ## Artigos em periódicos
 :::
@@ -75,7 +90,9 @@ description: "Publicações acadêmicas: livros, artigos, comunicações em even
 9. **Digitalizando a memória de Salvador: nossos presente e passado têm futuro?**. Andrade, R. S.; Borges, J.; Jambeiro, O. *Perspectivas em Ciência da Informação*, v. 11, p. 243–254, 2006. [DOI: 10.1590/S1413-99362006000200006](https://doi.org/10.1590/S1413-99362006000200006)
 
 10. **Políticas de informação: Digitalizando a inclusão social**. Andrade, R. S. et al. *Estudos de Sociologia*, v. 17, n. 1, p. 147–169, 2004. [Artigo](https://periodicos.fclar.unesp.br/estudos/article/view/135)
+:::
 
+::: {.pub-section .pub-section--conferences}
 :::{data-i18n="conferences-title"}
 ## Comunicações em eventos
 :::
@@ -123,9 +140,12 @@ description: "Publicações acadêmicas: livros, artigos, comunicações em even
 20. **Políticas de formação de profissionais da informação e competências essenciais**. Ferreira, S. M. S. P.; Barros, O.; Ferreira, T. M. M.; Nascimento, M. J.; Andrade, R. S.; Santos, N. R. *V CINFORM: Encontro Nacional de Ciência da Informação*, 2004.
 
 21. **Digital exclusion in Salvador: testing the politics of inclusion**. Jambeiro, O.; Simões, J.; Ferreira, S. M. S. P.; Andrade, R. S.; Barros, O.; Ferreira, T. M. M.; Nascimento, M. J. *The First Brazil-US Colloquium on Communication Studies*, Austin, 2004.
+:::
 
+::: {.pub-section .pub-section--preprints}
 :::{data-i18n="preprints-title"}
 ## Preprints
 :::
 
 1. **Social-RAG: A Retrieval-Augmented Generation Pipeline for Computational Social Science Research on Telegram**. Nascimento, T. A.; Brasil, A.; Santos, G.; Andrade, G.; Andrade, R. S.; Barreto, E. *SocArXiv*, 2026. [Preprint](https://osf.io/preprints/socarxiv/wmc2q_v1)
+:::
